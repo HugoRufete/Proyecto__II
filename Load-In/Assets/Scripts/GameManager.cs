@@ -1,22 +1,40 @@
+using System.Collections;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
-    public List<EnemySpawner> spawners = new List<EnemySpawner>(); // Lista de spawners
+    public EnemySpawner enemySpawner;
+    public int currentWave = 0;
+    public int[] enemiesPerWave; // Puedes ajustar esto según tus necesidades
 
     void Start()
     {
-        // Invoca la función SpawnEnemy repetidamente cada 5 segundos
-        InvokeRepeating("SpawnEnemies", 0f, 5f);
+        StartNextWave();
     }
 
-    void SpawnEnemies()
+    void StartNextWave()
     {
-        // Llama a la función de SpawnManager en todos los instanciadores
-        foreach (var spawner in spawners)
+        StartCoroutine(SpawnWave());
+    }
+
+    IEnumerator SpawnWave()
+    {
+        if (currentWave < enemiesPerWave.Length)
         {
-            spawner.SpawnEnemy();
+            for (int i = 0; i < enemiesPerWave[currentWave]; i++)
+            {
+                // Llama a los métodos públicos de EnemySpawner para spawnear enemigos
+                enemySpawner.SpawnBasicEnemy();
+                yield return new WaitForSeconds(1f); // Puedes ajustar el tiempo entre enemigos
+            }
+
+            currentWave++;
+            yield return new WaitForSeconds(3f); // Puedes ajustar el tiempo entre oleadas
+            StartNextWave();
+        }
+        else
+        {
+            Debug.Log("Fin del juego, todas las oleadas completadas.");
         }
     }
 }

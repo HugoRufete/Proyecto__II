@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3457799818588813573}
   - component: {fileID: -8701063431319148362}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Firefly
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

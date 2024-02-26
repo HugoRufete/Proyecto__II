@@ -10,7 +10,7 @@ public class Firefly : MonoBehaviour
     private Rigidbody2D rb2d;
 
 
-    [SerializeField] private float radiousToExplode; //Radio del area de detecciion para la explosión
+    [SerializeField] private float radiousToExplode; //Radio del area de deteccion para la explosión
     
 
 
