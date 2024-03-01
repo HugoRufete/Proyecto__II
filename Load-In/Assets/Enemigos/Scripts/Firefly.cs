@@ -7,7 +7,7 @@ public class Firefly : MonoBehaviour
     public float followSpeed = 5f; // Velocidad de seguimiento
     private Transform player; // Referencia al transform del jugador
 
-    private Rigidbody2D rb2d;
+    
 
 
     [SerializeField] private float radiousToExplode; //Radio del area de deteccion para la explosión
@@ -19,7 +19,7 @@ public class Firefly : MonoBehaviour
     {
         // Encuentra al jugador al comienzo
         player = GameObject.FindWithTag("Player").transform;
-        rb2d = GetComponent<Rigidbody2D>();
+        
     }
 
     void Update()
