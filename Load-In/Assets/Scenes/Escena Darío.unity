@@ -272,6 +272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7faccf541640dbf40b2001a4ce87958a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntos: 0
+  textMesh: {fileID: 0}
 --- !u!1 &428708010
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,8 +285,9 @@ GameObject:
   - component: {fileID: 428708013}
   - component: {fileID: 428708012}
   - component: {fileID: 428708011}
+  - component: {fileID: 428708014}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Fruta2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,6 +405,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428708014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428708010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2e731aebf00f645ad20801266fee01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efect: {fileID: 0}
+  cantidadPuntos: 100
+  puntos: {fileID: 0}
 --- !u!1 &598571247
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,8 +523,9 @@ GameObject:
   - component: {fileID: 778509605}
   - component: {fileID: 778509604}
   - component: {fileID: 778509603}
+  - component: {fileID: 778509606}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Fruta1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -624,6 +643,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &778509606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778509602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2e731aebf00f645ad20801266fee01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efect: {fileID: 367648702}
+  cantidadPuntos: 100
+  puntos: {fileID: 0}
 --- !u!1 &902897788
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,7 +817,7 @@ Transform:
   m_GameObject: {fileID: 1004414674}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.07, y: 0.031765103, z: 0}
+  m_LocalPosition: {x: -7.53, y: 0.031765103, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -903,7 +937,7 @@ GameObject:
   - component: {fileID: 1689645202}
   - component: {fileID: 1689645201}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,8 +1066,9 @@ GameObject:
   - component: {fileID: 2032545153}
   - component: {fileID: 2032545152}
   - component: {fileID: 2032545151}
+  - component: {fileID: 2032545154}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Fruta3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1145,12 +1180,27 @@ Transform:
   m_GameObject: {fileID: 2032545150}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.63, y: 0.19607836, z: 0}
+  m_LocalPosition: {x: 7.05, y: 0.19607836, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2032545154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032545150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2e731aebf00f645ad20801266fee01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efect: {fileID: 0}
+  cantidadPuntos: 100
+  puntos: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

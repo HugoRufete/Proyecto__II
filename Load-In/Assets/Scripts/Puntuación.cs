@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;//Para poder hacer referencias al textmeshpro
 
-public class Puntos : MonoBehaviour
+public class Puntuación : MonoBehaviour
 {
     private float puntos;
     private TextMeshProUGUI textMesh;
@@ -21,7 +21,8 @@ public class Puntos : MonoBehaviour
 
     public void sumarPuntos(float puntosEntrada)
     {
-
+        puntos += puntosEntrada;
+ 
     }
 
 
