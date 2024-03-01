@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
@@ -16,11 +17,20 @@ public class EnemyFollow : MonoBehaviour
         // Verifica que se haya encontrado al jugador
         if (player != null)
         {
-            // Calcula la dirección hacia el jugador
-            Vector3 direction = (player.position - transform.position).normalized;
-
             // Mueve al enemigo en la dirección del jugador con la velocidad específica
-            transform.Translate(direction * followSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
+         
+
+            // Revisa la posicion del player para cambiar de orientación según su posición
+            if (transform.position.x > player.position.x)
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+            }
+            if (transform.position.x < player.position.x)
+            {
+                transform.eulerAngles = new Vector3(0, 180, 0);
+            }
         }
+
     }
 }
