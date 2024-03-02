@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Wave
+public class Wave : MonoBehaviour
 {
-    public List<EnemySpawnInfo> enemies;  // Lista que contendrá información sobre los enemigos en la oleada
+    public List<EnemyTypeConfig> enemyConfigs;  // Lista que contendrá la configuración de los tipos de enemigos en la oleada
 }
 
 [System.Serializable]
-public class EnemySpawnInfo
+public class EnemyTypeConfig : MonoBehaviour
 {
     public EnemyType enemyType;  // Tipo de enemigo
     public int count;  // Cantidad de enemigos de este tipo en la oleada
