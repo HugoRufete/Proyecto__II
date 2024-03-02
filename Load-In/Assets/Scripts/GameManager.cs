@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public int roundsPerType1 = 1;  // Cada cuántas rondas aparece una oleada de tipo 1
     public int roundsPerType2 = 3;  // Cada cuántas rondas aparece una oleada de tipo 2
     public int roundsPerType3 = 5;  // Cada cuántas rondas aparece una oleada de tipo 3
+    public int roundsPerType4 = 7;  // Cada cuántas rondas aparece una oleada de tipo 4
+    public int roundsPerType5 = 10; // Cada cuántas rondas aparece una oleada de tipo 5
 
     public int currentRound = 1;  // Número de la ronda actual
 
@@ -37,7 +39,14 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
-                enemySpawner.SpawnBasicEnemy();
+                if (currentRound > 5)
+                {
+                    enemySpawner.SpawnFirefly();  // A partir de la ronda 6, instanciar enemigos Firefly en lugar de BasicEnemy
+                }
+                else
+                {
+                    enemySpawner.SpawnBasicEnemy();
+                }
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
             }
         }
@@ -69,6 +78,22 @@ public class GameManager : MonoBehaviour
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
             }
         }
+        else if (waveType == 4)
+        {
+            for (int i = 0; i < totalEnemiesInWave; i++)
+            {
+                enemySpawner.SpawnExtraEnemy();  // Método que instancia enemigos de tipo random y firefly
+                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+            }
+        }
+        else if (waveType == 5)
+        {
+            for (int i = 0; i < totalEnemiesInWave; i++)
+            {
+                enemySpawner.SpawnExtraEnemy();  // Método que instancia enemigos de tipo random
+                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+            }
+        }
 
         // Incrementa el número de ronda actual al finalizar la oleada
         currentRound++;
@@ -77,7 +102,15 @@ public class GameManager : MonoBehaviour
 
     int DetermineWaveType()
     {
-        if (currentRound % roundsPerType3 == 0)
+        if (currentRound % roundsPerType5 == 0)
+        {
+            return 5;  // Tipo de oleada 5
+        }
+        else if (currentRound % roundsPerType4 == 0)
+        {
+            return 4;  // Tipo de oleada 4
+        }
+        else if (currentRound % roundsPerType3 == 0)
         {
             return 3;  // Tipo de oleada 3
         }

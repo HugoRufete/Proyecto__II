@@ -625,6 +625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasicEnemy: {fileID: 328617587183638505, guid: 570dba0491c2c1e41b9940d36902f547, type: 3}
   Firefly: {fileID: 328617587183638505, guid: f14e60e6e7f889c4aba11e083fb02d25, type: 3}
+  random: {fileID: 328617587183638505, guid: 90a055e4ac1ea7e4bb12f2b6b9f3c033, type: 3}
   spawnPoints:
   - {fileID: 1364109154}
   - {fileID: 1306025754}
@@ -741,10 +742,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpawner: {fileID: 1494681484}
-  totalEnemiesInWave: 6
+  totalEnemiesInWave: 10
   timeBetweenWaves: 5
   roundsPerType1: 1
   roundsPerType2: 2
+  roundsPerType3: 5
+  roundsPerType4: 7
+  roundsPerType5: 9
+  currentRound: 1
 --- !u!1 &1781293175
 GameObject:
   m_ObjectHideFlags: 0
