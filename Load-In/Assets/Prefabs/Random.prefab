@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd5c0f12cdb1a74bb3d591f260d7034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followSpeed: 6
+  followSpeed: 2
 --- !u!114 &-8701063431319148362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,4 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d115c505d404449f0e0e83cf5659e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
+  vidaPlayer: {fileID: 0}
   radiousToExplode: 1

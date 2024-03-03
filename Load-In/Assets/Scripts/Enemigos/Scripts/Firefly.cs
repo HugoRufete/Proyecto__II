@@ -6,13 +6,12 @@ public class Firefly : MonoBehaviour
 {
     private Transform player; // Referencia al transform del jugador
     private EnemyFollow enemyFollow;//Referencia al script de movimiento de los enemigos
-    
 
+    public int damage = 10;
+    public VidaPlayer vidaPlayer;
 
     [SerializeField] private float radiousToExplode; //Radio del area de deteccion para la explosión
     
-
-
 
     void Start()
     {
@@ -36,6 +35,16 @@ public class Firefly : MonoBehaviour
                 Debug.Log("Exploto");
 
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            vidaPlayer.PlayerTakeDamage(damage);
+
+            Destroy(gameObject);
         }
     }
 }

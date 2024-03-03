@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3457799818588813573}
   - component: {fileID: 5854071131239858172}
   - component: {fileID: -8701063431319148362}
+  - component: {fileID: 6443735801971843661}
+  - component: {fileID: -2643020789818198632}
   m_Layer: 0
   m_Name: Firefly
   m_TagString: Enemy
@@ -144,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd5c0f12cdb1a74bb3d591f260d7034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followSpeed: 6
+  followSpeed: 5
 --- !u!114 &-8701063431319148362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,4 +159,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154d115c505d404449f0e0e83cf5659e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
+  vidaPlayer: {fileID: 6611225881177368314, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
   radiousToExplode: 1
+--- !u!114 &6443735801971843661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328617587183638505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  maxHealth: 10
+--- !u!50 &-2643020789818198632
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328617587183638505}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
