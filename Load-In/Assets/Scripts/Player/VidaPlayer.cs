@@ -1,32 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class VidaPlayer : MonoBehaviour
 {
+    public int maxVida;
+    public int vida;
 
-    private float vida;
-    // Start is called before the first frame update
-    void Start()
+    public void ReiniciarVida()
     {
-        
+        //Método para reniciar la vida cada vez que el jugador muera
+        vida = maxVida;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    //Logica de vida 
-    public void TakeDamage(float daño)
+    // Logica de vida 
+    public void PlayerTakeDamage(int daño)
     {
         vida -= daño;
 
         if (vida <= 0)
         {
-            Destroy(gameObject);
+            Debug.Log("Game Over");
         }
     }
-
-  
 }
