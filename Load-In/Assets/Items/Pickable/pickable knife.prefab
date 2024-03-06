@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1257483414129975715}
   - component: {fileID: 8914149581846927309}
+  - component: {fileID: 1803043182952085690}
+  - component: {fileID: 857352971536124441}
   m_Layer: 0
   m_Name: pickable knife
   m_TagString: Untagged
@@ -84,3 +86,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1803043182952085690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781499601577310076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a43e73747fded46a1dbaa938c62b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item: {fileID: 11400000, guid: 511c8eef3f96968418c5bac570850d99, type: 2}
+--- !u!114 &857352971536124441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781499601577310076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1127e76ec2307f54291b2362448046e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 511c8eef3f96968418c5bac570850d99, type: 2}

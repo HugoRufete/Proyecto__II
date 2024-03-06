@@ -128,32 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 781499601577310076, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
   m_PrefabInstance: {fileID: 3260465699310028845}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &429786785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 429786784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1127e76ec2307f54291b2362448046e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 511c8eef3f96968418c5bac570850d99, type: 2}
---- !u!114 &429786786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 429786784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4a43e73747fded46a1dbaa938c62b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: 511c8eef3f96968418c5bac570850d99, type: 2}
 --- !u!61 &429786789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1005,7 +979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed18ddd313f726a4aafe32e11603283d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryManager: {fileID: 0}
   inventory: {fileID: 698208413}
 --- !u!1 &1777525776
 GameObject:
@@ -1110,12 +1083,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 781499601577310076, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 429786786}
-    - targetCorrespondingSourceObject: {fileID: 781499601577310076, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 429786785}
     - targetCorrespondingSourceObject: {fileID: 781499601577310076, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 429786789}
