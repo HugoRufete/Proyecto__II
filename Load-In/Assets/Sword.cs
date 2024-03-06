@@ -3,8 +3,7 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     private float timeBtwAttack;
-    public float startTimeBtwAttack;
-
+    public float cooldownTime = 0.5f; // Tiempo de espera entre ataques
     public Transform attackPos;
     public LayerMask whatIsEnemies;
     public float attackRange;
@@ -12,24 +11,26 @@ public class Sword : MonoBehaviour
 
     private void Update()
     {
-        if(timeBtwAttack <= 0) 
+        if (timeBtwAttack <= 0)
         {
-            if(Input.GetKey(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Atacando...");
-                Collider2D [] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
-                for(int i = 0; i < enemiesToDamage.Length; i++)
+                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
                     enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
                     Debug.Log("Enemigo Atacado");
-
                 }
-            }        
-            timeBtwAttack = startTimeBtwAttack;
+
+                // Establecer el tiempo de espera antes del próximo ataque
+                timeBtwAttack = cooldownTime;
+            }
         }
         else
         {
-            timeBtwAttack = Time.deltaTime;
+            // Disminuir el tiempo de espera
+            timeBtwAttack -= Time.deltaTime;
         }
     }
 
