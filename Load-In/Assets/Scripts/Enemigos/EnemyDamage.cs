@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    public int damage = 10;
+    public int damagePerSecond = 10;
     public VidaPlayer vidaPlayer;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            vidaPlayer.PlayerTakeDamage(damage);
+            // Comienza a infligir daño por segundo al jugador
+            InvokeRepeating("InflictDamage", 1f, 1f);
         }
     }
-  
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Detiene el daño cuando el jugador sale del área del enemigo
+            CancelInvoke("InflictDamage");
+        }
+    }
+
+    private void InflictDamage()
+    {
+        // Inflige daño al jugador cada segundo
+        vidaPlayer.PlayerTakeDamage(damagePerSecond);
+    }
 }

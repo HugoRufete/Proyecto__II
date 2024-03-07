@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1828143341687917811}
   - component: {fileID: 4125757417880851125}
-  - component: {fileID: 5007038454955472122}
+  - component: {fileID: 749933694391936515}
   m_Layer: 0
-  m_Name: Weapon
+  m_Name: Shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5007038454955472122
+--- !u!114 &749933694391936515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5445882332299154899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7caf5ca70135e54e9ace5872679ee64, type: 3}
+  m_Script: {fileID: 11500000, guid: 533add395cc4ebe4a85bb83bd8e1f898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   prefabBala: {fileID: 5700418254993555023, guid: 51177f21f01839d40886ceddeb005622, type: 3}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 3563744355613868233}
   - component: {fileID: 7442760762369860610}
   m_Layer: 0
-  m_Name: Shotgun
+  m_Name: Shotgun_Prueba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ Transform:
   m_GameObject: {fileID: 8450455197406179616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.262, y: 0.12125372, z: -0.03210412}
+  m_LocalPosition: {x: 1.287, y: 0.12125372, z: -0.03210412}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
