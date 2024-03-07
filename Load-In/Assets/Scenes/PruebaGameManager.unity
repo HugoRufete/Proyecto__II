@@ -200,67 +200,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 616056668744355449, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
   m_PrefabInstance: {fileID: 969147059}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &409214256
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1957282435}
-    m_Modifications:
-    - target: {fileID: 3003453311552535152, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: cooldownTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8265613527140201535, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-      propertyPath: m_Name
-      value: Sword
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
 --- !u!1 &624220226
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,9 +522,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5530069586469005556, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1494681483}
-    - targetCorrespondingSourceObject: {fileID: 5530069586469005556, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1681684114}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
 --- !u!1 &1149149241
@@ -697,7 +633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1379632067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -879,11 +815,6 @@ MonoBehaviour:
   roundsPerType3: 5
   roundsPerType4: 7
   roundsPerType5: 10
---- !u!4 &1681684114 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8188116709012047504, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
-  m_PrefabInstance: {fileID: 409214256}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1781293175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotgun: {fileID: 8450455197406179616, guid: 4b1c4316f32142448bd1d03ce0645998, type: 3}
-  sword: {fileID: 8265613527140201535, guid: 346a88a12e815214f9d65d96daecc5a1, type: 3}
+  sword: {fileID: 1192770464246448546, guid: f80e7526b6717064689fbe5b59f3c5cf, type: 3}
   puntoDeEquipamiento: {fileID: 101759707}
 --- !u!4 &1892862605
 Transform:

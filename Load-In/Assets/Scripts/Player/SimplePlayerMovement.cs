@@ -35,7 +35,7 @@ public class SimplePlayerMovement : MonoBehaviour
         //Le aplicamos la velocidad al RB
         rb.velocity = new Vector2(SpeedX, SpeedY);
 
-        //Indicamos donde se encuentra el objetivo al que queremos mirar
+        /*//Indicamos donde se encuentra el objetivo al que queremos mirar
         objective = camera.ScreenToWorldPoint(Input.mousePosition);
         float radAngle = Mathf.Atan2(objective.y - transform.position.y, objective.x - transform.position.x);
         float degAngle = (180 / Mathf.PI) * radAngle - 90;
@@ -51,6 +51,6 @@ public class SimplePlayerMovement : MonoBehaviour
         }
         //transform.rotation = Quaternion.Euler(0, 0, degAngle);
 
-
+*/
     }
 }

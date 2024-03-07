@@ -3,7 +3,7 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     private float timeBtwAttack;
-    public float cooldownTime = 0.5f; // Tiempo de espera entre ataques
+    public float cooldownTime; // Tiempo de espera entre ataques
     public Transform attackPos;
     public LayerMask whatIsEnemies;
     public float attackRange;
@@ -11,12 +11,16 @@ public class Sword : MonoBehaviour
 
     private void Update()
     {
+        
+        Vector3 updatedAttackPos = attackPos.position;
+
         if (timeBtwAttack <= 0)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Atacando...");
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+
+                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(updatedAttackPos, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
                     enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
@@ -37,6 +41,9 @@ public class Sword : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(attackPos.position, attackRange);
+
+        Vector3 updatedAttackPos = attackPos.position;
+
+        Gizmos.DrawWireSphere(updatedAttackPos, attackRange);
     }
 }
