@@ -6,6 +6,7 @@ public class Firefly : MonoBehaviour
 {
     private Transform player; // Referencia al transform del jugador
     private EnemyFollow enemyFollow;//Referencia al script de movimiento de los enemigos
+    private Animator animator;
 
     public int damage = 10;
     public VidaPlayer vidaPlayer;
@@ -19,6 +20,7 @@ public class Firefly : MonoBehaviour
         player = GameObject.FindWithTag("Player").transform;
         //Llama al script de movimiento del enemigo
         enemyFollow = GetComponent<EnemyFollow>();
+        animator = GetComponent<Animator>();
         
     }
 
@@ -31,20 +33,14 @@ public class Firefly : MonoBehaviour
             if (radiousToExplode >= Vector3.Distance(transform.position, player.position))
             {
                 enemyFollow.followSpeed = 3;
-                //animación de explotar
-                Debug.Log("Exploto");
+                animator.Play("Exploding_Firefly");
 
             }
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void FireflyDie()
     {
-        if (collision.gameObject.tag == "Player")
-        {
-            vidaPlayer.PlayerTakeDamage(damage);
-
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 }

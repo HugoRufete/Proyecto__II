@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BasicEnemy: {fileID: 328617587183638505, guid: 570dba0491c2c1e41b9940d36902f547, type: 3}
-  Firefly: {fileID: 328617587183638505, guid: f14e60e6e7f889c4aba11e083fb02d25, type: 3}
+  Firefly: {fileID: 8403448801296252641, guid: f14e60e6e7f889c4aba11e083fb02d25, type: 3}
   random: {fileID: 328617587183638505, guid: 90a055e4ac1ea7e4bb12f2b6b9f3c033, type: 3}
   spawnPoints:
   - {fileID: 1364109154}

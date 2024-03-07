@@ -13,16 +13,19 @@ public class Canvas_Manager : MonoBehaviour
     }
     void Update()
     {
+        //Input I
         if (Input.GetKeyDown(KeyCode.I))
         {
-
+            //Llama a el script inventoryManager
             InventoryManager inventoryManager = FindObjectOfType<InventoryManager>();
+            //Si el inventario esta cerrado lo abre 
             if (openedinventory == false)
             {
                 openedinventory = true;
                 inventory.SetActive(true);
                 inventoryManager.ListItems();
             }
+            //Si esta abierto lo cierra
             else if (openedinventory == true) 
             {
                 openedinventory = false;
