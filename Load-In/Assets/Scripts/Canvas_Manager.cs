@@ -5,6 +5,7 @@ using UnityEngine;
 public class Canvas_Manager : MonoBehaviour
 {
     public GameObject inventory;
+    private bool openedinventory = false;
 
     private void Start()
     {
@@ -14,9 +15,19 @@ public class Canvas_Manager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
+
             InventoryManager inventoryManager = FindObjectOfType<InventoryManager>();
-            inventory.SetActive(true);
-            inventoryManager.ListItems();
+            if (openedinventory == false)
+            {
+                openedinventory = true;
+                inventory.SetActive(true);
+                inventoryManager.ListItems();
+            }
+            else if (openedinventory == true) 
+            {
+                openedinventory = false;
+                inventory.SetActive(false);
+            }
         }
     }
 }
