@@ -16,4 +16,4 @@ MonoBehaviour:
   itenName: Sword
   value: 10
   icon: {fileID: -539618732, guid: 4073f31634d5e3b41b618727b2fe7d2f, type: 3}
-  quantity: 2
+  quantity: 4
