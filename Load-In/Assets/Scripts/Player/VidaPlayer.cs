@@ -24,4 +24,6 @@ public class VidaPlayer : MonoBehaviour
             Debug.Log("Game Over");
         }
     }
+
+    
 }

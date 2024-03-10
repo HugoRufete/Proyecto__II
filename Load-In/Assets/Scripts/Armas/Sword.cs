@@ -3,10 +3,16 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     private float timeBtwAttack;
-    public float cooldownTime; // Tiempo de espera entre ataques
+
+    [Header("Velodidad de ataque")]
+    public float attackCooldown; // Tiempo de espera entre ataques
     public Transform attackPos;
     public LayerMask whatIsEnemies;
+
+    [Header("Rango de ataque")]
     public float attackRange;
+
+    [Header("Daño")]
     public int damage;
 
     private void Update()
@@ -28,7 +34,7 @@ public class Sword : MonoBehaviour
                 }
 
                 // Establecer el tiempo de espera antes del próximo ataque
-                timeBtwAttack = cooldownTime;
+                timeBtwAttack = attackCooldown;
             }
         }
         else

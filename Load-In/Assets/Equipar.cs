@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Equipar : MonoBehaviour
 {
-    public GameObject shotgun;  // Asigna el prefab del arma desde el Inspector
+    public GameObject basic_weapon;  // Asigna el prefab del arma desde el Inspector
     public GameObject sword;  // Asigna el prefab del arma desde el Inspector
+    public GameObject shotgun;  // Asigna el prefab del arma desde el Inspector
     public Transform puntoDeEquipamiento;  // Punto donde se instanciarán las armas
 
     void Update()
@@ -17,6 +18,11 @@ public class Equipar : MonoBehaviour
         {
             EquiparSword();
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            EquiparBasicWeapon();
+        }
+
     }
 
     void EquiparShotGun()
@@ -37,23 +43,38 @@ public class Equipar : MonoBehaviour
     }
 
     void EquiparSword()
-{
-    if (sword != null)
     {
+        if (sword != null)
+        {
         // Encuentra el objeto del jugador (asume que solo hay un objeto de jugador en la escena)
         GameObject jugador = GameObject.FindGameObjectWithTag("Player");
 
-        if (jugador != null)
-        {
+            if (jugador != null)
+            {
             // Instancia el prefab del arma con una rotación de -45 grados en Z y lo hace hijo del jugador
             Instantiate(sword, puntoDeEquipamiento.position, Quaternion.Euler(0f, 0f, -45f), jugador.transform);
             Debug.Log("Arma equipada");
-        }
+            }
+        }   
+    
     }
-}
 
+    void EquiparBasicWeapon()
+    {
+        if (basic_weapon != null)
+        {
+            // Encuentra el objeto del jugador (asume que solo hay un objeto de jugador en la escena)
+            GameObject jugador = GameObject.FindGameObjectWithTag("Player");
 
+            if (jugador != null)
+            {
+                // Instancia el prefab del arma con una rotación de -45 grados en Z y lo hace hijo del jugador
+                Instantiate(basic_weapon, puntoDeEquipamiento.position, Quaternion.Euler(0f, 0f, -45f), jugador.transform);
+                Debug.Log("Arma equipada");
+            }
+        }
 
+    }
 
 
 }

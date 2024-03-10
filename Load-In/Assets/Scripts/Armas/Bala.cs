@@ -6,13 +6,13 @@ public class Bala : MonoBehaviour
 
     void Start()
     {
-        Invoke("DesactivarCollider", 0.2f);
+        Invoke("ActivarCollider", 0.2f);
         Destroy(gameObject, 3f);
     }
 
-    void DesactivarCollider()
+    void ActivarCollider()
     {
-        GetComponent<Collider2D>().enabled = false;
+        GetComponent<Collider2D>().enabled = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
