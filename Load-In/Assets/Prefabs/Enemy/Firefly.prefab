@@ -126,7 +126,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.72727275, y: 1.6363636}
+    oldSize: {x: 0.6666667, y: 1.5}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd5c0f12cdb1a74bb3d591f260d7034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followSpeed: 5
+  followSpeed: 2
 --- !u!114 &575385555884954527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,8 +175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  maxHealth: 10
+  health: 200
+  maxHealth: 200
 --- !u!50 &1879538370309110726
 Rigidbody2D:
   serializedVersion: 4

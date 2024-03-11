@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
+
+    private float anguloMinimo = 90f;
+    private float escalaOriginalX;
+
     private float timeBtwAttack;
 
     [Header("Velodidad de ataque")]
@@ -14,6 +18,12 @@ public class Sword : MonoBehaviour
 
     [Header("Daño")]
     public int damage;
+
+    void Start()
+    {
+        // Guarda la escala original en el eje X
+        escalaOriginalX = transform.localScale.x;
+    }
 
     private void Update()
     {
@@ -41,6 +51,20 @@ public class Sword : MonoBehaviour
         {
             // Disminuir el tiempo de espera
             timeBtwAttack -= Time.deltaTime;
+        }
+
+        float angulo = transform.rotation.eulerAngles.z;
+
+        // Verifica si el objeto ha rotado menos de -90 grados
+        if (angulo < anguloMinimo)
+        {
+            // Invierte la escala en el eje X
+            transform.localScale = new Vector3(escalaOriginalX * -1f, transform.localScale.y, transform.localScale.z);
+        }
+        else
+        {
+            // Restaura la escala original
+            transform.localScale = new Vector3(escalaOriginalX, transform.localScale.y, transform.localScale.z);
         }
     }
 

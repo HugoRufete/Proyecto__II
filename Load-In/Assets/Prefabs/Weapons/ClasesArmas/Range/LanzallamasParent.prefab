@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2853044802247410463}
   - component: {fileID: 6131146872698941157}
   m_Layer: 0
-  m_Name: SwordParent
+  m_Name: LanzallamasParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 5843618206813568000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.454, z: 0}
+  m_LocalPosition: {x: 0, y: 2.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -87,9 +87,9 @@ GameObject:
   - component: {fileID: 8854693756380194943}
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
-  - component: {fileID: 5957540742963939129}
+  - component: {fileID: 8669806493555031707}
   m_Layer: 0
-  m_Name: Sword
+  m_Name: Lanzallamas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,7 +152,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -539618732, guid: a064a30e3f01325498d536bfe9ed602d, type: 3}
+  m_Sprite: {fileID: 1153409097, guid: 4073f31634d5e3b41b618727b2fe7d2f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,7 +199,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3181818, y: 0.8181818}
+    oldSize: {x: 1.4545455, y: 1.4545455}
     newSize: {x: 0.3181818, y: 0.8181818}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -208,7 +208,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3181818, y: 0.8181818}
   m_EdgeRadius: 0
---- !u!114 &5957540742963939129
+--- !u!114 &8669806493555031707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,13 +217,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9145783561523735817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1788ac2dfcf4d364b8f29efed8d8c97e, type: 3}
+  m_Script: {fileID: 11500000, guid: c8878b17f088b77418d8f8c2ac6021d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 1
+  attackCooldown: 0.5
   attackPos: {fileID: 6723927081196900300}
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 0.7
+  attackRange: 1.96
   damage: 20
+  damagePerSecond: 20
