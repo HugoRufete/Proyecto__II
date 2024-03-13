@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2853044802247410463}
   - component: {fileID: 6131146872698941157}
   m_Layer: 0
-  m_Name: MacheteParent
+  m_Name: "Guada\xF1aParent"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 5843618206813568000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.683, z: 0}
+  m_LocalPosition: {x: 0, y: 2.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 5640396384709837638}
   - component: {fileID: 5957540742963939129}
   m_Layer: 0
-  m_Name: Machete
+  m_Name: "Guada\xF1a"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -220,10 +220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1788ac2dfcf4d364b8f29efed8d8c97e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 0.2
+  attackCooldown: 0.7
   attackPos: {fileID: 6723927081196900300}
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 1
-  damage: 5
+  attackRange: 2.5
+  damage: 8

@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 8744551761038375897}
   - component: {fileID: 2907444747530559588}
   - component: {fileID: 1979884405232521670}
+  - component: {fileID: 7095956219863909789}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -149,6 +150,28 @@ MonoBehaviour:
   maxBalas: 10
   balasRestantes: 0
   balasRestantesText: {fileID: 0}
+  alcance: 10
+  velocidadRecarga: 2
+--- !u!114 &7095956219863909789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013110385415052155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc24fdb9826596b40b4b8dbe2969638d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabBala: {fileID: 5700418254993555023, guid: 51177f21f01839d40886ceddeb005622, type: 3}
+  puntoDisparo: {fileID: 4258807638736000681}
+  velocidadBala: 10
+  maxBalas: 10
+  balasRestantes: 0
+  balasRestantesText: {fileID: 0}
+  alcance: 10
+  velocidadRecarga: 2
 --- !u!1 &8018309964416171682
 GameObject:
   m_ObjectHideFlags: 0

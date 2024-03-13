@@ -225,6 +225,6 @@ MonoBehaviour:
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 1.96
-  damage: 20
-  damagePerSecond: 20
+  attackRange: 2
+  damage: 1
+  damagePerSecond: 1

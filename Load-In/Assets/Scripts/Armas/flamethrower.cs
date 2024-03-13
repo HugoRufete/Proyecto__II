@@ -6,11 +6,14 @@ public class flamethrower : MonoBehaviour
     private float escalaOriginalX;
     private bool isAttacking = false;
 
-    private float timeBtwAttack;
-    private float lastAttackTime;
+    [Header("Munición")]
+    public int ammoCount = 10; 
+
+    
 
     [Header("Velocidad de ataque")]
     public float attackCooldown; // Tiempo de espera entre ataques
+    private float lastAttackTime;
     public Transform attackPos;
     public LayerMask whatIsEnemies;
 
@@ -19,7 +22,7 @@ public class flamethrower : MonoBehaviour
 
     [Header("Daño")]
     public int damage;
-    public int damagePerSecond; // Daño por segundo
+    public int damagePerSecond; 
 
     void Start()
     {
@@ -31,21 +34,26 @@ public class flamethrower : MonoBehaviour
     {
         Vector3 updatedAttackPos = attackPos.position;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && ammoCount > 0)
         {
-            // Si el jugador pulsa el botón, realiza un solo ataque
+            // Si el jugador pulsa el botón y aún tiene munición, realiza un solo ataque
             SingleAttack();
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && ammoCount > 0)
         {
-            // Si el jugador mantiene pulsado el botón, realiza ataques constantes por segundo
+            // Si el jugador mantiene pulsado el botón y aún tiene munición, realiza ataques constantes por segundo
             ContinuousAttack();
         }
         else
         {
             isAttacking = false;
             CancelInvoke(); // Cancela el ataque constante si se deja de mantener pulsado el botón
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            RecargarLanzallamas();
         }
 
         float angulo = transform.rotation.eulerAngles.z;
@@ -77,6 +85,7 @@ public class flamethrower : MonoBehaviour
             }
 
             lastAttackTime = Time.time;
+            ammoCount--; // Se gasta una unidad de munición
         }
     }
 
@@ -98,8 +107,19 @@ public class flamethrower : MonoBehaviour
             enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damagePerSecond);
             Debug.Log("Enemigo Atacado por Segundo");
         }
+
+        ammoCount--; // Se gasta una unidad de munición cada segundo
+        if (ammoCount <= 0)
+        {
+            // Si se queda sin munición, cancela el ataque constante
+            CancelInvoke("DealDamageOverTime");
+        }
     }
 
+    public void RecargarLanzallamas()
+    {
+        ammoCount = ammoCount + 10;
+    }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

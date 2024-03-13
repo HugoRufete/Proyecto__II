@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Sword : MonoBehaviour
+public class MeleeWeapon : MonoBehaviour
 {
 
     private float anguloMinimo = 90f;

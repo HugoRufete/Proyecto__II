@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Pistol : MonoBehaviour
+public class RangedWeapon : MonoBehaviour
 {
     public GameObject prefabBala;
     public Transform puntoDisparo;

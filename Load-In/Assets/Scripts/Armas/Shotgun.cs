@@ -5,17 +5,25 @@ public class Shotgun : MonoBehaviour
     public GameObject prefabBala;
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
+    public float alcance = 10f; // Alcance máximo de las balas
+    public int maxBullets = 10; // Cantidad máxima de balas en el cargador
+    [SerializeField] private int bulletsInMagazine; // Balas restantes en el cargador
+
+    void Start()
+    {
+        bulletsInMagazine = maxBullets; // Inicializar el cargador con la cantidad máxima de balas
+    }
 
     void Update()
     {
-        // Dispara cuando se presiona el botón de disparo
-        if (Input.GetButtonDown("Fire1"))
+        // Dispara cuando se presiona el botón de disparo y hay balas en el cargador
+        if (Input.GetButtonDown("Fire1") && bulletsInMagazine >= 2)
         {
             DisparoMultiple();
         }
     }
 
-    void DisparoMultiple ()
+    void DisparoMultiple()
     {
         // Número de proyectiles a disparar
         int numProyectiles = 3;
@@ -39,6 +47,12 @@ public class Shotgun : MonoBehaviour
 
             Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
             rbBala.velocity = direccionBala * velocidadBala;
+
+            // Aplicar el alcance máximo a las balas
+            Destroy(bala, alcance / velocidadBala); // Destruye la bala después de alcanzar el alcance máximo
         }
+
+        // Descontar balas del cargador
+        bulletsInMagazine -= numProyectiles;
     }
 }
