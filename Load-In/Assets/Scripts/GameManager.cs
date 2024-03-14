@@ -46,6 +46,18 @@ public class GameManager : MonoBehaviour
             countdown = timeBetweenWaves;
         }
 
+
+
+        if(Input.GetKeyDown(KeyCode.H))
+        {
+            Time.timeScale = 0f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Time.timeScale = 1f;
+        }
+
         countdown -= Time.deltaTime;
     }
 

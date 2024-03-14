@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2853044802247410463}
   - component: {fileID: 6131146872698941157}
   m_Layer: 0
-  m_Name: MartilloGiganteParent
+  m_Name: AlabardaParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 5843618206813568000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.35, z: 0}
+  m_LocalPosition: {x: -0, y: 1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -87,9 +87,9 @@ GameObject:
   - component: {fileID: 8854693756380194943}
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
-  - component: {fileID: 5055481103368528260}
+  - component: {fileID: 5319387144395841945}
   m_Layer: 0
-  m_Name: MartilloGigante
+  m_Name: Alabarda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -208,7 +208,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3181818, y: 0.8181818}
   m_EdgeRadius: 0
---- !u!114 &5055481103368528260
+--- !u!114 &5319387144395841945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,13 +217,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 9145783561523735817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cad542bf7f0489b4f9da94b81063e937, type: 3}
+  m_Script: {fileID: 11500000, guid: 0af10536c1dd9e8439d6c9bbc6f63757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 1.25
+  attackCooldown: 1.2
   attackPos: {fileID: 6723927081196900300}
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 2.5
-  damage: 20
+  attackRange: 1.5
+  damage: 9
