@@ -21,6 +21,7 @@ public class Canvas_Manager : MonoBehaviour
             //Si el inventario esta cerrado lo abre 
             if (openedinventory == false)
             {
+                Time.timeScale = 0f;
                 openedinventory = true;
                 inventory.SetActive(true);
                 inventoryManager.ListItems();
@@ -28,6 +29,7 @@ public class Canvas_Manager : MonoBehaviour
             //Si esta abierto lo cierra
             else if (openedinventory == true) 
             {
+                Time.timeScale=1f;
                 openedinventory = false;
                 inventory.SetActive(false);
             }

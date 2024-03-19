@@ -13,11 +13,12 @@ public class SimplePlayerMovement : MonoBehaviour
     [SerializeField] private new Camera camera;
 
     private SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer
-
+    Animator anim;
     Rigidbody2D rb;
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Obtener la referencia al SpriteRenderer
     }
@@ -37,6 +38,14 @@ public class SimplePlayerMovement : MonoBehaviour
 
         //Le aplicamos la velocidad al RB
         rb.velocity = new Vector2(SpeedX, SpeedY);
+        if (SpeedX != 0 || SpeedY != 0)
+        {
+            anim.Play("Walk");
+        }
+        else
+        {
+            anim.Play("Idle");
+        }
 
         //Indicamos donde se encuentra el objetivo al que queremos mirar
         objective = camera.ScreenToWorldPoint(Input.mousePosition);
