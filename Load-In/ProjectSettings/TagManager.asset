@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - "ZonaDeDa\xF1o"
   - AmmoBox
+  - Fragmento
   layers:
   - Default
   - TransparentFX
