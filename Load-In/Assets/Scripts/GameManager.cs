@@ -6,17 +6,19 @@ public class GameManager : MonoBehaviour
     
     // Singleton para asegurar que solo haya una instancia del GameManager.
     public static GameManager Instance;
-    // Referencia al script de vida del jugador.
     [Header("Player Config")]
     public VidaPlayer vidaPlayer;
     [Header("Enemy Config")]
-    public EnemySpawner enemySpawner;  // Referencia al script de spawn de enemigos
+    public EnemySpawner enemySpawner;  
 
     public int totalEnemiesInWave = 6;  // Cantidad total de enemigos por oleada
     public float timeBetweenWaves = 5f;  // Tiempo entre oleadas
 
     [Header("Ronda Actual")]
     public int RondaActual = 1;  // Número de la ronda actual
+
+    [Header("Puerta Zona de Extración")]
+    public GameObject puertaZonaExtr;
 
     [Header("Configuración Oleadas")]
     public int roundsPerType1 = 1;  // Cada cuántas rondas aparece una oleada de tipo 1
@@ -37,9 +39,29 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void Start()
+    {
+        
+        IniciarJuego();
+
+        // Buscar el componente Recolector en la escena y se suscribe al evento
+        Recolector recolector = FindObjectOfType<Recolector>();
+        if (recolector != null)
+        {
+            recolector.onFragmentosRecogidos.AddListener(DesactivarObjeto);
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró el componente Recolector en la escena.");
+        }
+    }
+
+
+
     void Update()
     {
-        // Comienza la cuenta atrás para la siguiente oleada
+        
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
@@ -63,23 +85,23 @@ public class GameManager : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        // Determina el tipo de oleada según el número de ronda
+        
         int waveType = DetermineWaveType();
 
-        // Llama a los métodos de spawn correspondientes en el EnemySpawner según el tipo de oleada
+        
         if (waveType == 1)
         {
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
                 if (RondaActual > 5)
                 {
-                    enemySpawner.SpawnFirefly();  // A partir de la ronda 6, instanciar enemigos Firefly en lugar de BasicEnemy
+                    enemySpawner.SpawnFirefly();  
                 }
                 else
                 {
                     enemySpawner.SpawnBasicEnemy();
                 }
-                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+                yield return new WaitForSeconds(1f);  
             }
         }
         else if (waveType == 2)
@@ -91,7 +113,7 @@ public class GameManager : MonoBehaviour
             {
                 if (RondaActual > 5)
                 {
-                    enemySpawner.SpawnFirefly();  // A partir de la ronda 6, instanciar enemigos Firefly en lugar de BasicEnemy
+                    enemySpawner.SpawnFirefly(); 
                 }
                 else
                 {
@@ -106,7 +128,7 @@ public class GameManager : MonoBehaviour
                     }
                 }
 
-                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+                yield return new WaitForSeconds(1f);  
             }
         }
         else if (waveType == 3)
@@ -114,27 +136,26 @@ public class GameManager : MonoBehaviour
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
                 enemySpawner.SpawnFirefly();
-                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+                yield return new WaitForSeconds(1f);  
             }
         }
         else if (waveType == 4)
         {
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
-                enemySpawner.SpawnExtraEnemy();  // Método que instancia enemigos de tipo random y firefly
-                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+                enemySpawner.SpawnExtraEnemy();  
+                yield return new WaitForSeconds(1f);  
             }
         }
         else if (waveType == 5)
         {
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
-                enemySpawner.SpawnExtraEnemy();  // Método que instancia enemigos de tipo random
-                yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
+                enemySpawner.SpawnExtraEnemy();  
+                yield return new WaitForSeconds(1f);  
             }
         }
 
-        // Incrementa el número de ronda actual al finalizar la oleada
         RondaActual++;
         yield return null;
     }
@@ -163,15 +184,41 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        // Iniciar el juego aquí.
-        IniciarJuego();
-    }
+    
 
     public void IniciarJuego()
     {
         // Reiniciar la vida del jugador al comenzar el juego.
         vidaPlayer.ReiniciarVida();
+    }
+
+    private void OnEnable()
+    {
+        // Registrarse para escuchar el evento cuando este script se activa
+        FindObjectOfType<Recolector>().onFragmentosRecogidos.AddListener(HandleFragmentosRecogidos);
+    }
+
+    private void OnDisable()
+    {
+        // Desregistrarse del evento cuando se desactiva el script
+        FindObjectOfType<Recolector>().onFragmentosRecogidos.RemoveListener(HandleFragmentosRecogidos);
+    }
+
+    private void HandleFragmentosRecogidos(int cantidad)
+    {
+        // Hacer la lógica cuando se recogen los 3 fragmentos
+        Debug.Log("¡Se han recogido los tres fragmentos!");
+    }
+
+    private void DesactivarObjeto(int cantidad)
+    {
+        if (puertaZonaExtr != null)
+        {
+            puertaZonaExtr.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("El objeto a desactivar no ha sido asignado en el inspector.");
+        }
     }
 }
