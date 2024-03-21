@@ -1,16 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+//using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VidaPlayer : MonoBehaviour
 {
-    public int maxVida;
-    public int vida;
+    public float maxVida;
+    public float vida;
+    public Image BarraDeVida;
+
+    private void Start()
+    {
+        ReiniciarVida();
+    }
+
+    private void Update()
+    {
+        BarraDeVida.fillAmount = vida/maxVida;
+    }
 
     public void ReiniciarVida()
     {
-        //Método para reniciar la vida cada vez que el jugador muera
         vida = maxVida;
     }
 

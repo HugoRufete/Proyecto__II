@@ -38,7 +38,14 @@ public class SimplePlayerMovement : MonoBehaviour
 
         //Le aplicamos la velocidad al RB
         rb.velocity = new Vector2(SpeedX, SpeedY);
-        
+        if (SpeedX != 0 || SpeedY != 0)
+        {
+            anim.Play("Walk");
+        }
+        else
+        {
+            anim.Play("Idle");
+        }
 
         //Indicamos donde se encuentra el objetivo al que queremos mirar
         objective = camera.ScreenToWorldPoint(Input.mousePosition);
@@ -50,34 +57,6 @@ public class SimplePlayerMovement : MonoBehaviour
         if (objective.x > transform.position.x)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-        
-        if (SpeedX != 0 || SpeedY != 0)
-        {
-            if (SpeedX > 0 && objective.x < transform.position.x)
-            {
-                anim.Play("Back_Walk");
-            }
-            if (SpeedX > 0 && objective.x > transform.position.x)
-            {
-                anim.Play("Walk");
-            }
-            if (SpeedX < 0 && objective.x > transform.position.x)
-            {
-                anim.Play("Back_Walk");
-            }
-            if (SpeedX < 0 && objective.x < transform.position.x)
-            {
-                anim.Play("Walk");
-            }
-            if (SpeedY != 0 && SpeedX == 0)
-            {
-                anim.Play("Walk");
-            }
-        }
-        else
-        {
-            anim.Play("Idle");
         }
     }
 

@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+//using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using static Unity.Burst.Intrinsics.X86.Avx;
+//using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class InventoryManager : MonoBehaviour
 {
