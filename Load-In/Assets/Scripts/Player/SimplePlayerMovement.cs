@@ -8,6 +8,11 @@ public class SimplePlayerMovement : MonoBehaviour
     public float movSpeed;
     float SpeedX, SpeedY;
 
+    public float dashSpeed;
+    public float dashDuration;
+    private bool isDashing = false;
+    private float dashEndTime;
+
     //Hacia donde va a mirar el personaje
     private Vector3 objective;
     [SerializeField] private new Camera camera;
@@ -15,18 +20,28 @@ public class SimplePlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer
     Animator anim;
     Rigidbody2D rb;
+    private Collider2D playerCollider; // Referencia al Collider2D
 
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Obtener la referencia al SpriteRenderer
+        playerCollider = GetComponent<Collider2D>();
     }
 
     void Update()
     {
-        Movement();
+        if (!isDashing)
+        {
+            Movement();
+        }
         UpdateLayer(); // Llamar a la función para actualizar la capa del sprite
+
+        if (Input.GetKeyDown(KeyCode.C) && !isDashing)
+        {
+            Dash();
+        }
     }
 
     //Movimiento simple de personaje + rotacion de este a traves del cursor
@@ -72,6 +87,30 @@ public class SimplePlayerMovement : MonoBehaviour
         else // Si el ratón está por debajo del jugador
         {
             spriteRenderer.sortingOrder = 1; // Cambiar la capa a 1 (detrás)
+        }
+    }
+
+    void Dash()
+    {
+        isDashing = true;
+        dashEndTime = Time.time + dashDuration;
+
+        // Desactivar el Collider durante el Dash
+        playerCollider.enabled = false;
+
+        Vector2 dashDirection = new Vector2(SpeedX, SpeedY).normalized;
+        rb.AddForce(dashDirection * dashSpeed, ForceMode2D.Impulse);
+    }
+
+    // Método para controlar el final del Dash
+    void LateUpdate()
+    {
+        if (isDashing && Time.time >= dashEndTime)
+        {
+            isDashing = false;
+            rb.velocity = Vector2.zero;
+
+            playerCollider.enabled = true;
         }
     }
 }
