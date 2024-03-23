@@ -10,10 +10,13 @@ public class SimplePlayerMovement : MonoBehaviour
 
     public float dashSpeed;
     public float dashDuration;
+    public float dashCooldown; // Nuevo: Tiempo de reutilización del dash
     private bool isDashing = false;
+    private bool dashCooldownActive = false; // Nuevo: Bandera para el cooldown del dash
     private float dashEndTime;
+    private float lastDashTime = -999f; // Nuevo: Mantener registro del último tiempo de dash
 
-    //Hacia donde va a mirar el personaje
+    //Hacia donde va a mirar el enemigo
     private Vector3 objective;
     [SerializeField] private new Camera camera;
 
@@ -32,19 +35,25 @@ public class SimplePlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!isDashing)
+        if (!isDashing && !dashCooldownActive) // Nuevo: Verificar que no esté en dash ni en cooldown
         {
             Movement();
         }
         UpdateLayer(); // Llamar a la función para actualizar la capa del sprite
 
-        if (Input.GetKeyDown(KeyCode.C) && !isDashing)
+        if (Input.GetKeyDown(KeyCode.C) && !isDashing && !dashCooldownActive) // Nuevo: Agregar verificación de cooldown
         {
             Dash();
         }
+
+        // Nuevo: Verificar si el cooldown ha terminado
+        if (dashCooldownActive && Time.time >= lastDashTime + dashCooldown)
+        {
+            dashCooldownActive = false;
+        }
     }
 
-    //Movimiento simple de personaje + rotacion de este a traves del cursor
+    //Movimiento simple de enemigo + rotacion de este a traves del cursor
     void Movement()
     {
         //Cogemos las inputs y las multiplicamos por la velocidad
@@ -64,7 +73,7 @@ public class SimplePlayerMovement : MonoBehaviour
 
         //Indicamos donde se encuentra el objetivo al que queremos mirar
         objective = camera.ScreenToWorldPoint(Input.mousePosition);
-        //Cambiamos la rotacion del personaje dependiendo de donde esta el objetivo
+        //Cambiamos la rotacion del enemigo dependiendo de donde esta el objetivo
         if (objective.x < transform.position.x)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
@@ -80,11 +89,11 @@ public class SimplePlayerMovement : MonoBehaviour
     {
         Vector3 directionToMouse = (objective - transform.position).normalized;
 
-        if (directionToMouse.y > 0) // Si el ratón está por encima del jugador
+        if (directionToMouse.y > 0) // Si el ratón está por encima del enemigo
         {
             spriteRenderer.sortingOrder = 3; // Cambiar la capa a 3 (delante)
         }
-        else // Si el ratón está por debajo del jugador
+        else // Si el ratón está por debajo del enemigo
         {
             spriteRenderer.sortingOrder = 1; // Cambiar la capa a 1 (detrás)
         }
@@ -100,6 +109,10 @@ public class SimplePlayerMovement : MonoBehaviour
 
         Vector2 dashDirection = new Vector2(SpeedX, SpeedY).normalized;
         rb.AddForce(dashDirection * dashSpeed, ForceMode2D.Impulse);
+
+        // Nuevo: Actualizar variables de cooldown
+        dashCooldownActive = true;
+        lastDashTime = Time.time;
     }
 
     // Método para controlar el final del Dash
