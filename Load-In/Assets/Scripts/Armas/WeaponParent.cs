@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class WeaponParent : MonoBehaviour
 {
-    // Variable para indicar si se ha aplicado la rotación en el eje Y
-    bool rotatedY = false;
-    // Variable para almacenar la rotación en Z antes de aplicar la rotación en Y
-    float prevAngleZ = 0f;
+    private bool yScaleModified = false;
 
     void Update()
     {
@@ -23,41 +20,28 @@ public class WeaponParent : MonoBehaviour
     {
         // Obtiene la dirección hacia el ratón y ajusta la rotación del objeto
         Vector3 direccion = objetivo - transform.position;
-        float anguloZ = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
+        float angulo = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
 
-        // Si el ángulo supera los 90 grados o es menor que -90 grados en Z, ajusta la rotación en Y
-        if (anguloZ > 90 || anguloZ < -90)
+        // Calcula el cuaternión de rotación
+        Quaternion targetRotation = Quaternion.AngleAxis(angulo, Vector3.forward);
+
+        // Verifica si el ángulo en Z es mayor que 90 o menor que -90 y ajusta la escala en Y
+        if (!yScaleModified && (angulo > 90f || angulo < -90f))
         {
-            // Rotación en Y necesaria para mantener coherencia
-            float anguloY = 180 - transform.rotation.eulerAngles.y;
-
-            // Aplicar rotación en Y
-            transform.Rotate(Vector3.up, anguloY, Space.World);
-
-            // Marcar como rotado en Y
-            rotatedY = true;
-
-            // "Reiniciar" la rotación en Z
-            prevAngleZ = anguloZ;
+            Vector3 nuevaEscala = transform.localScale;
+            nuevaEscala.y = -1;
+            transform.localScale = nuevaEscala;
+            yScaleModified = true;
         }
-        else
+        else if (yScaleModified && (angulo <= 90f && angulo >= -90f))
         {
-            // Si la rotación en el eje Z ha "reiniciado", restaurar la rotación en Z al valor anterior
-            if (rotatedY)
-            {
-                float deltaZ = anguloZ - prevAngleZ;
-                transform.Rotate(Vector3.forward, -deltaZ, Space.World);
-                prevAngleZ = anguloZ;
-            }
-            // Restaurar rotación en Y si se había rotado previamente
-            if (rotatedY)
-            {
-                transform.Rotate(Vector3.up, -180, Space.World);
-                rotatedY = false;
-            }
+            Vector3 nuevaEscala = transform.localScale;
+            nuevaEscala.y = 1;
+            transform.localScale = nuevaEscala;
+            yScaleModified = false;
         }
 
-        // Aplicar rotación en Z
-        transform.rotation = Quaternion.AngleAxis(anguloZ, Vector3.forward);
+        // Aplica la rotación
+        transform.rotation = targetRotation;
     }
 }
