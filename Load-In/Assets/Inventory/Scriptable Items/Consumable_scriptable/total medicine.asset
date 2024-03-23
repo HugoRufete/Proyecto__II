@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 148cc4a274cf7fa4abf145a2b0cd1430, type: 3}
-  m_Name: Potion
+  m_Name: total medicine
   m_EditorClassIdentifier: 
-  id: 1
-  itenName: Potion
+  id: 4
+  itenName: total medicine
   value: 0
-  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  icon: {fileID: 457196760, guid: b6b959cbaee24aa4c868957122066ef8, type: 3}
   quantity: 0
   itemType: 1
