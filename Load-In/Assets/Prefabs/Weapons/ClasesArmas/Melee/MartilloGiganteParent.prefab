@@ -70,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 5843618206813568000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.463, z: 0}
+  m_LocalPosition: {x: -0, y: 0.783, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -104,7 +104,7 @@ Transform:
   m_GameObject: {fileID: 9145783561523735817}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.433, y: 0, z: 0}
+  m_LocalPosition: {x: 0.256, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -224,6 +224,6 @@ MonoBehaviour:
   attackPos: {fileID: 6723927081196900300}
   whatIsEnemies:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   attackRange: 2.5
   damage: 20

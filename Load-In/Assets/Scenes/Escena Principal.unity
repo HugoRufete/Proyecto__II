@@ -136,13 +136,14 @@ GameObject:
   - component: {fileID: 197397054}
   - component: {fileID: 197397053}
   - component: {fileID: 197397057}
+  - component: {fileID: 197397058}
   m_Layer: 6
   m_Name: Spirit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &197397053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -291,6 +292,20 @@ MonoBehaviour:
   player: {fileID: 1715376489}
   desiredDistance: 5
   movementSpeed: 2.5
+--- !u!114 &197397058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197397052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 50
 --- !u!1 &266569946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,16 +1321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &492084717 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4750259891215787820, guid: 9b12a9ef6be7bbe46a27891bb1806855, type: 3}
-  m_PrefabInstance: {fileID: 492084713}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &492084718 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9056812387031004539, guid: 9b12a9ef6be7bbe46a27891bb1806855, type: 3}
-  m_PrefabInstance: {fileID: 492084713}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &492084724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2864383448665617376, guid: 9b12a9ef6be7bbe46a27891bb1806855, type: 3}
@@ -2102,8 +2107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pistol: {fileID: 4575389964433397831, guid: d648e364d9dbd20428ee955489be9275, type: 3}
   revolver: {fileID: 4575389964433397831, guid: d6b8bca32e322b944a5bcda0369dc2eb, type: 3}
-  shotgun: {fileID: 492084717}
-  sniper: {fileID: 492084718}
+  shotgun: {fileID: 8450455197406179616, guid: 5e53dde27bbb6014ebd41dc469672a60, type: 3}
+  sniper: {fileID: 4575389964433397831, guid: 578d2e878f94c8f41859cd886b0b3300, type: 3}
   alabarda: {fileID: 1192770464246448546, guid: 471e1750787c6844a9fcb4e583f60a5f, type: 3}
   hacha: {fileID: 1192770464246448546, guid: 2df6f852518eefe4cb0a066ad19177a5, type: 3}
   martilloGigante: {fileID: 1192770464246448546, guid: 9ca7e281ee26b61499af2eeb046de280, type: 3}
@@ -3111,11 +3116,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1257483414129975715, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.56
+      value: -3.09
       objectReference: {fileID: 0}
     - target: {fileID: 1257483414129975715, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 1257483414129975715, guid: 2c2f1db9df3ebd04fabea9cd4d86b45c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3209,6 +3214,10 @@ PrefabInstance:
     - target: {fileID: 8403448801296252641, guid: f14e60e6e7f889c4aba11e083fb02d25, type: 3}
       propertyPath: m_Name
       value: Firefly
+      objectReference: {fileID: 0}
+    - target: {fileID: 8403448801296252641, guid: f14e60e6e7f889c4aba11e083fb02d25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
