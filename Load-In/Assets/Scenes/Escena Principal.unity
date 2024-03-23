@@ -2967,7 +2967,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3333334, y: 2.8388672}
+    oldSize: {x: 0.8333333, y: 1.5833334}
     newSize: {x: 0.8333333, y: 1.5833334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3287,12 +3287,20 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7311860795790538667, guid: c25cda101a84084409686bf2bd410e71, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311860795790538667, guid: c25cda101a84084409686bf2bd410e71, type: 3}
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7311860795790538667, guid: c25cda101a84084409686bf2bd410e71, type: 3}
       propertyPath: m_SortingLayerID
       value: 1075108189
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311860795790538667, guid: c25cda101a84084409686bf2bd410e71, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8645533899122810495, guid: c25cda101a84084409686bf2bd410e71, type: 3}
       propertyPath: m_LocalPosition.x
