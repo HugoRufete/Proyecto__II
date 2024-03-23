@@ -4,25 +4,24 @@ using UnityEngine;
 
 public class SimplePlayerMovement : MonoBehaviour
 {
-    //Variables de movimiento
+    // Variables de movimiento
     public float movSpeed;
-    float SpeedX, SpeedY;
-
     public float dashSpeed;
     public float dashDuration;
-    public float dashCooldown; // Nuevo: Tiempo de reutilización del dash
+    public float dashCooldown = 1f; // Tiempo de reutilización del dash
     private bool isDashing = false;
-    private bool dashCooldownActive = false; // Nuevo: Bandera para el cooldown del dash
     private float dashEndTime;
-    private float lastDashTime = -999f; // Nuevo: Mantener registro del último tiempo de dash
+    private float nextDashTime = 0f; // Tiempo en el que se puede usar el dash nuevamente
 
-    //Hacia donde va a mirar el enemigo
+    private float SpeedX, SpeedY;
+
+    // Hacia donde va a mirar el personaje
     private Vector3 objective;
     [SerializeField] private new Camera camera;
 
     private SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer
-    Animator anim;
-    Rigidbody2D rb;
+    private Animator anim;
+    private Rigidbody2D rb;
     private Collider2D playerCollider; // Referencia al Collider2D
 
     void Start()
@@ -35,45 +34,33 @@ public class SimplePlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!isDashing && !dashCooldownActive) // Nuevo: Verificar que no esté en dash ni en cooldown
+        if (!isDashing)
         {
             Movement();
         }
+
         UpdateLayer(); // Llamar a la función para actualizar la capa del sprite
 
-        if (Input.GetKeyDown(KeyCode.C) && !isDashing && !dashCooldownActive) // Nuevo: Agregar verificación de cooldown
+        if (Input.GetKeyDown(KeyCode.C) && !isDashing && Time.time >= nextDashTime)
         {
             Dash();
-        }
-
-        // Nuevo: Verificar si el cooldown ha terminado
-        if (dashCooldownActive && Time.time >= lastDashTime + dashCooldown)
-        {
-            dashCooldownActive = false;
+            nextDashTime = Time.time + dashCooldown; // Establecer el próximo tiempo en el que se puede usar el dash
         }
     }
 
-    //Movimiento simple de enemigo + rotacion de este a traves del cursor
+    // Movimiento simple de personaje + rotacion de este a traves del cursor
     void Movement()
     {
-        //Cogemos las inputs y las multiplicamos por la velocidad
+        // Cogemos las inputs y las multiplicamos por la velocidad
         SpeedX = Input.GetAxisRaw("Horizontal") * movSpeed;
         SpeedY = Input.GetAxisRaw("Vertical") * movSpeed;
 
-        //Le aplicamos la velocidad al RB
+        // Le aplicamos la velocidad al RB
         rb.velocity = new Vector2(SpeedX, SpeedY);
-        if (SpeedX != 0 || SpeedY != 0)
-        {
-            anim.Play("Walk");
-        }
-        else
-        {
-            anim.Play("Idle");
-        }
 
-        //Indicamos donde se encuentra el objetivo al que queremos mirar
+        // Indicamos donde se encuentra el objetivo al que queremos mirar
         objective = camera.ScreenToWorldPoint(Input.mousePosition);
-        //Cambiamos la rotacion del enemigo dependiendo de donde esta el objetivo
+        // Cambiamos la rotacion del personaje dependiendo de donde esta el objetivo
         if (objective.x < transform.position.x)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
@@ -82,6 +69,34 @@ public class SimplePlayerMovement : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
+
+        if (SpeedX != 0 || SpeedY != 0)
+        {
+            if (SpeedX > 0 && objective.x < transform.position.x)
+            {
+                anim.Play("Back_Walk");
+            }
+            if (SpeedX > 0 && objective.x > transform.position.x)
+            {
+                anim.Play("Walk");
+            }
+            if (SpeedX < 0 && objective.x > transform.position.x)
+            {
+                anim.Play("Back_Walk");
+            }
+            if (SpeedX < 0 && objective.x < transform.position.x)
+            {
+                anim.Play("Walk");
+            }
+            if (SpeedY != 0 && SpeedX == 0)
+            {
+                anim.Play("Walk");
+            }
+        }
+        else
+        {
+            anim.Play("Idle");
+        }
     }
 
     // Función para actualizar la capa del sprite
@@ -89,16 +104,17 @@ public class SimplePlayerMovement : MonoBehaviour
     {
         Vector3 directionToMouse = (objective - transform.position).normalized;
 
-        if (directionToMouse.y > 0) // Si el ratón está por encima del enemigo
+        if (directionToMouse.y > 0) // Si el ratón está por encima del jugador
         {
             spriteRenderer.sortingOrder = 3; // Cambiar la capa a 3 (delante)
         }
-        else // Si el ratón está por debajo del enemigo
+        else // Si el ratón está por debajo del jugador
         {
             spriteRenderer.sortingOrder = 1; // Cambiar la capa a 1 (detrás)
         }
     }
 
+    // Función para el Dash
     void Dash()
     {
         isDashing = true;
@@ -109,10 +125,6 @@ public class SimplePlayerMovement : MonoBehaviour
 
         Vector2 dashDirection = new Vector2(SpeedX, SpeedY).normalized;
         rb.AddForce(dashDirection * dashSpeed, ForceMode2D.Impulse);
-
-        // Nuevo: Actualizar variables de cooldown
-        dashCooldownActive = true;
-        lastDashTime = Time.time;
     }
 
     // Método para controlar el final del Dash

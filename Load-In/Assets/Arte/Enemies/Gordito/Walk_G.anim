@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Caminado_G
+  m_Name: Walk_G
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,9 +22,9 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1838049609, guid: dace0f1c84596534da56f25ab3feb646, type: 3}
-    - time: 0.18333334
+    - time: 0.15
       value: {fileID: -1213364624, guid: dace0f1c84596534da56f25ab3feb646, type: 3}
-    - time: 0.28333333
+    - time: 0.31666666
       value: {fileID: 1159798591, guid: dace0f1c84596534da56f25ab3feb646, type: 3}
     - time: 0.46666667
       value: {fileID: 1515097823, guid: dace0f1c84596534da56f25ab3feb646, type: 3}

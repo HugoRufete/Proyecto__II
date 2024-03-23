@@ -13,15 +13,15 @@ public class Gordito : MonoBehaviour
     public float projectileSpeed = 10f; // Velocidad del proyectil
     public float projectileCooldown = 2f; // Tiempo de espera entre disparos
 
-    private bool isChargingProjectile = false;//Booleana que comprueba si el enemigo está cargando el projectil o no
+    private bool isChargingProjectile = false; // Booleana que comprueba si el enemigo está cargando el projectil o no
     private float chargeTimer = 0f;
     private float lastShotTime = 0f;
-
-    private Animator animator;
+    private Animator animator; // Referencia al componente Animator
 
     void Start()
     {
-        animator = GetComponent<Animator>(); // Obtener el componente Animator
+        // Obtener el componente Animator al iniciar
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -30,20 +30,13 @@ public class Gordito : MonoBehaviour
         Vector3 directionToPlayer = player.position - transform.position;
         float distanceToPlayer = directionToPlayer.magnitude;
 
-        bool isMoving = false;
-
         // Si el enemigo está demasiado cerca del jugador y no está cargando un proyectil, se aleja
         if (distanceToPlayer < minDistanceToPlayer && !isChargingProjectile)
         {
             Vector3 targetPoint = transform.position - directionToPlayer.normalized * minDistanceToPlayer * 1.5f;
             transform.position = Vector3.MoveTowards(transform.position, targetPoint, movementSpeed * Time.deltaTime);
-
-            isMoving = true;
-        }
-
-        if (isMoving && !isChargingProjectile)
-        {
-            animator.Play("Caminado_G");
+            // Aquí deberías cambiar la animación a "Walk_G"
+            animator.Play("Walk_G");
         }
         else
         {
@@ -58,12 +51,16 @@ public class Gordito : MonoBehaviour
 
                     // Mueve al enemigo hacia el punto objetivo
                     transform.position = Vector3.MoveTowards(transform.position, targetPoint, movementSpeed * Time.deltaTime);
+                    // Aquí deberías cambiar la animación a "Walk_G"
+                    animator.Play("Walk_G");
                 }
                 else
                 {
+                   
                     // Inicia la carga del proyectil
                     isChargingProjectile = true;
                     chargeTimer = 0f;
+
                     animator.Play("Attack_G");
                 }
             }
@@ -77,24 +74,27 @@ public class Gordito : MonoBehaviour
                     // Si el temporizador de carga alcanza el tiempo deseado, lanza el proyectil
                     if (chargeTimer >= projectileChargeTime)
                     {
-                        // Instancia el proyectil en la posición del enemigo
-                        GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-
-                        // Calcula la dirección hacia el jugador
+                        // Obtener la dirección hacia el jugador y normalizar
                         Vector3 directionToPlayerNormalized = directionToPlayer.normalized;
 
-                        // Calcula la velocidad del proyectil para mejorar la precisión
-                        projectile.GetComponent<Rigidbody2D>().velocity = directionToPlayerNormalized * projectileSpeed;
+                        // Calcular la posición de instancia del proyectil
+                        Vector3 projectileSpawnOffset = directionToPlayerNormalized.x < 0 ? new Vector3(-0.5f, 0.8f, 0f) : new Vector3(0.5f, 0.8f, 0f);
+                        Vector3 projectileSpawnPosition = transform.position + projectileSpawnOffset;
 
-                        // Reinicia la carga del proyectil y permite que el enemigo se mueva nuevamente
+                        // Instancia el proyectil en la posición calculada
+                        GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPosition, Quaternion.identity);
+
+                        // Establecer la velocidad del proyectil directamente hacia el jugador
+                        Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
+                        projectileRigidbody.velocity = directionToPlayerNormalized * projectileSpeed;
+
+                        // Reiniciar la carga del proyectil y permitir que el enemigo se mueva nuevamente
                         isChargingProjectile = false;
                         lastShotTime = Time.time;
                     }
                 }
             }
         }
-
-        // Si el enemigo está moviéndose y no está cargando un proyectil ni disparando, activa la animación de caminar
 
         // Orienta al enemigo hacia el jugador
         if (transform.position.x > player.position.x)
