@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class ProyectilGordito : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        // Comprobar si el objeto con el que colisionamos es el jugador
+        if (other.CompareTag("Player"))
+        {
+            // Obtener el componente de vida del jugador
+            VidaPlayer vidaPlayer = other.GetComponent<VidaPlayer>();
+
+            // Si encontramos el componente de vida, le quitamos vida al jugador
+            if (vidaPlayer != null)
+            {
+                vidaPlayer.PlayerTakeDamage(1);
+            }
+            else
+            {
+                Debug.LogWarning("El jugador no tiene un componente VidaJugador adjunto.");
+            }
+
+            // Destruir el proyectil después de colisionar con el jugador
+            Destroy(gameObject);
+        }
     }
 }
