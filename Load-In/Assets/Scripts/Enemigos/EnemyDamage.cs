@@ -1,33 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    public int damagePerSecond = 10;
-    public VidaPlayer vidaPlayer;
+    public int damageAmount = 10;
+    private VidaPlayer vidaPlayer;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // Comienza a infligir daño por segundo al jugador
-            InvokeRepeating("InflictDamage", 1f, 1f);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            // Detiene el daño cuando el jugador sale del área del enemigo
-            CancelInvoke("InflictDamage");
+            vidaPlayer = other.GetComponent<VidaPlayer>();
+            if (vidaPlayer != null)
+            {
+                // Inflige daño al jugador
+                InflictDamage();
+            }
         }
     }
 
     private void InflictDamage()
     {
-        // Inflige daño al jugador cada segundo
-        vidaPlayer.PlayerTakeDamage(damagePerSecond);
+        // Inflige daño al jugador
+        vidaPlayer.PlayerTakeDamage(damageAmount);
+        Debug.Log("Daño Inflinjido");
     }
 }

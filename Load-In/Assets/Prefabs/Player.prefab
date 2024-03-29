@@ -169,6 +169,7 @@ MonoBehaviour:
   movSpeed: 4
   dashSpeed: 10
   dashDuration: 0.5
+  dashCooldown: 1
   camera: {fileID: 0}
 --- !u!114 &6611225881177368314
 MonoBehaviour:
@@ -177,14 +178,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390618388437544355}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02278de56c54fc748bc1bf15485d6f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxVida: 100
   vida: 100
-  BarraDeVida: {fileID: 0}
+  BarraDeVida: {fileID: 1816545013227368984, guid: ddaf4486cd2c98a438a1dfb8c7a70117, type: 3}
 --- !u!95 &5346933744712237674
 Animator:
   serializedVersion: 5

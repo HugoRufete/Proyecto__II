@@ -9,6 +9,7 @@ TagManager:
   - "ZonaDeDa\xF1o"
   - AmmoBox
   - Fragmento
+  - CooldownText
   layers:
   - Default
   - TransparentFX
