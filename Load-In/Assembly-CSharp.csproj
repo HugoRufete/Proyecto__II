@@ -63,16 +63,16 @@
     <Compile Include="Assets\Scripts\Player\VidaPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyDamage.cs" />
     <Compile Include="Assets\Scripts\FollowMouse.cs" />
-    <Compile Include="Assets\Molotov.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\Armas\Bala.cs" />
     <Compile Include="Assets\Scripts\Items\ItemController.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Hacha.cs" />
+    <Compile Include="Assets\Scripts\Player\HabilidadMolotovScript.cs" />
     <Compile Include="Assets\Scripts\Armas\WeaponParent.cs" />
+    <Compile Include="Assets\Scripts\Player\Molotov.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\EnemyFollow.cs" />
     <Compile Include="Assets\Scripts\Player\SimplePlayerMovement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\PlayerPushAbility.cs" />
     <Compile Include="Assets\Scripts\UI\EquiparPrueba.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Sniper.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Alabarda.cs" />
@@ -86,8 +86,8 @@
     <Compile Include="Assets\Scripts\AmmoBox.cs" />
     <Compile Include="Assets\Scripts\Puntuación\RecogerPuntos.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Revolver.cs" />
-    <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\Wave.cs" />
     <Compile Include="Assets\Scripts\UI\Canvas_Manager.cs" />
+    <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\Wave.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpecialAttacks.cs" />
     <Compile Include="Assets\Scripts\Armas\RangedWeapon.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Estoque.cs" />
@@ -95,7 +95,6 @@
     <Compile Include="Assets\Scripts\AreaExtracción.cs" />
     <Compile Include="Assets\Scripts\Armas\Weapon.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Pistol.cs" />
-    <Compile Include="Assets\HabilidadMolotovScript.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Tirachinas.cs" />
     <Compile Include="Assets\Scripts\UI\RadialMenuManager.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\flamethrower.cs" />
@@ -106,7 +105,7 @@
     <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Lanza.cs" />
     <Compile Include="Assets\Scripts\Puntuación\Puntuación.cs" />
-    <Compile Include="Assets\Equipar.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerPushAbility.cs" />
     <Compile Include="Assets\Scripts\Items\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\MeleeWeapon.cs" />
     <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2490190228227231995}
   - component: {fileID: 1813201015379352294}
   - component: {fileID: 3007784235686699991}
+  - component: {fileID: 5791150775954444892}
   m_Layer: 0
   m_Name: Proyectil_Gordito_0
   m_TagString: Untagged
@@ -158,3 +159,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9166667, y: 0.8333333}
   m_EdgeRadius: 0
+--- !u!114 &5791150775954444892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658382486395905063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064ca4835ca59aa41877296a780e0664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10

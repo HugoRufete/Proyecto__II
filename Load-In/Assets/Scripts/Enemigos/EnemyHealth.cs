@@ -4,62 +4,73 @@ public class EnemyHealth : MonoBehaviour
 {
     public float health;
     public float maxHealth = 20;
-    private bool additionalDamageActivated = false; // Variable para indicar si se ha activado el daño adicional
+    private bool additionalDamageActivated = false;
     private float additionalDamageMultiplier = 5.0f; // Multiplicador de daño adicional
+    public GameObject experiencePrefab; // Prefab del item de experiencia
+    public int experienceItemsCount = 5; // Cantidad de items de experiencia a soltar
+    public float maxDistanceFromEnemy = 0.5f; // Máxima distancia del enemigo para soltar el item de experiencia
 
+    private Vector2 initialPosition;
+    private bool isPushed = false;
+    private bool hasBeenPushed = false;
 
-    private Vector2 initialPosition; // Posición inicial del enemigo
-    private bool isPushed = false; // Bandera para indicar si el enemigo está siendo empujado
-    private bool hasBeenPushed = false; // Bandera para indicar si el enemigo ha sido empujado al menos una vez
-
-    private Rigidbody2D rb; // Componente Rigidbody2D del enemigo
+    private Rigidbody2D rb;
 
     private void Start()
     {
         health = maxHealth;
         initialPosition = transform.position;
-        rb = GetComponent<Rigidbody2D>(); // Obtener el componente Rigidbody2D del enemigo
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void EnemyTakeDamage(int damageAmount)
     {
-        if (additionalDamageActivated) // Verifica si el daño adicional está activado
+        if (additionalDamageActivated)
         {
-            damageAmount = Mathf.RoundToInt(damageAmount * additionalDamageMultiplier); // Aplica el daño adicional
+            damageAmount = Mathf.RoundToInt(damageAmount * additionalDamageMultiplier);
         }
 
         health -= damageAmount;
 
         if (health <= 0)
         {
+            DropExperienceItems(transform.position); // Llamamos a la función y pasamos la posición del enemigo
             Destroy(gameObject);
         }
     }
 
+    private void DropExperienceItems(Vector2 enemyPosition)
+    {
+        for (int i = 0; i < experienceItemsCount; i++)
+        {
+            Vector2 randomDirection = Random.insideUnitCircle.normalized;
+            Vector2 spawnPosition = enemyPosition + randomDirection * Random.Range(0f, maxDistanceFromEnemy);
+            Instantiate(experiencePrefab, spawnPosition, Quaternion.identity);
+        }
+    }
 
     public void PushBack(Vector2 direction, float force, float maxDistance)
     {
-        if (!hasBeenPushed) // Verifica si el enemigo ha sido empujado al menos una vez
+        if (!hasBeenPushed)
         {
             if (rb != null)
             {
-                rb.velocity = Vector2.zero; // Reinicia la velocidad para evitar acumulación
+                rb.velocity = Vector2.zero;
                 rb.AddForce(direction * force, ForceMode2D.Impulse);
 
-                hasBeenPushed = true; // Marca el enemigo como empujado al menos una vez
-                isPushed = true; // Marca el enemigo como empujado
+                hasBeenPushed = true;
+                isPushed = true;
             }
         }
-        else // Si ya ha sido empujado
+        else
         {
-            // Calcula la distancia entre la posición inicial y la posición actual
+
             float distance = Vector2.Distance(initialPosition, transform.position);
 
-            // Detiene el empuje si la distancia alcanza el límite máximo
             if (distance >= maxDistance)
             {
-                rb.velocity = Vector2.zero; // Detener el movimiento
-                isPushed = false; // Reinicia la bandera para permitir futuros empujes
+                rb.velocity = Vector2.zero;
+                isPushed = false;
             }
         }
     }
@@ -69,7 +80,4 @@ public class EnemyHealth : MonoBehaviour
         additionalDamageActivated = true;
         additionalDamageMultiplier = 1.1f; // Aumenta el daño recibido en un 10%
     }
-
-    
-
 }

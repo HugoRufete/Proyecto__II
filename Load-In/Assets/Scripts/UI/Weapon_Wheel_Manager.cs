@@ -136,35 +136,42 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public void DesbloquearRevolver()
     {
         revolverDesbloqueado = true;
+        Time.timeScale = 1.0f;
     }
 
     public void DesbloquearPistola()
     {
         pistolaDesbloqueada = true;
+        Time.timeScale = 1.0f;
     }
 
     public void DesbloquearHacha()
     {
         hachaDesbloqueada = true;
+        Time.timeScale = 1.0f;
     }
 
     public void DesbloquearAlabarda()
     {
         alabardaDesbloqueda = true;
+        Time.timeScale = 1.0f;
     }
 
     public void DesbloquearMartilloGigante()
     {
         martilloGiganteDesbloqueado = true;
+        Time.timeScale = 1.0f;
     }
 
     public void DesbloquearSniper()
     {
         sniperDesbloqueado = true;
+        Time.timeScale = 1.0f;
     }
 
     public void DesbloquearShotgun()
     {
         shotgunDesbloqueada = true;
+        Time.timeScale = 1.0f;
     }
 }

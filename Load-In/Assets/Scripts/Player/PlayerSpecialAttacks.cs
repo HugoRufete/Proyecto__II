@@ -10,7 +10,7 @@ public class PlayerAreaDamage : MonoBehaviour
     public float cooldownTime; 
 
     private float cooldownTimer = 0f;
-    public TMP_Text cooldownText; // Referencia al objeto de texto en la interfaz de usuario
+    public TMP_Text cooldownText; 
 
     [Header("Ataque Especial Area")]
     private bool ataqueEspecialAreaDesbloqueable = false;
@@ -25,7 +25,7 @@ public class PlayerAreaDamage : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && ataqueEspecialAreaDesbloqueable)
             {
                 DealDamageInArea();
                 cooldownTimer = cooldownTime; // Reinicia el temporizador de enfriamiento
@@ -48,18 +48,19 @@ public class PlayerAreaDamage : MonoBehaviour
     void UpdateCooldownUI()
     {
         int seconds = Mathf.CeilToInt(cooldownTimer);
-        cooldownText.text = seconds.ToString("00"); // Muestra el tiempo restante en formato de dos dígitos
+        cooldownText.text = seconds.ToString("00"); 
     }
 
-    void OnDrawGizmosSelected()
+   /* void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, damageRadius);
-    }
+    }*/
 
     public void DesbloquearAtaqueArea()
     {
         ataqueEspecialAreaDesbloqueable = true;
         uiTimerHabilidadEspecial.SetActive(true);
+        Time.timeScale = 1.0f;
     }
 }

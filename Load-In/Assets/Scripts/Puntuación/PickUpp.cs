@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickUpp : MonoBehaviour
 {
-    public int cantidadExperiencia = 10; // Cantidad de experiencia que otorga este objeto.
+    public int cantidadExperiencia = 10; // Cantidad de experiencia que da este objeto.
 
     private void OnTriggerEnter(Collider other)
     {

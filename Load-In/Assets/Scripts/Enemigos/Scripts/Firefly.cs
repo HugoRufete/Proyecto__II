@@ -4,21 +4,19 @@ using UnityEngine;
 
 public class Firefly : MonoBehaviour
 {
-    private Transform player; // Referencia al transform del jugador
-    private EnemyFollow enemyFollow;//Referencia al script de movimiento de los enemigos
+    private Transform player; 
+    private EnemyFollow enemyFollow;
     private Animator animator;
 
     public int damage = 10;
     public VidaPlayer vidaPlayer;
 
-    [SerializeField] private float radiousToExplode; //Radio del area de deteccion para la explosión
+    [SerializeField] private float radiousToExplode; 
     
 
     void Start()
     {
-        // Encuentra al jugador al comienzo
         player = GameObject.FindWithTag("Player").transform;
-        //Llama al script de movimiento del enemigo
         enemyFollow = GetComponent<EnemyFollow>();
         animator = GetComponent<Animator>();
         
@@ -26,10 +24,8 @@ public class Firefly : MonoBehaviour
 
     void Update()
     {
-        // Verifica que se haya encontrado al jugador
         if (player != null)
         {
-            //Si el radio de explosion es menor a la distancia con el jugador
             if (radiousToExplode >= Vector3.Distance(transform.position, player.position))
             {
                 enemyFollow.followSpeed = 3;

@@ -14,6 +14,7 @@ public class PlayerPushAbility : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q) && habilidadEmpujeDesbloqueada) // Cambia a la tecla que prefieras
         {
             PushEnemies();
+            Debug.Log("Empujando enemigos");
         }
     }
 
@@ -27,15 +28,16 @@ public class PlayerPushAbility : MonoBehaviour
             enemy.GetComponent<EnemyHealth>().PushBack(pushDirection, pushForce, 5f);
         }
     }
-/*
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, pushRadius);
-    }*/
+    }
 
     public void DesbloquearHabilidadEmpuje()
     {
         habilidadEmpujeDesbloqueada = true;
+        Time.timeScale = 1.0f;
     }
 }

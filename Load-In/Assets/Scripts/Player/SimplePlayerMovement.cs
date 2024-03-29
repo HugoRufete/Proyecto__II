@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SimplePlayerMovement : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class SimplePlayerMovement : MonoBehaviour
     private bool isDashing = false;
     private float dashEndTime;
     private float nextDashTime = 0f; // Tiempo en el que se puede usar el dash nuevamente
+    public float remainingCooldown; // Tiempo restante para el próximo dash
+
+    public Image energyBar; // Referencia a la imagen Fill de la barra de energía
 
     private float SpeedX, SpeedY;
 
@@ -41,14 +45,19 @@ public class SimplePlayerMovement : MonoBehaviour
 
         UpdateLayer(); // Llamar a la función para actualizar la capa del sprite
 
-        if (Input.GetKeyDown(KeyCode.C) && !isDashing && Time.time >= nextDashTime)
+        // Actualizar el tiempo restante para el próximo dash
+        remainingCooldown = Mathf.Max(0, nextDashTime - Time.time);
+
+        // Actualizar la barra de energía
+        UpdateEnergyBar();
+
+        if (Time.time >= nextDashTime && Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
         {
             Dash();
-            nextDashTime = Time.time + dashCooldown; // Establecer el próximo tiempo en el que se puede usar el dash
         }
     }
 
-    // Movimiento simple de personaje + rotacion de este a traves del cursor
+    // Movimiento simple de personaje + rotacion de este a través del cursor
     void Movement()
     {
         // Cogemos las inputs y las multiplicamos por la velocidad
@@ -60,7 +69,7 @@ public class SimplePlayerMovement : MonoBehaviour
 
         // Indicamos donde se encuentra el objetivo al que queremos mirar
         objective = camera.ScreenToWorldPoint(Input.mousePosition);
-        // Cambiamos la rotacion del personaje dependiendo de donde esta el objetivo
+        // Cambiamos la rotación del personaje dependiendo de donde esta el objetivo
         if (objective.x < transform.position.x)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
@@ -70,32 +79,36 @@ public class SimplePlayerMovement : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
-        if (SpeedX != 0 || SpeedY != 0)
+        // Control de la animación de movimiento
+        if (!isDashing)
         {
-            if (SpeedX > 0 && objective.x < transform.position.x)
+            if (SpeedX != 0 || SpeedY != 0)
             {
-                anim.Play("Back_Walk");
+                if (SpeedX > 0 && objective.x < transform.position.x)
+                {
+                    anim.Play("Back_Walk");
+                }
+                if (SpeedX > 0 && objective.x > transform.position.x)
+                {
+                    anim.Play("Walk");
+                }
+                if (SpeedX < 0 && objective.x > transform.position.x)
+                {
+                    anim.Play("Back_Walk");
+                }
+                if (SpeedX < 0 && objective.x < transform.position.x)
+                {
+                    anim.Play("Walk");
+                }
+                if (SpeedY != 0 && SpeedX == 0)
+                {
+                    anim.Play("Walk");
+                }
             }
-            if (SpeedX > 0 && objective.x > transform.position.x)
+            else
             {
-                anim.Play("Walk");
+                anim.Play("Idle");
             }
-            if (SpeedX < 0 && objective.x > transform.position.x)
-            {
-                anim.Play("Back_Walk");
-            }
-            if (SpeedX < 0 && objective.x < transform.position.x)
-            {
-                anim.Play("Walk");
-            }
-            if (SpeedY != 0 && SpeedX == 0)
-            {
-                anim.Play("Walk");
-            }
-        }
-        else
-        {
-            anim.Play("Idle");
         }
     }
 
@@ -123,8 +136,25 @@ public class SimplePlayerMovement : MonoBehaviour
         // Desactivar el Collider durante el Dash
         playerCollider.enabled = false;
 
+        // Obtener la dirección del dash
         Vector2 dashDirection = new Vector2(SpeedX, SpeedY).normalized;
         rb.AddForce(dashDirection * dashSpeed, ForceMode2D.Impulse);
+
+        // Establecer el tiempo para el próximo dash
+        nextDashTime = Time.time + dashCooldown;
+
+        // Reproducir la animación de dash
+        if (SpeedX > 0)
+        {
+            anim.Play("Dash");
+        }
+        else
+        {
+            anim.Play("Dash");
+        }
+
+        // Actualizar la barra de energía
+        UpdateEnergyBar();
     }
 
     // Método para controlar el final del Dash
@@ -136,6 +166,16 @@ public class SimplePlayerMovement : MonoBehaviour
             rb.velocity = Vector2.zero;
 
             playerCollider.enabled = true;
+        }
+    }
+
+    // Actualiza la barra de energía basada en remainingCooldown
+    void UpdateEnergyBar()
+    {
+        if (energyBar != null)
+        {
+            // Ajustar FillAmount basado en remainingCooldown
+            energyBar.fillAmount = 1 - (remainingCooldown / dashCooldown);
         }
     }
 }
