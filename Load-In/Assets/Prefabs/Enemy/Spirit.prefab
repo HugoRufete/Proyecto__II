@@ -170,6 +170,8 @@ MonoBehaviour:
   player: {fileID: 0}
   desiredDistance: 5
   movementSpeed: 2.5
+  healRadius: 5
+  healAmountPerSecond: 10
 --- !u!114 &5374422125022960618
 MonoBehaviour:
   m_ObjectHideFlags: 0

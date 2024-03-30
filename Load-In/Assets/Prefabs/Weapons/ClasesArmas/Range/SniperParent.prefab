@@ -146,7 +146,7 @@ MonoBehaviour:
   prefabBala: {fileID: 5700418254993555023, guid: ae19d91019f5e6e47ba9c0980e75a45e, type: 3}
   puntoDisparo: {fileID: 4258807638736000681}
   velocidadBala: 10
-  maxBalas: 1
+  maxBalas: 10
   balasRestantes: 0
   balasRestantesText: {fileID: 0}
   alcance: 30

@@ -10,16 +10,29 @@ public class Sniper : MonoBehaviour
     [Header("Cargador")]
     public int maxBalas = 10;
     public int balasRestantes;
-    public Text balasRestantesText;
 
-    [Header("ALcance")]
+    [Header("Alcance")]
     public float alcance = 10f;
 
     [Header("Velocidad de Recarga")]
     public float velocidadRecarga = 2f;
+
+    public static event System.Action sniperDisparado;
+
+    public int ObtenerMunicionActual()
+    {
+        return balasRestantes;
+    }
+
+    // Método para obtener la munición máxima
+    public int ObtenerMunicionMaxima()
+    {
+        return maxBalas;
+    }
     void Start()
     {
-        balasRestantes = maxBalas;
+        // Cargar el estado de munición almacenado
+        balasRestantes = PlayerPrefs.GetInt("BalasSniper", maxBalas);
     }
 
     void Update()
@@ -32,7 +45,7 @@ public class Sniper : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Debug.Log("Recargando...");
-            Invoke("RecargarPistola", velocidadRecarga);
+            Invoke("RecargarSniper", velocidadRecarga);
         }
     }
 
@@ -51,19 +64,25 @@ public class Sniper : MonoBehaviour
 
         balasRestantes--;
 
-        if (balasRestantesText != null)
-        {
-            balasRestantesText.text = "Balas restantes: " + balasRestantes.ToString();
-        }
+        // Guardar el nuevo estado de munición
+        PlayerPrefs.SetInt("BalasSniper", balasRestantes);
+        PlayerPrefs.Save();
 
         if (balasRestantes == 0)
         {
             Debug.Log("Recargar o recuperar balas");
         }
+
+        if (sniperDisparado != null)
+            sniperDisparado();
     }
 
-    public void RecargarPistola()
+    public void RecargarSniper()
     {
-        balasRestantes = balasRestantes + 10;
+        balasRestantes = maxBalas;
+
+        // Guardar el nuevo estado de munición
+        PlayerPrefs.SetInt("BalasSniper", balasRestantes);
+        PlayerPrefs.Save();
     }
 }

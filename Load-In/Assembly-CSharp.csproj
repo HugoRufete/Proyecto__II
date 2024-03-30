@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Armas\Bala.cs" />
     <Compile Include="Assets\Scripts\Items\ItemController.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Hacha.cs" />
+    <Compile Include="Assets\UI_Manager.cs" />
     <Compile Include="Assets\Scripts\Player\HabilidadMolotovScript.cs" />
     <Compile Include="Assets\Scripts\Armas\WeaponParent.cs" />
     <Compile Include="Assets\Scripts\Player\Molotov.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="Assets\Scripts\Items\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\MeleeWeapon.cs" />
     <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
+    <Compile Include="Assets\GuadañaEnemy.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Shotgun.cs" />
     <Compile Include="Assets\Scripts\Puntuación\PuntosPlayer.cs" />
     <Compile Include="Assets\Scripts\UI\Weapon_Wheel_Manager.cs" />

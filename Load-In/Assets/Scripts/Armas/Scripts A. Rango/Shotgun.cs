@@ -7,11 +7,25 @@ public class Shotgun : MonoBehaviour
     public float velocidadBala = 10f;
     public float alcance = 10f; // Alcance máximo de las balas
     public int maxBullets = 10; // Cantidad máxima de balas en el cargador
-    [SerializeField] private int bulletsInMagazine; // Balas restantes en el cargador
+    [SerializeField] public int bulletsInMagazine; // Balas restantes en el cargador
+
+    public static event System.Action shotgunDisparada;
+
+
+    public int ObtenerMunicionActual()
+    {
+        return bulletsInMagazine;
+    }
+
+    // Método para obtener la munición máxima
+    public int ObtenerMunicionMaxima()
+    {
+        return maxBullets;
+    }
 
     void Start()
     {
-        bulletsInMagazine = maxBullets; // Inicializar el cargador con la cantidad máxima de balas
+        bulletsInMagazine = maxBullets;
     }
 
     void Update()
@@ -52,7 +66,20 @@ public class Shotgun : MonoBehaviour
             Destroy(bala, alcance / velocidadBala); // Destruye la bala después de alcanzar el alcance máximo
         }
 
-        // Descontar balas del cargador
         bulletsInMagazine -= numProyectiles;
+
+        if (shotgunDisparada != null)
+            shotgunDisparada();
+    }
+
+    public void RecargarPistola()
+    {
+        bulletsInMagazine = Mathf.Min(bulletsInMagazine + maxBullets, maxBullets); // Asegurar que no exceda el máximo de balas
+    }
+
+    // Método para cargar balas guardadas
+    public void CargarBalas(int cantidad)
+    {
+        bulletsInMagazine = Mathf.Clamp(cantidad, 0, maxBullets); // Asegurar que la cantidad no exceda el máximo de balas
     }
 }

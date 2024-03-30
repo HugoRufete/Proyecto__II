@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: b9b249e387b450b4dbd648ead11e22b2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_0"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 25
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8436e1180e94d1744bd982beaf95d456
+      internalID: -913406058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_1"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 25
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde1ea1bac386ac42ad119397e1a5b41
+      internalID: 1417675612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_2"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 25
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad62a4a002e03d43994bf89e2540c6d
+      internalID: -783807672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_3"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 25
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1bd83e47888774a83ebdce5196950c
+      internalID: 544019439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_4"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 25
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7165275f8a973fb41a0c2e4147609ab1
+      internalID: 470659898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_5"
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 24
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487dbc1dc41f9bb4880d3982073d337e
+      internalID: -1874653792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_6"
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 24
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81560159d31131942976e0a41ec18396
+      internalID: 1026493782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_7"
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 24
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8326e2d0f62273449ae5250d32da8735
+      internalID: -1370604583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_8"
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 24
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381ba7d9a26ec4648bd913a28cb1f8db
+      internalID: -1067487211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_9"
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 24
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31214a26344539e4e824b4e8e538d46f
+      internalID: 144687484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_10"
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 24
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94834ebc9f301ab4dba4517c7c97d545
+      internalID: 2011560234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_11"
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 24
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349ac671d690844a9fe8b50c95a53b8
+      internalID: 1755769665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_12"
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 24
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6a6612c098e0a41b082caccfce7b7f
+      internalID: -89047145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_14"
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 24
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a24a9049f14f614a95f947be0f6d07d
+      internalID: -980661161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_16"
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 24
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1333799e9da82348b2d84093f0a2d1e
+      internalID: -1490218834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_18"
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 25
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc61c67ebef0b184096c1a7a92ebd924
+      internalID: 1461391670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_19"
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 24
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029450a5ca034344c9e4d3d6cbf4d422
+      internalID: 154888636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionMuerteGuada\xF1a-4x4_20"
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 26
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96827a8b0ad3747ae25000d778260d
+      internalID: 1383566904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "AnimacionMuerteGuada\xF1a-4x4_0": -913406058
+      "AnimacionMuerteGuada\xF1a-4x4_1": 1417675612
+      "AnimacionMuerteGuada\xF1a-4x4_10": 2011560234
+      "AnimacionMuerteGuada\xF1a-4x4_11": 1755769665
+      "AnimacionMuerteGuada\xF1a-4x4_12": -89047145
+      "AnimacionMuerteGuada\xF1a-4x4_13": -1461622666
+      "AnimacionMuerteGuada\xF1a-4x4_14": -980661161
+      "AnimacionMuerteGuada\xF1a-4x4_15": 299249373
+      "AnimacionMuerteGuada\xF1a-4x4_16": -1490218834
+      "AnimacionMuerteGuada\xF1a-4x4_17": -217486645
+      "AnimacionMuerteGuada\xF1a-4x4_18": 1461391670
+      "AnimacionMuerteGuada\xF1a-4x4_19": 154888636
+      "AnimacionMuerteGuada\xF1a-4x4_2": -783807672
+      "AnimacionMuerteGuada\xF1a-4x4_20": 1383566904
+      "AnimacionMuerteGuada\xF1a-4x4_3": 544019439
+      "AnimacionMuerteGuada\xF1a-4x4_4": 470659898
+      "AnimacionMuerteGuada\xF1a-4x4_5": -1874653792
+      "AnimacionMuerteGuada\xF1a-4x4_6": 1026493782
+      "AnimacionMuerteGuada\xF1a-4x4_7": -1370604583
+      "AnimacionMuerteGuada\xF1a-4x4_8": -1067487211
+      "AnimacionMuerteGuada\xF1a-4x4_9": 144687484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

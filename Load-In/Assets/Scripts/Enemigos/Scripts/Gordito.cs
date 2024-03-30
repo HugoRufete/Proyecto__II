@@ -61,7 +61,7 @@ public class Gordito : MonoBehaviour
                     isChargingProjectile = true;
                     chargeTimer = 0f;
 
-                    animator.Play("Attack_G");
+                    animator.Play("Guadaña_Ataque");
                 }
             }
             else

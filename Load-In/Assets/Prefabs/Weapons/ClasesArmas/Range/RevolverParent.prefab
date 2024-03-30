@@ -148,7 +148,6 @@ MonoBehaviour:
   velocidadBala: 10
   maxBalas: 10
   balasRestantes: 0
-  balasRestantesText: {fileID: 0}
   alcance: 12
   velocidadRecarga: 1
 --- !u!1 &8018309964416171682

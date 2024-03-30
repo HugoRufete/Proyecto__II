@@ -147,8 +147,7 @@ MonoBehaviour:
   puntoDisparo: {fileID: 4258807638736000681}
   velocidadBala: 10
   maxBalas: 10
-  balasRestantes: 0
-  balasRestantesText: {fileID: 0}
+  balasRestantes: 10
   alcance: 10
   velocidadRecarga: 2
 --- !u!1 &8018309964416171682

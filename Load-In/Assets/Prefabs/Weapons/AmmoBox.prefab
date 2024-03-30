@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd75b8c4b45687429846721631630a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
+  pistolPrefab: {fileID: 4575389964433397831, guid: d648e364d9dbd20428ee955489be9275, type: 3}

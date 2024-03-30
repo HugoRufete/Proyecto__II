@@ -102,8 +102,8 @@ MonoBehaviour:
   puntoDisparo: {fileID: 4557626324859003719}
   velocidadBala: 10
   alcance: 10
-  maxBullets: 50
-  bulletsInMagazine: 50
+  maxBullets: 20
+  bulletsInMagazine: 20
 --- !u!1 &8121840920270543568
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,8 +146,8 @@ GameObject:
   - component: {fileID: 3563744355613868233}
   - component: {fileID: 7442760762369860610}
   m_Layer: 0
-  m_Name: Shotgun_Prueba
-  m_TagString: Untagged
+  m_Name: Shotgun_Parent
+  m_TagString: Shotgun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

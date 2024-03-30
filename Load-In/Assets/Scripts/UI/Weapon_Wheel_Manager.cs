@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
 {
-    public GameObject wheelMenu;
-    public GameObject tiendaDiosa;
+    public GameObject wheelMenu;  
 
     [Header("Armas Desbloqueables : Revolver")]
     public GameObject revolver;
@@ -127,10 +126,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 }
             }
         }
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            tiendaDiosa.SetActive(true);
-        }
+        
     }
 
     public void DesbloquearRevolver()

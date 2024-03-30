@@ -6,7 +6,7 @@ public class Bala : MonoBehaviour
 
     void Start()
     {
-        Invoke("ActivarCollider", 0.2f);
+        Invoke("ActivarCollider", 0.05f);
         Destroy(gameObject, 3f);
     }
 

@@ -19,24 +19,30 @@ public class PuntosPlayer : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            tiendaDiosa_4.SetActive(true);
+        }
+
         if (nivel >= 5)
         {
-            tiendaDiosa_1.SetActive(true);
-            //Time.timeScale = 0.0f;
-        }
-        else if (experiencia >= 10)
-        {
-            tiendaDiosa_1.SetActive(true);
+            ActivarTiendaDiosa_Lev5();
+            //tiendaDiosa_1.SetActive(true);
             Time.timeScale = 0.0f;
         }
-        else if (experiencia >= 15)
+        else if (nivel >= 10)
         {
-            tiendaDiosa_1.SetActive(true);
+            tiendaDiosa_2.SetActive(true);
             Time.timeScale = 0.0f;
         }
-        else if (experiencia >= 20)
+        else if (nivel >= 15)
         {
-            tiendaDiosa_1.SetActive(true);
+            tiendaDiosa_3.SetActive(true);
+            Time.timeScale = 0.0f;
+        }
+        else if (nivel >= 20)
+        {
+            tiendaDiosa_4.SetActive(true);
             Time.timeScale = 0.0f;
         }
     }
@@ -52,7 +58,7 @@ public class PuntosPlayer : MonoBehaviour
         while (experiencia >= maxExperiencia)
         {
             nivel++;
-            experiencia -= maxExperiencia; // Restamos la experiencia máxima para mantener el excedente
+            experiencia -= maxExperiencia; // Reset de la experiencia máxima
             maxExperiencia *= 2;
             nivelTexto.text = nivel.ToString();
         }
@@ -81,5 +87,10 @@ public class PuntosPlayer : MonoBehaviour
         experiencia = 0;
         nivelTexto.text = nivel.ToString();
         UpdateBarraDeExperiencia();
+    }
+
+    private void ActivarTiendaDiosa_Lev5()
+    {
+        tiendaDiosa_1.SetActive(true);
     }
 }

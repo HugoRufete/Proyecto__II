@@ -11,6 +11,8 @@ TagManager:
   - Fragmento
   - CooldownText
   - Experiencia
+  - Spirit
+  - Shotgun
   layers:
   - Default
   - TransparentFX

@@ -6,9 +6,11 @@ public class EnemyHealth : MonoBehaviour
     public float maxHealth = 20;
     private bool additionalDamageActivated = false;
     private float additionalDamageMultiplier = 5.0f; // Multiplicador de daño adicional
-    public GameObject experiencePrefab; // Prefab del item de experiencia
-    public int experienceItemsCount = 5; // Cantidad de items de experiencia a soltar
-    public float maxDistanceFromEnemy = 0.5f; // Máxima distancia del enemigo para soltar el item de experiencia
+    public GameObject experiencePrefab; 
+
+    [Header("Experiencia")]
+    public int experienceItemsCount = 5; // Cantidad de items de experiencia que suelta
+    public float maxDistanceFromEnemy = 0.5f; // Distancia máxima del enemigo para soltar el item de experiencia
 
     private Vector2 initialPosition;
     private bool isPushed = false;
@@ -16,11 +18,15 @@ public class EnemyHealth : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private Animator animator;
+    public string enemyDeadAnimationName = "NombrePorDefecto"; // Nombre de la animación
+
     private void Start()
     {
         health = maxHealth;
         initialPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     public void EnemyTakeDamage(int damageAmount)
@@ -34,8 +40,9 @@ public class EnemyHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            DropExperienceItems(transform.position); // Llamamos a la función y pasamos la posición del enemigo
-            Destroy(gameObject);
+            DropExperienceItems(transform.position);
+            PlayAnimationIfHealthBelowZero();
+            Invoke("DestruirEnemigo", 2f);
         }
     }
 
@@ -79,5 +86,30 @@ public class EnemyHealth : MonoBehaviour
     {
         additionalDamageActivated = true;
         additionalDamageMultiplier = 1.1f; // Aumenta el daño recibido en un 10%
+    }
+
+    public void HealEnemy(float healAmountPerSecond)
+    {
+        health += healAmountPerSecond * Time.deltaTime;
+        health = Mathf.Min(health, maxHealth);
+    }
+    public void PlayAnimationIfHealthBelowZero()
+    {
+        if (health <= 0)
+        {
+            if (animator != null)
+            {
+                animator.Play(enemyDeadAnimationName); 
+            }
+            else
+            {
+                Debug.LogError("Animator reference not set!");
+            }
+        }
+    }
+
+    private void DestruirEnemigo()
+    {
+        Destroy(gameObject);
     }
 }

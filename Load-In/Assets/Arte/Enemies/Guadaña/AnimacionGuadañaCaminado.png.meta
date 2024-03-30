@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 87ebfabca108c584592de88d803e51cd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_0"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 25
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112716673fd50814db416717cb8a6785
+      internalID: 2131622739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_1"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138816e553a93c4abdc1b74e09fb9f0
+      internalID: -1786924886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_2"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 25
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c6763a9a9879046b9353799b38a47c
+      internalID: -11530806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_3"
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 24
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43df99bd1169494c88a1be0da7dd53d
+      internalID: 1569652734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_4"
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 25
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a6b3c4f8715e64fb23aba5a9ad3a67
+      internalID: -1293091874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_5"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 24
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cae0eca448e42429b3c678f1eaac15
+      internalID: 421651075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_6"
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 25
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1f8673c8ff50c45a3e9f8ad5b1dc5b
+      internalID: -453311909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_7"
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 24
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2148474e5521d74f860e808cd6f5b9d
+      internalID: -2094729797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_8"
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 25
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b60c0d841d5dd44aa65af21015056c
+      internalID: 1033144344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_9"
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 24
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f90e2c6dded2ee4dbdce1af5a1bb5bf
+      internalID: 877692962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_10"
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 25
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72b40302d0ff9e4ca17230f71e48dff
+      internalID: 1159483903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_11"
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 24
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc439eae3b37241a7b52536de85291
+      internalID: 1802166206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_12"
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 25
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d78a04d3ea39a4fa27f029d8e7e29f
+      internalID: -816682953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_13"
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 24
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f02a012cf1774e86851688907c11c
+      internalID: -430869029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_14"
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 25
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3352b37a1cd1d044a2e6a39e13e926f
+      internalID: -585025694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_15"
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 24
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50e95476ae89cd49bebe3498d89f333
+      internalID: 496459943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_16"
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 25
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c885bb0b2e0a9d45ab4b94aaed15eff
+      internalID: 885113000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_17"
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 24
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6b80306c507b046aa89421c41f8539
+      internalID: -1714540739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_18"
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 25
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d8f7597490c98409619105be59655a
+      internalID: 1348140701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aCaminado_19"
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 24
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce3c3296e9cbc9448418a55662abad5
+      internalID: 424312021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "AnimacionGuada\xF1aCaminado_0": 2131622739
+      "AnimacionGuada\xF1aCaminado_1": -1786924886
+      "AnimacionGuada\xF1aCaminado_10": 1159483903
+      "AnimacionGuada\xF1aCaminado_11": 1802166206
+      "AnimacionGuada\xF1aCaminado_12": -816682953
+      "AnimacionGuada\xF1aCaminado_13": -430869029
+      "AnimacionGuada\xF1aCaminado_14": -585025694
+      "AnimacionGuada\xF1aCaminado_15": 496459943
+      "AnimacionGuada\xF1aCaminado_16": 885113000
+      "AnimacionGuada\xF1aCaminado_17": -1714540739
+      "AnimacionGuada\xF1aCaminado_18": 1348140701
+      "AnimacionGuada\xF1aCaminado_19": 424312021
+      "AnimacionGuada\xF1aCaminado_2": -11530806
+      "AnimacionGuada\xF1aCaminado_3": 1569652734
+      "AnimacionGuada\xF1aCaminado_4": -1293091874
+      "AnimacionGuada\xF1aCaminado_5": 421651075
+      "AnimacionGuada\xF1aCaminado_6": -453311909
+      "AnimacionGuada\xF1aCaminado_7": -2094729797
+      "AnimacionGuada\xF1aCaminado_8": 1033144344
+      "AnimacionGuada\xF1aCaminado_9": 877692962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
