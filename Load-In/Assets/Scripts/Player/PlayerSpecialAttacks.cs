@@ -16,6 +16,8 @@ public class PlayerAreaDamage : MonoBehaviour
     private bool ataqueEspecialAreaDesbloqueable = false;
     public GameObject uiTimerHabilidadEspecial;
 
+    public GameObject imagenAreaAttackActivado;
+
     void Update()
     {
         if (cooldownTimer > 0)
@@ -25,7 +27,7 @@ public class PlayerAreaDamage : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.Space) && ataqueEspecialAreaDesbloqueable)
+            if (Input.GetKeyDown(KeyCode.Q) && ataqueEspecialAreaDesbloqueable)
             {
                 DealDamageInArea();
                 cooldownTimer = cooldownTime; // Reinicia el temporizador de enfriamiento
@@ -59,6 +61,7 @@ public class PlayerAreaDamage : MonoBehaviour
 
     public void DesbloquearAtaqueArea()
     {
+        imagenAreaAttackActivado.SetActive(true);
         ataqueEspecialAreaDesbloqueable = true;
         uiTimerHabilidadEspecial.SetActive(true);
         Time.timeScale = 1.0f;

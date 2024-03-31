@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Enemigos\Scripts\EnemyFollow.cs" />
     <Compile Include="Assets\Scripts\Player\SimplePlayerMovement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\SceneManager.cs" />
     <Compile Include="Assets\Scripts\UI\EquiparPrueba.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Sniper.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Alabarda.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Scripts\UI\Canvas_Manager.cs" />
     <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\Wave.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpecialAttacks.cs" />
+    <Compile Include="Assets\DestoyArrow.cs" />
     <Compile Include="Assets\Scripts\Armas\RangedWeapon.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Estoque.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Guadaña.cs" />

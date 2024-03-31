@@ -5,6 +5,8 @@ using TMPro;
 
 public class EquiparPrueba : MonoBehaviour
 {
+    public GameObject machete;
+     
     [Header("Range Weapons")]
     public GameObject pistol;
     public GameObject revolver;
@@ -61,6 +63,14 @@ public class EquiparPrueba : MonoBehaviour
         InstanciarArma(shotgun);
         wheelMenu.SetActive(false);
         MostrarImagenArmaSeleccionada("Shotgun");
+    }
+
+    public void EquiparMachete()
+    {
+        DesequiparArmaActual();
+        InstanciarArma(machete);
+        wheelMenu.SetActive(false);
+        MostrarImagenArmaSeleccionada("Machete");
     }
 
     public void EquiparPistola()

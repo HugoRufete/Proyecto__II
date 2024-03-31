@@ -28,7 +28,10 @@ public class Lanza : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Atacando...");
-                Attack();
+                if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Ataque_Alabarda")) // Comprobar si la animación no está en reproducción
+                {
+                    Attack();
+                }
             }
         }
         else

@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Tipos de enemigos")]
+    public GameObject initialEnemy;
     public GameObject firefly;
     public GameObject gordet;
     public GameObject guadaña_;
@@ -82,6 +83,28 @@ public class EnemySpawner : MonoBehaviour
 
             // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
             Instantiate(spirit, spawnPoint.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning("Falta asignar el prefab de BasicEnemy o los puntos de spawn.");
+        }
+    }
+
+    public void SpawnInitialtEnemy()
+    {
+        if (initialEnemy != null && spawnPoints.Count > 0)
+        {
+            // Elije un punto de spawn al azar
+            int randomIndex = Random.Range(0, spawnPoints.Count);
+
+            // Asegúrate de que el índice esté dentro del rango
+            randomIndex = Mathf.Clamp(randomIndex, 0, spawnPoints.Count - 1);
+
+            // Obtén el punto de spawn correspondiente al índice
+            Transform spawnPoint = spawnPoints[randomIndex];
+
+            // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
+            Instantiate(initialEnemy, spawnPoint.position, Quaternion.identity);
         }
         else
         {

@@ -3,12 +3,10 @@ using UnityEngine;
 public class MartilloGigante : MonoBehaviour
 {
     private Animator animator;
-    private float anguloMinimo = 90f;
     private float escalaOriginalX;
-
     private float timeBtwAttack;
 
-    [Header("Velodidad de ataque")]
+    [Header("Velocidad de ataque")]
     public float attackCooldown; // Tiempo de espera entre ataques
     public Transform attackPos;
     public LayerMask whatIsEnemies;
@@ -28,7 +26,6 @@ public class MartilloGigante : MonoBehaviour
 
     private void Update()
     {
-
         Vector3 updatedAttackPos = attackPos.position;
 
         if (timeBtwAttack <= 0)
@@ -36,16 +33,7 @@ public class MartilloGigante : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Atacando...");
-                animator.Play("Ataque_MartilloGigante");
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(updatedAttackPos, attackRange, whatIsEnemies);
-                for (int i = 0; i < enemiesToDamage.Length; i++)
-                {
-                    enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
-                    Debug.Log("Enemigo Atacado");
-                }
-
-                // Establecer el tiempo de espera antes del próximo ataque
-                timeBtwAttack = attackCooldown;
+                Attack();
             }
         }
         else
@@ -54,10 +42,9 @@ public class MartilloGigante : MonoBehaviour
             timeBtwAttack -= Time.deltaTime;
         }
 
-        float angulo = transform.rotation.eulerAngles.z;
-
         // Verifica si el objeto ha rotado menos de -90 grados
-        if (angulo < anguloMinimo)
+        float angulo = transform.rotation.eulerAngles.z;
+        if (angulo < 90f)
         {
             // Invierte la escala en el eje X
             transform.localScale = new Vector3(escalaOriginalX * -1f, transform.localScale.y, transform.localScale.z);
@@ -69,13 +56,23 @@ public class MartilloGigante : MonoBehaviour
         }
     }
 
+    private void Attack()
+    {
+        animator.Play("Ataque_MartilloGigante");
+        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
+            Debug.Log("Enemigo Atacado");
+        }
+
+        // Establecer el tiempo de espera antes del próximo ataque
+        timeBtwAttack = attackCooldown;
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-
-        Vector3 updatedAttackPos = attackPos.position;
-
-        Gizmos.DrawWireSphere(updatedAttackPos, attackRange);
+        Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
-
 }

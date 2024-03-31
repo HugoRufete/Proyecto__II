@@ -34,6 +34,14 @@ public class Revolver : MonoBehaviour
     {
         // Cargar el estado de munición almacenado
         balasRestantes = PlayerPrefs.GetInt("BalasRevolver", maxBalas);
+        // Suscribirse al evento de muerte del enemigo
+        EnemyHealth.enemyDeadEvent += RecargarBalas;
+    }
+
+    void OnDestroy()
+    {
+        // Darse de baja del evento al destruir el objeto
+        EnemyHealth.enemyDeadEvent -= RecargarBalas;
     }
 
     void Update()
@@ -81,6 +89,17 @@ public class Revolver : MonoBehaviour
     public void RecargarRevolver()
     {
         balasRestantes = maxBalas;
+
+        // Guardar el nuevo estado de munición
+        PlayerPrefs.SetInt("BalasRevolver", balasRestantes);
+        PlayerPrefs.Save();
+    }
+
+    // Método para recargar las balas cuando un enemigo muere
+    void RecargarBalas(int balasRecargadas)
+    {
+        balasRestantes += balasRecargadas;
+        balasRestantes = Mathf.Min(balasRestantes, maxBalas);
 
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasRevolver", balasRestantes);

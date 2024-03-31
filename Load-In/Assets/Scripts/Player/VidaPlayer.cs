@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class VidaPlayer : MonoBehaviour
@@ -10,6 +11,8 @@ public class VidaPlayer : MonoBehaviour
     public Image BarraDeVida;
     private bool reducedDamageActivated = false; 
     private float reducedDamageMultiplier = 0.5f; // Multiplicador de reducción de daño
+
+    public GameObject imagenReducedDamageActivado;
 
     public GameObject tiendaUI;
 
@@ -43,12 +46,14 @@ public class VidaPlayer : MonoBehaviour
         if (vida <= 0)
         {
             Debug.Log("Game Over");
+            SceneManager.LoadScene("Game_Over");
         }
     }
 
 
     public void ActivateReducedDamage()
     {
+        imagenReducedDamageActivado.SetActive(true);
         reducedDamageActivated = true;
         Debug.Log("Reduced damage activated: " + reducedDamageActivated);
         reducedDamageMultiplier = 0.9f; // Reduce el daño recibido en un 10%

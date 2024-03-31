@@ -9,6 +9,8 @@ public class PlayerPushAbility : MonoBehaviour
 
     private bool habilidadEmpujeDesbloqueada = false;
 
+    public GameObject imagenEmpuje;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q) && habilidadEmpujeDesbloqueada) // Cambia a la tecla que prefieras
@@ -37,6 +39,7 @@ public class PlayerPushAbility : MonoBehaviour
 
     public void DesbloquearHabilidadEmpuje()
     {
+        imagenEmpuje.SetActive(true);
         habilidadEmpujeDesbloqueada = true;
         Time.timeScale = 1.0f;
     }

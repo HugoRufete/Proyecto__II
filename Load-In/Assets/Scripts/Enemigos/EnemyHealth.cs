@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
     public float maxHealth = 20;
     private bool additionalDamageActivated = false;
     private float additionalDamageMultiplier = 5.0f; // Multiplicador de daño adicional
-    public GameObject experiencePrefab; 
+    public GameObject experiencePrefab;
 
     [Header("Experiencia")]
     public int experienceItemsCount = 5; // Cantidad de items de experiencia que suelta
@@ -23,7 +23,14 @@ public class EnemyHealth : MonoBehaviour
     private Animator animator;
     public string enemyDeadAnimationName = "NombrePorDefecto"; // Nombre de la animación
 
+    bool enemyDead = false;
+
     bool experienciaSoltada;
+
+    public GameObject imagenDañoAumentado;
+
+    // Declaración del evento estático
+    public static event System.Action<int> enemyDeadEvent;
 
     private void Start()
     {
@@ -45,14 +52,17 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             experienciaSoltada = true;
-            if(experienciaSoltada)
+            enemyDead = true;
+            if (experienciaSoltada)
             {
+                // Llamar al evento cuando el enemigo muere y pasar la cantidad de balas a recargar
+                if (enemyDeadEvent != null)
+                    enemyDeadEvent.Invoke(5); // Aquí puedes pasar la cantidad de balas a recargar
                 DropExperienceItems(transform.position);
-                PlayAnimationIfHealthBelowZero();
-                Invoke("DestruirEnemigo", 2f);
                 experienciaSoltada = false;
+                PlayAnimationIfHealthBelowZero();
+                Destroy(gameObject);
             }
-            
         }
     }
 
@@ -94,6 +104,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void ActivateAdditionalDamage()
     {
+        imagenDañoAumentado.SetActive(true);
         additionalDamageActivated = true;
         additionalDamageMultiplier = 1.1f; // Aumenta el daño recibido en un 10%
     }
@@ -111,17 +122,12 @@ public class EnemyHealth : MonoBehaviour
         {
             if (animator != null)
             {
-                animator.Play(enemyDeadAnimationName); 
+                animator.Play(enemyDeadAnimationName);
             }
             else
             {
                 Debug.LogError("Animator reference not set!");
             }
         }
-    }
-
-    private void DestruirEnemigo()
-    {
-        Destroy(gameObject);
     }
 }

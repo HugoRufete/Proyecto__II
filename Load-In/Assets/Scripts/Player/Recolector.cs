@@ -12,7 +12,7 @@ public class Recolector : MonoBehaviour
     public class FragmentosRecogidosEvent : UnityEvent<int> { }
     public FragmentosRecogidosEvent onFragmentosRecogidos;
 
-    
+    public GameObject indicardorArea;
     
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -29,6 +29,9 @@ public class Recolector : MonoBehaviour
                 {
                     onFragmentosRecogidos.Invoke(fragmentosRecogidos);
                     puerta.SetActive(false);
+                    indicardorArea.SetActive(true);
+
+
                 }
             }
         }

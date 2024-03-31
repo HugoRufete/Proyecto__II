@@ -12,7 +12,11 @@ public class GameManager : MonoBehaviour
     [Header("Enemy Config")]
     public EnemySpawner enemySpawner;  // Referencia al script de spawn de enemigos
 
-    public int totalEnemiesInWave = 6;  // Cantidad total de enemigos por oleada
+    public int totalEnemiesInWave_1 = 2;  // Cantidad total de enemigos por oleada
+    public int totalEnemiesInWave_2 = 10;  // Cantidad total de enemigos por oleada
+    public int totalEnemiesInWave_3 = 16;  // Cantidad total de enemigos por oleada
+    public int totalEnemiesInWave_4 = 20;  // Cantidad total de enemigos por oleada
+    public int totalEnemiesInWave_5 = 30;  // Cantidad total de enemigos por oleada
     public float timeBetweenWaves = 5f;  // Tiempo entre oleadas
 
     [Header("Ronda Actual")]
@@ -45,19 +49,6 @@ public class GameManager : MonoBehaviour
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
         }
-
-
-
-        if(Input.GetKeyDown(KeyCode.H))
-        {
-            Time.timeScale = 0f;
-        }
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            Time.timeScale = 1f;
-        }
-
         countdown -= Time.deltaTime;
     }
 
@@ -69,25 +60,25 @@ public class GameManager : MonoBehaviour
         // Llama a los métodos de spawn correspondientes en el EnemySpawner según el tipo de oleada
         if (waveType == 1)
         {
-            for (int i = 0; i < totalEnemiesInWave; i++)
+            for (int i = 0; i < totalEnemiesInWave_1; i++)
             {
                 if (RondaActual > 5)
                 {
-                    enemySpawner.SpawnFirefly();  // A partir de la ronda 6, instanciar enemigos Firefly en lugar de BasicEnemy
+                    enemySpawner.SpawnInitialtEnemy();  // A partir de la ronda 6, instanciar enemigos Firefly en lugar de BasicEnemy
                 }
                 else
                 {
-                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnInitialtEnemy();
                 }
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
             }
         }
         else if (waveType == 2)
         {
-            int basicCount = totalEnemiesInWave / 2;
-            int fireflyCount = totalEnemiesInWave - basicCount;
+            int basicCount = totalEnemiesInWave_2 / 2;
+            int fireflyCount = totalEnemiesInWave_2 - basicCount;
 
-            for (int i = 0; i < totalEnemiesInWave; i++)
+            for (int i = 0; i < totalEnemiesInWave_2; i++)
             {
                 if (RondaActual > 5)
                 {
@@ -102,7 +93,7 @@ public class GameManager : MonoBehaviour
                     }
                     else
                     {
-                        enemySpawner.SpawnGordetEnemy();
+                        enemySpawner.SpawnInitialtEnemy();
                     }
                 }
 
@@ -111,7 +102,7 @@ public class GameManager : MonoBehaviour
         }
         else if (waveType == 3)
         {
-            for (int i = 0; i < totalEnemiesInWave; i++)
+            for (int i = 0; i < totalEnemiesInWave_3; i++)
             {
                 enemySpawner.SpawnFirefly();
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
@@ -119,7 +110,7 @@ public class GameManager : MonoBehaviour
         }
         else if (waveType == 4)
         {
-            for (int i = 0; i < totalEnemiesInWave; i++)
+            for (int i = 0; i < totalEnemiesInWave_4; i++)
             {
                 enemySpawner.SpawnGuadañaEnemy();  // Método que instancia enemigos de tipo random y firefly
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
@@ -127,7 +118,7 @@ public class GameManager : MonoBehaviour
         }
         else if (waveType == 5)
         {
-            for (int i = 0; i < totalEnemiesInWave; i++)
+            for (int i = 0; i < totalEnemiesInWave_5; i++)
             {
                 enemySpawner.SpawnSpiritEnemy();  // Método que instancia enemigos de tipo random
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario

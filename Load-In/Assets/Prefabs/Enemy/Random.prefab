@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5854071131239858172}
   - component: {fileID: 8061158527861428428}
   - component: {fileID: 700160484812693467}
+  - component: {fileID: 842038449770868117}
+  - component: {fileID: 5592494855993316266}
   m_Layer: 6
   m_Name: Random
   m_TagString: Enemy
@@ -163,6 +165,8 @@ MonoBehaviour:
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
   experienceItemsCount: 5
   maxDistanceFromEnemy: 0.5
+  "animaci\xF3nCuraci\xF3n": 
+  enemyDeadAnimationName: Random_Dead
 --- !u!50 &700160484812693467
 Rigidbody2D:
   serializedVersion: 4
@@ -190,3 +194,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &842038449770868117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328617587183638505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064ca4835ca59aa41877296a780e0664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+--- !u!95 &5592494855993316266
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328617587183638505}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 76bf311b309b69e4e8e6c5b2f45a6007, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
