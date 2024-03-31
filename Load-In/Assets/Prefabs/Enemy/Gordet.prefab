@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1075108189
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: -1838049609, guid: dace0f1c84596534da56f25ab3feb646, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -146,7 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23d4d2b7b01f5c943b15e990413753fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   projectilePrefab: {fileID: 4658382486395905063, guid: 072870ee7cdc5644fab700b8e5d5dee6, type: 3}
   desiredDistance: 2.5
   minDistanceToPlayer: 2.5
@@ -192,6 +191,8 @@ MonoBehaviour:
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
   experienceItemsCount: 10
   maxDistanceFromEnemy: 0.5
+  "animaci\xF3nCuraci\xF3n": "Gordet_Curaci\xF3n"
+  enemyDeadAnimationName: Gordet_Dead
 --- !u!50 &-2311862792067631408
 Rigidbody2D:
   serializedVersion: 4

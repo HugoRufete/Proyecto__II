@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\Armas\Bala.cs" />
     <Compile Include="Assets\Scripts\Items\ItemController.cs" />
+    <Compile Include="Assets\Indicador_Fragmentos.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Hacha.cs" />
     <Compile Include="Assets\UI_Manager.cs" />
     <Compile Include="Assets\Scripts\Player\HabilidadMolotovScript.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\MartilloGigante.cs" />
     <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Lanza.cs" />
+    <Compile Include="Assets\Scale_Sprite.cs" />
     <Compile Include="Assets\Scripts\Puntuación\Puntuación.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerPushAbility.cs" />
     <Compile Include="Assets\Scripts\Items\InventoryManager.cs" />

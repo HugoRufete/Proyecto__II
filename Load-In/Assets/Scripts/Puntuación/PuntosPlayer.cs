@@ -17,33 +17,104 @@ public class PuntosPlayer : MonoBehaviour
     public GameObject tiendaDiosa_4;
     public int nivel = 1;
 
+    bool tiendaDiosa1Desbloqueada = false;
+    bool tiendaDiosa2Desbloqueada = false;
+    bool tiendaDiosa3Desbloqueada = false;
+    bool tiendaDiosa4Desbloqueada = false;
+
+    bool tiendaDiosa1Activada = false;
+    bool tiendaDiosa2Activada = false;
+    bool tiendaDiosa3Activada = false;
+    bool tiendaDiosa4Activada = false;
+
+    [Header("Pop Up's Tienda Diosa")]
+    public GameObject popUpParent;
+    public GameObject popUpMensajeTiendaDiosa_1;
+    public GameObject popUpMensajeTiendaDiosa_2;
+    public GameObject popUpMensajeTiendaDiosa_3;
+    public GameObject popUpMensajeTiendaDiosa_4;
+    public GameObject popUpPreesF;
+
+    public Animator textAnimator;
+
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F))
+        
+        if (nivel >= 5 && !tiendaDiosa1Activada)
         {
-            tiendaDiosa_4.SetActive(true);
+            tiendaDiosa1Desbloqueada = true;
+            popUpParent.SetActive(true);
+            popUpMensajeTiendaDiosa_1.SetActive(true);
+            popUpPreesF.SetActive(true);
+            textAnimator.Play("PopUp_1_Animation");
+
+
+            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa1Desbloqueada)
+            {
+                tiendaDiosa_1.SetActive(true);
+                popUpMensajeTiendaDiosa_1.SetActive(false);
+                popUpPreesF.SetActive(false);
+                Time.timeScale = 0.0f;
+                tiendaDiosa1Activada = true;
+            }
         }
 
-        if (nivel >= 5)
+        else if (nivel >= 10 && !tiendaDiosa2Activada)
         {
-            ActivarTiendaDiosa_Lev5();
-            //tiendaDiosa_1.SetActive(true);
-            Time.timeScale = 0.0f;
+            popUpParent.SetActive(true);
+            tiendaDiosa2Desbloqueada = true;
+            popUpMensajeTiendaDiosa_2.SetActive(true);
+            popUpPreesF.SetActive(true);
+            textAnimator.Play("PopUp_1_Animation");
+
+            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa2Desbloqueada)
+            {
+                Debug.Log("Abriendo tienda level 10");
+                tiendaDiosa_2.SetActive(true);
+                popUpMensajeTiendaDiosa_2.SetActive(false);
+                popUpPreesF.SetActive(false);
+                Time.timeScale = 0.0f;
+                tiendaDiosa2Activada = true;
+            }
+            
         }
-        else if (nivel >= 10)
+        else if (nivel >= 15 && !tiendaDiosa3Activada)
         {
-            tiendaDiosa_2.SetActive(true);
-            Time.timeScale = 0.0f;
+            popUpParent.SetActive(true);
+            tiendaDiosa3Desbloqueada = true;
+            popUpMensajeTiendaDiosa_3.SetActive(true);
+            popUpPreesF.SetActive(true);
+            textAnimator.Play("PopUp_1_Animation");
+            
+            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa3Desbloqueada)
+            {
+                popUpMensajeTiendaDiosa_3.SetActive(false);
+                tiendaDiosa_3.SetActive(true);
+                Time.timeScale = 0.0f;
+                popUpPreesF.SetActive(false);
+                tiendaDiosa3Activada = true;
+
+            }
+            
         }
-        else if (nivel >= 15)
+        else if (nivel >= 20 && !tiendaDiosa4Activada)
         {
-            tiendaDiosa_3.SetActive(true);
-            Time.timeScale = 0.0f;
-        }
-        else if (nivel >= 20)
-        {
-            tiendaDiosa_4.SetActive(true);
-            Time.timeScale = 0.0f;
+            popUpParent.SetActive(true);
+            tiendaDiosa4Desbloqueada = true;
+            popUpMensajeTiendaDiosa_4.SetActive(true);
+            popUpPreesF.SetActive(true);
+            textAnimator.Play("PopUp_1_Animation");
+
+            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa4Desbloqueada)
+            {
+                popUpMensajeTiendaDiosa_4.SetActive(false);
+                tiendaDiosa_4.SetActive(true);
+                popUpPreesF.SetActive(false);
+                Time.timeScale = 0.0f;
+                tiendaDiosa4Activada = true;
+            }
+
+
         }
     }
     private void UpdateBarraDeExperiencia()
@@ -89,8 +160,23 @@ public class PuntosPlayer : MonoBehaviour
         UpdateBarraDeExperiencia();
     }
 
-    private void ActivarTiendaDiosa_Lev5()
+   public void DesbloquearTiendaDiosa_1()
+   {
+        tiendaDiosa1Desbloqueada = true;
+   }
+
+    public void DesbloquearTiendaDiosa_2()
     {
-        tiendaDiosa_1.SetActive(true);
+        tiendaDiosa2Desbloqueada = true;
     }
+    public void DesbloquearTiendaDiosa_3()
+    {
+        tiendaDiosa3Desbloqueada = true;
+    }
+    public void DesbloquearTiendaDiosa_4()
+    {
+        tiendaDiosa4Desbloqueada = true;
+    }
+
+
 }

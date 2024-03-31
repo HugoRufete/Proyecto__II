@@ -53,6 +53,7 @@ public class VidaPlayer : MonoBehaviour
         Debug.Log("Reduced damage activated: " + reducedDamageActivated);
         reducedDamageMultiplier = 0.9f; // Reduce el daño recibido en un 10%
         tiendaUI.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 
 }

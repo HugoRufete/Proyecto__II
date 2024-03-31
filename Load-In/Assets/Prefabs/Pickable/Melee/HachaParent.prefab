@@ -70,7 +70,7 @@ Transform:
   m_GameObject: {fileID: 5843618206813568000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.407, z: 0}
+  m_LocalPosition: {x: 0, y: 0.391, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -103,14 +103,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9145783561523735817}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.433, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.526, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6723927081196900300}
   m_Father: {fileID: 2853044802247410463}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &799637522008023282
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -224,6 +224,6 @@ MonoBehaviour:
   attackPos: {fileID: 6723927081196900300}
   whatIsEnemies:
     serializedVersion: 2
-    m_Bits: 0
-  attackRange: 1
+    m_Bits: 64
+  attackRange: 1.5
   damage: 7

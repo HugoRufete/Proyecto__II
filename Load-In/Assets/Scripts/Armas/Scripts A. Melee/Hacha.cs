@@ -13,6 +13,8 @@ public class Hacha : MonoBehaviour
     public Transform attackPos;
     public LayerMask whatIsEnemies;
 
+    private Animator animator;
+    
     [Header("Rango de ataque")]
     public float attackRange;
 
@@ -23,6 +25,7 @@ public class Hacha : MonoBehaviour
     {
         // Guarda la escala original en el eje X
         escalaOriginalX = transform.localScale.x;
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -35,7 +38,7 @@ public class Hacha : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Atacando...");
-
+                animator.Play("Ataque_Hacha");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(updatedAttackPos, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {

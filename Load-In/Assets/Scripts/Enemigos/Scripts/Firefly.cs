@@ -4,33 +4,32 @@ using UnityEngine;
 
 public class Firefly : MonoBehaviour
 {
-    private Transform player; 
+    private Transform player;
     private EnemyFollow enemyFollow;
     private Animator animator;
+    private bool exploded = false;
 
     public int damage = 10;
-    public VidaPlayer vidaPlayer;
-
-    [SerializeField] private float radiousToExplode; 
-    
+    public float radiousToExplode;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
         enemyFollow = GetComponent<EnemyFollow>();
         animator = GetComponent<Animator>();
-        
     }
 
     void Update()
     {
-        if (player != null)
+        if (player != null && !exploded)
         {
             if (radiousToExplode >= Vector3.Distance(transform.position, player.position))
             {
                 enemyFollow.followSpeed = 3;
                 animator.Play("Exploding_Firefly");
-
+                exploded = true;
+                // Inflige daño al jugador cuando explota
+                player.GetComponent<VidaPlayer>().PlayerTakeDamage(damage);
             }
         }
     }

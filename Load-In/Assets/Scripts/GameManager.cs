@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    enemySpawner.SpawnBasicEnemy();
+                    enemySpawner.SpawnFirefly();
                 }
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
             }
@@ -97,12 +97,12 @@ public class GameManager : MonoBehaviour
                 {
                     if (Random.Range(0, 2) == 0 && basicCount > 0)
                     {
-                        enemySpawner.SpawnBasicEnemy();
+                        enemySpawner.SpawnFirefly();
                         basicCount--;
                     }
                     else
                     {
-                        enemySpawner.SpawnFirefly();
+                        enemySpawner.SpawnGordetEnemy();
                     }
                 }
 
@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
-                enemySpawner.SpawnExtraEnemy();  // Método que instancia enemigos de tipo random y firefly
+                enemySpawner.SpawnGuadañaEnemy();  // Método que instancia enemigos de tipo random y firefly
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
             }
         }
@@ -129,7 +129,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < totalEnemiesInWave; i++)
             {
-                enemySpawner.SpawnExtraEnemy();  // Método que instancia enemigos de tipo random
+                enemySpawner.SpawnSpiritEnemy();  // Método que instancia enemigos de tipo random
                 yield return new WaitForSeconds(1f);  // Puedes ajustar este tiempo según sea necesario
             }
         }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MartilloGigante : MonoBehaviour
 {
-
+    private Animator animator;
     private float anguloMinimo = 90f;
     private float escalaOriginalX;
 
@@ -23,6 +23,7 @@ public class MartilloGigante : MonoBehaviour
     {
         // Guarda la escala original en el eje X
         escalaOriginalX = transform.localScale.x;
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -35,7 +36,7 @@ public class MartilloGigante : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("Atacando...");
-
+                animator.Play("Ataque_MartilloGigante");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(updatedAttackPos, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {

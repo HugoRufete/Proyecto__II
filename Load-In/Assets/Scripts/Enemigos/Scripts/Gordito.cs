@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gordito : MonoBehaviour
 {
-    public Transform player;
+    private Transform player;
     public GameObject projectilePrefab;
     public float desiredDistance = 5f; // Distancia a la que el enemigo se quiere mantener del jugador
     public float minDistanceToPlayer = 2f; // Distancia mínima a la que el enemigo debe mantenerse del jugador
@@ -22,6 +22,7 @@ public class Gordito : MonoBehaviour
     {
         // Obtener el componente Animator al iniciar
         animator = GetComponent<Animator>();
+        player = GameObject.Find("Player").transform;
     }
 
     void Update()

@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: 612217840, guid: f2cc4b9961904704ba100dbb5c4678b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -180,6 +180,8 @@ MonoBehaviour:
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
   experienceItemsCount: 10
   maxDistanceFromEnemy: 0.5
+  "animaci\xF3nCuraci\xF3n": "Firefly_Curaci\xF3n"
+  enemyDeadAnimationName: Exploding_Firefly
 --- !u!50 &1879538370309110726
 Rigidbody2D:
   serializedVersion: 4

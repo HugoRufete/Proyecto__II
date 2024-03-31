@@ -37,8 +37,6 @@ public class EquiparPrueba : MonoBehaviour
         textoMunicionActual.gameObject.SetActive(false);
         textoMunicionMaxima.gameObject.SetActive(false);
 
-        // Cargar las balas de la escopeta almacenadas en PlayerPrefs al iniciar
-        CargarBalasEscopeta();
 
         Shotgun.shotgunDisparada += ActualizarInterfazMunicionShotgun;
         Sniper.sniperDisparado += ActualizarInterfazMunicionSniper;
@@ -54,7 +52,6 @@ public class EquiparPrueba : MonoBehaviour
         Revolver.revolverDisparado -= ActualizarInterfazMunicionRevolver;
 
         // Guardar las balas restantes de la escopeta al destruir el objeto
-        GuardarBalasEscopeta();
         LimpiarDatosGuardados();
     }
 
@@ -125,12 +122,6 @@ public class EquiparPrueba : MonoBehaviour
     {
         if (armaActualmenteEquipada != null)
         {
-            // Guardar las balas del arma actual antes de destruirlo
-            if (armaActualmenteEquipada.CompareTag("Shotgun"))
-            {
-                GuardarBalasEscopeta();
-            }
-
             Destroy(armaActualmenteEquipada);
         }
     }
@@ -335,7 +326,7 @@ public class EquiparPrueba : MonoBehaviour
         }
     }
 
-    private void CargarBalasEscopeta()
+    /*private void CargarBalasEscopeta()
     {
         // Cargar el número de balas de la escopeta desde PlayerPrefs
         int balasEscopeta = PlayerPrefs.GetInt("BalasEscopeta", 0);
@@ -349,9 +340,9 @@ public class EquiparPrueba : MonoBehaviour
                 shotgunScript.bulletsInMagazine = balasEscopeta;
             }
         }
-    }
+    }*/
 
-    private void GuardarBalasEscopeta()
+    /*private void GuardarBalasEscopeta()
     {
         // Obtener el componente Shotgun del arma actualmente equipada
         Shotgun shotgun = armaActualmenteEquipada.GetComponentInChildren<Shotgun>();
@@ -363,7 +354,7 @@ public class EquiparPrueba : MonoBehaviour
             PlayerPrefs.SetInt("BalasEscopeta", shotgun.ObtenerMunicionActual());
             PlayerPrefs.Save();
         }
-    }
+    }*/
 
     private void LimpiarDatosGuardados()
     {

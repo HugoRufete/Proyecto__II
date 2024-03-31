@@ -16,10 +16,14 @@ public class EnemyHealth : MonoBehaviour
     private bool isPushed = false;
     private bool hasBeenPushed = false;
 
+    public string animaciónCuración;
+
     private Rigidbody2D rb;
 
     private Animator animator;
     public string enemyDeadAnimationName = "NombrePorDefecto"; // Nombre de la animación
+
+    bool experienciaSoltada;
 
     private void Start()
     {
@@ -40,9 +44,15 @@ public class EnemyHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            DropExperienceItems(transform.position);
-            PlayAnimationIfHealthBelowZero();
-            Invoke("DestruirEnemigo", 2f);
+            experienciaSoltada = true;
+            if(experienciaSoltada)
+            {
+                DropExperienceItems(transform.position);
+                PlayAnimationIfHealthBelowZero();
+                Invoke("DestruirEnemigo", 2f);
+                experienciaSoltada = false;
+            }
+            
         }
     }
 
@@ -90,8 +100,10 @@ public class EnemyHealth : MonoBehaviour
 
     public void HealEnemy(float healAmountPerSecond)
     {
+        animator.Play(animaciónCuración);
         health += healAmountPerSecond * Time.deltaTime;
         health = Mathf.Min(health, maxHealth);
+
     }
     public void PlayAnimationIfHealthBelowZero()
     {
