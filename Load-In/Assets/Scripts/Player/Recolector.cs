@@ -13,7 +13,10 @@ public class Recolector : MonoBehaviour
     public FragmentosRecogidosEvent onFragmentosRecogidos;
 
     public GameObject indicardorArea;
-    
+
+    public GameObject indicadorFragmentos_1;
+    public GameObject indicadorFragmentos_2;
+    public GameObject indicadorFragmentos_3;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -30,6 +33,10 @@ public class Recolector : MonoBehaviour
                     onFragmentosRecogidos.Invoke(fragmentosRecogidos);
                     puerta.SetActive(false);
                     indicardorArea.SetActive(true);
+
+                    indicadorFragmentos_1.SetActive(false);
+                    indicadorFragmentos_2.SetActive(false);
+                    indicadorFragmentos_3.SetActive(false);
 
 
                 }

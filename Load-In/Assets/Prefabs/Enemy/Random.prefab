@@ -165,8 +165,9 @@ MonoBehaviour:
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
   experienceItemsCount: 5
   maxDistanceFromEnemy: 0.5
-  "animaci\xF3nCuraci\xF3n": 
+  "animaci\xF3nCuraci\xF3n": Random_Heal
   enemyDeadAnimationName: Random_Dead
+  "imagenDa\xF1oAumentado": {fileID: 0}
 --- !u!50 &700160484812693467
 Rigidbody2D:
   serializedVersion: 4

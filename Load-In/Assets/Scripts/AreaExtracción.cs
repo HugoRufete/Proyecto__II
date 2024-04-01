@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AreaExtracción : MonoBehaviour
 {
     private bool playerInside = false;
     public float extractionTimer = 0f;
-    private float extractionDuration = 10f;
+    private float extractionDuration = 5f;
 
     // Update is called once per frame
     void Update()
@@ -17,6 +18,7 @@ public class AreaExtracción : MonoBehaviour
 
             if (extractionTimer >= extractionDuration)
             {
+                SceneManager.LoadScene("WinScene");
                 Debug.Log("¡Extracción completada!");
                 extractionTimer = 0f; // Reiniciar el temporizador
             }

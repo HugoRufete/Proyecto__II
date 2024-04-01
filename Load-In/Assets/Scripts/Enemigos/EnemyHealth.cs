@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
 
     bool experienciaSoltada;
 
-    public GameObject imagenDañoAumentado;
+    //public GameObject imagenDañoAumentado;
 
     // Declaración del evento estático
     public static event System.Action<int> enemyDeadEvent;
@@ -104,7 +104,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void ActivateAdditionalDamage()
     {
-        imagenDañoAumentado.SetActive(true);
+        //imagenDañoAumentado.SetActive(true);
         additionalDamageActivated = true;
         additionalDamageMultiplier = 1.1f; // Aumenta el daño recibido en un 10%
     }

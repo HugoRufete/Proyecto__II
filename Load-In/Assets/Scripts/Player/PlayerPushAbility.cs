@@ -13,7 +13,7 @@ public class PlayerPushAbility : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && habilidadEmpujeDesbloqueada) // Cambia a la tecla que prefieras
+        if (Input.GetKeyDown(KeyCode.F) && habilidadEmpujeDesbloqueada) 
         {
             PushEnemies();
             Debug.Log("Empujando enemigos");
