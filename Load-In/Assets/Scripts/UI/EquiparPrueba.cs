@@ -183,6 +183,10 @@ public class EquiparPrueba : MonoBehaviour
             case "MartilloGigante":
                 spriteRenderer = martilloGigante.GetComponentInChildren<SpriteRenderer>();
                 break;
+            case "Machete":
+                spriteRenderer = machete.GetComponentInChildren<SpriteRenderer>();
+                break;
+
         }
 
         if (spriteRenderer != null)

@@ -57,7 +57,7 @@ public class EnemyHealth : MonoBehaviour
             {
                 // Llamar al evento cuando el enemigo muere y pasar la cantidad de balas a recargar
                 if (enemyDeadEvent != null)
-                    enemyDeadEvent.Invoke(5); // Aquí puedes pasar la cantidad de balas a recargar
+                    enemyDeadEvent.Invoke(5);
                 DropExperienceItems(transform.position);
                 experienciaSoltada = false;
                 PlayAnimationIfHealthBelowZero();

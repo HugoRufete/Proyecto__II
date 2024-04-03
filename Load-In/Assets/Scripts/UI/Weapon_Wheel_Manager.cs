@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
 {
+    public GameObject popUpInicial;
+
     public GameObject wheelMenu;  
 
     [Header("Armas Desbloqueables : Revolver")]
@@ -60,6 +62,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         // Verifica si se presiona la tecla E
         if (Input.GetKeyDown(KeyCode.E))
         {
+            popUpInicial.SetActive(false);
+
             // Si el menú está activo, desactívalo
             if (menuActivo)
             {

@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
     
     // Singleton para asegurar que solo haya una instancia del GameManager.
     public static GameManager Instance;
-    // Referencia al script de vida del jugador.
+    
     [Header("Player Config")]
     public VidaPlayer vidaPlayer;
     [Header("Enemy Config")]

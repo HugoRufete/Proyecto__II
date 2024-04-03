@@ -1,21 +1,19 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class PlayerAreaDamage : MonoBehaviour
 {
     public float damageRadius;
     public int damageAmount;
     public LayerMask enemyLayer;
-    public float cooldownTime; 
+    public float cooldownTime = 0;
 
     private float cooldownTimer = 0f;
-    public TMP_Text cooldownText; 
+    public TMP_Text cooldownText;
 
     [Header("Ataque Especial Area")]
     private bool ataqueEspecialAreaDesbloqueable = false;
     public GameObject uiTimerHabilidadEspecial;
-
     public GameObject imagenAreaAttackActivado;
 
     void Update()
@@ -37,8 +35,6 @@ public class PlayerAreaDamage : MonoBehaviour
 
     void DealDamageInArea()
     {
-        cooldownText = GameObject.FindWithTag("CooldownText").GetComponent<TMP_Text>();
-
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, damageRadius, enemyLayer);
 
         foreach (Collider2D enemy in hitEnemies)
@@ -50,14 +46,8 @@ public class PlayerAreaDamage : MonoBehaviour
     void UpdateCooldownUI()
     {
         int seconds = Mathf.CeilToInt(cooldownTimer);
-        cooldownText.text = seconds.ToString("00"); 
+        cooldownText.text = seconds.ToString("00");
     }
-
-   /* void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, damageRadius);
-    }*/
 
     public void DesbloquearAtaqueArea()
     {

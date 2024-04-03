@@ -5,7 +5,6 @@ using UnityEngine;
 public class Canvas_Manager : MonoBehaviour
 {
     public Animator _animator;
-    public Animator _animator_2;
 
     public GameObject inventory;
     private bool openedinventory = false;
@@ -13,8 +12,6 @@ public class Canvas_Manager : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _animator.Play("Animación_Panel_Inicio");
-        
     }
     void Update()
     {

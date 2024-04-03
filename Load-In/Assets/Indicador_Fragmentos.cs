@@ -4,12 +4,13 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
 {
     public Transform objetoAsignado; // Objeto al que el pivote debe apuntar
     public RectTransform flecha; // Referencia al hijo (flecha) del pivote
+    public Transform jugador; // Referencia al objeto que representa al jugador
 
     private bool yScaleModified = false;
 
     void LateUpdate()
     {
-        if (objetoAsignado != null)
+        if (objetoAsignado != null && jugador != null)
         {
             // Calcular la posición relativa del objeto asignado respecto a la cámara
             Vector3 posicionRelativa = objetoAsignado.position - Camera.main.transform.position;
@@ -49,6 +50,26 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
                     0f
                 );
                 flecha.position = posicionCorregida;
+            }
+
+            // Verificar si el jugador está lo suficientemente cerca del objeto asignado
+            float distanciaJugadorObjeto = Vector3.Distance(jugador.position, objetoAsignado.position);
+            Debug.Log("Distancia entre el jugador y el objeto asignado: " + distanciaJugadorObjeto);
+            if (distanciaJugadorObjeto <= 0.1f)
+            {
+                // Destruir la flecha
+                if (flecha != null)
+                {
+                    Destroy(flecha.gameObject);
+                }
+            }
+
+        }
+        else // Si objetoAsignado es nulo, destruir la flecha también
+        {
+            if (flecha != null)
+            {
+                Destroy(flecha.gameObject);
             }
         }
     }
