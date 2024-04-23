@@ -8,7 +8,7 @@ public class MartilloGigante : MonoBehaviour
     private float timeBtwAttack;
 
     [Header("Velocidad de ataque")]
-    public float attackCooldown; // Tiempo de espera entre ataques
+    public float attackCooldown;
     public Transform attackPos;
     public LayerMask whatIsEnemies;
 
@@ -18,23 +18,30 @@ public class MartilloGigante : MonoBehaviour
     [Header("Daño")]
     public int damage;
 
+    private Collider2D attackCollider; // Referencia al collider de ataque
+
     void Start()
     {
         // Guarda la escala original en el eje X
         escalaOriginalX = transform.localScale.x;
         animator = GetComponent<Animator>();
+        // Obtiene el collider de ataque
+        attackCollider = GetComponent<Collider2D>();
+        // Desactiva el collider de ataque al inicio
+        attackCollider.enabled = false;
     }
 
     private void Update()
     {
-        Vector3 updatedAttackPos = attackPos.position;
-
         if (timeBtwAttack <= 0)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                animator.SetBool("MartilloAttackbool", true);
+                StartCoroutine(ResetMartilloAfterDelay());
                 Debug.Log("Atacando...");
-                Attack();
+                StartCoroutine(AttackWithDelay());
+                timeBtwAttack = attackCooldown;
             }
         }
         else
@@ -43,33 +50,37 @@ public class MartilloGigante : MonoBehaviour
             timeBtwAttack -= Time.deltaTime;
         }
 
-        // Verifica si el objeto ha rotado menos de -90 grados
+        // Verifica la rotación del objeto para invertir la escala en el eje X según sea necesario
         float angulo = transform.rotation.eulerAngles.z;
         if (angulo < 90f)
         {
-            // Invierte la escala en el eje X
             transform.localScale = new Vector3(escalaOriginalX * -1f, transform.localScale.y, transform.localScale.z);
         }
         else
         {
-            // Restaura la escala original
             transform.localScale = new Vector3(escalaOriginalX, transform.localScale.y, transform.localScale.z);
         }
     }
 
-    private void Attack()
+    private IEnumerator AttackWithDelay()
     {
-        animator.SetBool("MartilloAttackbool", true);
-        StartCoroutine(ResetMartilloAttackAfterDelay());
+        // Activa el collider de ataque al iniciar el ataque
+        attackCollider.enabled = true;
+
+        yield return new WaitForSeconds(0.75f);
+
         Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
-            enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
-            Debug.Log("Enemigo Atacado");
+            if (enemiesToDamage[i] != null && enemiesToDamage[i].GetComponent<EnemyHealth>() != null)
+            {
+                enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
+                Debug.Log("Enemigo Atacado");
+            }
         }
 
-        // Establecer el tiempo de espera antes del próximo ataque
-        timeBtwAttack = attackCooldown;
+        // Desactiva el collider de ataque una vez que el ataque ha terminado
+        attackCollider.enabled = false;
     }
 
     private void OnDrawGizmosSelected()
@@ -77,8 +88,7 @@ public class MartilloGigante : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
-
-    private IEnumerator ResetMartilloAttackAfterDelay()
+    private IEnumerator ResetMartilloAfterDelay()
     {
         // Espera 0.5 segundos
         yield return new WaitForSeconds(0.5f);
