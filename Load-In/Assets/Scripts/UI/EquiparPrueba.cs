@@ -339,37 +339,6 @@ public class EquiparPrueba : MonoBehaviour
             textoMunicionMaxima.text = "Munición Máxima: N/A";
         }
     }
-
-    /*private void CargarBalasEscopeta()
-    {
-        // Cargar el número de balas de la escopeta desde PlayerPrefs
-        int balasEscopeta = PlayerPrefs.GetInt("BalasEscopeta", 0);
-
-        // Asignar las balas cargadas a la escopeta
-        if (armaActualmenteEquipada != null)
-        {
-            Shotgun shotgunScript = armaActualmenteEquipada.GetComponentInChildren<Shotgun>();
-            if (shotgunScript != null)
-            {
-                shotgunScript.bulletsInMagazine = balasEscopeta;
-            }
-        }
-    }*/
-
-    /*private void GuardarBalasEscopeta()
-    {
-        // Obtener el componente Shotgun del arma actualmente equipada
-        Shotgun shotgun = armaActualmenteEquipada.GetComponentInChildren<Shotgun>();
-
-        // Verificar si se encontró el componente Shotgun
-        if (shotgun != null)
-        {
-            // Guardar el número de balas en el cargador de la escopeta
-            PlayerPrefs.SetInt("BalasEscopeta", shotgun.ObtenerMunicionActual());
-            PlayerPrefs.Save();
-        }
-    }*/
-
     private void LimpiarDatosGuardados()
     {
         PlayerPrefs.DeleteAll();

@@ -2,23 +2,23 @@ using UnityEngine;
 
 public class RotarPivoteHaciaObjeto : MonoBehaviour
 {
-    public Transform objetoAsignado; // Objeto al que el pivote debe apuntar
-    public RectTransform flecha; // Referencia al hijo (flecha) del pivote
-    public Transform jugador; // Referencia al objeto que representa al jugador
+    public Transform objetoAsignado; 
+    public RectTransform flecha; 
+    public Transform jugador; 
 
     private bool yScaleModified = false;
+
+    public float radioDestruccion = 7.0f; 
 
     void LateUpdate()
     {
         if (objetoAsignado != null && jugador != null)
         {
-            // Calcular la posición relativa del objeto asignado respecto a la cámara
             Vector3 posicionRelativa = objetoAsignado.position - Camera.main.transform.position;
 
-            // Calcular el ángulo entre la posición relativa y el eje Y (arriba)
+            
             float angulo = Mathf.Atan2(posicionRelativa.y, posicionRelativa.x) * Mathf.Rad2Deg;
 
-            // Calcular el cuaternión de rotación
             Quaternion targetRotation = Quaternion.AngleAxis(angulo, Vector3.forward);
 
             // Aplicar la rotación al pivote
@@ -40,7 +40,7 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
                 yScaleModified = false;
             }
 
-            // Ajustar la posición de la flecha para que esté dentro de la cámara
+           
             if (flecha != null)
             {
                 Vector3 viewportPoint = Camera.main.WorldToViewportPoint(objetoAsignado.position);
@@ -52,10 +52,9 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
                 flecha.position = posicionCorregida;
             }
 
-            // Verificar si el jugador está lo suficientemente cerca del objeto asignado
+
             float distanciaJugadorObjeto = Vector3.Distance(jugador.position, objetoAsignado.position);
-            Debug.Log("Distancia entre el jugador y el objeto asignado: " + distanciaJugadorObjeto);
-            if (distanciaJugadorObjeto <= 0.1f)
+            if (distanciaJugadorObjeto <= radioDestruccion)
             {
                 // Destruir la flecha
                 if (flecha != null)
@@ -64,8 +63,9 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
                 }
             }
 
+
         }
-        else // Si objetoAsignado es nulo, destruir la flecha también
+        else 
         {
             if (flecha != null)
             {

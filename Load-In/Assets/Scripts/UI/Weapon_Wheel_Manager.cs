@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
@@ -57,8 +58,31 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     private bool sniperDesbloqueado = false;
     private bool shotgunDesbloqueada = false;
 
+    public GameObject Tienda_Diosa_5;
+    public GameObject Tienda_Diosa_10;
+    public GameObject Tienda_Diosa_15;
+    public GameObject Tienda_Diosa_20;
+
+    [Header("Comprar O Negociar")]
+    public GameObject esporasInsuficientes;
+
+    public float precioBaseRevolver = 250 ;
+
+    public static float interesDiosa;
+
+    public TMP_Text PrecioRevolver;
+    public GameObject menuNegocíaciónRevolver;
+
+
+    private void Start()
+    {
+        interesDiosa = 1f;
+    }
     void Update()
     {
+
+        ActualizarPrecioRevolver();
+
         // Verifica si se presiona la tecla E
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -130,13 +154,54 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 }
             }
         }
-        
+
     }
 
     public void DesbloquearRevolver()
     {
         revolverDesbloqueado = true;
         Time.timeScale = 1.0f;
+    }
+
+    public void ComprarRevolver()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBaseRevolver * interesDiosa)
+            {
+                DesbloquearRevolver();
+                interesDiosa = 1;
+                Tienda_Diosa_5.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+    }
+
+    public void NegociarRevolver()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBaseRevolver)
+            {
+                DesbloquearRevolver();
+                interesDiosa = 2f;
+                Tienda_Diosa_5.SetActive(false);
+            }
+            
+        }
     }
 
     public void DesbloquearPistola()
@@ -173,5 +238,63 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     {
         shotgunDesbloqueada = true;
         Time.timeScale = 1.0f;
+    }
+
+    public void BloquearPistola()
+    {
+        pistolaDesbloqueada = false;
+        Time.timeScale = 1.0f;
+    }
+
+    public void BloqueaHacha()
+    {
+        hachaDesbloqueada = false;
+        Time.timeScale = 1.0f;
+    }
+
+    public void BloqueaAlabarda()
+    {
+        alabardaDesbloqueda = false;
+        Time.timeScale = 1.0f;
+    }
+
+    public void BloqueaMartilloGigante()
+    {
+        martilloGiganteDesbloqueado = false;
+        Time.timeScale = 1.0f;
+    }
+
+    public void BloqueaSniper()
+    {
+        sniperDesbloqueado = false;
+        Time.timeScale = 1.0f;
+    }
+
+    public void BloqueaShotgun()
+    {
+        shotgunDesbloqueada = false;
+        Time.timeScale = 1.0f;
+    }
+
+    private IEnumerator DestroyObjectCoroutine(GameObject objetoADestruir, float delayInSeconds)
+    {
+        // Espera el tiempo especificado
+        yield return new WaitForSeconds(delayInSeconds);
+
+        // Destruye el objeto después de esperar
+        if (objetoADestruir != null)
+        {
+            Destroy(objetoADestruir);
+        }
+    }
+
+    private void ActualizarPrecioRevolver()
+    {
+        precioBaseRevolver = precioBaseRevolver * interesDiosa;
+        
+        if (PrecioRevolver != null)
+        {
+            PrecioRevolver.text = precioBaseRevolver.ToString();
+        }
     }
 }

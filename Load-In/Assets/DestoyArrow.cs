@@ -6,7 +6,7 @@ public class DestoyArrow : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag ("Player"))
+        if(other.CompareTag ("Fragmento"))
         {
             Destroy (gameObject);
         }
