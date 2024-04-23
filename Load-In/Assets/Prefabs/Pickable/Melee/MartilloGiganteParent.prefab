@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
   - component: {fileID: 5055481103368528260}
-  - component: {fileID: 2337544569307598712}
+  - component: {fileID: 4944937565585013843}
   m_Layer: 0
   m_Name: MartilloGigante
   m_TagString: Untagged
@@ -228,7 +228,7 @@ MonoBehaviour:
     m_Bits: 0
   attackRange: 2.5
   damage: 20
---- !u!95 &2337544569307598712
+--- !u!95 &4944937565585013843
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -238,7 +238,7 @@ Animator:
   m_GameObject: {fileID: 9145783561523735817}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ec17f8dad8a4b2d4b99baaf878fb5914, type: 2}
+  m_Controller: {fileID: 9100000, guid: b814f497cb066dd49873d708a01abb1f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ataque_Martillo
+  m_Name: MartilloAttack
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,25 +22,25 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 21300000, guid: 134ba18f202913145bbf77a50ddf3a07, type: 3}
-    - time: 0.06666667
+    - time: 0.083333336
       value: {fileID: 21300000, guid: d86d8c9d84cee4641829bc345f247663, type: 3}
-    - time: 0.15
+    - time: 0.18333334
       value: {fileID: 21300000, guid: e97b1514f5ac21548ace9e5d3eea0ec6, type: 3}
-    - time: 0.23333333
+    - time: 0.26666668
       value: {fileID: 21300000, guid: 2658f6ea3b7f89543a6f97cb664e5519, type: 3}
-    - time: 0.3
-      value: {fileID: 21300000, guid: 15b9af79ded6bcd4bab76ea17b7067c1, type: 3}
     - time: 0.36666667
-      value: {fileID: 21300000, guid: 0f30e7584f82a05498c0590e616fe614, type: 3}
+      value: {fileID: 21300000, guid: 15b9af79ded6bcd4bab76ea17b7067c1, type: 3}
     - time: 0.45
+      value: {fileID: 21300000, guid: 0f30e7584f82a05498c0590e616fe614, type: 3}
+    - time: 0.55
       value: {fileID: 21300000, guid: b881a66ff565f7145be50ec389ec5182, type: 3}
-    - time: 0.51666665
+    - time: 0.6333333
       value: {fileID: 21300000, guid: f1bbdc48767cc1747b94953f44ff8f5a, type: 3}
-    - time: 0.6
+    - time: 0.73333335
       value: {fileID: 21300000, guid: b6a47ddaf1bcd2245b969a102219d8b5, type: 3}
-    - time: 0.6666667
+    - time: 0.8333333
       value: {fileID: 21300000, guid: 0e3bdd017970fdf43ab43512b8c430b2, type: 3}
-    - time: 0.75
+    - time: 0.9166667
       value: {fileID: 21300000, guid: 033b6c58701194b4dbd4c37b8ada3aed, type: 3}
     attribute: m_Sprite
     path: 
@@ -80,12 +80,12 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.76666665
+    m_StopTime: 0.93333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0

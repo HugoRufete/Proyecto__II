@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Hacha : MonoBehaviour
@@ -58,7 +59,8 @@ public class Hacha : MonoBehaviour
 
     private void Attack()
     {
-        animator.Play("Ataque_Hacha");
+        animator.SetBool("HachaAttack", true);
+        StartCoroutine(ResetHachaAttackAfterDelay());
         Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
@@ -74,5 +76,17 @@ public class Hacha : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
+    }
+
+    private IEnumerator ResetHachaAttackAfterDelay()
+    {
+        // Espera 0.5 segundos
+        yield return new WaitForSeconds(0.5f);
+
+        // Establece el valor del parámetro "HachaAttack" en false
+        if (animator != null)
+        {
+            animator.SetBool("HachaAttack", false);
+        }
     }
 }

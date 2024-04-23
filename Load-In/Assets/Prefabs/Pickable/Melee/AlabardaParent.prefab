@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
   - component: {fileID: 8714687140544175331}
+  - component: {fileID: 4032666023308967132}
   m_Layer: 0
   m_Name: Alabarda
   m_TagString: Untagged
@@ -194,3 +195,24 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 10
+--- !u!95 &4032666023308967132
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9145783561523735817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e40d552e9f509094ba07a38c37ed22f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

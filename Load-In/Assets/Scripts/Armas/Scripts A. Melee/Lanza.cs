@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Lanza : MonoBehaviour
@@ -45,7 +46,8 @@ public class Lanza : MonoBehaviour
 
     private void Attack()
     {
-        animator.Play("Ataque_Alabarda");
+        animator.SetBool("AlabardaAttackbool", true);
+        StartCoroutine(ResetAlabardaAfterDelay());
         Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackCollider.transform.position, attackCollider.bounds.extents.x, whatIsEnemies);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
@@ -55,5 +57,17 @@ public class Lanza : MonoBehaviour
 
         // Establecer el tiempo de espera antes del próximo ataque
         timeBtwAttack = attackCooldown;
+    }
+
+    private IEnumerator ResetAlabardaAfterDelay()
+    {
+        // Espera 0.5 segundos
+        yield return new WaitForSeconds(0.5f);
+
+        // Establece el valor del parámetro "HachaAttack" en false
+        if (animator != null)
+        {
+            animator.SetBool("AlabardaAttackbool", false);
+        }
     }
 }
