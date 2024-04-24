@@ -14,8 +14,8 @@ public class Gordito : MonoBehaviour
     public float projectileCooldown = 2f; // Tiempo de espera entre disparos
 
     private bool isChargingProjectile = false; // Booleana que comprueba si el enemigo está cargando el projectil o no
-    private float chargeTimer = 0f;
-    private float lastShotTime = 0f;
+    private float chargeTimer = 2f;
+    private float lastShotTime = 2f;
     private Animator animator; // Referencia al componente Animator
 
     void Start()
@@ -36,7 +36,7 @@ public class Gordito : MonoBehaviour
         {
             Vector3 targetPoint = transform.position - directionToPlayer.normalized * minDistanceToPlayer * 1.5f;
             transform.position = Vector3.MoveTowards(transform.position, targetPoint, movementSpeed * Time.deltaTime);
-            // Aquí deberías cambiar la animación a "Walk_G"
+            //Aplicamos la animación de caminar
             animator.Play("Walk_G");
         }
         else
@@ -52,7 +52,7 @@ public class Gordito : MonoBehaviour
 
                     // Mueve al enemigo hacia el punto objetivo
                     transform.position = Vector3.MoveTowards(transform.position, targetPoint, movementSpeed * Time.deltaTime);
-                    // Aquí deberías cambiar la animación a "Walk_G"
+                    //Aplicamos la animación de caminar
                     animator.Play("Walk_G");
                 }
                 else
