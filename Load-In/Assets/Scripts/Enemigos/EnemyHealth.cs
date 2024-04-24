@@ -5,12 +5,12 @@ public class EnemyHealth : MonoBehaviour
     public float health;
     public float maxHealth = 20;
     private bool additionalDamageActivated = false;
-    private float additionalDamageMultiplier = 5.0f; // Multiplicador de daño adicional
+    private float additionalDamageMultiplier = 5.0f; 
     public GameObject experiencePrefab;
 
-    [Header("Experiencia")]
-    public int experienceItemsCount = 5; // Cantidad de items de experiencia que suelta
-    public float maxDistanceFromEnemy = 0.5f; // Distancia máxima del enemigo para soltar el item de experiencia
+    [Header("Esporas")]
+    public int cantidadEsporasDropeadas = 5; // Cantidad de items de esporas que suelta
+    public float maxDistanceFromEnemy = 0.5f; // Distancia máxima del enemigo para soltar el item de espora
 
     private Vector2 initialPosition;
     private bool isPushed = false;
@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
     private Rigidbody2D rb;
 
     private Animator animator;
-    public string enemyDeadAnimationName = "NombrePorDefecto"; // Nombre de la animación
+    public string enemyDeadAnimationName = "NombrePorDefecto"; 
 
     bool enemyDead = false;
 
@@ -68,7 +68,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void DropExperienceItems(Vector2 enemyPosition)
     {
-        for (int i = 0; i < experienceItemsCount; i++)
+        for (int i = 0; i < cantidadEsporasDropeadas; i++)
         {
             Vector2 randomDirection = Random.insideUnitCircle.normalized;
             Vector2 spawnPosition = enemyPosition + randomDirection * Random.Range(0f, maxDistanceFromEnemy);

@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8645533899122810495}
   - component: {fileID: 7311860795790538667}
   - component: {fileID: 9093056392154346935}
-  - component: {fileID: 4034177174796223611}
   - component: {fileID: 5639667920778735013}
-  - component: {fileID: 2932158514310906835}
   - component: {fileID: -2311862792067631408}
+  - component: {fileID: 4034177174796223611}
+  - component: {fileID: 2932158514310906835}
   m_Layer: 6
   m_Name: Gordet
   m_TagString: Enemy
@@ -134,25 +134,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8333333, y: 1.5833334}
   m_EdgeRadius: 0
---- !u!114 &4034177174796223611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4266318263142028208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d4d2b7b01f5c943b15e990413753fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4658382486395905063, guid: 072870ee7cdc5644fab700b8e5d5dee6, type: 3}
-  desiredDistance: 2.5
-  minDistanceToPlayer: 2.5
-  movementSpeed: 5
-  projectileChargeTime: 2
-  projectileSpeed: 10
-  projectileCooldown: 2
 --- !u!95 &5639667920778735013
 Animator:
   serializedVersion: 5
@@ -174,25 +155,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2932158514310906835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4266318263142028208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 20
-  maxHealth: 100
-  experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
-  experienceItemsCount: 10
-  maxDistanceFromEnemy: 0.5
-  "animaci\xF3nCuraci\xF3n": "Gordet_Curaci\xF3n"
-  enemyDeadAnimationName: Gordet_Dead
 --- !u!50 &-2311862792067631408
 Rigidbody2D:
   serializedVersion: 4
@@ -220,3 +182,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &4034177174796223611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266318263142028208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d4d2b7b01f5c943b15e990413753fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4658382486395905063, guid: 072870ee7cdc5644fab700b8e5d5dee6, type: 3}
+  desiredDistance: 2.5
+  minDistanceToPlayer: 2.5
+  movementSpeed: 5
+  projectileChargeTime: 2
+  projectileSpeed: 10
+  projectileCooldown: 2
+--- !u!114 &2932158514310906835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266318263142028208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
+  maxHealth: 100
+  experiencePrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
+  experienceItemsCount: 10
+  maxDistanceFromEnemy: 0.5
+  "animaci\xF3nCuraci\xF3n": "Gordet_Curaci\xF3n"
+  enemyDeadAnimationName: Gordet_Dead

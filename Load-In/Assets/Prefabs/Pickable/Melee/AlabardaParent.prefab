@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 0.5
-  attackCollider: {fileID: 5640396384709837638}
+  attackColliderObject: {fileID: 9145783561523735817}
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64

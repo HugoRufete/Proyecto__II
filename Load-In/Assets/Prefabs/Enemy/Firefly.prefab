@@ -161,7 +161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  vidaPlayer: {fileID: 6611225881177368314, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
   radiousToExplode: 2
 --- !u!114 &5871270884001391476
 MonoBehaviour:
@@ -177,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   maxHealth: 10
-  experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
+  experiencePrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
   experienceItemsCount: 10
   maxDistanceFromEnemy: 0.5
   "animaci\xF3nCuraci\xF3n": "Firefly_Curaci\xF3n"

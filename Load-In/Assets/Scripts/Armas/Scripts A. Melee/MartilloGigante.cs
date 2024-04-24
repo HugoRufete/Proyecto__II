@@ -8,7 +8,7 @@ public class MartilloGigante : MonoBehaviour
     private float timeBtwAttack;
 
     [Header("Velocidad de ataque")]
-    public float attackCooldown;
+    private float attackCooldown = 2.5f;
     public Transform attackPos;
     public LayerMask whatIsEnemies;
 
@@ -37,11 +37,12 @@ public class MartilloGigante : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                timeBtwAttack = attackCooldown;
                 animator.SetBool("MartilloAttackbool", true);
                 StartCoroutine(ResetMartilloAfterDelay());
                 Debug.Log("Atacando...");
                 StartCoroutine(AttackWithDelay());
-                timeBtwAttack = attackCooldown;
+                
             }
         }
         else
@@ -88,10 +89,11 @@ public class MartilloGigante : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
+
     private IEnumerator ResetMartilloAfterDelay()
     {
         // Espera 0.5 segundos
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.755f);
 
         // Establece el valor del parámetro "HachaAttack" en false
         if (animator != null)
