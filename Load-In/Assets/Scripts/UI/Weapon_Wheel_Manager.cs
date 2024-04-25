@@ -80,8 +80,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     void Update()
     {
-
-        ActualizarPrecioRevolver();
+    
 
         // Verifica si se presiona la tecla E
         if (Input.GetKeyDown(KeyCode.E))
@@ -171,7 +170,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         {
             int cantidadEsporas = playerEsporas.GetEsporas();
 
-            if (cantidadEsporas >= precioBaseRevolver * interesDiosa)
+            if (cantidadEsporas >= precioBaseRevolver)
             {
                 DesbloquearRevolver();
                 interesDiosa = 1;
@@ -183,6 +182,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
             }
         }
+        ActualizarPrecioRevolver();
     }
 
     public void NegociarRevolver()
@@ -202,6 +202,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             }
             
         }
+        ActualizarPrecioRevolver();
     }
 
     public void DesbloquearPistola()
@@ -278,10 +279,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     private IEnumerator DestroyObjectCoroutine(GameObject objetoADestruir, float delayInSeconds)
     {
-        // Espera el tiempo especificado
         yield return new WaitForSeconds(delayInSeconds);
 
-        // Destruye el objeto después de esperar
         if (objetoADestruir != null)
         {
             Destroy(objetoADestruir);
