@@ -4271,6 +4271,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678551911}
   m_CullTransparentMesh: 1
+--- !u!1 &680255613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4523800912724312270, guid: 4fff6e74df1b20e488b29b889505bea7, type: 3}
+  m_PrefabInstance: {fileID: 1317595686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &680255621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680255613}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.66036034, y: -0.20884466}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.116312, y: 1.3725963}
+  m_EdgeRadius: 0
 --- !u!1 &698208413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7080941088430836675, guid: a49e7476e7ea9a64495ac61abb1f2306, type: 3}
@@ -6514,10 +6564,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escudito
       objectReference: {fileID: 0}
+    - target: {fileID: 7707390559165717493, guid: 4fff6e74df1b20e488b29b889505bea7, type: 3}
+      propertyPath: velocidadMovimiento
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4523800912724312270, guid: 4fff6e74df1b20e488b29b889505bea7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 680255621}
   m_SourcePrefab: {fileID: 100100000, guid: 4fff6e74df1b20e488b29b889505bea7, type: 3}
 --- !u!224 &1335801531 stripped
 RectTransform:

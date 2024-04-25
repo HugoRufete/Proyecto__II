@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: -5106407756192166033}
   - component: {fileID: 7707390559165717493}
   - component: {fileID: 3449264794818362786}
-  m_Layer: 0
+  - component: {fileID: 7246802064033495854}
+  m_Layer: 6
   m_Name: Escudito
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,10 +147,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &7707390559165717493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,3 +186,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7246802064033495854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523800912724312270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 20
+  experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
+  cantidadEsporasDropeadas: 5
+  maxDistanceFromEnemy: 0.5
+  "animaci\xF3nCuraci\xF3n": 
+  enemyDeadAnimationName: NombrePorDefecto

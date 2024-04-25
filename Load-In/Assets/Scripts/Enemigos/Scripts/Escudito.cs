@@ -7,8 +7,12 @@ public class Escudito : MonoBehaviour
 
     public Transform Player;
     public float velocidadMovimiento = 5.0f;
+    public float distanciaDeseada = 1.0f;
+    public float AttackCooldown = 2.0f;
+    float lastTimeAttack = 0f;
     Animator myanimator;
     bool mirarDerecha = true;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,12 +24,15 @@ public class Escudito : MonoBehaviour
     void Update()
     {
         Vector3 direction = Player.position - transform.position;
-        direction.Normalize();
-       
-        transform.Translate(direction * velocidadMovimiento * Time.deltaTime);
 
-        if (direction.magnitude > 0)
+        if (direction.magnitude > distanciaDeseada)
         {
+            direction.Normalize();
+
+            Vector3 desplazamiento = direction * (direction.magnitude - distanciaDeseada);
+
+            transform.Translate(direction * velocidadMovimiento * Time.deltaTime);
+
             myanimator.SetBool("IsWalking", true);
         }
 
@@ -44,6 +51,14 @@ public class Escudito : MonoBehaviour
             // Voltear al enemigo
             Voltear();
         }
+
+        if (Time.time >= lastTimeAttack + AttackCooldown)
+        {
+            
+            Attack();
+        }
+            
+            
     }
 
     void Voltear()
@@ -55,5 +70,13 @@ public class Escudito : MonoBehaviour
 
         // Cambiar la dirección del enemigo
         mirarDerecha = !mirarDerecha;
+    }
+
+    void Attack()
+    {
+        myanimator.SetBool("IsAttacking", true);
+
+      
+        lastTimeAttack = Time.time;
     }
 }
