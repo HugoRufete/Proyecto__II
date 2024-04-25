@@ -66,12 +66,31 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     [Header("Comprar O Negociar")]
     public GameObject esporasInsuficientes;
 
-    public float precioBaseRevolver = 250 ;
+    private float precioBaseRevolver = 250 ;
+    private float precioBasePistola = 250 ;
+    private float precioBaseHacha = 250 ;
+    private float precioBaseAlabarda = 250 ;
+    private float precioBaseMartilloGigante = 250 ;
+    private float precioBaseSniper = 250 ;
+    private float precioBaseShotgun = 250 ;
 
     public static float interesDiosa;
 
-    public TMP_Text PrecioRevolver;
+    [Header("Precios Armas & Interfaz Negociaciones")]
+    public TMP_Text precioRevolverText;
+    public TMP_Text precioPistolaText;
+    public TMP_Text precioHachaText;
+    public TMP_Text precioAlabardaText;
+    public TMP_Text precioMartilloText;
+    public TMP_Text precioSniperText;
+    public TMP_Text precioShotgunText;
     public GameObject menuNegocíaciónRevolver;
+    public GameObject menuNegocíaciónPistola;
+    public GameObject menuNegocíaciónHacha;
+    public GameObject menuNegocíaciónAlabarda;
+    public GameObject menuNegocíaciónMartillo;
+    public GameObject menuNegocíaciónSniper;
+    public GameObject menuNegocíaciónShotgun;
 
 
     private void Start()
@@ -156,11 +175,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     }
 
-    public void DesbloquearRevolver()
-    {
-        revolverDesbloqueado = true;
-        Time.timeScale = 1.0f;
-    }
+   
 
     public void ComprarRevolver()
     {
@@ -205,6 +220,273 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         ActualizarPrecioRevolver();
     }
 
+    public void ComprarPistola()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBasePistola)
+            {
+                DesbloquearPistola();
+                interesDiosa = 1;
+                Tienda_Diosa_5.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+        ActualizarPrecioPistola();
+    }
+
+    public void NegociarPistola()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBasePistola)
+            {
+                DesbloquearPistola();
+                interesDiosa = 2f;
+                Tienda_Diosa_5.SetActive(false);
+            }
+
+        }
+        ActualizarPrecioPistola();
+    }
+
+    public void ComprarHacha()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBaseHacha)
+            {
+                DesbloquearHacha();
+                interesDiosa = 1;
+                Tienda_Diosa_10.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+        ActualizarPrecioHacha();
+    }
+
+    public void NegociarHacha()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBaseHacha)
+            {
+                DesbloquearHacha();
+                interesDiosa = 2f;
+                Tienda_Diosa_10.SetActive(false);
+            }
+
+        }
+        ActualizarPrecioHacha();
+    }
+
+    public void ComprarAlabarda()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBaseAlabarda)
+            {
+                DesbloquearAlabarda();
+                interesDiosa = 1;
+                Tienda_Diosa_10.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+        ActualizarPrecioAlabarda();
+    }
+
+    public void NegociarAlabarda()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBaseAlabarda)
+            {
+                DesbloquearAlabarda();
+                interesDiosa = 2f;
+                Tienda_Diosa_10.SetActive(false);
+            }
+
+        }
+        ActualizarPrecioAlabarda();
+    }
+    
+    public void ComprarMartilloGigante()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBaseMartilloGigante)
+            {
+                DesbloquearPistola();
+                interesDiosa = 1;
+                Tienda_Diosa_15.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+        ActualizarPrecioMartillo();
+    }
+
+    public void NegociarMartilloGigante()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBaseMartilloGigante)
+            {
+                DesbloquearPistola();
+                interesDiosa = 2f;
+                Tienda_Diosa_15.SetActive(false);
+            }
+
+        }
+        ActualizarPrecioMartillo();
+    }
+
+    public void ComprarShotgun()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBaseShotgun)
+            {
+                DesbloquearSniper();
+                interesDiosa = 1;
+                Tienda_Diosa_20.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+        ActualizarPrecioShotgun();
+    }
+    
+    public void NegociarShotgun()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBaseShotgun)
+            {
+                DesbloquearSniper();
+                interesDiosa = 2f;
+                Tienda_Diosa_20.SetActive(false);
+            }
+
+        }
+        ActualizarPrecioShotgun();
+    }
+    
+    public void ComprarSniper()
+    {
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas >= precioBaseSniper)
+            {
+                DesbloquearSniper();
+                interesDiosa = 1;
+                Tienda_Diosa_20.SetActive(false);
+            }
+            else
+            {
+                esporasInsuficientes.SetActive(true);
+                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+            }
+        }
+        ActualizarPrecioSniper();
+    }
+    
+    public void NegociarSniper()
+    {
+        //menuNegocíaciónRevolver.SetActive(true);
+        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
+        if (playerEsporas != null)
+        {
+            int cantidadEsporas = playerEsporas.GetEsporas();
+
+            if (cantidadEsporas < precioBaseSniper)
+            {
+                DesbloquearSniper();
+                interesDiosa = 2f;
+                Tienda_Diosa_20.SetActive(false);
+            }
+
+        }
+        ActualizarPrecioSniper();
+    }
+
+
+
+
+    public void DesbloquearRevolver()
+    {
+        revolverDesbloqueado = true;
+        Time.timeScale = 1.0f;
+    }
+
     public void DesbloquearPistola()
     {
         pistolaDesbloqueada = true;
@@ -240,6 +522,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         shotgunDesbloqueada = true;
         Time.timeScale = 1.0f;
     }
+
+
 
     public void BloquearPistola()
     {
@@ -277,6 +561,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         Time.timeScale = 1.0f;
     }
 
+
+
     private IEnumerator DestroyObjectCoroutine(GameObject objetoADestruir, float delayInSeconds)
     {
         yield return new WaitForSeconds(delayInSeconds);
@@ -287,13 +573,74 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
     }
 
+    
     private void ActualizarPrecioRevolver()
     {
         precioBaseRevolver = precioBaseRevolver * interesDiosa;
         
-        if (PrecioRevolver != null)
+        if (precioRevolverText != null)
         {
-            PrecioRevolver.text = precioBaseRevolver.ToString();
+            precioRevolverText.text = precioBaseRevolver.ToString();
         }
     }
+    
+    private void ActualizarPrecioPistola()
+    {
+        precioBasePistola = precioBasePistola * interesDiosa;
+
+        if (precioPistolaText != null)
+        {
+            precioPistolaText.text = precioBaseRevolver.ToString();
+        }
+    }
+    
+    private void ActualizarPrecioHacha()
+    {
+        precioBaseHacha = precioBaseHacha * interesDiosa;
+
+        if (precioHachaText != null)
+        {
+            precioHachaText.text = precioBaseRevolver.ToString();
+        }
+    }
+    private void ActualizarPrecioAlabarda()
+    {
+        precioBaseAlabarda = precioBaseAlabarda * interesDiosa;
+
+        if (precioAlabardaText != null)
+        {
+            precioAlabardaText.text = precioBaseRevolver.ToString();
+        }
+    }
+
+    private void ActualizarPrecioMartillo()
+    {
+        precioBaseMartilloGigante = precioBaseMartilloGigante * interesDiosa;
+
+        if (precioMartilloText != null)
+        {
+            precioMartilloText.text = precioBaseRevolver.ToString();
+        }
+    }
+
+    private void ActualizarPrecioSniper()
+    {
+        precioBaseSniper = precioBaseSniper * interesDiosa;
+
+        if (precioSniperText != null)
+        {
+            precioSniperText.text = precioBaseRevolver.ToString();
+        }
+    }
+
+    private void ActualizarPrecioShotgun()
+    {
+        precioBaseShotgun = precioBaseShotgun * interesDiosa;
+
+        if (precioShotgunText != null)
+        {
+            precioShotgunText.text = precioBaseRevolver.ToString();
+        }
+    }
+
 }
