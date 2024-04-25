@@ -5433,9 +5433,20 @@ MonoBehaviour:
   Tienda_Diosa_15: {fileID: 459896631512152091}
   Tienda_Diosa_20: {fileID: 1378157400}
   esporasInsuficientes: {fileID: 2039424373}
-  precioBaseRevolver: 250
-  PrecioRevolver: {fileID: 1721445211}
+  precioRevolverText: {fileID: 0}
+  precioPistolaText: {fileID: 0}
+  precioHachaText: {fileID: 0}
+  precioAlabardaText: {fileID: 0}
+  precioMartilloText: {fileID: 0}
+  precioSniperText: {fileID: 0}
+  precioShotgunText: {fileID: 0}
   "menuNegoc\xEDaci\xF3nRevolver": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nPistola": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nHacha": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nAlabarda": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nMartillo": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nSniper": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nShotgun": {fileID: 0}
 --- !u!114 &871825991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6461,7 +6472,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 539657877088089262, guid: 4fff6e74df1b20e488b29b889505bea7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.32
+      value: -12.27
       objectReference: {fileID: 0}
     - target: {fileID: 539657877088089262, guid: 4fff6e74df1b20e488b29b889505bea7, type: 3}
       propertyPath: m_LocalPosition.y

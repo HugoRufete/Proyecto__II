@@ -8,6 +8,7 @@ public class Escudito : MonoBehaviour
     public Transform Player;
     public float velocidadMovimiento = 5.0f;
     Animator myanimator;
+    bool mirarDerecha = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,14 +34,26 @@ public class Escudito : MonoBehaviour
             myanimator.SetBool("IsWalking", false);
         }
 
-       if (transform.position.x > Player.position.x)
-       {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-       }
-
-       else
+        if (transform.position.x > Player.position.x && mirarDerecha)
         {
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            // Voltear al enemigo
+            Voltear();
         }
+        else if (transform.position.x < Player.position.x && !mirarDerecha)
+        {
+            // Voltear al enemigo
+            Voltear();
+        }
+    }
+
+    void Voltear()
+    {
+        // Invertir la escala en el eje X para voltear al enemigo
+        Vector3 nuevaEscala = transform.localScale;
+        nuevaEscala.x *= -1;
+        transform.localScale = nuevaEscala;
+
+        // Cambiar la dirección del enemigo
+        mirarDerecha = !mirarDerecha;
     }
 }
