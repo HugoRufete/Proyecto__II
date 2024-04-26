@@ -17,7 +17,7 @@ public class MeleeWeapon : MonoBehaviour
     public float attackRange;
 
     [Header("Daño")]
-    public int damage;
+    private int damage = 5;
 
     void Start()
     {

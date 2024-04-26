@@ -9,7 +9,7 @@ public class Machete : MonoBehaviour
     private float timeBtwAttack;
 
     [Header("Velodidad de ataque")]
-    public float attackCooldown; // Tiempo de espera entre ataques
+    public float attackCooldown; 
     public Transform attackPos;
     public LayerMask whatIsEnemies;
 
@@ -17,7 +17,8 @@ public class Machete : MonoBehaviour
     public float attackRange;
 
     [Header("Daño")]
-    public int damage;
+    public float damage;
+    private float damageBuffed = 1;
 
     void Start()
     {
@@ -39,7 +40,7 @@ public class Machete : MonoBehaviour
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(updatedAttackPos, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
-                    enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
+                    enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage * damageBuffed);
                     Debug.Log("Enemigo Atacado");
                 }
 
@@ -49,21 +50,17 @@ public class Machete : MonoBehaviour
         }
         else
         {
-            // Disminuir el tiempo de espera
             timeBtwAttack -= Time.deltaTime;
         }
 
         float angulo = transform.rotation.eulerAngles.z;
 
-        // Verifica si el objeto ha rotado menos de -90 grados
         if (angulo < anguloMinimo)
         {
-            // Invierte la escala en el eje X
             transform.localScale = new Vector3(escalaOriginalX * -1f, transform.localScale.y, transform.localScale.z);
         }
         else
         {
-            // Restaura la escala original
             transform.localScale = new Vector3(escalaOriginalX, transform.localScale.y, transform.localScale.z);
         }
     }
@@ -75,5 +72,10 @@ public class Machete : MonoBehaviour
         Vector3 updatedAttackPos = attackPos.position;
 
         Gizmos.DrawWireSphere(updatedAttackPos, attackRange);
+    }
+
+    public void AumentarDañoMachete()
+    {
+        damageBuffed = damageBuffed * 2f;
     }
 }

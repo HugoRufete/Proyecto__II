@@ -40,7 +40,7 @@ public class EnemyHealth : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void EnemyTakeDamage(int damageAmount)
+    public void EnemyTakeDamage(float damageAmount)
     {
         if (additionalDamageActivated)
         {
@@ -55,7 +55,6 @@ public class EnemyHealth : MonoBehaviour
             enemyDead = true;
             if (experienciaSoltada)
             {
-                // Llamar al evento cuando el enemigo muere y pasar la cantidad de balas a recargar
                 if (enemyDeadEvent != null)
                     enemyDeadEvent.Invoke(5);
                 DropExperienceItems(transform.position);
@@ -104,9 +103,9 @@ public class EnemyHealth : MonoBehaviour
 
     public void ActivateAdditionalDamage()
     {
-        //imagenDañoAumentado.SetActive(true);
         additionalDamageActivated = true;
         additionalDamageMultiplier = 1.1f; // Aumenta el daño recibido en un 10%
+        Debug.Log("Daño Aumentado");
     }
 
     public void HealEnemy(float healAmountPerSecond)

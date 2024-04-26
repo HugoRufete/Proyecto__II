@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2853044802247410463}
   - component: {fileID: 6131146872698941157}
+  - component: {fileID: 2519399467750953565}
   m_Layer: 0
   m_Name: MacheteParent
   m_TagString: Untagged
@@ -43,6 +44,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afbd94353baf0144883618438af25a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2519399467750953565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192770464246448546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3c5fbca3d0ab14c8e7d7e7d7648692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5843618206813568000
@@ -87,7 +100,6 @@ GameObject:
   - component: {fileID: 8854693756380194943}
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
-  - component: {fileID: 5957540742963939129}
   - component: {fileID: 3376461356340644995}
   m_Layer: 0
   m_Name: Machete
@@ -209,25 +221,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3181818, y: 0.8181818}
   m_EdgeRadius: 0
---- !u!114 &5957540742963939129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9145783561523735817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1788ac2dfcf4d364b8f29efed8d8c97e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackCooldown: 0.2
-  attackPos: {fileID: 6723927081196900300}
-  whatIsEnemies:
-    serializedVersion: 2
-    m_Bits: 64
-  attackRange: 1
-  damage: 5
 --- !u!114 &3376461356340644995
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Escudito : MonoBehaviour
     public Transform Player; //Ubicación del jugador
     public float velocidadMovimiento = 5.0f; //Velocidad movimeinto enemigo
     public float distanciaDeseada = 1.0f; //Distancia minima que habrá entre el jugador y el enemigo para evitar problemas
-    public float AttackCooldown = 2.0f; //Cooldown de ataque
+    public float AttackCooldown = 1.0f; //Cooldown de ataque
     float lastTimeAttack = 0f; //Ultima vez que ha disparado
     Animator myanimator;//Referencia a nuestro animator
     bool mirarDerecha = true; //Booleana para controlar a que lado mira el jugador  
