@@ -4,61 +4,67 @@ using UnityEngine;
 
 public class Escudito : MonoBehaviour
 {
-
-    public Transform Player;
-    public float velocidadMovimiento = 5.0f;
-    public float distanciaDeseada = 1.0f;
-    public float AttackCooldown = 2.0f;
-    float lastTimeAttack = 0f;
-    Animator myanimator;
-    bool mirarDerecha = true;
+    public Collider2D attackCollider; //Collider de ataque
+    public Transform Player; //Ubicación del jugador
+    public float velocidadMovimiento = 5.0f; //Velocidad movimeinto enemigo
+    public float distanciaDeseada = 1.0f; //Distancia minima que habrá entre el jugador y el enemigo para evitar problemas
+    public float AttackCooldown = 2.0f; //Cooldown de ataque
+    float lastTimeAttack = 0f; //Ultima vez que ha disparado
+    Animator myanimator;//Referencia a nuestro animator
+    bool mirarDerecha = true; //Booleana para controlar a que lado mira el jugador  
     
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("Player").transform;
         myanimator = GetComponent<Animator>();
+        attackCollider.enabled = false; //Al empezar el collider del enemigo siempre estará desactivado
+                                        //
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = Player.position - transform.position;
+        Vector3 direction = Player.position - transform.position; //La diferencia de posición entre el jugador y el enemigo
 
-        if (direction.magnitude > distanciaDeseada)
+        if (direction.magnitude > distanciaDeseada) //Si la longutud entre el enemigo y el jugador es mayor que la distancia deseada:
         {
-            direction.Normalize();
+            direction.Normalize(); //Normalizamos el vector
 
-            Vector3 desplazamiento = direction * (direction.magnitude - distanciaDeseada);
+            Vector3 desplazamiento = direction * (direction.magnitude - distanciaDeseada); //Creamos un nuevo vector para calcular la posición entre jugador y enemigo
+            // multiplicando por la diferencia entre la posición menos la distanciaDeseada (distancia mínima entre ellos)
 
-            transform.Translate(direction * velocidadMovimiento * Time.deltaTime);
+            transform.Translate(direction * velocidadMovimiento * Time.deltaTime); //Trasladar al enemigo a la dirección a la posición del jugador multiplicando por su velocidad 
+            //Time.DeltaTime(para que vaya igual en todos los ordenadores
 
-            myanimator.SetBool("IsWalking", true);
+            myanimator.SetBool("IsWalking", true); //Si la condición de arriba es verdadera activamos la animaciónd de andar
+            attackCollider.enabled = false;
         }
 
         else
         {
-            myanimator.SetBool("IsWalking", false);
+            myanimator.SetBool("IsWalking", false); //Si no lo es la desactivamos
         }
 
-        if (transform.position.x > Player.position.x && mirarDerecha)
+        if (transform.position.x > Player.position.x && mirarDerecha) //Si la posiciíon del enemigo es mayor en el eje x que la del jugador y 
+            //la booleana es verdadera llamamos al método voltear(flipear al jugador)
         {
             // Voltear al enemigo
             Voltear();
         }
-        else if (transform.position.x < Player.position.x && !mirarDerecha)
+        else if (transform.position.x < Player.position.x && !mirarDerecha) //Si la posiciíon del enemigo es menor en el eje x que la del jugador y 
+            //la booleana es falsa llamamos al método voltear(flipear al jugador)
         {
             // Voltear al enemigo
             Voltear();
         }
 
-        if (Time.time >= lastTimeAttack + AttackCooldown)
+        if (Time.time >= lastTimeAttack + AttackCooldown) //Si ya ha pasado el cooldwon llamamos al metodo attack
         {
             
             Attack();
         }
-            
-            
+
     }
 
     void Voltear()
@@ -74,9 +80,21 @@ public class Escudito : MonoBehaviour
 
     void Attack()
     {
-        myanimator.SetBool("IsAttacking", true);
+        myanimator.SetBool("IsAttacking", true); //Activamos la animación de atacar
 
       
-        lastTimeAttack = Time.time;
+        lastTimeAttack = Time.time; // Confirmamos que hemos atacado para poder empezar el cooldown
     }
+
+    public void EnableCollider()
+    {
+        attackCollider.enabled = true; //Activamos el collider a principios del ataque llamando a este método mediante un evento en la animación
+        
+    }
+
+    public void DisableCollider()
+    {
+        attackCollider.enabled = false; //Desactivamos el collider al final del ataque para que no haga daño al enemigo constantemente y solo lo haga una vez por ataque
+    }
+
 }
