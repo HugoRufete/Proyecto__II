@@ -69,10 +69,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     private float precioBaseRevolver = 250 ;
     private float precioBasePistola = 250 ;
     private float precioBaseHacha = 250 ;
-    private float precioBaseAlabarda = 250 ;
-    private float precioBaseMartilloGigante = 250 ;
-    private float precioBaseSniper = 250 ;
-    private float precioBaseShotgun = 250 ;
+    private float precioBaseAlabarda = 77 ;
+    private float precioBaseMartilloGigante = 133 ;
+    private float precioBaseSniper = 102 ;
+    private float precioBaseShotgun = 90 ;
 
     public static float interesDiosa;
 
