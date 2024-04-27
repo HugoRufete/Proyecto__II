@@ -209,8 +209,8 @@ MonoBehaviour:
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
   cantidadEsporasDropeadas: 5
   maxDistanceFromEnemy: 0.5
-  "animaci\xF3nCuraci\xF3n": 
-  enemyDeadAnimationName: NombrePorDefecto
+  "animaci\xF3nCuraci\xF3n": "Escudito_Curaci\xF3n"
+  enemyDeadAnimationName: Escudito_Death
 --- !u!61 &-5698912342543824347
 BoxCollider2D:
   m_ObjectHideFlags: 0

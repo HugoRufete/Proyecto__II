@@ -19,12 +19,25 @@ public class PlayerEsporas : MonoBehaviour
 
     public void RecogerEsporas()
     {
-        esporas = esporas + 50;
+        esporas += 50;
     }
 
     public int GetEsporas()
     {
-        return esporas;
+        return esporas; 
+    }
+
+    public void RestarEsporas(int cantidad)
+    {
+        if (cantidad > 0 && cantidad <= esporas)
+        {
+            esporas -= cantidad;
+            ActualizarTextoEsporas();
+        }
+        else
+        {
+            Debug.LogWarning("No tienes suficientes esporas para restar esta cantidad.");
+        }
     }
 
     private void ActualizarTextoEsporas()

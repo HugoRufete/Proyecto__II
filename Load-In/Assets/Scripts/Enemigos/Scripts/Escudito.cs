@@ -15,15 +15,16 @@ public class Escudito : MonoBehaviour
     bool mirarDerecha = true; //Booleana para controlar a que lado mira el jugador  
     private EnemyHealth enemHealth;
     bool protegiendo = false;
-    
+    private bool isAnimating;
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("Player").transform;
         myanimator = GetComponent<Animator>();
+        isAnimating = false;
         attackCollider.enabled = false; //Al empezar el collider del enemigo siempre estará desactivado
         enemHealth = GetComponent<EnemyHealth>();
-        standarCollider.enabled = true;
+
     }
 
     // Update is called once per frame
@@ -72,7 +73,8 @@ public class Escudito : MonoBehaviour
         if (enemHealth != null && enemHealth.health < 20 && !protegiendo)
         {
             Debug.Log("Empieza la corrutina");
-            StartCoroutine(Proteger4segundos());
+            enemHealth.ActivateInvulnerability(5f);
+            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
         }
 
         
@@ -92,10 +94,10 @@ public class Escudito : MonoBehaviour
 
     void Attack()
     {
-        myanimator.SetBool("IsAttacking", true); //Activamos la animación de atacar
+        myanimator.SetBool("IsAttacking", true); 
 
       
-        lastTimeAttack = Time.time; // Confirmamos que hemos atacado para poder empezar el cooldown
+        lastTimeAttack = Time.time; 
     }
 
     public void EnableCollider()
@@ -106,26 +108,17 @@ public class Escudito : MonoBehaviour
 
     public void DisableCollider()
     {
-        attackCollider.enabled = false; //Desactivamos el collider al final del ataque para que no haga daño al enemigo constantemente y solo lo haga una vez por ataque
+        attackCollider.enabled = false; 
     }
-    IEnumerator Proteger4segundos()
+
+    IEnumerator PlayAnimationForDuration(string animationName, float duration)
     {
-        protegiendo = true;
+        isAnimating = true;
+        myanimator.Play(animationName);
 
-        if (enemHealth != null && enemHealth.health < 20)
-        {
-            Debug.Log("Animación protegerse");
-            Debug.Log("MustProtect activado: " + myanimator.GetBool("MustProtect"));
-            myanimator.SetBool("MustProtect", true);
-            standarCollider.enabled = false;
+        yield return new WaitForSeconds(duration); 
 
-        }
-
-        yield return new WaitForSeconds(4);
-        myanimator.SetBool("MustProtect", false);
-        protegiendo = false;
-        standarCollider.enabled = true;
-        Debug.Log("Se activa collider de nuevo");
+        myanimator.StopPlayback();
+        isAnimating = false;
     }
-
 }

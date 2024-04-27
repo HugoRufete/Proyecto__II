@@ -107,6 +107,7 @@
     <Compile Include="Assets\PlayerEsporas.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Tirachinas.cs" />
     <Compile Include="Assets\Scripts\UI\RadialMenuManager.cs" />
+    <Compile Include="Assets\TypewriterEffect.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\flamethrower.cs" />
     <Compile Include="Assets\Scripts\Puntuación\PickUpp.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Gordito.cs" />

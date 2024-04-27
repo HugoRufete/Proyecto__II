@@ -7,13 +7,14 @@ public class SliderScript : MonoBehaviour
 {
     public Slider slider;
 
-    // Método para configurar el valor máximo y actual del slider
-    public void SetMaxEsporas(int esporas)
+    // Método para configurar el valor máximo, mínimo y actual del slider
+    public void SetMinMaxEsporas(int minEsporas, int maxEsporas)
     {
         if (slider != null)
         {
-            slider.maxValue = esporas;
-            slider.value = esporas;
+            slider.minValue = minEsporas;
+            slider.maxValue = maxEsporas;
+            slider.value = maxEsporas; // Establecer el valor inicial como el máximo
         }
         else
         {
@@ -21,7 +22,6 @@ public class SliderScript : MonoBehaviour
         }
     }
 
-    // Método para actualizar el valor actual del slider
     public void SetEsporas(int esporas)
     {
         if (slider != null)
@@ -31,6 +31,20 @@ public class SliderScript : MonoBehaviour
         else
         {
             Debug.LogError("El Slider no está asignado en SliderScript.");
+        }
+    }
+
+    // Método para obtener el valor mínimo del slider
+    public float GetMinValue()
+    {
+        if (slider != null)
+        {
+            return slider.minValue;
+        }
+        else
+        {
+            Debug.LogError("El Slider no está asignado en SliderScript.");
+            return 0f;
         }
     }
 }

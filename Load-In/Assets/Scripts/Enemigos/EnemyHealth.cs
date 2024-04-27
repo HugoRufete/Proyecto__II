@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -5,12 +6,12 @@ public class EnemyHealth : MonoBehaviour
     public float health;
     public float maxHealth = 20;
     private bool additionalDamageActivated = false;
-    private float additionalDamageMultiplier = 5.0f; 
+    private float additionalDamageMultiplier = 5.0f;
     public GameObject experiencePrefab;
 
     [Header("Esporas")]
-    public int cantidadEsporasDropeadas = 5; // Cantidad de items de esporas que suelta
-    public float maxDistanceFromEnemy = 0.5f; // Distancia máxima del enemigo para soltar el item de espora
+    public int cantidadEsporasDropeadas = 5;
+    public float maxDistanceFromEnemy = 0.5f;
 
     private Vector2 initialPosition;
     private bool isPushed = false;
@@ -19,15 +20,13 @@ public class EnemyHealth : MonoBehaviour
     public string animaciónCuración;
 
     private Rigidbody2D rb;
-
     private Animator animator;
-    public string enemyDeadAnimationName = "NombrePorDefecto"; 
-
-    bool enemyDead = false;
+    public string enemyDeadAnimationName = "NombrePorDefecto";
 
     bool experienciaSoltada;
 
-    //public GameObject imagenDañoAumentado;
+    // Coroutine handle
+    private Coroutine invulnerabilityCoroutine;
 
     // Declaración del evento estático
     public static event System.Action<int> enemyDeadEvent;
@@ -42,26 +41,19 @@ public class EnemyHealth : MonoBehaviour
 
     public void EnemyTakeDamage(float damageAmount)
     {
-        if (additionalDamageActivated)
+        if (!additionalDamageActivated)
         {
-            damageAmount = Mathf.RoundToInt(damageAmount * additionalDamageMultiplier);
+            health -= damageAmount;
         }
-
-        health -= damageAmount;
 
         if (health <= 0)
         {
             experienciaSoltada = true;
-            enemyDead = true;
-            if (experienciaSoltada)
-            {
-                if (enemyDeadEvent != null)
-                    enemyDeadEvent.Invoke(5);
-                DropExperienceItems(transform.position);
-                experienciaSoltada = false;
-                PlayAnimationIfHealthBelowZero();
-                Destroy(gameObject);
-            }
+            if (enemyDeadEvent != null)
+                enemyDeadEvent.Invoke(5);
+            DropExperienceItems(transform.position);
+            PlayAnimationIfHealthBelowZero();
+            Destroy(gameObject);
         }
     }
 
@@ -90,7 +82,6 @@ public class EnemyHealth : MonoBehaviour
         }
         else
         {
-
             float distance = Vector2.Distance(initialPosition, transform.position);
 
             if (distance >= maxDistance)
@@ -113,8 +104,8 @@ public class EnemyHealth : MonoBehaviour
         animator.Play(animaciónCuración);
         health += healAmountPerSecond * Time.deltaTime;
         health = Mathf.Min(health, maxHealth);
-
     }
+
     public void PlayAnimationIfHealthBelowZero()
     {
         if (health <= 0)
@@ -128,5 +119,23 @@ public class EnemyHealth : MonoBehaviour
                 Debug.LogError("Animator reference not set!");
             }
         }
+    }
+
+    // Método para activar la invulnerabilidad temporal
+    public void ActivateInvulnerability(float duration)
+    {
+        if (invulnerabilityCoroutine != null)
+        {
+            StopCoroutine(invulnerabilityCoroutine);
+        }
+        invulnerabilityCoroutine = StartCoroutine(InvulnerabilityCoroutine(duration));
+    }
+
+    // Corutina para la invulnerabilidad temporal
+    private IEnumerator InvulnerabilityCoroutine(float duration)
+    {
+        additionalDamageActivated = true;
+        yield return new WaitForSeconds(duration);
+        additionalDamageActivated = false;
     }
 }
