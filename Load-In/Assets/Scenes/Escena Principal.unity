@@ -276,6 +276,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1080479876}
     m_Modifications:
+    - target: {fileID: 798162852415643406, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 492648916, guid: eb3e14a4525138c4ba2fc20cb8c3d40c, type: 3}
+    - target: {fileID: 1011401961541971498, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1186277210, guid: eb3e14a4525138c4ba2fc20cb8c3d40c, type: 3}
+    - target: {fileID: 1672257733979029397, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_Name
+      value: Precio Alabarda
+      objectReference: {fileID: 0}
+    - target: {fileID: 2374984216574443238, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466868790337892607, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649401122859841572, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649401122859841572, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649401122859841572, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729185191350555244, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -181.96075
+      objectReference: {fileID: 0}
     - target: {fileID: 2875177982944423660, guid: 19fb17955c184454298f1350444e2f54, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -356,25 +392,116 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2917722302589038666, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_text
+      value: 'Nueva Arma : Sniper'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140767903437763327, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4984957533377462835, guid: 19fb17955c184454298f1350444e2f54, type: 3}
       propertyPath: m_Name
       value: Tienda_Diosa_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5614540459968281634, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10.0000515
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001454727882954294, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_text
+      value: 'Precio Alabarda : '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6783415582231114407, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6902804086622847287, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 740572226, guid: 77c39f65641817141aba96e5291b6f2a, type: 3}
     - target: {fileID: 7223262350441132730, guid: 19fb17955c184454298f1350444e2f54, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 871825990}
+    - target: {fileID: 7223262350441132730, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DesbloquearSniper
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 871825990}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1783177829}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DesbloquearAlabarda
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465480680179685202, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814622460612569525, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814622460612569525, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028400879890529079, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 684867200}
     - target: {fileID: 8046960930100514678, guid: 19fb17955c184454298f1350444e2f54, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 871825990}
+    - target: {fileID: 8046960930100514678, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "ActivarNegocaci\xF3nAlabardar"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8084648410501493344, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_text
+      value: 'Nueva Arma : Alabarda'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277495704094239586, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8551229011409227175, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 193
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 627689642093438726, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1041811796}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19fb17955c184454298f1350444e2f54, type: 3}
 --- !u!1 &108104644
@@ -1479,6 +1606,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &361787896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2466868790337892607, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &361787897 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 627689642093438726, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &362200432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,6 +3984,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678551911}
   m_CullTransparentMesh: 1
+--- !u!114 &684867199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8028400879890529079, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738187e0f22a98f448536a71a7cbdb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &684867200 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4376699800637341009, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &698208413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7080941088430836675, guid: a49e7476e7ea9a64495ac61abb1f2306, type: 3}
@@ -4745,20 +4904,29 @@ MonoBehaviour:
   Tienda_Diosa_15: {fileID: 459896631512152091}
   Tienda_Diosa_20: {fileID: 1378157400}
   esporasInsuficientes: {fileID: 2039424373}
+  interfazInicialRevolver: {fileID: 0}
+  interfazInicialPistola: {fileID: 0}
+  interfazInicialAlabarda: {fileID: 1447896132}
+  interfazInicialHacha: {fileID: 0}
+  interfazInicialMartillo: {fileID: 0}
+  interfazInicialSniper: {fileID: 0}
+  interfazInicialShotgun: {fileID: 0}
   precioRevolverText: {fileID: 0}
   precioPistolaText: {fileID: 0}
   precioHachaText: {fileID: 0}
-  precioAlabardaText: {fileID: 0}
+  precioAlabardaText: {fileID: 1890843872}
   precioMartilloText: {fileID: 0}
   precioSniperText: {fileID: 0}
   precioShotgunText: {fileID: 0}
-  "menuNegoc\xEDaci\xF3nRevolver": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nRevolver": {fileID: 361787896}
   "menuNegoc\xEDaci\xF3nPistola": {fileID: 0}
   "menuNegoc\xEDaci\xF3nHacha": {fileID: 0}
-  "menuNegoc\xEDaci\xF3nAlabarda": {fileID: 0}
+  "menuNegoc\xEDaci\xF3nAlabarda": {fileID: 361787896}
   "menuNegoc\xEDaci\xF3nMartillo": {fileID: 0}
   "menuNegoc\xEDaci\xF3nSniper": {fileID: 0}
   "menuNegoc\xEDaci\xF3nShotgun": {fileID: 0}
+  PrecioNegociado: {fileID: 1590590790}
+  sliderScript: {fileID: 684867199}
 --- !u!114 &871825991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4956,6 +5124,41 @@ Transform:
   - {fileID: 660539931}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1041811795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041811796}
+  m_Layer: 5
+  m_Name: ...
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1041811796
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041811795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 361787897}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1062672407 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3345373215122397870, guid: d4ca22b955e3e134bbf616dabac062b2, type: 3}
@@ -6213,6 +6416,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428167749}
   m_CullTransparentMesh: 1
+--- !u!1 &1447896132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2374984216574443238, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1464664019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1522455823186987516, guid: b2080ce25ba73134ebd19a346b92e143, type: 3}
@@ -6613,6 +6821,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556223352}
   m_CullTransparentMesh: 1
+--- !u!114 &1590590790 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4698774616955428455, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1606601262
 GameObject:
   m_ObjectHideFlags: 0
@@ -7760,6 +7979,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1890843872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6001454727882954294, guid: 19fb17955c184454298f1350444e2f54, type: 3}
+  m_PrefabInstance: {fileID: 99560963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1930419538
 GameObject:
   m_ObjectHideFlags: 0

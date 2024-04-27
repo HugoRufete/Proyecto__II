@@ -76,6 +76,17 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public static float interesDiosa;
 
+    [Header("Interfaces Iniciales")]
+
+    public GameObject interfazInicialRevolver;
+    public GameObject interfazInicialPistola;
+    public GameObject interfazInicialAlabarda;
+    public GameObject interfazInicialHacha;
+    public GameObject interfazInicialMartillo;
+    public GameObject interfazInicialSniper;
+    public GameObject interfazInicialShotgun;
+
+
     [Header("Precios Armas & Interfaz Negociaciones")]
     public TMP_Text precioRevolverText;
     public TMP_Text precioPistolaText;
@@ -92,6 +103,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public GameObject menuNegocíaciónSniper;
     public GameObject menuNegocíaciónShotgun;
 
+    public TMP_Text PrecioNegociado;
+    public SliderScript sliderScript;
+
+    
 
     private void Start()
     {
@@ -99,7 +114,11 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     void Update()
     {
-    
+        if (sliderScript != null)
+        {
+            int valorSlider = (int)sliderScript.slider.value;
+            PrecioNegociado.text = "Pagando: " + valorSlider + " esporas";
+        }
 
         // Verifica si se presiona la tecla E
         if (Input.GetKeyDown(KeyCode.E))
@@ -174,10 +193,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
 
     }
-
-   
-
-    public void ComprarRevolver()
+    public void ComprarAlabarda()
     {
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
@@ -185,11 +201,11 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         {
             int cantidadEsporas = playerEsporas.GetEsporas();
 
-            if (cantidadEsporas >= precioBaseRevolver)
+            if (cantidadEsporas >= precioBaseAlabarda)
             {
-                DesbloquearRevolver();
+                DesbloquearAlabarda();
                 interesDiosa = 1;
-                Tienda_Diosa_5.SetActive(false);
+                Tienda_Diosa_10.SetActive(false);
             }
             else
             {
@@ -197,27 +213,33 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
             }
         }
-        ActualizarPrecioRevolver();
+        ActualizarPrecioAlabarda();
     }
 
-    public void NegociarRevolver()
+    public void NegociarAlabardar()
     {
-        //menuNegocíaciónRevolver.SetActive(true);
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
         if (playerEsporas != null)
         {
             int cantidadEsporas = playerEsporas.GetEsporas();
 
-            if (cantidadEsporas < precioBaseRevolver)
+            if (cantidadEsporas < precioBaseAlabarda)
             {
-                DesbloquearRevolver();
+                DesbloquearAlabarda();
                 interesDiosa = 2f;
                 Tienda_Diosa_5.SetActive(false);
             }
             
         }
-        ActualizarPrecioRevolver();
+        ActualizarPrecioAlabarda();
+    }
+
+    public void ActivarNegocaciónAlabardar()
+    {
+        menuNegocíaciónAlabarda.SetActive(true);
+        interfazInicialAlabarda.SetActive(false);
+
     }
 
     public void ComprarPistola()
@@ -263,72 +285,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         ActualizarPrecioPistola();
     }
 
-    public void ComprarHacha()
-    {
-        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-
-        if (playerEsporas != null)
-        {
-            int cantidadEsporas = playerEsporas.GetEsporas();
-
-            if (cantidadEsporas >= precioBaseHacha)
-            {
-                DesbloquearHacha();
-                interesDiosa = 1;
-                Tienda_Diosa_10.SetActive(false);
-            }
-            else
-            {
-                esporasInsuficientes.SetActive(true);
-                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
-            }
-        }
-        ActualizarPrecioHacha();
-    }
-
-    public void NegociarHacha()
-    {
-        //menuNegocíaciónRevolver.SetActive(true);
-        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-
-        if (playerEsporas != null)
-        {
-            int cantidadEsporas = playerEsporas.GetEsporas();
-
-            if (cantidadEsporas < precioBaseHacha)
-            {
-                DesbloquearHacha();
-                interesDiosa = 2f;
-                Tienda_Diosa_10.SetActive(false);
-            }
-
-        }
-        ActualizarPrecioHacha();
-    }
-
-    public void ComprarAlabarda()
-    {
-        PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-
-        if (playerEsporas != null)
-        {
-            int cantidadEsporas = playerEsporas.GetEsporas();
-
-            if (cantidadEsporas >= precioBaseAlabarda)
-            {
-                DesbloquearAlabarda();
-                interesDiosa = 1;
-                Tienda_Diosa_10.SetActive(false);
-            }
-            else
-            {
-                esporasInsuficientes.SetActive(true);
-                StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
-            }
-        }
-        ActualizarPrecioAlabarda();
-    }
-
+    
+    
     public void NegociarAlabarda()
     {
         //menuNegocíaciónRevolver.SetActive(true);
@@ -481,21 +439,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
 
 
-    public void DesbloquearRevolver()
-    {
-        revolverDesbloqueado = true;
-        Time.timeScale = 1.0f;
-    }
-
+  
     public void DesbloquearPistola()
     {
         pistolaDesbloqueada = true;
-        Time.timeScale = 1.0f;
-    }
-
-    public void DesbloquearHacha()
-    {
-        hachaDesbloqueada = true;
         Time.timeScale = 1.0f;
     }
 
@@ -574,13 +521,13 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
 
     
-    private void ActualizarPrecioRevolver()
+    private void ActualizarPrecioAlabarda()
     {
-        precioBaseRevolver = precioBaseRevolver * interesDiosa;
+        precioBaseAlabarda = precioBaseAlabarda * interesDiosa;
         
-        if (precioRevolverText != null)
+        if (precioAlabardaText != null)
         {
-            precioRevolverText.text = precioBaseRevolver.ToString();
+            precioAlabardaText.text = precioBaseRevolver.ToString();
         }
     }
     
@@ -593,25 +540,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             precioPistolaText.text = precioBaseRevolver.ToString();
         }
     }
-    
-    private void ActualizarPrecioHacha()
-    {
-        precioBaseHacha = precioBaseHacha * interesDiosa;
 
-        if (precioHachaText != null)
-        {
-            precioHachaText.text = precioBaseRevolver.ToString();
-        }
-    }
-    private void ActualizarPrecioAlabarda()
-    {
-        precioBaseAlabarda = precioBaseAlabarda * interesDiosa;
-
-        if (precioAlabardaText != null)
-        {
-            precioAlabardaText.text = precioBaseRevolver.ToString();
-        }
-    }
 
     private void ActualizarPrecioMartillo()
     {
