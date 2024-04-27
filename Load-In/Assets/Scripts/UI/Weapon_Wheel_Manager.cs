@@ -435,31 +435,36 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         ActualizarPrecioSniper();
     }
 
-
+    public void DesbloquearRevolver()
+    {
+        revolverDesbloqueado = true;
+        Time.timeScale = 1.0f;
+    }
     public void DesbloquearPistola()
     {
         pistolaDesbloqueada = true;
         Time.timeScale = 1.0f;
     }
-
+    public void DesbloquearHacha()
+    {
+        hachaDesbloqueada = true;
+        Time.timeScale = 1.0f;
+    }
     public void DesbloquearAlabarda()
     {
         alabardaDesbloqueda = true;
         Time.timeScale = 1.0f;
     }
-
     public void DesbloquearMartilloGigante()
     {
         martilloGiganteDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
-
     public void DesbloquearSniper()
     {
         sniperDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
-
     public void DesbloquearShotgun()
     {
         shotgunDesbloqueada = true;
@@ -467,37 +472,36 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
 
 
-
+    public void BloquearRevolver()
+    {
+        revolverDesbloqueado = false;
+        Time.timeScale = 1.0f;
+    }
     public void BloquearPistola()
     {
         pistolaDesbloqueada = false;
         Time.timeScale = 1.0f;
     }
-
     public void BloqueaHacha()
     {
         hachaDesbloqueada = false;
         Time.timeScale = 1.0f;
     }
-
     public void BloqueaAlabarda()
     {
         alabardaDesbloqueda = false;
         Time.timeScale = 1.0f;
     }
-
     public void BloqueaMartilloGigante()
     {
         martilloGiganteDesbloqueado = false;
         Time.timeScale = 1.0f;
     }
-
     public void BloqueaSniper()
     {
         sniperDesbloqueado = false;
         Time.timeScale = 1.0f;
     }
-
     public void BloqueaShotgun()
     {
         shotgunDesbloqueada = false;

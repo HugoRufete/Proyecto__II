@@ -7,6 +7,7 @@ public class Canvas_Manager : MonoBehaviour
     public Animator _animator;
 
     public GameObject inventory;
+    public GameObject weaponContent;
     private bool openedinventory = false;
 
     private void Start()
@@ -18,14 +19,13 @@ public class Canvas_Manager : MonoBehaviour
         //Input I
         if (Input.GetKeyDown(KeyCode.I))
         {
-            //Llama a el script inventoryManager
             InventoryManager inventoryManager = FindObjectOfType<InventoryManager>();
-            //Si el inventario esta cerrado lo abre 
             if (openedinventory == false)
             {
                 Time.timeScale = 0f;
                 openedinventory = true;
                 inventory.SetActive(true);
+                weaponContent.SetActive(false);
                 inventoryManager.ListItems();
             }
             //Si esta abierto lo cierra

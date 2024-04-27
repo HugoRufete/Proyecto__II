@@ -6,6 +6,12 @@ public class WeaponParent : MonoBehaviour
 {
     private bool yScaleModified = false;
 
+    WeaponParent weaponParent;
+
+    private void Start()
+    {
+        weaponParent.enabled = false;
+    }
     void Update()
     {
         // Obtiene la posición del ratón en el mundo

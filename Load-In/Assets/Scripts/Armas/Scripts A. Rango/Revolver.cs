@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.VirtualTexturing;
 using UnityEngine.UI;
 
 public class Revolver : MonoBehaviour
@@ -19,6 +20,10 @@ public class Revolver : MonoBehaviour
 
     public static event System.Action revolverDisparado;
 
+    private WeaponParent weaponParent;
+
+    private Revolver revolver;
+    
     public int ObtenerMunicionActual()
     {
         return balasRestantes;
@@ -32,15 +37,19 @@ public class Revolver : MonoBehaviour
 
     void Start()
     {
-        // Cargar el estado de munición almacenado
         balasRestantes = PlayerPrefs.GetInt("BalasRevolver", maxBalas);
-        // Suscribirse al evento de muerte del enemigo
         EnemyHealth.enemyDeadEvent += RecargarBalas;
+        weaponParent = GetComponent<WeaponParent>();
+        revolver = GetComponent<Revolver>();
+        
+        if(weaponParent != null)
+        {
+            revolver.enabled = true;
+        }
     }
 
     void OnDestroy()
     {
-        // Darse de baja del evento al destruir el objeto
         EnemyHealth.enemyDeadEvent -= RecargarBalas;
     }
 

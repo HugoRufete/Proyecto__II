@@ -22,16 +22,22 @@ public class EquiparPrueba : MonoBehaviour
     public Transform puntoDeEquipamiento;
 
     public GameObject wheelMenu;
-    public GameObject centroMenu; // Objeto para mostrar el arma seleccionada en el centro del menú
-    public Image imagenArmaCentro; // Imagen del arma seleccionada en el centro del menú
+    public GameObject centroMenu;
+    public Image imagenArmaCentro; 
 
     private GameObject armaActualmenteEquipada;
     private SpriteRenderer spriteRendererActualmenteSeleccionado;
 
     public Image imagenArmaSeleccionada;
 
-    public TMP_Text textoMunicionActual; // Texto para mostrar la munición actual del arma
-    public TMP_Text textoMunicionMaxima; // Texto para mostrar la munición máxima del arma
+    public TMP_Text textoMunicionActual; 
+    public TMP_Text textoMunicionMaxima;
+
+    private Revolver revolverScript;
+    public GameObject revolverParent;
+
+    private Hacha hachaScript;
+    private LookAtMouse hachaParent;
 
     private void Start()
     {
@@ -39,6 +45,11 @@ public class EquiparPrueba : MonoBehaviour
         textoMunicionActual.gameObject.SetActive(false);
         textoMunicionMaxima.gameObject.SetActive(false);
 
+
+        hachaScript = GetComponent<Hacha>();
+        hachaParent = GetComponent<LookAtMouse>();
+
+        revolverScript = GetComponent<Revolver>();
 
         Shotgun.shotgunDisparada += ActualizarInterfazMunicionShotgun;
         Sniper.sniperDisparado += ActualizarInterfazMunicionSniper;
@@ -86,12 +97,26 @@ public class EquiparPrueba : MonoBehaviour
 
     public void EquiparRevolver()
     {
-        DesequiparArmaActual();
+        if (revolverParent != null)
+        {
+
+            WeaponParent revolverParentComponent = revolverParent.GetComponent<WeaponParent>();
+
+            revolverParentComponent.enabled = true;
+        }
+
+        revolverScript.enabled = true;
+
+
+
+
         InstanciarArma(revolver);
         wheelMenu.SetActive(false);
         MostrarImagenArmaSeleccionada("Revolver");
         textoMunicionActual.gameObject.SetActive(true);
         textoMunicionMaxima.gameObject.SetActive(true);
+
+        ActualizarInterfazMunicionRevolver();
     }
 
     public void EquiparSniper()
@@ -114,6 +139,8 @@ public class EquiparPrueba : MonoBehaviour
 
     public void EquiparHacha()
     {
+        hachaScript.enabled = true;
+        hachaParent.enabled = true;
         DesequiparArmaActual();
         InstanciarArma(hacha);
         wheelMenu.SetActive(false);

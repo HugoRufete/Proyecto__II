@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-//using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-//using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -15,6 +13,20 @@ public class InventoryManager : MonoBehaviour
     public Transform ConsumableItemContent;
     public GameObject InventoryItem;
     public TMP_Text quantityText;
+
+    public Weapon_Wheel_Manager equiparRevolver;
+
+    private void Start()
+    {
+        //equiparRevolver = GetComponent<Weapon_Wheel_Manager>();
+        GameObject weaponWheelObject = GameObject.Find("UI / HUD");
+
+        if (weaponWheelObject != null)
+        {
+            equiparRevolver = weaponWheelObject.GetComponent<Weapon_Wheel_Manager>();
+        }
+    }
+
     private void Awake()
     {
         Instance = this;
@@ -22,19 +34,19 @@ public class InventoryManager : MonoBehaviour
 
     public void Add(Item item)
     {
-        //Se añade un objeto a la lista
+        // Se añade un objeto a la lista
         Items.Add(item);
     }
-    
+
     public void Remove(Item item)
     {
-        //Se quita un objeto de la lista
+        // Se quita un objeto de la lista
         Items.Remove(item);
     }
 
     public void ListItems()
     {
-        //Se limpia la lista antes de meter los objetos para que no se multipliquen visualmente
+        // Se limpia la lista antes de meter los objetos para que no se multipliquen visualmente
         foreach (Transform item in WeaponItemContent)
         {
             Destroy(item.gameObject);
@@ -53,8 +65,7 @@ public class InventoryManager : MonoBehaviour
             {
                 // Si no existe un objeto con el mismo ID, lo instanciamos
                 GameObject obj = Instantiate(InventoryItem, WeaponItemContent);
-                var itemIcon = obj.transform.Find("Image").GetComponent<Image>();
-
+                var itemIcon = obj.transform.Find("Image").GetComponentInChildren<Image>();
                 itemIcon.sprite = item.icon;
 
                 if (item.quantity > 1)
@@ -65,8 +76,16 @@ public class InventoryManager : MonoBehaviour
                 else
                 {
                     var quantityText = obj.GetComponentInChildren<TMP_Text>();
-                    quantityText.text = ""; // Oculta el texto si la cantidad es 1
+                    quantityText.text = "";
                 }
+
+                // Acceder al componente Button del objeto InventoryItem
+                Button itemButton = obj.GetComponent<Button>();
+
+                // Asignar una función al evento OnClick del botón (debug por consola)
+                itemButton.onClick.AddListener(() => {
+                    equiparRevolver.DesbloquearRevolver();
+                });
 
                 // Agregamos el objeto al diccionario de objetos instanciados
                 instantiatedObjects.Add(item.id, obj);
@@ -77,7 +96,6 @@ public class InventoryManager : MonoBehaviour
                 // Si no existe un objeto con el mismo ID, lo instanciamos
                 GameObject obj = Instantiate(InventoryItem, ConsumableItemContent);
                 var itemIcon = obj.transform.Find("Image").GetComponent<Image>();
-
                 itemIcon.sprite = item.icon;
 
                 if (item.quantity > 1)
