@@ -5,13 +5,16 @@ using UnityEngine;
 public class Escudito : MonoBehaviour
 {
     public Collider2D attackCollider; //Collider de ataque
+    public Collider2D standarCollider; //Colllider normal
     public Transform Player; //Ubicación del jugador
     public float velocidadMovimiento = 5.0f; //Velocidad movimeinto enemigo
     public float distanciaDeseada = 1.0f; //Distancia minima que habrá entre el jugador y el enemigo para evitar problemas
     public float AttackCooldown = 1.0f; //Cooldown de ataque
-    float lastTimeAttack = 0f; //Ultima vez que ha disparado
+    float lastTimeAttack = 0.0f; //Ultima vez que ha disparado
     Animator myanimator;//Referencia a nuestro animator
     bool mirarDerecha = true; //Booleana para controlar a que lado mira el jugador  
+    private EnemyHealth enemHealth;
+    bool protegiendo = false;
     
     // Start is called before the first frame update
     void Start()
@@ -19,7 +22,8 @@ public class Escudito : MonoBehaviour
         Player = GameObject.Find("Player").transform;
         myanimator = GetComponent<Animator>();
         attackCollider.enabled = false; //Al empezar el collider del enemigo siempre estará desactivado
-                                        //
+        enemHealth = GetComponent<EnemyHealth>();
+        standarCollider.enabled = true;
     }
 
     // Update is called once per frame
@@ -31,7 +35,7 @@ public class Escudito : MonoBehaviour
         {
             direction.Normalize(); //Normalizamos el vector
 
-            Vector3 desplazamiento = direction * (direction.magnitude - distanciaDeseada); //Creamos un nuevo vector para calcular la posición entre jugador y enemigo
+            
             // multiplicando por la diferencia entre la posición menos la distanciaDeseada (distancia mínima entre ellos)
 
             transform.Translate(direction * velocidadMovimiento * Time.deltaTime); //Trasladar al enemigo a la dirección a la posición del jugador multiplicando por su velocidad 
@@ -39,6 +43,12 @@ public class Escudito : MonoBehaviour
 
             myanimator.SetBool("IsWalking", true); //Si la condición de arriba es verdadera activamos la animaciónd de andar
             attackCollider.enabled = false;
+
+            if (Time.time >= lastTimeAttack + AttackCooldown) //Si ya ha pasado el cooldwon llamamos al metodo attack
+            {
+
+                Attack();
+            }
         }
 
         else
@@ -59,12 +69,14 @@ public class Escudito : MonoBehaviour
             Voltear();
         }
 
-        if (Time.time >= lastTimeAttack + AttackCooldown) //Si ya ha pasado el cooldwon llamamos al metodo attack
+        if (enemHealth != null && enemHealth.health < 20 && !protegiendo)
         {
-            
-            Attack();
+            Debug.Log("Empieza la corrutina");
+            StartCoroutine(Proteger4segundos());
         }
 
+        
+        
     }
 
     void Voltear()
@@ -95,6 +107,25 @@ public class Escudito : MonoBehaviour
     public void DisableCollider()
     {
         attackCollider.enabled = false; //Desactivamos el collider al final del ataque para que no haga daño al enemigo constantemente y solo lo haga una vez por ataque
+    }
+    IEnumerator Proteger4segundos()
+    {
+        protegiendo = true;
+
+        if (enemHealth != null && enemHealth.health < 20)
+        {
+            Debug.Log("Animación protegerse");
+            Debug.Log("MustProtect activado: " + myanimator.GetBool("MustProtect"));
+            myanimator.SetBool("MustProtect", true);
+            standarCollider.enabled = false;
+
+        }
+
+        yield return new WaitForSeconds(4);
+        myanimator.SetBool("MustProtect", false);
+        protegiendo = false;
+        standarCollider.enabled = true;
+        Debug.Log("Se activa collider de nuevo");
     }
 
 }

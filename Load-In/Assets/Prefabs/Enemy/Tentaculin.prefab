@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 8642652848476864738}
   - component: {fileID: 4511483360849584180}
   - component: {fileID: 3839063653746623455}
+  - component: {fileID: 3537603388377771869}
   m_Layer: 6
   m_Name: Tentaculin
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4401015262075238925
 Transform:
   m_ObjectHideFlags: 0
@@ -119,8 +120,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4, y: 4}
+  m_Offset: {x: 0.195616, y: -0.24592519}
+  m_Size: {x: 2.975515, y: 2.975515}
   m_Direction: 0
 --- !u!50 &4511483360849584180
 Rigidbody2D:
@@ -162,6 +163,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7517921533948250698, guid: 8df26a417e5323744af572afccd99df4, type: 3}
-  distanciaDeseada: 1
+  distanciaDeseada: 2
   enemySpeed: 4
   attackCooldown: 2
+--- !u!95 &3537603388377771869
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625661815715672868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3c25c224b7b3b64d8100c5b09ee2e99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

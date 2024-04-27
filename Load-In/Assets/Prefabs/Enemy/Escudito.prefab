@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3449264794818362786}
   - component: {fileID: 7246802064033495854}
   - component: {fileID: -5698912342543824347}
+  - component: {fileID: 7981965761562684436}
   m_Layer: 6
   m_Name: Escudito
   m_TagString: Enemy
@@ -122,8 +123,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08, y: 0}
-  m_Size: {x: 1.85, y: 2.08}
+  m_Offset: {x: -0.16655397, y: 0.12754011}
+  m_Size: {x: 0.70018864, y: 1.8249197}
   m_Direction: 0
 --- !u!50 &-5106407756192166033
 Rigidbody2D:
@@ -164,11 +165,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22952f8640dc24c43bfa706772218a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCollider: {fileID: 0}
+  attackCollider: {fileID: -5698912342543824347}
+  standarCollider: {fileID: 5837192927813519969}
   Player: {fileID: 7517921533948250698, guid: 8df26a417e5323744af572afccd99df4, type: 3}
   velocidadMovimiento: 5
   distanciaDeseada: 1
-  AttackCooldown: 2
+  AttackCooldown: 1
 --- !u!95 &3449264794818362786
 Animator:
   serializedVersion: 5
@@ -238,10 +240,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.5352087, y: -0.16695374}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -252,5 +254,18 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 1.4849186, y: 1.4718367}
   m_EdgeRadius: 0
+--- !u!114 &7981965761562684436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4523800912724312270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064ca4835ca59aa41877296a780e0664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 10
