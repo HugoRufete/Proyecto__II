@@ -13,9 +13,10 @@ public class Escudito : MonoBehaviour
     float lastTimeAttack = 0.0f; //Ultima vez que ha disparado
     Animator myanimator;//Referencia a nuestro animator
     bool mirarDerecha = true; //Booleana para controlar a que lado mira el jugador  
-    private EnemyHealth enemHealth;
-    bool protegiendo = false;
+    private EnemyHealth enemHealth; //Referencia al script de vida enemigo
+    bool protegiendo = false; 
     private bool isAnimating;
+    bool accionRealizada; //Booleana que hace que la animación de proteger se haga solo una vez y no solo en bucle
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class Escudito : MonoBehaviour
         isAnimating = false;
         attackCollider.enabled = false; //Al empezar el collider del enemigo siempre estará desactivado
         enemHealth = GetComponent<EnemyHealth>();
+        accionRealizada = false; 
 
     }
 
@@ -70,15 +72,41 @@ public class Escudito : MonoBehaviour
             Voltear();
         }
 
-        if (enemHealth != null && enemHealth.health < 20 && !protegiendo)
+        //Si la vida enemiga es menor de 20 y mayor de 20 y la booleana es falsa se hará la corutina que incluye la animación de proteger
+        if (enemHealth != null && enemHealth.health < 20 && enemHealth.health > 14 && !protegiendo && !accionRealizada)
         {
             Debug.Log("Empieza la corrutina");
-            enemHealth.ActivateInvulnerability(5f);
-            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
+            enemHealth.ActivateInvulnerability(5f); //Desactivamos la posibilidad de hacer daño al enemigo durante 5 segundos a través de una corutina en el script de la vida enemiga
+            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f)); //Llamamos a la corutina que contiene la animación de proteger y los segundos que queremos que dure
+            accionRealizada = true; //La activamos a verdadera de forma que la animación solo se realizará una vez
         }
 
-        
-        
+        //Aquí abajo seguimos la misma lógica que arriba pero cuando el enemigo tenga una vida inferior
+        if (enemHealth != null && enemHealth.health < 14 && enemHealth.health > 9 && !protegiendo && accionRealizada)
+        {
+            
+            Debug.Log("Vida menor de 15 y animación activada");
+            enemHealth.ActivateInvulnerability(5f);
+            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
+            accionRealizada = false;
+        }
+
+        if (enemHealth != null && enemHealth.health < 9 && enemHealth.health > 4 && !protegiendo && !accionRealizada)
+        {
+            
+            Debug.Log("Vida menor de 15 y animación activada");
+            enemHealth.ActivateInvulnerability(5f);
+            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
+            accionRealizada = true;
+        }
+
+        if (isAnimating)
+        {
+            return;
+        }
+
+
+
     }
 
     void Voltear()
@@ -94,7 +122,7 @@ public class Escudito : MonoBehaviour
 
     void Attack()
     {
-        myanimator.SetBool("IsAttacking", true); 
+        myanimator.SetBool("IsAttacking", true); //Se realiza la animación de atacar
 
       
         lastTimeAttack = Time.time; 
@@ -108,11 +136,12 @@ public class Escudito : MonoBehaviour
 
     public void DisableCollider()
     {
-        attackCollider.enabled = false; 
+        attackCollider.enabled = false; //Desactivamos el collider al final del ataque llamando a este método mediante un evento en la animación
     }
 
-    IEnumerator PlayAnimationForDuration(string animationName, float duration)
+    IEnumerator PlayAnimationForDuration(string animationName, float duration) //Corutina que controla la animación de proteger
     {
+        
         isAnimating = true;
         myanimator.Play(animationName);
 
@@ -120,5 +149,6 @@ public class Escudito : MonoBehaviour
 
         myanimator.StopPlayback();
         isAnimating = false;
+        
     }
 }
