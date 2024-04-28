@@ -97,19 +97,7 @@ public class EquiparPrueba : MonoBehaviour
 
     public void EquiparRevolver()
     {
-        if (revolverParent != null)
-        {
-
-            WeaponParent revolverParentComponent = revolverParent.GetComponent<WeaponParent>();
-
-            revolverParentComponent.enabled = true;
-        }
-
-        revolverScript.enabled = true;
-
-
-
-
+        DesequiparArmaActual();
         InstanciarArma(revolver);
         wheelMenu.SetActive(false);
         MostrarImagenArmaSeleccionada("Revolver");

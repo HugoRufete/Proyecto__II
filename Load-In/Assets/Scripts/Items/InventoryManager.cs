@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using static Item;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -18,7 +19,6 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
-        //equiparRevolver = GetComponent<Weapon_Wheel_Manager>();
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
 
         if (weaponWheelObject != null)
@@ -61,7 +61,7 @@ public class InventoryManager : MonoBehaviour
 
         foreach (var item in Items)
         {
-            if (item.itemType == Item.ItemType.Weapon && !instantiatedObjects.ContainsKey(item.id))
+            if (item.itemType == Item.ItemType.Weapon && item.name == "Revolver" && !instantiatedObjects.ContainsKey(item.id))
             {
                 // Si no existe un objeto con el mismo ID, lo instanciamos
                 GameObject obj = Instantiate(InventoryItem, WeaponItemContent);
@@ -91,6 +91,7 @@ public class InventoryManager : MonoBehaviour
                 instantiatedObjects.Add(item.id, obj);
             }
 
+            
             if (item.itemType == Item.ItemType.Consumable && !instantiatedObjects.ContainsKey(item.id))
             {
                 // Si no existe un objeto con el mismo ID, lo instanciamos

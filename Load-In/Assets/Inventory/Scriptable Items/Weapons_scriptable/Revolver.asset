@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Revolver
   m_EditorClassIdentifier: 
   id: 6
-  itenName: revolver
+  itenName: Revolver
   value: 0
   icon: {fileID: 433667821, guid: 17b54c9e77acbbb469246d4bdb06010c, type: 3}
-  quantity: 6
-  itemType: 0
+  quantity: 1

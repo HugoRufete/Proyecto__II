@@ -10,10 +10,13 @@ public class Item : ScriptableObject
     public int value;
     public Sprite icon;
     public int quantity;
-    public ItemType itemType;
+    public ItemType itemType { get; set; }
+    public ItemType type { get; set; }
     public enum ItemType
     {
         Weapon,
-        Consumable
+        Consumable,
+        Revolver,
+
     }
 }
