@@ -311,7 +311,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
                 StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
                 SaveExtraSpores();
-                LoadExtraSpores();
                 UpdateExtraSporesText();
 
             }
