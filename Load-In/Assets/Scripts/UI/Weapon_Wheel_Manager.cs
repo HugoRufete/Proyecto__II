@@ -72,7 +72,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     private float precioBasePistola = 250;
     private float precioBaseAlabarda = 77;
-    private float precioBaseMartilloGigante = 133;
+    private float precioBaseMartilloGigante = 120;
     private float precioBaseSniper = 102;
     private float precioBaseShotgun = 90;
 
@@ -101,8 +101,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public GameObject menuNegocíaciónShotgun;
 
     public TMP_Text PrecioNegociado;
+    public TMP_Text PrecioNegociadoMartilo;
     public SliderScript sliderNegocaciónAlabarda;
-    public SliderScript sliderNegocaciónPistola;
     public SliderScript sliderNegocaciónMartillo;
     public SliderScript sliderNegocaciónSniper;
     public SliderScript sliderNegocaciónShotgun;
@@ -111,6 +111,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     [SerializeField] private float extraSpores = 0;
 
+    
 
     [Header("Esporas Extra")]
     public TMP_Text extraSporesText;
@@ -132,6 +133,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public void UpdateExtraSporesText()
     {
         extraSporesText.text = extraSpores.ToString();
+
+    }
+    public void UpdateExtraSporesText2(float newExtraSpores)
+    {
+        extraSpores += newExtraSpores;
+        extraSporesText.text = extraSpores.ToString();
     }
     private void Start()
     {
@@ -147,6 +154,11 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             PrecioNegociado.text = "Pagando: " + valorSlider + " esporas";
         }
 
+        if(sliderNegocaciónMartillo != null)
+        {
+            int valorSliderMartillo = (int)sliderNegocaciónMartillo.slider.value;
+            PrecioNegociadoMartilo.text = "Pagando : " + valorSliderMartillo + " esporas";
+        }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -248,6 +260,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void NegociarAlabarda()
     {
+        BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
         float interes_10_porciento = 0.90f;
@@ -255,14 +268,14 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         float interes_30_porciento = 0.70f;
 
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-        BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         
         if (playerEsporas != null)
         {
-            int valorSlider = (int)sliderNegocaciónAlabarda.slider.value;
+            int valorSliderAlabarda = (int)sliderNegocaciónAlabarda.slider.value;
             int cantidadEsporas = playerEsporas.GetEsporas();
+
             //Precio Alabarda = 77
-            if (valorSlider < precioBaseAlabarda * interes_10_porciento)
+            if (valorSliderAlabarda < precioBaseAlabarda * interes_10_porciento)
             {
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.1f;
@@ -270,51 +283,52 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
-                playerEsporas.RestarEsporas(valorSlider);
+                playerEsporas.RestarEsporas(valorSliderAlabarda);
 
                 ActualizarPrecioAlabarda();
             }
-            else if (valorSlider < precioBaseAlabarda * interes_20_porciento)
+            else if (valorSliderAlabarda < precioBaseAlabarda * interes_20_porciento)
             {
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.2f;
-                playerEsporas.RestarEsporas(valorSlider);
+                playerEsporas.RestarEsporas(valorSliderAlabarda);
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
 
             }
-            else if (valorSlider < precioBaseAlabarda * interes_30_porciento)
+            else if (valorSliderAlabarda < precioBaseAlabarda * interes_30_porciento)
             {
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.3f;
-                playerEsporas.RestarEsporas(valorSlider);
+                playerEsporas.RestarEsporas(valorSliderAlabarda);
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 ActualizarPrecioAlabarda();
             }
-            else if(valorSlider >= precioBaseAlabarda)
+            else if(valorSliderAlabarda >= precioBaseAlabarda)
             {
                 DesbloquearAlabarda();
                 dialogosDiosaTienda1[3].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
-                playerEsporas.RestarEsporas(valorSlider);
+                playerEsporas.RestarEsporas(valorSliderAlabarda);
                 interesDiosa = 1;
                 ActualizarPrecioAlabarda();
 
-                extraSpores = valorSlider - precioBaseAlabarda;
+                extraSpores = valorSliderAlabarda - precioBaseAlabarda;
 
                 StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
                 SaveExtraSpores();
                 UpdateExtraSporesText();
 
+                
             }
-            else if (valorSlider > precioBaseAlabarda && cantidadEsporas < precioBaseAlabarda)
+            else if (valorSliderAlabarda > precioBaseAlabarda && cantidadEsporas < precioBaseAlabarda)
             {
                 esporasInsuficientes.SetActive(true);
                 StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
@@ -332,12 +346,15 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     }
 
+    public void ActivarNegocaciónSniper()
+    {
+        animator.Play("AnimaciónNegocacionSniper");
+    }
+
     public void ActivarNegocaciónMartillo()
     {
         animator.Play("AnimaciónNegocaciónMartillo");
     }
-
-    
 
     public void ComprarMartilloGigante()
     {
@@ -364,9 +381,13 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void NegociarMartilloGigante()
     {
-        //menuNegocíaciónRevolver.SetActive(true);
+
+        BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
+
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
+        int valorSliderMartillo = (int)sliderNegocaciónMartillo.slider.value;
+        
         if (playerEsporas != null)
         {
             int cantidadEsporas = playerEsporas.GetEsporas();
@@ -377,8 +398,25 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 interesDiosa = 2f;
                 Tienda_Diosa_15.SetActive(false);
             }
+            else if (valorSliderMartillo >= precioBaseMartilloGigante)
+            {
+                Debug.Log("Desbloqueando Martillo");
+                DesbloquearMartilloGigante();
+                //dialogosDiosaTienda1[3].SetActive(true);
+                //dialogosDiosaTienda1[1].SetActive(false);
+                StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_15, 7f));
+                playerEsporas.RestarEsporas(valorSliderMartillo);
+                interesDiosa = 1;
+                ActualizarPrecioMartillo();
 
+                StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
+                SaveExtraSpores();
+
+                float newExtraSpores = valorSliderMartillo - precioBaseMartilloGigante;
+                UpdateExtraSporesText2(newExtraSpores);
+            }
         }
+        
         ActualizarPrecioMartillo();
     }
 
