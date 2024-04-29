@@ -127,6 +127,8 @@ public class EquiparPrueba : MonoBehaviour
 
     public void EquiparHacha()
     {
+        hachaScript.enabled = true;
+        hachaParent.enabled = true;
         DesequiparArmaActual();
         InstanciarArma(hacha);
         wheelMenu.SetActive(false);

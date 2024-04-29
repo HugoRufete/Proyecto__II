@@ -107,32 +107,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public SliderScript sliderNegocaciónSniper;
     public SliderScript sliderNegocaciónShotgun;
 
-    public GameObject [] dialogosDiosaTienda1;
-
-    [SerializeField] private float extraSpores = 0;
+    public GameObject [] dialogosDiosaTienda1;  
 
 
-    [Header("Esporas Extra")]
-    public TMP_Text extraSporesText;
-
-    private const string esporasExtra = "esporasExtra";
-
-    void SaveExtraSpores()
-    {
-        // Save the value of the extra spores variable to player prefs
-        PlayerPrefs.SetFloat(esporasExtra, extraSpores);
-    }
-
-    void LoadExtraSpores()
-    {
-        // Load the value of the extra spores variable from player prefs
-        extraSpores = PlayerPrefs.GetFloat(esporasExtra, extraSpores);
-    }
-
-    public void UpdateExtraSporesText()
-    {
-        extraSporesText.text = extraSpores.ToString();
-    }
     private void Start()
     {
         interesDiosa = 1f;
@@ -219,8 +196,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             }
         }
 
-       
-
     }
     public void ComprarAlabarda()
     {
@@ -255,8 +230,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         float interes_30_porciento = 0.70f;
 
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-        BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
-        
+
         if (playerEsporas != null)
         {
             int valorSlider = (int)sliderNegocaciónAlabarda.slider.value;
@@ -299,21 +273,13 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             else if(valorSlider >= precioBaseAlabarda)
             {
                 DesbloquearAlabarda();
-                dialogosDiosaTienda1[3].SetActive(true);
+                dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 playerEsporas.RestarEsporas(valorSlider);
                 interesDiosa = 1;
                 ActualizarPrecioAlabarda();
-
-                extraSpores = valorSlider - precioBaseAlabarda;
-
-                StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
-                SaveExtraSpores();
-                LoadExtraSpores();
-                UpdateExtraSporesText();
-
             }
             else if (valorSlider > precioBaseAlabarda && cantidadEsporas < precioBaseAlabarda)
             {

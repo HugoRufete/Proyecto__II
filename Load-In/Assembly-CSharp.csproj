@@ -95,7 +95,6 @@
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Revolver.cs" />
     <Compile Include="Assets\Scripts\UI\Canvas_Manager.cs" />
     <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\Wave.cs" />
-    <Compile Include="Assets\BolsaEsporas.cs" />
     <Compile Include="Assets\SliderScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpecialAttacks.cs" />
     <Compile Include="Assets\DestoyArrow.cs" />
@@ -117,7 +116,6 @@
     <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Lanza.cs" />
     <Compile Include="Assets\Scale_Sprite.cs" />
-    <Compile Include="Assets\HachaParent.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Escudito.cs" />
     <Compile Include="Assets\RevolverParent.cs" />
     <Compile Include="Assets\Scripts\Puntuación\Puntuación.cs" />
