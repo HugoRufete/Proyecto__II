@@ -5,12 +5,17 @@ public class EnemyHealth : MonoBehaviour
 {
     public float health;
     public float maxHealth = 20;
-    private bool additionalDamageActivated = false;
-    private float additionalDamageMultiplier = 5.0f;
+    private bool invulnerable = false;
+    public bool additionalDamageActivated = false;
+    private float additionalDamageMultiplier = 2.0f;
+    
     public GameObject experiencePrefab;
+    public GameObject esporaPrefab;
+    public GameObject curaPrefab;
+    public GameObject ammoPrefab;
 
     [Header("Esporas")]
-    public int cantidadEsporasDropeadas = 5;
+    private int cantidadItemsDropeados = 6;
     public float maxDistanceFromEnemy = 0.5f;
 
     private Vector2 initialPosition;
@@ -31,6 +36,14 @@ public class EnemyHealth : MonoBehaviour
     // Declaración del evento estático
     public static event System.Action<int> enemyDeadEvent;
 
+    private void Awake()
+    {
+        // Registrar el enemigo en la lista de enemigos del AdditionalDamageController
+        if (AumentarDañoAEnemigos.Instance != null)
+        {
+            AumentarDañoAEnemigos.Instance.enemyHealthList.Add(this);
+        }
+    }
     private void Start()
     {
         health = maxHealth;
@@ -41,7 +54,11 @@ public class EnemyHealth : MonoBehaviour
 
     public void EnemyTakeDamage(float damageAmount)
     {
-        if (!additionalDamageActivated)
+        if (additionalDamageActivated)
+        {
+            ApplyAdditionalDamage(damageAmount);
+        }
+        else if (!invulnerable)
         {
             health -= damageAmount;
         }
@@ -59,14 +76,48 @@ public class EnemyHealth : MonoBehaviour
 
     private void DropExperienceItems(Vector2 enemyPosition)
     {
-        for (int i = 0; i < cantidadEsporasDropeadas; i++)
+        GameObject prefab1 = experiencePrefab;
+        GameObject prefab2 = esporaPrefab;
+        GameObject prefab3 = curaPrefab; 
+        GameObject prefab4 = ammoPrefab;
+
+        for (int i = 0; i < cantidadItemsDropeados * 2; i++)
         {
+            if (i % 2 == 0)
+            {
+                prefab1 = experiencePrefab;
+                prefab2 = esporaPrefab;
+                prefab3 = curaPrefab;
+                prefab4 = ammoPrefab;
+            }
+
             Vector2 randomDirection = Random.insideUnitCircle.normalized;
             Vector2 spawnPosition = enemyPosition + randomDirection * Random.Range(0f, maxDistanceFromEnemy);
-            Instantiate(experiencePrefab, spawnPosition, Quaternion.identity);
+
+            if (i % 2 == 0)
+            {
+                if (Random.value < 0.05) // Probabilidad del 5%
+                {
+                    Instantiate(prefab3, spawnPosition, Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(prefab1, spawnPosition, Quaternion.identity);
+                }
+            }
+            else
+            {
+                if (Random.value < 0.10) // Probabilidad del 10%
+                {
+                    Instantiate(prefab4, spawnPosition, Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(prefab2, spawnPosition, Quaternion.identity);
+                }
+            }
         }
     }
-
     public void PushBack(Vector2 direction, float force, float maxDistance)
     {
         if (!hasBeenPushed)
@@ -90,13 +141,6 @@ public class EnemyHealth : MonoBehaviour
                 isPushed = false;
             }
         }
-    }
-
-    public void ActivateAdditionalDamage()
-    {
-        additionalDamageActivated = true;
-        additionalDamageMultiplier = 1.1f; // Aumenta el daño recibido en un 10%
-        Debug.Log("Daño Aumentado");
     }
 
     public void HealEnemy(float healAmountPerSecond)
@@ -134,8 +178,14 @@ public class EnemyHealth : MonoBehaviour
     // Corutina para la invulnerabilidad temporal
     private IEnumerator InvulnerabilityCoroutine(float duration)
     {
-        additionalDamageActivated = true;
+        invulnerable = true;
         yield return new WaitForSeconds(duration);
-        additionalDamageActivated = false;
+        invulnerable = false;
+    }
+
+    public void ApplyAdditionalDamage(float damageAmount)
+    {
+        health -= damageAmount * additionalDamageMultiplier;
+
     }
 }

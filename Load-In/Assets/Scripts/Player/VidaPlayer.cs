@@ -61,4 +61,17 @@ public class VidaPlayer : MonoBehaviour
         Time.timeScale = 1.0f;
     }
 
+    public void CurarJugador()
+    {
+        vida = vida + 20;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Curacion"))
+        {
+            CurarJugador();
+            collision.gameObject.SetActive(false);
+        }
+    }
 }

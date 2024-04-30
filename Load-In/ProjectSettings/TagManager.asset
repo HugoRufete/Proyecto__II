@@ -15,6 +15,7 @@ TagManager:
   - Shotgun
   - Espora
   - Revolver
+  - Curacion
   layers:
   - Default
   - TransparentFX
