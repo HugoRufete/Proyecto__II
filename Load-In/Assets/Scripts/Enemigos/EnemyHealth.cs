@@ -15,7 +15,7 @@ public class EnemyHealth : MonoBehaviour
     public GameObject ammoPrefab;
 
     [Header("Esporas")]
-    private int cantidadItemsDropeados = 6;
+    private int cantidadItemsDropeados = 3;
     public float maxDistanceFromEnemy = 0.5f;
 
     private Vector2 initialPosition;

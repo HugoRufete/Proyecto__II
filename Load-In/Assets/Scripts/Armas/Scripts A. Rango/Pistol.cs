@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Pistol : MonoBehaviour
@@ -7,8 +8,8 @@ public class Pistol : MonoBehaviour
     public float velocidadBala = 10f;
 
     [Header("Cargador")]
-    public int maxBalas = 10;
-    public int balasRestantes;
+    public int maxBalas = 20;
+    public int currentAmmo;
 
     [Header("Alcance")]
     public float alcance = 10f;
@@ -20,7 +21,7 @@ public class Pistol : MonoBehaviour
 
     public int ObtenerMunicionActual()
     {
-        return balasRestantes;
+        return currentAmmo;
     }
 
     // Método para obtener la munición máxima
@@ -37,15 +38,16 @@ public class Pistol : MonoBehaviour
             return 10; // Valor predeterminado en caso de que no se encuentre una instancia de Pistol
         }
     }
+
     void Start()
     {
         // Cargar el estado de munición almacenado
-        balasRestantes = PlayerPrefs.GetInt("BalasPistola", maxBalas);
+        currentAmmo = PlayerPrefs.GetInt("BalasPistola", maxBalas);
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && balasRestantes > 0)
+        if (Input.GetButtonDown("Fire1") && currentAmmo > 0)
         {
             Disparar();
         }
@@ -67,13 +69,13 @@ public class Pistol : MonoBehaviour
         // Destruye la bala después de alcanzar el alcance máximo
         Destroy(bala, alcance / velocidadBala);
 
-        balasRestantes--;
+        currentAmmo--;
 
         // Guardar el nuevo estado de munición
-        PlayerPrefs.SetInt("BalasPistola", balasRestantes);
+        PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();
 
-        if (balasRestantes == 0)
+        if (currentAmmo == 0)
         {
             Debug.Log("Recargar o recuperar balas");
         }
@@ -84,10 +86,8 @@ public class Pistol : MonoBehaviour
 
     public void RecargarPistola()
     {
-        balasRestantes = maxBalas;
-
-        // Guardar el nuevo estado de munición
-        PlayerPrefs.SetInt("BalasPistola", balasRestantes);
+        currentAmmo = maxBalas;
+        PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();
     }
 }

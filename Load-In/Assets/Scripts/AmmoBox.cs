@@ -8,19 +8,21 @@ public class AmmoBox : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Obtener el componente Pistol del prefab de la pistola
-            Pistol pistol = pistolPrefab.GetComponentInChildren<Pistol>();
+            // Buscar el componente Pistol en los hijos del objeto pistolPrefab
+            Pistol pistol = pistolPrefab.transform.GetComponentInChildren<Pistol>();
 
             // Verificar si se encontró el componente
             if (pistol != null)
             {
-                // Llamar al método RecargarPistola
+                Debug.Log("Recargando Pistola");
                 pistol.RecargarPistola();
             }
             else
             {
-                Debug.LogWarning("No se encontró el componente Pistol en el prefab de la pistola.");
+                Debug.LogWarning("No se encontró el componente Pistol en la pistola instanciada.");
             }
+
+            // Destruir el objeto vacío que contiene el collider 2D
             Destroy(gameObject);
         }
     }

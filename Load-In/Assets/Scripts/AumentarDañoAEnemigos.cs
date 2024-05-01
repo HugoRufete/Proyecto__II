@@ -18,6 +18,7 @@ public class AumentarDañoAEnemigos : MonoBehaviour
         // Activar la habilidad que aumenta el daño al enemigo
         foreach (var enemyHealth in enemyHealthList)
         {
+            Debug.Log("Daño Extra a enemigos activado");
             enemyHealth.additionalDamageActivated = true;
         }
     }

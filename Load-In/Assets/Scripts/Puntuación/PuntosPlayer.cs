@@ -37,6 +37,8 @@ public class PuntosPlayer : MonoBehaviour
 
     public Animator textAnimator;
 
+    public FreezeEnemies freezeEnemies;
+
     private void Update()
     {
         
@@ -50,11 +52,11 @@ public class PuntosPlayer : MonoBehaviour
 
 
             if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa1Desbloqueada)
-            {
+            {   
+                freezeEnemies.DesactivarComponentes();
                 tiendaDiosa_1.SetActive(true);
                 popUpMensajeTiendaDiosa_1.SetActive(false);
                 popUpPreesF.SetActive(false);
-                Time.timeScale = 0.0f;
                 tiendaDiosa1Activada = true;
             }
         }

@@ -6,7 +6,7 @@ public class Escudito : MonoBehaviour
 {
     public Collider2D attackCollider; //Collider de ataque
     public Collider2D standarCollider; //Colllider normal
-    public Transform Player; //Ubicación del jugador
+    private Transform Player; //Ubicación del jugador
     public float velocidadMovimiento = 5.0f; //Velocidad movimeinto enemigo
     public float distanciaDeseada = 1.0f; //Distancia minima que habrá entre el jugador y el enemigo para evitar problemas
     public float AttackCooldown = 1.0f; //Cooldown de ataque

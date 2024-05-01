@@ -38,7 +38,7 @@ public class Revolver : MonoBehaviour
     void Start()
     {
         balasRestantes = PlayerPrefs.GetInt("BalasRevolver", maxBalas);
-        EnemyHealth.enemyDeadEvent += RecargarBalas;
+        EnemyHealth.enemyDeadEvent += RecargarBalasRevolver;
         weaponParent = GetComponent<WeaponParent>();
         revolver = GetComponent<Revolver>();
         
@@ -50,7 +50,7 @@ public class Revolver : MonoBehaviour
 
     void OnDestroy()
     {
-        EnemyHealth.enemyDeadEvent -= RecargarBalas;
+        EnemyHealth.enemyDeadEvent -= RecargarBalasRevolver;
     }
 
     void Update()
@@ -105,7 +105,7 @@ public class Revolver : MonoBehaviour
     }
 
     // Método para recargar las balas cuando un enemigo muere
-    void RecargarBalas(int balasRecargadas)
+    void RecargarBalasRevolver(int balasRecargadas)
     {
         balasRestantes += balasRecargadas;
         balasRestantes = Mathf.Min(balasRestantes, maxBalas);

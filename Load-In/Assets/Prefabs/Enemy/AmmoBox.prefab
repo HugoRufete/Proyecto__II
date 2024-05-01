@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4385640518179861037}
   - component: {fileID: 878554825125324150}
-  - component: {fileID: 3507528557870241857}
-  - component: {fileID: 5031679876424213673}
+  - component: {fileID: 8208187559975074288}
+  - component: {fileID: 6315479001205629554}
   m_Layer: 0
   m_Name: AmmoBox
   m_TagString: AmmoBox
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3507528557870241857
+--- !u!61 &8208187559975074288
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5031679876424213673
+--- !u!114 &6315479001205629554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
