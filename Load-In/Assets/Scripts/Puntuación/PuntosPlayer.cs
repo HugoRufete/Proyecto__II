@@ -36,12 +36,16 @@ public class PuntosPlayer : MonoBehaviour
     public GameObject popUpPreesF;
 
     public Animator textAnimator;
+    FreezeEnemies[] freezeEmemies;
+    public GameObject bolsaEsporasExtra;
 
-    public FreezeEnemies freezeEnemies;
+    private void Start()
+    {
+        freezeEmemies = FindObjectsOfType<FreezeEnemies>();
+    }
 
     private void Update()
     {
-        
         if (nivel >= 5 && !tiendaDiosa1Activada)
         {
             tiendaDiosa1Desbloqueada = true;
@@ -52,12 +56,17 @@ public class PuntosPlayer : MonoBehaviour
 
 
             if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa1Desbloqueada)
-            {   
-                freezeEnemies.DesactivarComponentes();
+            {
+                for (int i = 0; i < freezeEmemies.Length; i++)
+                {
+                    freezeEmemies[i].DesactivarComponentes();
+                }
+                
                 tiendaDiosa_1.SetActive(true);
                 popUpMensajeTiendaDiosa_1.SetActive(false);
                 popUpPreesF.SetActive(false);
                 tiendaDiosa1Activada = true;
+                bolsaEsporasExtra.SetActive(true);
             }
         }
 
@@ -71,12 +80,17 @@ public class PuntosPlayer : MonoBehaviour
 
             if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa2Desbloqueada)
             {
+                for (int i = 0; i < freezeEmemies.Length; i++)
+                {
+                    freezeEmemies[i].DesactivarComponentes();
+                }
                 Debug.Log("Abriendo tienda level 10");
                 tiendaDiosa_2.SetActive(true);
                 popUpMensajeTiendaDiosa_2.SetActive(false);
                 popUpPreesF.SetActive(false);
                 Time.timeScale = 0.0f;
                 tiendaDiosa2Activada = true;
+                bolsaEsporasExtra.SetActive(true);
             }
             
         }
@@ -90,11 +104,16 @@ public class PuntosPlayer : MonoBehaviour
             
             if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa3Desbloqueada)
             {
+                for (int i = 0; i < freezeEmemies.Length; i++)
+                {
+                    freezeEmemies[i].DesactivarComponentes();
+                }
                 popUpMensajeTiendaDiosa_3.SetActive(false);
                 tiendaDiosa_3.SetActive(true);
                 Time.timeScale = 0.0f;
                 popUpPreesF.SetActive(false);
                 tiendaDiosa3Activada = true;
+                bolsaEsporasExtra.SetActive(true);
 
             }
             
@@ -109,11 +128,16 @@ public class PuntosPlayer : MonoBehaviour
 
             if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa4Desbloqueada)
             {
+                for (int i = 0; i < freezeEmemies.Length; i++)
+                {
+                    freezeEmemies[i].DesactivarComponentes();
+                }
                 popUpMensajeTiendaDiosa_4.SetActive(false);
                 tiendaDiosa_4.SetActive(true);
                 popUpPreesF.SetActive(false);
                 Time.timeScale = 0.0f;
                 tiendaDiosa4Activada = true;
+                bolsaEsporasExtra.SetActive(true);
             }
 
 
@@ -162,11 +186,10 @@ public class PuntosPlayer : MonoBehaviour
         UpdateBarraDeExperiencia();
     }
 
-   public void DesbloquearTiendaDiosa_1()
+    public void DesbloquearTiendaDiosa_1()
    {
         tiendaDiosa1Desbloqueada = true;
    }
-
     public void DesbloquearTiendaDiosa_2()
     {
         tiendaDiosa2Desbloqueada = true;

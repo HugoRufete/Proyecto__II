@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 700160484812693467}
   - component: {fileID: 842038449770868117}
   - component: {fileID: 5592494855993316266}
+  - component: {fileID: 2680320182133912312}
   m_Layer: 6
   m_Name: Random
   m_TagString: Enemy
@@ -162,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   maxHealth: 20
-  additionalDamageActivated: 0
+  additionalDamageActivated: 1
   experiencePrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
   esporaPrefab: {fileID: 0}
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
@@ -231,3 +232,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2680320182133912312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328617587183638505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components: []

@@ -5,6 +5,24 @@ using UnityEngine;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
 {
+    private float precioBasePistola = 250;
+    private float precioBaseAlabarda = 77;
+    private float precioBaseMartilloGigante = 120;
+    private float precioBaseSniper = 102;
+    private float precioBaseShotgun = 90;
+
+    private float precioBaseAlmaDañoReducido = 102;
+    private float precioBaseDañoAumentado = 94;
+
+    private float precioBaseVortice = 102;
+    private float precioBaseEmpujon = 103;
+    private float precioBaseBombaHumo = 150;
+    private float precioBaseMolotov = 123;
+
+    float interes_10_porciento = 0.90f;
+    float interes_20_porciento = 0.80f;
+    float interes_30_porciento = 0.70f;
+
     private Animator animator;
 
     public GameObject popUpInicial;
@@ -69,39 +87,20 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     [Header("Comprar O Negociar")]
     public GameObject esporasInsuficientes;
 
-
-    private float precioBasePistola = 250;
-    private float precioBaseAlabarda = 77;
-    private float precioBaseMartilloGigante = 120;
-    private float precioBaseSniper = 102;
-    private float precioBaseShotgun = 90;
-   
-    private float precioBaseAlmaDañoReducido = 102;
-    private float precioBaseDañoAumentado = 94;
-    
-    private float precioBaseVortice = 102;
-    private float precioBaseEmpujon = 103;
-    private float precioBaseBombaHumo = 150;
-    private float precioBaseMolotov = 123;
-    
-    float interes_10_porciento = 0.90f;
-    float interes_20_porciento = 0.80f;
-    float interes_30_porciento = 0.70f;
-
-
-
     [Header("Precios Armas & Interfaz Negociaciones")]
     public TMP_Text precioAlabardaText;
     public TMP_Text precioMartilloText;
     public TMP_Text precioSniperText;
     public TMP_Text precioShotgunText;
     public TMP_Text precioDañoAumentadoText;
-    
+
+    [Header("Precio Negocación Text")]
     public TMP_Text PrecioNegociado;
     public TMP_Text PrecioNegociadoSniper;
     public TMP_Text PrecioNegociadoDañoAumentado;
     public TMP_Text PrecioNegociadoMartilo;
 
+    [Header("Sliders Negociación")]
     public SliderScript sliderNegocaciónAlabarda;
     public SliderScript sliderNegocaciónMartillo;
     public SliderScript sliderNegocaciónSniper;
@@ -122,7 +121,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     
     public GameObject [] dialogosDiosaTienda1;
 
-    
+    public GameObject bolsaExporasExtra;
+
+    FreezeEnemies[] freezeEnemies;
 
     void SaveExtraSpores()
     {
@@ -151,6 +152,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         interesDiosa = 1f;
         ActualizarPrecioAlabarda();
         animator = GetComponent<Animator>();
+
+        freezeEnemies = FindObjectsOfType<FreezeEnemies>();
     }
     void Update()
     {
@@ -267,22 +270,21 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda1[1], 2f));
         dialogosDiosaTienda1[0].SetActive(false);
     }
-
     public void ActivarNegociaciónDañoAumentado()
     {
         animator.Play("AnimaciónNegocacionAumentoDaño");
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda1[1], 2f));
         dialogosDiosaTienda1[0].SetActive(false);
     }
-
     public void ActivarNegocaciónMartillo()
     {
         animator.Play("AnimaciónNegocaciónMartillo");
     }
+
     public void ComprarAlabarda()
     {
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-        FreezeEnemies freezeEnemie = FindObjectOfType<FreezeEnemies>();
+        
 
         if (playerEsporas != null)
         {
@@ -290,13 +292,17 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
             if (cantidadEsporas >= precioBaseAlabarda)
             {
-                freezeEnemie.ActivarComponentes();
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    freezeEnemies[i].ActivarComponentes();
+                }
                 DesbloquearAlabarda();
                 interesDiosa = 1;
                 dialogosDiosaTienda1[4].SetActive(true);
                 dialogosDiosaTienda1[0].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 4f));
                 StartCoroutine(DestroyObjectCoroutine(dialogosDiosaTienda1[4], 4f));
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 4f));
 
 
             }
@@ -309,7 +315,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
         ActualizarPrecioAlabarda();
     }
-
     public void NegociarAlabarda()
     {
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
@@ -323,33 +328,45 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             int cantidadEsporas = playerEsporas.GetEsporas();
 
             //Precio Alabarda = 77
-            if (valorSliderAlabarda < precioBaseAlabarda * interes_10_porciento && cantidadEsporas >= precioBaseAlabarda * interes_10_porciento)
+            if (valorSliderAlabarda >= precioBaseAlabarda * interes_10_porciento && cantidadEsporas >= precioBaseAlabarda * interes_10_porciento)
             {
                 Debug.Log("Desbloqueando Alabarada 10");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 playerEsporas.RestarEsporas(valorSliderAlabarda);
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioAlabarda();
             }
-            else if (valorSliderAlabarda < precioBaseAlabarda * interes_20_porciento && cantidadEsporas >= precioBaseAlabarda * interes_20_porciento)
+            else if (valorSliderAlabarda >= precioBaseAlabarda* interes_20_porciento && cantidadEsporas >= precioBaseAlabarda * interes_20_porciento)
             {
                 Debug.Log("Desbloqueando Alabarada 20%");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderAlabarda);
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioAlabarda();
             }
-            else if (valorSliderAlabarda < precioBaseAlabarda * interes_30_porciento && cantidadEsporas >= precioBaseAlabarda * interes_30_porciento)
+            else if (valorSliderAlabarda >= precioBaseAlabarda * interes_30_porciento && cantidadEsporas >= precioBaseAlabarda * interes_30_porciento)
             {
                 Debug.Log("Desbloqueando Alabarada 30%");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderAlabarda);
@@ -357,11 +374,16 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioAlabarda();
             }
             else if(valorSliderAlabarda >= precioBaseAlabarda && cantidadEsporas >= precioBaseAlabarda)
             {
                 Debug.Log("Desbloqueando Alabarada");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearAlabarda();
                 dialogosDiosaTienda1[3].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
@@ -370,7 +392,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 playerEsporas.RestarEsporas(valorSliderAlabarda);
                 interesDiosa = 1;
                 ActualizarPrecioAlabarda();
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 extraSpores = valorSliderAlabarda - precioBaseAlabarda;
 
                 StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
@@ -401,12 +423,17 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
             if (cantidadEsporas >= precioBaseSniper)
             {
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    freezeEnemies[i].ActivarComponentes();
+                }
                 DesbloquearSniper();
                 interesDiosa = 1;
                 dialogosDiosaTienda1[4].SetActive(true);
                 dialogosDiosaTienda1[0].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 4f));
                 StartCoroutine(DestroyObjectCoroutine(dialogosDiosaTienda1[4], 4f));
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 4f));
 
             }
             else
@@ -418,7 +445,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
         ActualizarPrecioSniper();
     }
-
     public void NegociarSniper()
     {
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
@@ -431,30 +457,43 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             int valorSliderSniper = (int)sliderNegocaciónSniper.slider.value;
             int cantidadEsporas = playerEsporas.GetEsporas();
 
-            if (valorSliderSniper < precioBaseSniper * interes_10_porciento)
+            if (valorSliderSniper >= precioBaseSniper * interes_10_porciento && cantidadEsporas >= precioBaseSniper * interes_10_porciento)
             {
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 playerEsporas.RestarEsporas(valorSliderSniper);
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioSniper();
             }
-            else if (valorSliderSniper < precioBaseSniper * interes_20_porciento)
+            else if (valorSliderSniper >= precioBaseSniper * interes_20_porciento && cantidadEsporas >= precioBaseSniper * interes_20_porciento)
             {
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderSniper);
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 ActualizarPrecioAlabarda();
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
 
             }
-            else if (valorSliderSniper < precioBaseSniper * interes_30_porciento)
+            else if (valorSliderSniper >= precioBaseSniper * interes_20_porciento && cantidadEsporas >= precioBaseSniper * interes_20_porciento)
             {
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderSniper);
@@ -463,9 +502,14 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 ActualizarPrecioSniper();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 ActualizarPrecioAlabarda();
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
             }
             else if (valorSliderSniper >= precioBaseSniper)
             {
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 DesbloquearSniper();
                 dialogosDiosaTienda1[3].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
@@ -473,6 +517,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 playerEsporas.RestarEsporas(valorSliderSniper);
                 interesDiosa = 1;
                 ActualizarPrecioSniper();
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
 
                 extraSpores = valorSliderSniper - precioBaseSniper;
 
@@ -501,14 +546,24 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
             if (cantidadEsporas >= precioBaseMartilloGigante)
             {
-                DesbloquearPistola();
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    freezeEnemies[i].ActivarComponentes();
+                }
+                DesbloquearMartilloGigante();
                 interesDiosa = 1;
-                Tienda_Diosa_15.SetActive(false);
+                dialogosDiosaTienda1[4].SetActive(true);
+                dialogosDiosaTienda1[0].SetActive(false);
+                StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_10, 4f));
+                StartCoroutine(DestroyObjectCoroutine(dialogosDiosaTienda1[4], 4f));
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 4f));
+
             }
             else
             {
                 esporasInsuficientes.SetActive(true);
                 StartCoroutine(DestroyObjectCoroutine(esporasInsuficientes, 0.5f));
+
             }
         }
         ActualizarPrecioMartillo();
@@ -543,7 +598,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 playerEsporas.RestarEsporas(valorSliderMartillo);
                 interesDiosa = 1;
                 ActualizarPrecioMartillo();
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
                 SaveExtraSpores();
 
@@ -614,7 +669,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 dialogosDiosaTienda1[0].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 4f));
                 StartCoroutine(DestroyObjectCoroutine(dialogosDiosaTienda1[4], 4f));
-               
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 4f));
             }
             else
             {
@@ -638,46 +693,62 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             int cantidadEsporas = playerEsporas.GetEsporas();
 
 
-            if (valorSliderDañoAumentado < precioBaseDañoAumentado * interes_10_porciento && cantidadEsporas >= precioBaseDañoAumentado * interes_10_porciento)
+            if (valorSliderDañoAumentado >= precioBaseDañoAumentado * interes_10_porciento && cantidadEsporas >= precioBaseDañoAumentado * interes_10_porciento)
             {
-                Debug.Log("Desbloqueando Alabarada 10");
+                Debug.Log("Desbloqueando Daño Aumentado 10");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 playerEsporas.RestarEsporas(valorSliderDañoAumentado);
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioAumentardaño();
             }
-            else if (valorSliderDañoAumentado < precioBaseDañoAumentado * interes_20_porciento && cantidadEsporas >= precioBaseDañoAumentado * interes_20_porciento)
+            else if (valorSliderDañoAumentado >= precioBaseDañoAumentado * interes_20_porciento && cantidadEsporas >= precioBaseDañoAumentado * interes_20_porciento)
             {
-                Debug.Log("Desbloqueando Alabarada 20%");
+                Debug.Log("Desbloqueando Daño Aumentado 20%");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderDañoAumentado);
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioAumentardaño();
             }
-            else if (valorSliderDañoAumentado < precioBaseDañoAumentado * interes_30_porciento && cantidadEsporas >= precioBaseDañoAumentado * interes_30_porciento)
+            else if (valorSliderDañoAumentado >= precioBaseDañoAumentado * interes_30_porciento && cantidadEsporas >= precioBaseDañoAumentado * interes_30_porciento)
             {
-                Debug.Log("Desbloqueando Alabarada 30%");
+                Debug.Log("Desbloqueando Daño Aumentado 30%");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderDañoAumentado);
                 dialogosDiosaTienda1[2].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 ActualizarPrecioAlabarda();
                 StartCoroutine(DestroyObjectCoroutine(Tienda_Diosa_5, 7f));
                 ActualizarPrecioAumentardaño();
             }
             else if (valorSliderDañoAumentado >= precioBaseDañoAumentado && cantidadEsporas >= precioBaseDañoAumentado)
             {
-                Debug.Log("Desbloqueando Alabarada");
+                Debug.Log("Desbloqueando Daño Aumentado");
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                }
                 aumentarDaño.ActivateAdditionalDamage();
                 dialogosDiosaTienda1[3].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
@@ -686,7 +757,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 playerEsporas.RestarEsporas(valorSliderDañoAumentado);
                 interesDiosa = 1;
                 ActualizarPrecioAumentardaño();
-
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 extraSpores = valorSliderDañoAumentado - precioBaseDañoAumentado;
 
                 StartCoroutine(bolsaEsporas.InstantiateEsporas(extraSpores));
@@ -851,6 +922,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         {
             precioShotgunText.text = precioBaseShotgun.ToString();
         }
+    }
+
+    IEnumerator ActivarComponentesEnemigosConRetraso(int i)
+    {
+        yield return new WaitForSeconds(7f); 
+        freezeEnemies[i].ActivarComponentes();
     }
 
 }

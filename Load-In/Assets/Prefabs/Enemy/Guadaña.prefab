@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -7363709799740320539}
   - component: {fileID: 2064327975705929342}
   - component: {fileID: 781314919471553685}
+  - component: {fileID: -6147388580583160500}
   m_Layer: 6
   m_Name: "Guada\xF1a"
   m_TagString: Enemy
@@ -203,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   maxHealth: 10
-  additionalDamageActivated: 0
+  additionalDamageActivated: 1
   experiencePrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
   esporaPrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
@@ -251,3 +252,22 @@ MonoBehaviour:
   projectileChargeTime: 2
   projectileSpeed: 10
   projectileCooldown: 2
+--- !u!114 &-6147388580583160500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328617587183638505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 781314919471553685}
+  - {fileID: 2064327975705929342}
+  - {fileID: -7363709799740320539}
+  - {fileID: 1513193872777652615}
+  - {fileID: 1771893181754501493}
+  - {fileID: 3217219232865292501}

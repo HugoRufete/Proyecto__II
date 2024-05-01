@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7246802064033495854}
   - component: {fileID: -5698912342543824347}
   - component: {fileID: 7981965761562684436}
-  - component: {fileID: 6773153500325708941}
+  - component: {fileID: -6891262194697195921}
   m_Layer: 6
   m_Name: Escudito
   m_TagString: Enemy
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 10
---- !u!114 &6773153500325708941
+--- !u!114 &-6891262194697195921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -285,9 +285,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7707390559165717493}
+  - {fileID: -5106407756192166033}
   - {fileID: 3449264794818362786}
-  - {fileID: 7246802064033495854}
-  - {fileID: 7981965761562684436}
   - {fileID: 5837192927813519969}
-  - {fileID: -5698912342543824347}
+  - {fileID: 7981965761562684436}
+  - {fileID: 7707390559165717493}

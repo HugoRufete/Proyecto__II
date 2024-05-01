@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 5843373478079483995}
   - component: {fileID: 5374422125022960618}
   - component: {fileID: 9205113430336314742}
+  - component: {fileID: 6828902587376343226}
   m_Layer: 6
   m_Name: Spirit
   m_TagString: Untagged
@@ -356,3 +357,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &6828902587376343226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732284628671084752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 8166296546404413143}
+  - {fileID: 5927661156877304275}
+  - {fileID: 5843373478079483995}
+  - {fileID: 5374422125022960618}
+  - {fileID: 9205113430336314742}
