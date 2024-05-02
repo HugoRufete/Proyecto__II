@@ -34,7 +34,6 @@ public class EquiparPrueba : MonoBehaviour
     public TMP_Text textoMunicionMaxima;
 
     private Revolver revolverScript;
-    public GameObject revolverParent;
 
     private Hacha hachaScript;
     private LookAtMouse hachaParent;
@@ -74,6 +73,7 @@ public class EquiparPrueba : MonoBehaviour
         InstanciarArma(shotgun);
         wheelMenu.SetActive(false);
         MostrarImagenArmaSeleccionada("Shotgun");
+        ActualizarInterfazMunicionShotgun();
     }
 
     public void EquiparMachete()

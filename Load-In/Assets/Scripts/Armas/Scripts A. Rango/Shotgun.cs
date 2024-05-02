@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Shotgun : MonoBehaviour
+public class Shotgun : MonoBehaviour, IRecargable
 {
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -72,14 +72,18 @@ public class Shotgun : MonoBehaviour
             shotgunDisparada();
     }
 
-    public void RecargarPistola()
+    public void RecargarArma()
     {
-        bulletsInMagazine = Mathf.Min(bulletsInMagazine + maxBullets, maxBullets); // Asegurar que no exceda el máximo de balas
+        RecargarShotgun();
+    }
+    public void RecargarShotgun()
+    {
+        bulletsInMagazine = Mathf.Min(bulletsInMagazine + maxBullets, maxBullets); 
     }
 
     // Método para cargar balas guardadas
-    public void CargarBalas(int cantidad)
+    public void CargarBalasEscopeta(int cantidad)
     {
-        bulletsInMagazine = Mathf.Clamp(cantidad, 0, maxBullets); // Asegurar que la cantidad no exceda el máximo de balas
+        bulletsInMagazine = Mathf.Clamp(cantidad, 0, maxBullets); 
     }
 }

@@ -63,9 +63,9 @@
     <Compile Include="Assets\Scripts\Player\VidaPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerEsporas.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyDamage.cs" />
+    <Compile Include="Assets\Scripts\Experiencia_Movimiento.cs" />
     <Compile Include="Assets\Scripts\FollowMouse.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Explosion.cs" />
-    <Compile Include="Assets\Scripts\Experiencia_Movimiento.cs" />
     <Compile Include="Assets\Scripts\UI\BolsaEsporas.cs" />
     <Compile Include="Assets\Scripts\Armas\Bala.cs" />
     <Compile Include="Assets\Scripts\Items\ItemController.cs" />
@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Player\SimplePlayerMovement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\UI\EquiparPrueba.cs" />
+    <Compile Include="Assets\Scripts\Enemigos\FreezeEnemies.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Sniper.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Alabarda.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Spirit.cs" />
@@ -113,7 +114,6 @@
     <Compile Include="Assets\Scripts\UI\RadialMenuManager.cs" />
     <Compile Include="Assets\Scripts\HachaParent.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\flamethrower.cs" />
-    <Compile Include="Assets\Scripts\Enemigos\CongelarEnemigos\FreezeEnemies.cs" />
     <Compile Include="Assets\Scripts\Puntuación\PickUpp.cs" />
     <Compile Include="Assets\Scripts\UI\Indicador_Fragmentos.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Gordito.cs" />

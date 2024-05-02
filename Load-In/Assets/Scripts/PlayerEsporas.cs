@@ -4,7 +4,7 @@ using TMPro;
 
 public class PlayerEsporas : MonoBehaviour
 {
-    [SerializeField] private int esporas;
+    [SerializeField] private float esporas;
     public TMP_Text textoEsporas;
 
     public int cantidadEsporasporPrefab;
@@ -24,12 +24,12 @@ public class PlayerEsporas : MonoBehaviour
         esporas += cantidadEsporasporPrefab;
     }
 
-    public int GetEsporas()
+    public float GetEsporas()
     {
         return esporas; 
     }
 
-    public void RestarEsporas(int cantidad)
+    public void RestarEsporas(float cantidad)
     {
         if (cantidad > 0 && cantidad <= esporas)
         {

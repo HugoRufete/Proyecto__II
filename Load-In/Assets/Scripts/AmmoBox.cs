@@ -1,29 +1,44 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class AmmoBox : MonoBehaviour
 {
-    public GameObject pistolPrefab;
+    private List<IRecargable> _recargables;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Buscar el componente Pistol en los hijos del objeto pistolPrefab
-            Pistol pistol = pistolPrefab.transform.GetComponentInChildren<Pistol>();
+            FindAndAssignRecargables(collision.gameObject.transform);
 
-            // Verificar si se encontró el componente
-            if (pistol != null)
+            foreach (var recargable in _recargables)
             {
-                Debug.Log("Recargando Pistola");
-                pistol.RecargarPistola();
-            }
-            else
-            {
-                Debug.LogWarning("No se encontró el componente Pistol en la pistola instanciada.");
+                recargable.RecargarArma();
             }
 
-            // Destruir el objeto vacío que contiene el collider 2D
             Destroy(gameObject);
+        }
+    }
+
+    private void FindAndAssignRecargables(Transform root)
+    {
+        List<GameObject> gameObjects = new List<GameObject>(FindObjectsOfType<GameObject>(true));
+
+        _recargables = new List<IRecargable>();
+
+        foreach (var go in gameObjects)
+        {
+            IRecargable recargable = go.GetComponent<IRecargable>();
+
+            if (recargable != null)
+            {
+                _recargables.Add(recargable);
+            }
+        }
+
+        if (_recargables.Count == 0 && root == null)
+        {
+            Debug.LogError("No se encontraron armas recargables en la escena.");
         }
     }
 }

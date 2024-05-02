@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Sniper : MonoBehaviour
+public class Sniper : MonoBehaviour, IRecargable
 {
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -77,6 +77,10 @@ public class Sniper : MonoBehaviour
             sniperDisparado();
     }
 
+    public void RecargarArma()
+    {
+        RecargarSniper();
+    }
     public void RecargarSniper()
     {
         balasRestantes = maxBalas;

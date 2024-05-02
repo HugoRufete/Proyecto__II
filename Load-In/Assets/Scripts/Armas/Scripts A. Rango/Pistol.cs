@@ -1,7 +1,11 @@
 using System;
 using UnityEngine;
 
-public class Pistol : MonoBehaviour
+public interface IRecargable
+{
+    void RecargarArma();
+}
+public class Pistol : MonoBehaviour, IRecargable
 {
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -83,7 +87,11 @@ public class Pistol : MonoBehaviour
         if (pistolaDisparada != null)
             pistolaDisparada();
     }
-
+    public void RecargarArma()
+    {
+        Debug.Log("Recargando Pistola");
+        RecargarPistola();
+    }
     public void RecargarPistola()
     {
         currentAmmo = maxBalas;

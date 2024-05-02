@@ -37,7 +37,6 @@ public class PuntosPlayer : MonoBehaviour
 
     public Animator textAnimator;
     FreezeEnemies[] freezeEmemies;
-    public GameObject bolsaEsporasExtra;
 
     private void Start()
     {
@@ -66,7 +65,6 @@ public class PuntosPlayer : MonoBehaviour
                 popUpMensajeTiendaDiosa_1.SetActive(false);
                 popUpPreesF.SetActive(false);
                 tiendaDiosa1Activada = true;
-                bolsaEsporasExtra.SetActive(true);
             }
         }
 
@@ -90,7 +88,6 @@ public class PuntosPlayer : MonoBehaviour
                 popUpPreesF.SetActive(false);
                 Time.timeScale = 0.0f;
                 tiendaDiosa2Activada = true;
-                bolsaEsporasExtra.SetActive(true);
             }
             
         }
@@ -113,7 +110,6 @@ public class PuntosPlayer : MonoBehaviour
                 Time.timeScale = 0.0f;
                 popUpPreesF.SetActive(false);
                 tiendaDiosa3Activada = true;
-                bolsaEsporasExtra.SetActive(true);
 
             }
             
@@ -137,7 +133,6 @@ public class PuntosPlayer : MonoBehaviour
                 popUpPreesF.SetActive(false);
                 Time.timeScale = 0.0f;
                 tiendaDiosa4Activada = true;
-                bolsaEsporasExtra.SetActive(true);
             }
 
 

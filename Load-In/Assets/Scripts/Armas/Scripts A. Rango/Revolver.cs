@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering.VirtualTexturing;
 using UnityEngine.UI;
 
-public class Revolver : MonoBehaviour
+public class Revolver : MonoBehaviour, IRecargable
 {
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -23,7 +23,7 @@ public class Revolver : MonoBehaviour
     private WeaponParent weaponParent;
 
     private Revolver revolver;
-    
+
     public int ObtenerMunicionActual()
     {
         return balasRestantes;
@@ -38,20 +38,16 @@ public class Revolver : MonoBehaviour
     void Start()
     {
         balasRestantes = PlayerPrefs.GetInt("BalasRevolver", maxBalas);
-        EnemyHealth.enemyDeadEvent += RecargarBalasRevolver;
         weaponParent = GetComponent<WeaponParent>();
         revolver = GetComponent<Revolver>();
-        
-        if(weaponParent != null)
+
+        if (weaponParent != null)
         {
             revolver.enabled = true;
         }
     }
 
-    void OnDestroy()
-    {
-        EnemyHealth.enemyDeadEvent -= RecargarBalasRevolver;
-    }
+
 
     void Update()
     {
@@ -95,6 +91,11 @@ public class Revolver : MonoBehaviour
             revolverDisparado();
     }
 
+
+    public void RecargarArma()
+    {
+        RecargarRevolver();
+    }
     public void RecargarRevolver()
     {
         balasRestantes = maxBalas;
@@ -104,14 +105,4 @@ public class Revolver : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    // Método para recargar las balas cuando un enemigo muere
-    void RecargarBalasRevolver(int balasRecargadas)
-    {
-        balasRestantes += balasRecargadas;
-        balasRestantes = Mathf.Min(balasRestantes, maxBalas);
-
-        // Guardar el nuevo estado de munición
-        PlayerPrefs.SetInt("BalasRevolver", balasRestantes);
-        PlayerPrefs.Save();
-    }
 }
