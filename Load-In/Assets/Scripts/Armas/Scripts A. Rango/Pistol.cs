@@ -22,7 +22,6 @@ public class Pistol : MonoBehaviour, IRecargable
     public float velocidadRecarga = 2f;
 
     public static event System.Action pistolaDisparada;
-
     public int ObtenerMunicionActual()
     {
         return currentAmmo;
@@ -56,11 +55,6 @@ public class Pistol : MonoBehaviour, IRecargable
             Disparar();
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Debug.Log("Recargando...");
-            Invoke("RecargarPistola", velocidadRecarga);
-        }
     }
 
     void Disparar()

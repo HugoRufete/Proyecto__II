@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
 {
@@ -133,15 +134,16 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     FreezeEnemies[] freezeEnemies;
 
+    public Button [] botonesADesactivar; 
+    
+
     void SaveExtraSpores()
     {
-        // Save the value of the extra spores variable to player prefs
         PlayerPrefs.SetFloat(esporasExtra, extraSpores);
     }
 
     void LoadExtraSpores()
     {
-        // Load the value of the extra spores variable from player prefs
         extraSpores = PlayerPrefs.GetFloat(esporasExtra, extraSpores);
     }
 
@@ -305,14 +307,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         dialogosDiosaTienda2[0].SetActive(false);
         animator.Play("AnimaciónNegocacionMartillo");
     }
-
     public void ActivarNegocaciónShotgun()
     {
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda2[1], 2f));
         dialogosDiosaTienda2[0].SetActive(false);
         animator.Play("AnimaciónNegocacionShotgun");
     }
-
     public void ActivarNegocaciónDañoReducido()
     {
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda2[1], 2f));
@@ -322,7 +322,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void ComprarAlabarda()
     {
+        for (int i = 0; i < botonesADesactivar.Length; i++)
+        {
+            botonesADesactivar[i].enabled = false;
+        }
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
+
 
         if (playerEsporas != null)
         {
@@ -482,6 +487,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void ComprarSniper()
     {
+        for (int i = 0; i < botonesADesactivar.Length; i++)
+        {
+            botonesADesactivar[i].enabled = false;
+        }
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
         if (playerEsporas != null)
@@ -633,6 +642,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void ComprarMartilloGigante()
     {
+        for (int i = 0; i < botonesADesactivar.Length; i++)
+        {
+            botonesADesactivar[i].enabled = false;
+        }
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
         if (playerEsporas != null)
@@ -782,6 +795,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void ComprarShotgun()
     {
+        for (int i = 0; i < botonesADesactivar.Length; i++)
+        {
+            botonesADesactivar[i].enabled = false;
+        }
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
         if (playerEsporas != null)
@@ -933,6 +950,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void ComprarAumentoDaño()
     {
+        for (int i = 0; i < botonesADesactivar.Length; i++)
+        {
+            botonesADesactivar[i].enabled = false;
+        }
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
         if (playerEsporas != null)
@@ -1060,6 +1081,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
    
     public void ComprarDañoReducido()
     {
+        for (int i = 0; i < botonesADesactivar.Length; i++)
+        {
+            botonesADesactivar[i].enabled = false;
+        }
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
 
         if (playerEsporas != null)
