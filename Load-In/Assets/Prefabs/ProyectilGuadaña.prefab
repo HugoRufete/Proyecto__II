@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1629633532575846817}
   - component: {fileID: 3797108449572799529}
   - component: {fileID: -7855121701733523558}
-  - component: {fileID: 3852320539378842153}
+  - component: {fileID: 6226715561801508073}
   m_Layer: 0
   m_Name: "ProyectilGuada\xF1a"
   m_TagString: Untagged
@@ -113,7 +113,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &-7855121701733523558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,8 +127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 10
---- !u!58 &3852320539378842153
-CircleCollider2D:
+--- !u!60 &6226715561801508073
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -159,6 +159,29 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.65999997, y: -0.11187151}
-  serializedVersion: 2
-  m_Radius: 1.078587
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 2.625}
+    newSize: {x: 0.36, y: 0.63}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.5833334, y: 0.7708334}
+      - {x: 0.5833334, y: 0.8125}
+      - {x: 0.5, y: 1.0208334}
+      - {x: 0.25, y: 1.0208334}
+      - {x: -0.45833334, y: 0.6041667}
+      - {x: -0.45833334, y: -0.6875}
+      - {x: 0.041666668, y: -1.1041667}
+      - {x: 0.16666667, y: -1.1458334}
+      - {x: 0.2916667, y: -1.1458334}
+      - {x: 0.5416667, y: -1.0208334}
+      - {x: 0.5833334, y: -0.8958334}
+      - {x: 0.5833334, y: -0.7708334}
+      - {x: 0.20833334, y: -0.1875}
+  m_UseDelaunayMesh: 0
