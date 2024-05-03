@@ -8,6 +8,7 @@ public class AumentarDañoAEnemigos : MonoBehaviour
 
     public static AumentarDañoAEnemigos Instance { get; private set; }
 
+    public GameObject imagenHabilidadDañoAumentado;
     private void Awake()
     {
         Instance = this;
@@ -15,7 +16,8 @@ public class AumentarDañoAEnemigos : MonoBehaviour
 
     public void ActivateAdditionalDamage()
     {
-        // Activar la habilidad que aumenta el daño al enemigo
+        imagenHabilidadDañoAumentado.SetActive(true);
+
         foreach (var enemyHealth in enemyHealthList)
         {
             Debug.Log("Daño Extra a enemigos activado");
