@@ -13,15 +13,17 @@ public class Tentaculin : MonoBehaviour
     float lastTimeAttack = 0.0f;
     public float attackCooldown = 2.0f;
     bool mirarDerecha = true;
+    private EnemyDamage onedamage;
 
     // Start is called before the first frame update
     void Start()
     {
         myanimator = GetComponent<Animator>();
         attackCollider.enabled = false;
-        
+        onedamage = GetComponent<EnemyDamage>();
         player = GameObject.Find("Player").transform;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -63,6 +65,11 @@ public class Tentaculin : MonoBehaviour
             Voltear();
         }
 
+        if (attackCollider.enabled == true && onedamage != null)
+        {
+            onedamage.InflictDamage();
+        }
+
     }
 
     void Voltear()
@@ -86,6 +93,8 @@ public class Tentaculin : MonoBehaviour
     public void EnableCollider()
     {
         attackCollider.enabled = true;
+        
+        
     }
 
     public void DisableCollider()

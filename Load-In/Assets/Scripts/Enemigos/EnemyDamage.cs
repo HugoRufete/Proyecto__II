@@ -18,7 +18,7 @@ public class EnemyDamage : MonoBehaviour
         }
     }
 
-    private void InflictDamage()
+    public void InflictDamage()
     {
         // Inflige daño al jugador
         vidaPlayer.PlayerTakeDamage(damageAmount);
