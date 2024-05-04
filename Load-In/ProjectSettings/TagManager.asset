@@ -16,6 +16,7 @@ TagManager:
   - Espora
   - Revolver
   - Curacion
+  - UI
   layers:
   - Default
   - TransparentFX
