@@ -9,7 +9,7 @@ public class CargarEscena : MonoBehaviour
     }
     public void CargarMainMenu()
     {
-        SceneManager.LoadScene("Menu_Principal");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void CargarControles()

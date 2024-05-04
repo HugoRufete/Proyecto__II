@@ -55,6 +55,7 @@ public class SimplePlayerMovement : MonoBehaviour
         {
             Dash();
         }
+
     }
 
     // Movimiento simple de personaje + rotacion de este a través del cursor
@@ -136,22 +137,43 @@ public class SimplePlayerMovement : MonoBehaviour
         // Desactivar el Collider durante el Dash
         playerCollider.enabled = false;
 
-        // Obtener la dirección del dash
-        Vector2 dashDirection = new Vector2(SpeedX, SpeedY).normalized;
+        Vector2 dashDirection;
+
+        if (SpeedX != 0 || SpeedY != 0)
+        {
+            dashDirection = new Vector2(SpeedX, SpeedY).normalized;
+        }
+        else
+        {
+
+            if (transform.eulerAngles.y == 0)
+            {
+                dashDirection = Vector2.right;
+            }
+            else
+            {
+                dashDirection = Vector2.left;
+            }
+        }
+
+        // Aplicar la fuerza del dash en la dirección determinada
         rb.AddForce(dashDirection * dashSpeed, ForceMode2D.Impulse);
+
+        // Establecer la orientación del sprite según la dirección del dash
+        if (dashDirection.x > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0); // Mirando a la derecha
+        }
+        else if (dashDirection.x < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0); // Mirando a la izquierda
+        }
 
         // Establecer el tiempo para el próximo dash
         nextDashTime = Time.time + dashCooldown;
 
         // Reproducir la animación de dash
-        if (SpeedX > 0)
-        {
-            anim.Play("Dash");
-        }
-        else
-        {
-            anim.Play("Dash");
-        }
+        anim.Play("Dash");
 
         // Actualizar la barra de energía
         UpdateEnergyBar();
@@ -177,5 +199,6 @@ public class SimplePlayerMovement : MonoBehaviour
             // Ajustar FillAmount basado en remainingCooldown
             energyBar.fillAmount = 1 - (remainingCooldown / dashCooldown);
         }
+
     }
 }
