@@ -8,7 +8,8 @@ public class Tentaculin : MonoBehaviour
     public float distanciaDeseada = 1.0f;
     public float enemySpeed;
     Animator myanimator;
-    Collider2D mycollider;
+    public Collider2D standarCollider;
+    public Collider2D attackCollider;
     float lastTimeAttack = 0.0f;
     public float attackCooldown = 2.0f;
     bool mirarDerecha = true;
@@ -17,6 +18,7 @@ public class Tentaculin : MonoBehaviour
     void Start()
     {
         myanimator = GetComponent<Animator>();
+        attackCollider.enabled = false;
         
         player = GameObject.Find("Player").transform;
     }
@@ -36,7 +38,14 @@ public class Tentaculin : MonoBehaviour
 
             myanimator.SetBool("Canwalk", true);
 
-            
+            attackCollider.enabled = false;
+
+            if (Time.time >= lastTimeAttack + attackCooldown)
+            {
+                Attack();
+            }
+
+
         }
 
         else
@@ -44,18 +53,14 @@ public class Tentaculin : MonoBehaviour
             myanimator.SetBool("Canwalk", false);
         }
 
-        if (transform.position.x > player.position.x && mirarDerecha)
+        if (transform.position.x < player.position.x && mirarDerecha)
         {
             Voltear();
         }
 
-        else if (transform.position.x < player.position.x && !mirarDerecha)
+        else if (transform.position.x > player.position.x && !mirarDerecha)
         {
             Voltear();
-        }
-        if (Time.time >= lastTimeAttack + attackCooldown)
-        {
-            Attack();
         }
 
     }
@@ -73,18 +78,18 @@ public class Tentaculin : MonoBehaviour
 
     void Attack()
     {
-       // myanimator.SetBool("CanAttack", true);
+       myanimator.SetBool("CanAttack", true);
 
         lastTimeAttack = Time.time;
     }
 
     public void EnableCollider()
     {
-        mycollider.enabled = true;
+        attackCollider.enabled = true;
     }
 
     public void DisableCollider()
     {
-        mycollider.enabled = false;
+        attackCollider.enabled = false;
     }
 }
