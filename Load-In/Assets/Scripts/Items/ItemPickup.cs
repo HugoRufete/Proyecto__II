@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    public Item item;
+public Item item;
 
     void Pickup()
     {

@@ -19,10 +19,6 @@ public class InventoryManager : MonoBehaviour
 
     public GameObject inventoryRef;
 
-    public Animator anim;
-
-    public GameObject itemAvailable;
-
     private void Start()
     {
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
@@ -40,8 +36,6 @@ public class InventoryManager : MonoBehaviour
 
     public void Add(Item item)
     {
-        itemAvailable.SetActive(true);
-        anim.SetBool("itemAvailable", true);
         // Se añade un objeto a la lista
         Items.Add(item);
     }
@@ -71,8 +65,6 @@ public class InventoryManager : MonoBehaviour
         {
             if (item.itemType == Item.ItemType.Weapon && item.name == "Revolver" && !instantiatedObjects.ContainsKey(item.id))
             {
-
-               
                 // Si no existe un objeto con el mismo ID, lo instanciamos
                 GameObject obj = Instantiate(InventoryItem, WeaponItemContent);
                 var itemIcon = obj.transform.Find("Image").GetComponentInChildren<Image>();
@@ -88,7 +80,7 @@ public class InventoryManager : MonoBehaviour
                     var quantityText = obj.GetComponentInChildren<TMP_Text>();
                     quantityText.text = "";
                 }
-               
+
                 // Acceder al componente Button del objeto InventoryItem
                 Button itemButton = obj.GetComponent<Button>();
 

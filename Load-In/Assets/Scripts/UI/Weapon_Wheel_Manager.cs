@@ -26,8 +26,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     float interes_30_porciento = 0.70f;
 
     private Animator animator;
-    
-    public Animator animator2;
 
     public GameObject popUpInicial;
 
@@ -124,12 +122,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public SliderScript sliderNegocaciónDañoReducido;
     public SliderScript sliderNegocaciónAtaqueArea;
 
-    [Header("Pop Ups Items")]
-    public GameObject popUpAlabarda;
-    public GameObject popUpHacha;
-    public GameObject popUpSnioer;
-    public GameObject popUpShotgun;
-    public GameObject popUpMartillo;
     public SliderScript sliderBolsaEsporasExtra;
     [SerializeField] private float extraSpores = 0;
 
@@ -448,8 +440,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
                 }
-
-                animator.SetBool("HalberdObtained", true);
+               
                 DesbloquearSniper();
                 dialogosDiosaTienda1[4].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
@@ -519,6 +510,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             }
             else if(valorSliderAlabarda > precioBaseAlabarda && cantidadEsporas >= precioBaseAlabarda)
             {
+                Debug.Log("Desbloqueando Alabarada");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
@@ -601,7 +593,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
         if (playerEsporas != null)
         {
-            int valorSliderSniper = (int)sliderNegocaciónSniper.slider.value;
+            int valorSliderSniper = (int)sliderNegocaciónSnipe2.slider.value;
             float cantidadEsporas = playerEsporas.GetEsporas();
 
             if (valorSliderSniper == precioBaseSniper && cantidadEsporas >= precioBaseSniper)
@@ -1759,7 +1751,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void DesbloquearRevolver()
     {
-        animator.Play("RevolverEquippedAnimation");
         revolverDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
@@ -1770,33 +1761,29 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void DesbloquearHacha()
     {
-        animator.Play("HachaEquippedAnimation");
         hachaDesbloqueada = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearAlabarda()
     {
-        Time.timeScale = 1.0f;
-        animator2.Play("HalberdObtainedAnimation");
-        Debug.Log("Desbloqueando Alabarada");
+        Debug.Log("Alabarda Desbloqueada");
         alabardaDesbloqueda = true;
-        
+        Time.timeScale = 1.0f;
     }
     public void DesbloquearMartilloGigante()
     {
-        animator2.Play("HammerObtainedAnimation");
+        Debug.Log("Desbloqueando Martillo");
         martilloGiganteDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearSniper()
     {
-        animator2.Play("SniperObtainedAnimation");
         sniperDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearShotgun()
     {
-        animator2.Play("ShotgunObtainedAnimation");
+        Debug.Log("Shotgun Desbloqueada");
         shotgunDesbloqueada = true;
         Time.timeScale = 1.0f;
     }

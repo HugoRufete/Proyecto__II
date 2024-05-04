@@ -10,8 +10,6 @@ public class Canvas_Manager : MonoBehaviour
     public GameObject weaponContent;
     private bool openedinventory = false;
 
-    public GameObject itemAvailable;
-
     private void Start()
     {
         _animator = GetComponent<Animator>();
@@ -24,8 +22,6 @@ public class Canvas_Manager : MonoBehaviour
             InventoryManager inventoryManager = FindObjectOfType<InventoryManager>();
             if (openedinventory == false)
             {
-                _animator.SetBool("itemAvailable", false);
-                itemAvailable.SetActive(false);
                 Time.timeScale = 0f;
                 openedinventory = true;
                 inventory.SetActive(true);
