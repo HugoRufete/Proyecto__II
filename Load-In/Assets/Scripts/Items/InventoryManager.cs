@@ -15,7 +15,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject InventoryItem;
     public TMP_Text quantityText;
 
-    public Weapon_Wheel_Manager equiparRevolver;
+    public Weapon_Wheel_Manager scriptDesbloqueos;
 
     public GameObject inventoryRef;
 
@@ -25,7 +25,7 @@ public class InventoryManager : MonoBehaviour
 
         if (weaponWheelObject != null)
         {
-            equiparRevolver = weaponWheelObject.GetComponent<Weapon_Wheel_Manager>();
+            scriptDesbloqueos = weaponWheelObject.GetComponent<Weapon_Wheel_Manager>();
         }
     }
 
@@ -86,7 +86,7 @@ public class InventoryManager : MonoBehaviour
 
                 // Asignar una función al evento OnClick del botón (debug por consola)
                 itemButton.onClick.AddListener(() => {
-                    equiparRevolver.DesbloquearRevolver();
+                    scriptDesbloqueos.DesbloquearRevolver();
                 });
 
                 // Agregamos el objeto al diccionario de objetos instanciados
@@ -116,8 +116,7 @@ public class InventoryManager : MonoBehaviour
 
                 
                 itemButton.onClick.AddListener(() => {
-                    equiparRevolver.DesbloquearHacha();
-                    inventoryRef.SetActive(false);
+                    scriptDesbloqueos.DesbloquearHacha();
                 });
                 // Agregamos el objeto al diccionario de objetos instanciados
                 instantiatedObjects.Add(item.id, obj);

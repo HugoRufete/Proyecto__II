@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
@@ -140,12 +141,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public GameObject [] dialogosDiosaTienda1;
 
     public GameObject [] dialogosDiosaTienda2;
-    
-    public GameObject [] dialogosDiosaTienda3;
 
-    public GameObject bolsaExporasExtra;
+    public GameObject[] dialogosDiosaTienda3;
 
     FreezeEnemies[] freezeEnemies;
+
+    public GameObject bolsaExporasExtra;
 
     public Button [] botonesADesactivar; 
     
@@ -316,54 +317,63 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void ActivarNegocaciónAlabardar()
     {
+        animator.enabled = true;
         animator.Play("AnimaciónNegocacionAlabarda");
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda1[1], 2f));
         dialogosDiosaTienda1[0].SetActive(false);
     }
     public void ActivarNegocaciónSniper()
     {
+        animator.enabled = true;
         animator.Play("AnimaciónNegocacionSniper");
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda1[1], 2f));
         dialogosDiosaTienda1[0].SetActive(false);
     }
     public void ActivarNegocaciónSnipe2()
     {
+        animator.enabled = true;
         animator.Play("AnimaciónNegocacionSniper2");
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda3[1], 2f));
         dialogosDiosaTienda3[0].SetActive(false);
     }
     public void ActivarNegociaciónDañoAumentado()
     {
+        animator.enabled = true;
         animator.Play("AnimaciónNegocacionAumentoDaño");
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda1[1], 2f));
         dialogosDiosaTienda1[0].SetActive(false);
     }
     public void ActivarNegocaciónMartillo()
     {
+        animator.enabled = true;
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda2[1], 2f));
         dialogosDiosaTienda2[0].SetActive(false);
         animator.Play("AnimaciónNegocacionMartillo");
     }
     public void ActivarNegocaciónShotgun()
     {
+        animator.enabled = true;
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda2[1], 2f));
         dialogosDiosaTienda2[0].SetActive(false);
         animator.Play("AnimaciónNegocacionShotgun");
     }
     public void ActivarNegocaciónShotgun2()
     {
+        animator.enabled = true;
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda3[1], 2f));
         dialogosDiosaTienda3[0].SetActive(false);
         animator.Play("AnimaciónNegocacionShotgun2");
     }
     public void ActivarNegocaciónDañoReducido()
     {
+        animator.enabled = true;
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda2[1], 2f));
         dialogosDiosaTienda2[0].SetActive(false);
         animator.Play("AnimaciónNegocacionDañoReducido");
     }
     public void ActivarNegocaciónAtaqueArea()
     {
+        animator.enabled = true;
         StartCoroutine(ActivateObjectWithDelay(dialogosDiosaTienda3[1], 2f));
         dialogosDiosaTienda3[0].SetActive(false);
         animator.Play("AnimaciónNegocacionAtaqueArea");
@@ -410,13 +420,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void NegociarAlabarda()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
         PlayerEsporas playerEsporas = FindObjectOfType<PlayerEsporas>();
-        StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
-        bolsaExporasExtra.SetActive(false); 
-        
+            
 
         if (playerEsporas != null)
         {
@@ -439,7 +448,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 playerEsporas.RestarEsporas(valorSliderAlabarda);
                 interesDiosa = 1;
                 ActualizarPrecioSniper();
-                ;
+                StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
+                
 
                 extraSpores = valorSliderAlabarda - precioBaseAlabarda;
 
@@ -575,6 +585,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void NegociarSniper()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -732,6 +743,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
    
     public void NegociarSniper2()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -885,7 +897,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void NegociarMartilloGigante()
     {
-
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -1089,6 +1101,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void NegociarShotgun()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -1209,6 +1222,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void NegociarShotgun2()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -1361,6 +1375,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void NegociarDañoAumentado()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -1498,6 +1513,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void NegociarDañoReducido()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
@@ -1636,6 +1652,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void NegociarAtaqueArea()
     {
+        animator.enabled = false;
         BolsaEsporas bolsaEsporas = FindAnyObjectByType<BolsaEsporas>();
         Debug.Log("Regateando...");
 
