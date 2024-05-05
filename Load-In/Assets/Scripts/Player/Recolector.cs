@@ -6,7 +6,7 @@ public class Recolector : MonoBehaviour
 {
     public int fragmentosRecogidos = 0;
 
-    public GameObject puerta;
+    public GameObject areaExtraccion;
 
     [Serializable]
     public class FragmentosRecogidosEvent : UnityEvent<int> { }
@@ -28,10 +28,10 @@ public class Recolector : MonoBehaviour
 
             if (fragmentosRecogidos >= 3)
             {
+                areaExtraccion.SetActive(true);
                 if (onFragmentosRecogidos != null)
                 {
                     onFragmentosRecogidos.Invoke(fragmentosRecogidos);
-                    puerta.SetActive(false);
                     indicardorArea.SetActive(true);
 
                     indicadorFragmentos_1.SetActive(false);
