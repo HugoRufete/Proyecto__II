@@ -218,7 +218,7 @@ MonoBehaviour:
   health: 20
   maxHealth: 100
   additionalDamageActivated: 1
-  bloodEnemy: {fileID: 3558011859327746363}
+  bloodEnemy: {fileID: 6700325468273730942}
   experiencePrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
   esporaPrefab: {fileID: 5407279750083029178, guid: 360c545ba1e722d43b143a72613f90a3, type: 3}
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
@@ -259,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3225423595798555128, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalScale.x
@@ -310,9 +310,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed735d99440ae534e83650035da89184, type: 3}
---- !u!1 &3558011859327746363 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3225423595798555128, guid: ed735d99440ae534e83650035da89184, type: 3}
+--- !u!198 &6700325468273730942 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4710712193146064317, guid: ed735d99440ae534e83650035da89184, type: 3}
   m_PrefabInstance: {fileID: 2135719167929084099}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8801251812616351298 stripped

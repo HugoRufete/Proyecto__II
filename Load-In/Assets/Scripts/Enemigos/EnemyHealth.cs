@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public bool additionalDamageActivated = false;
     private float additionalDamageMultiplier = 2.0f;
 
-    public GameObject bloodEnemy;
+    public ParticleSystem bloodEnemy;
     public GameObject experiencePrefab;
     public GameObject esporaPrefab;
     public GameObject curaPrefab;
@@ -61,8 +61,7 @@ public class EnemyHealth : MonoBehaviour
         }
         else if (!invulnerable)
         {
-            bloodEnemy.SetActive(false);
-            bloodEnemy.SetActive(true);
+            bloodEnemy.Play();
             health -= damageAmount;
         }
 
