@@ -16,6 +16,8 @@ TagManager:
   - Espora
   - Revolver
   - Curacion
+  - PopUps
+  - "AreaExtracci\xF3n"
   layers:
   - Default
   - TransparentFX
