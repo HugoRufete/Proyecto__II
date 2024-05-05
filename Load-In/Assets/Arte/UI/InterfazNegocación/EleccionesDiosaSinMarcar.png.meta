@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 22af1908460ba4c4b8f6b14639606f37
+guid: 0970eb384f6f93042909f18698484350
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,17 +93,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ataque_Escudito_0
+      name: EleccionesDiosaSinMarcar_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 96
-        height: 96
+        x: 22
+        y: 376
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44989534b863d5f4dad80b64fe270588
-      internalID: -1611469655
+      spriteID: cce4922d134b7ac468b14561dee05cc9
+      internalID: 679565102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_1
+      name: EleccionesDiosaSinMarcar_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 96
-        height: 96
+        x: 406
+        y: 378
+        width: 362
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d228f7f3d6886c458943c8d77cc28ec
-      internalID: 1273043147
+      spriteID: dc569adf9a98e0544bb80abc058c51ca
+      internalID: -2082720972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_2
+      name: EleccionesDiosaSinMarcar_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 96
-        height: 96
+        x: 22
+        y: 260
+        width: 369
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a6e0ca63b3be3468f588e1d2bbedc6
-      internalID: 33275179
+      spriteID: 08795e66133ba3c4985c79abc484bd8e
+      internalID: 1761986344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_3
+      name: EleccionesDiosaSinMarcar_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 96
-        height: 96
+        x: 410
+        y: 259
+        width: 362
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e67697219968ae24f97e5d8d685083cb
-      internalID: -744915030
+      spriteID: f76350c10ec56fd4ea5ee570f0e48f3b
+      internalID: -56209270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_4
+      name: EleccionesDiosaSinMarcar_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 96
-        height: 96
+        x: 20
+        y: 144
+        width: 356
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3b814b72e73caf428c1f32a2edd16c6
-      internalID: -473146266
+      spriteID: 253ad8d873e72704fbbf97ca9e0b7a14
+      internalID: 925003623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_5
+      name: EleccionesDiosaSinMarcar_5
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 96
-        height: 96
+        x: 409
+        y: 147
+        width: 362
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f0b16f0650fbe40b00c7826a52d479
-      internalID: 1217744042
+      spriteID: 85f6ec3da09c99d4d8ae0af69caef678
+      internalID: -1816050478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_6
+      name: EleccionesDiosaSinMarcar_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 96
+        x: 18
+        y: 24
+        width: 356
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +250,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 558ed0447972bb74b90d8a31bf95878d
-      internalID: 851157354
+      spriteID: f87f559321d4f7d4f8d6ae24bd060532
+      internalID: 1198975665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EleccionesDiosaSinMarcar_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 22
+        width: 356
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec85cabf0e4f974384613abfdc09652
+      internalID: -963101844
       vertices: []
       indices: 
       edges: []
@@ -254,13 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ataque_Escudito_0: -1611469655
-      Ataque_Escudito_1: 1273043147
-      Ataque_Escudito_2: 33275179
-      Ataque_Escudito_3: -744915030
-      Ataque_Escudito_4: -473146266
-      Ataque_Escudito_5: 1217744042
-      Ataque_Escudito_6: 851157354
+      EleccionesDiosaSinMarcar_0: 679565102
+      EleccionesDiosaSinMarcar_1: -2082720972
+      EleccionesDiosaSinMarcar_2: 1761986344
+      EleccionesDiosaSinMarcar_3: -56209270
+      EleccionesDiosaSinMarcar_4: 925003623
+      EleccionesDiosaSinMarcar_5: -1816050478
+      EleccionesDiosaSinMarcar_6: 1198975665
+      EleccionesDiosaSinMarcar_7: -963101844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

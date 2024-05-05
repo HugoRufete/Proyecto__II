@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 22af1908460ba4c4b8f6b14639606f37
+guid: 2cf081dd0d8249f45bcefb72fe497314
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,17 +93,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ataque_Escudito_0
+      name: SetDeArmasDiosa_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 96
-        height: 96
+        x: 22
+        y: 376
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44989534b863d5f4dad80b64fe270588
-      internalID: -1611469655
+      spriteID: 48b894477a892804cafa9b713ee2ccc7
+      internalID: -1574949764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_1
+      name: SetDeArmasDiosa_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 96
-        height: 96
+        x: 428
+        y: 375
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d228f7f3d6886c458943c8d77cc28ec
-      internalID: 1273043147
+      spriteID: 692793e2979d2d84e865def55beae1aa
+      internalID: -249753340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_2
+      name: SetDeArmasDiosa_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 96
-        height: 96
+        x: 23
+        y: 259
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a6e0ca63b3be3468f588e1d2bbedc6
-      internalID: 33275179
+      spriteID: 92a18cb0b425e4747bc92533c0960a01
+      internalID: -1999448655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_3
+      name: SetDeArmasDiosa_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 96
-        height: 96
+        x: 430
+        y: 255
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e67697219968ae24f97e5d8d685083cb
-      internalID: -744915030
+      spriteID: d25dc2e87c6efe24499bc6c149e54944
+      internalID: 826465838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_4
+      name: SetDeArmasDiosa_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 96
-        height: 96
+        x: 23
+        y: 139
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3b814b72e73caf428c1f32a2edd16c6
-      internalID: -473146266
+      spriteID: c5a132569faabfe43ad00512785a2ed8
+      internalID: -1618346675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_5
+      name: SetDeArmasDiosa_5
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 96
-        height: 96
+        x: 428
+        y: 137
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f0b16f0650fbe40b00c7826a52d479
-      internalID: 1217744042
+      spriteID: d2ed6cb4ecf56ea44a69a32fd8f798fa
+      internalID: 39469950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataque_Escudito_6
+      name: SetDeArmasDiosa_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 96
+        x: 21
+        y: 14
+        width: 357
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +250,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 558ed0447972bb74b90d8a31bf95878d
-      internalID: 851157354
+      spriteID: 81579051f8ed351488c06e719735d035
+      internalID: -711640674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SetDeArmasDiosa_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 14
+        width: 357
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640704692b4916f42a1a961988e6df14
+      internalID: -869740706
       vertices: []
       indices: 
       edges: []
@@ -254,13 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ataque_Escudito_0: -1611469655
-      Ataque_Escudito_1: 1273043147
-      Ataque_Escudito_2: 33275179
-      Ataque_Escudito_3: -744915030
-      Ataque_Escudito_4: -473146266
-      Ataque_Escudito_5: 1217744042
-      Ataque_Escudito_6: 851157354
+      SetDeArmasDiosa_0: -1574949764
+      SetDeArmasDiosa_1: -249753340
+      SetDeArmasDiosa_2: -1999448655
+      SetDeArmasDiosa_3: 826465838
+      SetDeArmasDiosa_4: -1618346675
+      SetDeArmasDiosa_5: 39469950
+      SetDeArmasDiosa_6: -711640674
+      SetDeArmasDiosa_7: -869740706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

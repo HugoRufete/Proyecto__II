@@ -22,6 +22,5 @@ public class EnemyDamage : MonoBehaviour
     {
         // Inflige daño al jugador
         vidaPlayer.PlayerTakeDamage(damageAmount);
-        Debug.Log("Daño Inflingido");
     }
 }
