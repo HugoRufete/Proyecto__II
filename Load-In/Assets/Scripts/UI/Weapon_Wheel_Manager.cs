@@ -132,6 +132,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     private const string esporasExtra = "esporasExtra";
 
+    private bool negocaciónRealizada = false;
+    private bool compraRealizada = false;
+
     public AumentarDañoAEnemigos aumentarDaño;
 
     public PlayerAreaDamage areaAttack;
@@ -141,6 +144,8 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public GameObject inventory;
 
     public Animator equippedPopUps;
+
+    public GameObject extraEsporasPopUp;
     
     public GameObject [] dialogosDiosaTienda1;
 
@@ -193,6 +198,12 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     void Update()
     {
+
+        if(extraSpores >= 40)
+        {
+            StartCoroutine(ActivateObjectWithDelay(extraEsporasPopUp, 7f));
+            StartCoroutine(ActivateObjectAnimationwithDelay("PopUpRecomensaExtraAnimation", 7f));
+        }
         if(sliderBolsaEsporasExtra != null)
         {
             sliderBolsaEsporasExtra.slider.value = extraSpores;
@@ -200,48 +211,48 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         if (sliderNegocaciónAlabarda != null)
         {
             int valorSlider = (int)sliderNegocaciónAlabarda.slider.value;
-            PrecioNegociado.text = "Pagando: " + valorSlider + " esporas";
+            PrecioNegociado.text = "" + valorSlider ;
         }
         if (sliderNegocaciónSniper != null)
         {
             int valorSliderSniper = (int)sliderNegocaciónSniper.slider.value;
-            PrecioNegociadoSniper.text = "Pagando : " + valorSliderSniper + " esporas";
+            PrecioNegociadoSniper.text = "" + valorSliderSniper;
         }
         if (sliderNegocaciónSnipe2 != null)
         {
             int valorSliderSniper2 = (int)sliderNegocaciónSnipe2.slider.value;
-            PrecioNegociadoSniper2.text = "Pagando : " + valorSliderSniper2 + " esporas";
+            PrecioNegociadoSniper2.text = "" + valorSliderSniper2;
         }
         if (sliderNegocaciónMartillo != null)
         {
             int valorSliderMartillo = (int)sliderNegocaciónMartillo.slider.value;
-            PrecioNegociadoMartilo.text = "Pagando : " + valorSliderMartillo + " esporas";
+            PrecioNegociadoMartilo.text = "" + valorSliderMartillo;
         }
         if (sliderNegocaciónDañoAumentado != null)
         {
             int valorSliderMartillo = (int)sliderNegocaciónDañoAumentado.slider.value;
-            PrecioNegociadoDañoAumentado.text = "Pagando : " + valorSliderMartillo + " esporas";
+            PrecioNegociadoDañoAumentado.text = "" + valorSliderMartillo;
         }
 
         if (sliderNegocaciónShotgun != null)
         {
             int valorSliderShotgun = (int)sliderNegocaciónShotgun.slider.value;
-            PrecioNegociadoShotgun.text = "Pagando : " + valorSliderShotgun + " esporas";
+            PrecioNegociadoShotgun.text = "" + valorSliderShotgun;
         }
         if (sliderNegocaciónShotgun2 != null)
         {
             int valorSliderShotgun = (int)sliderNegocaciónShotgun2.slider.value;
-            PrecioNegociadoShotgun2.text = "Pagando : " + valorSliderShotgun + " esporas";
+            PrecioNegociadoShotgun2.text = "" + valorSliderShotgun;
         }
         if (sliderNegocaciónDañoReducido != null)
         {
             int valorSliderDañoReducidon = (int)sliderNegocaciónDañoReducido.slider.value;
-            PrecioNegociadoDañoReducido.text = "Pagando : " + valorSliderDañoReducidon + " esporas";
+            PrecioNegociadoDañoReducido.text = "" + valorSliderDañoReducidon;
         }
         if (sliderNegocaciónAtaqueArea != null)
         {
             int valorSliderDañoReducidon = (int)sliderNegocaciónAtaqueArea.slider.value;
-            PrecioNegociadoAtaqueEnArea.text = "Pagando : " + valorSliderDañoReducidon + " esporas";
+            PrecioNegociadoAtaqueEnArea.text = "" + valorSliderDañoReducidon;
         }
 
         if (Input.GetKeyDown(KeyCode.E))

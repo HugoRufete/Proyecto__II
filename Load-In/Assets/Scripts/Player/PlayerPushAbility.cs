@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerPushAbility : MonoBehaviour
@@ -10,6 +11,8 @@ public class PlayerPushAbility : MonoBehaviour
     private bool habilidadEmpujeDesbloqueada = false;
 
     public GameObject imagenEmpuje;
+
+    public GameObject interfazPopUp;
 
     void Update()
     {
@@ -39,8 +42,11 @@ public class PlayerPushAbility : MonoBehaviour
 
     public void DesbloquearHabilidadEmpuje()
     {
+        interfazPopUp.SetActive(false);
         imagenEmpuje.SetActive(true);
         habilidadEmpujeDesbloqueada = true;
         Time.timeScale = 1.0f;
     }
+
+    
 }

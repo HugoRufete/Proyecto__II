@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12e6a121f8c14724bace170eb5a20f2e
+guid: c7e6aeded67dce14e8feb30cf2040497
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,55 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: InterfazDiosaNegociarArmas(Barra y Indicador)_0
+      name: EsporasNotasFragmentos_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 84
-        width: 69
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03ce12e24026bad469e0a64c32aa6919
-      internalID: -885420055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InterfazDiosaNegociarArmas(Barra y Indicador)_1
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 83
-        width: 88
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5bcb308b350d6e40a30da3f87551567
-      internalID: -1970588772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InterfazDiosaNegociarArmas(Barra y Indicador)_2
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 341
-        width: 57
-        height: 23
+        x: 5
+        y: 71
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +124,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470a61b85c63f2d439d34882b198a706
-      internalID: 1778741949
+      spriteID: 888a752f4ca61e34b8a60264ad8c1cde
+      internalID: 1098230033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsporasNotasFragmentos_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 71
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80973cc08c769046be9e8583cf8009f
+      internalID: -256589730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsporasNotasFragmentos_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 71
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91e7b637944a394b95c158d589b3aac
+      internalID: 1406120273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsporasNotasFragmentos_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 35
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190d05b646f171440bf85a69081b8115
+      internalID: 820725841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsporasNotasFragmentos_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 36
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8dfc41c8f73b5489ef6f30e9b4bf14
+      internalID: 1064272633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsporasNotasFragmentos_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 13
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8211dd21031ab524f9b0beb3f3db8e1e
+      internalID: 93710372
       vertices: []
       indices: 
       edges: []
@@ -183,9 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      InterfazDiosaNegociarArmas(Barra y Indicador)_0: -885420055
-      InterfazDiosaNegociarArmas(Barra y Indicador)_1: -1970588772
-      InterfazDiosaNegociarArmas(Barra y Indicador)_2: 1778741949
+      EsporasNotasFragmentos_0: 1098230033
+      EsporasNotasFragmentos_1: -256589730
+      EsporasNotasFragmentos_2: 1406120273
+      EsporasNotasFragmentos_3: 820725841
+      EsporasNotasFragmentos_4: 1064272633
+      EsporasNotasFragmentos_5: 93710372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

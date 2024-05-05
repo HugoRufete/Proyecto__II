@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17435fca7090e7e4db960ab0a88c9a5e
+guid: 618b8357912452045b3b7a94f6f68652
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_0
+      name: EleccionesDiosaMarcadas_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 227
-        width: 60
-        height: 58
+        x: 21
+        y: 376
+        width: 358
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b2643baae91867428c864489a6b23c4
-      internalID: -1701572807
+      spriteID: bb6c86bfbda68894f9ceb8de7fb2336e
+      internalID: -343010376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_1
+      name: EleccionesDiosaMarcadas_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 227
-        width: 57
-        height: 56
+        x: 406
+        y: 376
+        width: 362
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d656f3ab4b4d946b3fe36c9c11b927
-      internalID: -761616985
+      spriteID: 42cc152bbd3b69445bc6ffd4a15f6cb6
+      internalID: -1084036764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_2
+      name: EleccionesDiosaMarcadas_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 227
-        width: 59
-        height: 57
+        x: 22
+        y: 258
+        width: 369
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e6d772ab91910640a460cd667a202fa
-      internalID: 209055263
+      spriteID: b106eb2b472afe340a4d27ab93ad9380
+      internalID: 834864122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_3
+      name: EleccionesDiosaMarcadas_3
       rect:
         serializedVersion: 2
-        x: 277
-        y: 225
-        width: 57
-        height: 56
+        x: 410
+        y: 257
+        width: 362
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cbfead8061c65442ada1f0ff2b6ce85
-      internalID: -1500266102
+      spriteID: 6493728c5be25d14a9ff7e899340742d
+      internalID: -449551336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_4
+      name: EleccionesDiosaMarcadas_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 161
-        width: 60
-        height: 57
+        x: 20
+        y: 144
+        width: 356
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fc5c09ed929f8848b805903248f8656
-      internalID: 1796467569
+      spriteID: 8ff06a0c7060f01419219ddafece0953
+      internalID: 1771194613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_5
+      name: EleccionesDiosaMarcadas_5
       rect:
         serializedVersion: 2
-        x: 113
-        y: 154
-        width: 57
-        height: 60
+        x: 408
+        y: 145
+        width: 363
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e4dede9b7e55694db7f9d8fcf29aeb9
-      internalID: 742183827
+      spriteID: fd531b3e26a5be14b948adb86f1a82a9
+      internalID: -497224872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_6
+      name: EleccionesDiosaMarcadas_6
       rect:
         serializedVersion: 2
-        x: 199
-        y: 152
-        width: 60
-        height: 61
+        x: 18
+        y: 24
+        width: 356
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f62b49ba475dcb4ca651fef4b0ea0f0
-      internalID: -1407610033
+      spriteID: 9658b041b3e128f41ab40852d0b5dc54
+      internalID: 1941468102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_7
+      name: EleccionesDiosaMarcadas_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 87
-        width: 57
-        height: 59
+        x: 406
+        y: 22
+        width: 356
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,113 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98806afffa8188d4091da28cc6acff78
-      internalID: -24240394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_8
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 81
-        width: 62
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 328233e8092aabc4b922c8c4627b6c4e
-      internalID: -658775018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_9
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 81
-        width: 56
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a71ebf7b4edee2b4cb5bccf158991df2
-      internalID: -1859561601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_10
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 7
-        width: 56
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e48bd656e2c67f4faabc99edceaecaa
-      internalID: -1229330580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_11
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 7
-        width: 58
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b94a80076370e8941b7aedd3e0564210
-      internalID: -924150758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RecopilacionDeSimoboloObjetoDiosa_12
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 8
-        width: 58
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66f83948e26756a42a4e7385e46abd5c
-      internalID: -90908556
+      spriteID: 4c9637b0a72da9d4aa5bdd39b2c6eb60
+      internalID: 1033001159
       vertices: []
       indices: 
       edges: []
@@ -393,19 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RecopilacionDeSimoboloObjetoDiosa_0: -1701572807
-      RecopilacionDeSimoboloObjetoDiosa_1: -761616985
-      RecopilacionDeSimoboloObjetoDiosa_10: -1229330580
-      RecopilacionDeSimoboloObjetoDiosa_11: -924150758
-      RecopilacionDeSimoboloObjetoDiosa_12: -90908556
-      RecopilacionDeSimoboloObjetoDiosa_2: 209055263
-      RecopilacionDeSimoboloObjetoDiosa_3: -1500266102
-      RecopilacionDeSimoboloObjetoDiosa_4: 1796467569
-      RecopilacionDeSimoboloObjetoDiosa_5: 742183827
-      RecopilacionDeSimoboloObjetoDiosa_6: -1407610033
-      RecopilacionDeSimoboloObjetoDiosa_7: -24240394
-      RecopilacionDeSimoboloObjetoDiosa_8: -658775018
-      RecopilacionDeSimoboloObjetoDiosa_9: -1859561601
+      EleccionesDiosaMarcadas_0: -343010376
+      EleccionesDiosaMarcadas_1: -1084036764
+      EleccionesDiosaMarcadas_2: 834864122
+      EleccionesDiosaMarcadas_3: -449551336
+      EleccionesDiosaMarcadas_4: 1771194613
+      EleccionesDiosaMarcadas_5: -497224872
+      EleccionesDiosaMarcadas_6: 1941468102
+      EleccionesDiosaMarcadas_7: 1033001159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

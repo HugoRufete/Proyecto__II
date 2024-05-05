@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12e6a121f8c14724bace170eb5a20f2e
+guid: 5bcb4b75d3543794189989c06e23c6b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,55 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: InterfazDiosaNegociarArmas(Barra y Indicador)_0
+      name: Pop-Up-Hbailidades_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 84
-        width: 69
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03ce12e24026bad469e0a64c32aa6919
-      internalID: -885420055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InterfazDiosaNegociarArmas(Barra y Indicador)_1
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 83
-        width: 88
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5bcb308b350d6e40a30da3f87551567
-      internalID: -1970588772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InterfazDiosaNegociarArmas(Barra y Indicador)_2
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 341
-        width: 57
-        height: 23
+        x: 227
+        y: 92
+        width: 261
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470a61b85c63f2d439d34882b198a706
-      internalID: 1778741949
+      spriteID: 321e9d1b3cdc38f4b858b9975d339d50
+      internalID: 561524582
       vertices: []
       indices: 
       edges: []
@@ -183,9 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      InterfazDiosaNegociarArmas(Barra y Indicador)_0: -885420055
-      InterfazDiosaNegociarArmas(Barra y Indicador)_1: -1970588772
-      InterfazDiosaNegociarArmas(Barra y Indicador)_2: 1778741949
+      Pop-Up-Hbailidades_0: 561524582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
