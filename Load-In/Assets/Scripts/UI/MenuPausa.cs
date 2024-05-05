@@ -25,11 +25,15 @@ public class MenuPausa : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("Escena principal");
+        botonPausa.SetActive(true);
+        menuPausa.SetActive(false);
     }
 
     public void BackMenu()
     {
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("MainMenu");
+        botonPausa.SetActive(true);
+        menuPausa.SetActive(false);
     }
 }

@@ -14,9 +14,14 @@ public class Escudito : MonoBehaviour
     Animator myanimator;//Referencia a nuestro animator
     bool mirarDerecha = true; //Booleana para controlar a que lado mira el jugador  
     private EnemyHealth enemHealth; //Referencia al script de vida enemigo
-    bool protegiendo = false; 
+    bool protegiendo = false;
     private bool isAnimating;
     bool accionRealizada; //Booleana que hace que la animación de proteger se haga solo una vez y no solo en bucle
+    bool isattacking = false;
+
+    public int damageAmount = 10;
+    private VidaPlayer vidaPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +30,8 @@ public class Escudito : MonoBehaviour
         isAnimating = false;
         attackCollider.enabled = false; //Al empezar el collider del enemigo siempre estará desactivado
         enemHealth = GetComponent<EnemyHealth>();
-        accionRealizada = false; 
+        accionRealizada = false;
+        isattacking = false;
 
     }
 
@@ -38,10 +44,10 @@ public class Escudito : MonoBehaviour
         {
             direction.Normalize(); //Normalizamos el vector
 
-            
+
             // multiplicando por la diferencia entre la posición menos la distanciaDeseada (distancia mínima entre ellos)
 
-            transform.Translate(direction * velocidadMovimiento * Time.deltaTime); //Trasladar al enemigo a la dirección a la posición del jugador multiplicando por su velocidad 
+            transform.Translate(direction * velocidadMovimiento * Time.deltaTime); //Trasladar al enemigo a la dirección a la posición del jugador multiplicando por su velocidad
             //Time.DeltaTime(para que vaya igual en todos los ordenadores
 
             myanimator.SetBool("IsWalking", true); //Si la condición de arriba es verdadera activamos la animaciónd de andar
@@ -59,14 +65,14 @@ public class Escudito : MonoBehaviour
             myanimator.SetBool("IsWalking", false); //Si no lo es la desactivamos
         }
 
-        if (transform.position.x > Player.position.x && mirarDerecha) //Si la posiciíon del enemigo es mayor en el eje x que la del jugador y 
-            //la booleana es verdadera llamamos al método voltear(flipear al jugador)
+        if (transform.position.x > Player.position.x && mirarDerecha) //Si la posiciíon del enemigo es mayor en el eje x que la del jugador y
+                                                                      //la booleana es verdadera llamamos al método voltear(flipear al jugador)
         {
             // Voltear al enemigo
             Voltear();
         }
-        else if (transform.position.x < Player.position.x && !mirarDerecha) //Si la posiciíon del enemigo es menor en el eje x que la del jugador y 
-            //la booleana es falsa llamamos al método voltear(flipear al jugador)
+        else if (transform.position.x < Player.position.x && !mirarDerecha) //Si la posiciíon del enemigo es menor en el eje x que la del jugador y
+                                                                            //la booleana es falsa llamamos al método voltear(flipear al jugador)
         {
             // Voltear al enemigo
             Voltear();
@@ -81,31 +87,19 @@ public class Escudito : MonoBehaviour
             accionRealizada = true; //La activamos a verdadera de forma que la animación solo se realizará una vez
         }
 
-        //Aquí abajo seguimos la misma lógica que arriba pero cuando el enemigo tenga una vida inferior
-        if (enemHealth != null && enemHealth.health < 14 && enemHealth.health > 9 && !protegiendo && accionRealizada)
+        if (enemHealth != null && enemHealth.health < 9 && enemHealth.health > 4 && !protegiendo && accionRealizada)
         {
-            
+
             Debug.Log("Vida menor de 15 y animación activada");
             enemHealth.ActivateInvulnerability(5f);
             StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
             accionRealizada = false;
         }
 
-        if (enemHealth != null && enemHealth.health < 9 && enemHealth.health > 4 && !protegiendo && !accionRealizada)
-        {
-            
-            Debug.Log("Vida menor de 15 y animación activada");
-            enemHealth.ActivateInvulnerability(5f);
-            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
-            accionRealizada = true;
-        }
-
         if (isAnimating)
         {
             return;
         }
-
-
 
     }
 
@@ -124,31 +118,60 @@ public class Escudito : MonoBehaviour
     {
         myanimator.SetBool("IsAttacking", true); //Se realiza la animación de atacar
 
-      
-        lastTimeAttack = Time.time; 
+
+        lastTimeAttack = Time.time;
     }
 
     public void EnableCollider()
     {
         attackCollider.enabled = true; //Activamos el collider a principios del ataque llamando a este método mediante un evento en la animación
-        
+        isattacking = true;
     }
 
     public void DisableCollider()
     {
         attackCollider.enabled = false; //Desactivamos el collider al final del ataque llamando a este método mediante un evento en la animación
+        isattacking = false;
     }
 
     IEnumerator PlayAnimationForDuration(string animationName, float duration) //Corutina que controla la animación de proteger
     {
-        
+
         isAnimating = true;
         myanimator.Play(animationName);
 
-        yield return new WaitForSeconds(duration); 
+        yield return new WaitForSeconds(duration);
 
         myanimator.StopPlayback();
         isAnimating = false;
-        
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            vidaPlayer = other.GetComponent<VidaPlayer>();
+            if (vidaPlayer != null)
+            {
+                // Inflige daño al jugador
+                InflictDamage();
+            }
+        }
+    }
+
+
+
+    public void InflictDamage()
+    {
+        if (isattacking)
+        {
+            isattacking = true;
+            // Inflige daño al jugador
+            vidaPlayer.PlayerTakeDamage(damageAmount);
+            Debug.Log("Daño Inflingido");
+            isattacking = false;
+        }
+
     }
 }

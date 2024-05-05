@@ -14,6 +14,10 @@ public class Tentaculin : MonoBehaviour
     public float attackCooldown = 2.0f;
     bool mirarDerecha = true;
     private EnemyDamage onedamage;
+    bool isattacking = false;
+
+    public int damageAmount = 10;
+    private VidaPlayer vidaPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +26,7 @@ public class Tentaculin : MonoBehaviour
         attackCollider.enabled = false;
         onedamage = GetComponent<EnemyDamage>();
         player = GameObject.Find("Player").transform;
+        isattacking = false;
     }
 
 
@@ -46,7 +51,6 @@ public class Tentaculin : MonoBehaviour
             {
                 Attack();
             }
-
 
         }
 
@@ -85,7 +89,7 @@ public class Tentaculin : MonoBehaviour
 
     void Attack()
     {
-       myanimator.SetBool("CanAttack", true);
+        myanimator.SetBool("CanAttack", true);
 
         lastTimeAttack = Time.time;
     }
@@ -93,12 +97,38 @@ public class Tentaculin : MonoBehaviour
     public void EnableCollider()
     {
         attackCollider.enabled = true;
-        
-        
+        isattacking = true;
     }
 
     public void DisableCollider()
     {
         attackCollider.enabled = false;
+        isattacking = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            vidaPlayer = other.GetComponent<VidaPlayer>();
+            if (vidaPlayer != null)
+            {
+                // Inflige daño al jugador
+                InflictDamage();
+            }
+        }
+    }
+
+    public void InflictDamage()
+    {
+        if (isattacking == true)
+        {
+            isattacking = true;
+            // Inflige daño al jugador
+            vidaPlayer.PlayerTakeDamage(damageAmount);
+            Debug.Log("Daño Inflingido");
+            isattacking = false;
+        }
+
     }
 }
