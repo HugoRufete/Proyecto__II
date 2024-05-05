@@ -19,6 +19,9 @@ public class InventoryManager : MonoBehaviour
 
     public GameObject inventoryRef;
 
+    public Animator anim;
+    public GameObject itemAvailable;
+
     private void Start()
     {
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
@@ -38,6 +41,8 @@ public class InventoryManager : MonoBehaviour
     {
         // Se añade un objeto a la lista
         Items.Add(item);
+        itemAvailable.SetActive(true);
+        anim.Play("WeaponAvailableAnimation");
     }
 
     public void Remove(Item item)

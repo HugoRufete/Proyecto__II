@@ -137,6 +137,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public PlayerAreaDamage areaAttack;
 
     public VidaPlayer reducirDaño;
+
+    public GameObject inventory;
+
+    public Animator equippedPopUps;
     
     public GameObject [] dialogosDiosaTienda1;
 
@@ -1751,6 +1755,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void DesbloquearRevolver()
     {
+        equippedPopUps.Play("RevolverEquippedAnimation");
+        StartCoroutine(ActivateObjectAnimationwithDelay("HalberdEquippedAnimation", 7f));
+        inventory.SetActive(false);
         revolverDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
@@ -1761,28 +1768,35 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void DesbloquearHacha()
     {
+        StartCoroutine(ActivateObjectAnimationwithDelay("AxeEquippedAnimation", 7f));
+        inventory.SetActive(false);
         hachaDesbloqueada = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearAlabarda()
     {
+
+        StartCoroutine(ActivateObjectAnimationwithDelay("HalberdEquippedAnimation", 7f));
         Debug.Log("Alabarda Desbloqueada");
         alabardaDesbloqueda = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearMartilloGigante()
     {
+        StartCoroutine(ActivateObjectAnimationwithDelay("HammerEquippedAnimation", 7f));
         Debug.Log("Desbloqueando Martillo");
         martilloGiganteDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearSniper()
     {
+        StartCoroutine(ActivateObjectAnimationwithDelay("SniperEquippedAnimation", 7f));
         sniperDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearShotgun()
     {
+        StartCoroutine(ActivateObjectAnimationwithDelay("ShotgunEquippedAnimation", 7f));
         Debug.Log("Shotgun Desbloqueada");
         shotgunDesbloqueada = true;
         Time.timeScale = 1.0f;
@@ -1791,6 +1805,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
     public void BloquearRevolver()
     {
+
         revolverDesbloqueado = false;
         Time.timeScale = 1.0f;
     }
@@ -1844,6 +1859,14 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         {
             objetoADestruir.SetActive(true);
         }
+    }
+
+    private IEnumerator ActivateObjectAnimationwithDelay(string animación, float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+
+        equippedPopUps.Play(animación);
     }
 
     private void ActualizarPrecioAlabarda()

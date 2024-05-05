@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 1c25820773eacbd4580e14485484d6c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InterfazDiosaNegocacionHabilidades(Barra e Indicador)_0
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 336
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a317e2b0859d414eb47f91dd44fda03
+      internalID: -60456000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegocacionHabilidades(Barra e Indicador)_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 77
+        width: 69
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed379ed507905084db2a3df5f969b9cf
+      internalID: -584770248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegocacionHabilidades(Barra e Indicador)_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 90
+        width: 96
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdfdb1a128f4164dae931c6e49e1d55
+      internalID: -997717140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_0: -60456000
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_1: -1358376630
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_10: 202970720
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_11: -1561309404
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_12: 631717274
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_13: 1758220843
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_14: 1837230350
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_15: -1361576962
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_16: 200957460
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_17: -1046650931
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_18: 1131225080
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_19: -1931495663
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_2: 416382052
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_20: -1898471874
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_21: 1227265279
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_22: 742963456
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_23: 128439685
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_24: -1858852831
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_25: 1604633948
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_26: 1884652140
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_27: 1940319108
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_28: 1234395574
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_29: -1594187317
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_3: 1110732674
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_30: 944872470
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_31: -62907422
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_32: 470193425
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_33: -584770248
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_34: -1699092337
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_35: -997717140
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_36: -1178132313
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_37: 1088367076
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_38: -403515345
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_39: 419067657
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_4: -1628202994
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_40: -1570304220
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_41: -942959597
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_42: 17404793
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_43: 1179908397
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_44: -336200734
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_45: 1985873568
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_46: -271095354
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_47: 1653759677
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_5: 1341902137
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_6: -1226546339
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_7: 1888731843
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_8: -1739892003
+      InterfazDiosaNegocacionHabilidades(Barra e Indicador)_9: -975144980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

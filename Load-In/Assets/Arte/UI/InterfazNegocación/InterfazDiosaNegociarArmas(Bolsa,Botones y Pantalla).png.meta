@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: ca7f512b8df581549949ed299f63d4db
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_0
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 153
+        width: 165
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca44afc6da199c4995b9e60abdd65cb
+      internalID: 1333092924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 293
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba50b96293f717d4ca7f61c21d3a7952
+      internalID: -900772901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 315
+        width: 103
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c60b96c9c8dc474d8526e9ea94fd69a
+      internalID: 180744447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 199
+        width: 85
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d4bb010fb338a4ba4999d9f54ccd13
+      internalID: -434009505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 207
+        width: 101
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb19b5abb122b21448d1d4d1bd9910d5
+      internalID: -42963528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 219
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05ab2f5c6db3364286a1dd4385d388f
+      internalID: 1208134722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_6
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 204
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25fa710acfc4504a8b27603652913d4
+      internalID: -1658438606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_7
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 203
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096e1b906c8958441a8d7d7abb15b64d
+      internalID: -362651896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 145
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fce86db14cffaa46a91407fa93a2649
+      internalID: -2016064255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 135
+        width: 135
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b272d7f05b77c5b48b71da3553779303
+      internalID: -1642908457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_15
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 182
+        width: 46
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51983916393eeb4db465e4976d406a1
+      internalID: -1691651711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 112
+        width: 145
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a97e54f3599f41a74fcd9da155e98
+      internalID: 2092742745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 70
+        width: 73
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6c11601c892934eae22c154c4a57fa
+      internalID: -440306785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 29
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc062b436983c4443a11324a493e5676
+      internalID: 1328491385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_0: 1333092924
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_1: -900772901
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_10: -2016064255
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_11: 734497070
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_12: 2007014047
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_13: -1951413821
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_14: -1642908457
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_15: -1691651711
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_16: 122056597
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_17: 2092742745
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_18: -440306785
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_19: 1328491385
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_2: 180744447
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_3: -434009505
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_4: -42963528
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_5: 1208134722
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_6: -1658438606
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_7: -362651896
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_8: 1810939600
+      InterfazDiosaNegociarArmas(Bolsa,Botones y Pantalla)_9: 1886023910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
