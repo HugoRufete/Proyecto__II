@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fragmentosRecogidos: 0
-  puerta: {fileID: 0}
+  areaExtraccion: {fileID: 0}
   onFragmentosRecogidos:
     m_PersistentCalls:
       m_Calls: []
@@ -274,6 +274,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   imagenEmpuje: {fileID: 0}
+  interfazPopUp: {fileID: 0}
 --- !u!114 &6484119861089406626
 MonoBehaviour:
   m_ObjectHideFlags: 0

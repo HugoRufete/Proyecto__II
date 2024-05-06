@@ -52,7 +52,6 @@ public class AreaExtracción : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            timerExtraction.SetActive(false);
             animator.Play("AreaExtracciónIdleAnimation");
             playerInside = false;
             extractionTimer = 0f; 

@@ -7,7 +7,7 @@ public class PlayerEsporas : MonoBehaviour
     [SerializeField] private float esporas;
     public TMP_Text textoEsporas;
 
-    public int cantidadEsporasporPrefab;
+    public int cantidadEsporasporPorPrefab;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,7 +21,7 @@ public class PlayerEsporas : MonoBehaviour
 
     public void RecogerEsporas()
     {
-        esporas += cantidadEsporasporPrefab;
+        esporas += cantidadEsporasporPorPrefab;
     }
 
     public float GetEsporas()

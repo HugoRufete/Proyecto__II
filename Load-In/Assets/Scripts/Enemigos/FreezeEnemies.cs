@@ -9,6 +9,7 @@ public class FreezeEnemies : MonoBehaviour
     public Component[] components;
     public void DesactivarComponentes()
     {
+        Debug.Log("Desactivando Componentes");
         foreach (Component component in components)
         {
             if (component is Behaviour behaviour)

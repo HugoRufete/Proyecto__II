@@ -5,11 +5,12 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Tipos de enemigos")]
-    public GameObject initialEnemy;
     public GameObject firefly;
+    public GameObject escudito;
     public GameObject gordet;
     public GameObject guadaña_;
     public GameObject spirit;
+    public GameObject tentaculin;
 
     public List<Transform> spawnPoints;  // Lista de puntos de spawn
 
@@ -26,6 +27,7 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnFirefly()
     {
+        Debug.Log("Instanciando Firefly");
         if (firefly != null && spawnPoints.Count > 0)
         {
             // Elije un punto de spawn al azar
@@ -90,9 +92,9 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    public void SpawnInitialtEnemy()
+    public void SpawnEscudito()
     {
-        if (initialEnemy != null && spawnPoints.Count > 0)
+        if (escudito != null && spawnPoints.Count > 0)
         {
             // Elije un punto de spawn al azar
             int randomIndex = Random.Range(0, spawnPoints.Count);
@@ -104,7 +106,7 @@ public class EnemySpawner : MonoBehaviour
             Transform spawnPoint = spawnPoints[randomIndex];
 
             // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
-            Instantiate(initialEnemy, spawnPoint.position, Quaternion.identity);
+            Instantiate(escudito, spawnPoint.position, Quaternion.identity);
         }
         else
         {
@@ -112,7 +114,27 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
+    public void SpawnTentaculin()
+    {
+        if (tentaculin != null && spawnPoints.Count > 0)
+        {
+            // Elije un punto de spawn al azar
+            int randomIndex = Random.Range(0, spawnPoints.Count);
 
+            // Asegúrate de que el índice esté dentro del rango
+            randomIndex = Mathf.Clamp(randomIndex, 0, spawnPoints.Count - 1);
+
+            // Obtén el punto de spawn correspondiente al índice
+            Transform spawnPoint = spawnPoints[randomIndex];
+
+            // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
+            Instantiate(tentaculin, spawnPoint.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning("Falta asignar el prefab de BasicEnemy o los puntos de spawn.");
+        }
+    }
     public void SpawnGordetEnemy()
     {
         if (gordet != null && spawnPoints.Count > 0)

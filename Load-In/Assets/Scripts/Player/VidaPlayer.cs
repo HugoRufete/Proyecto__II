@@ -16,8 +16,16 @@ public class VidaPlayer : MonoBehaviour
 
     public GameObject tiendaUI;
 
+    public Weapon_Wheel_Manager weaponManager;
+
     private void Start()
     {
+        GameObject weaponWheelObject = GameObject.Find("UI / HUD");
+
+        if (weaponWheelObject != null)
+        {
+            weaponManager = weaponWheelObject.GetComponent<Weapon_Wheel_Manager>();
+        }
         ReiniciarVida();
         reducedDamageActivated = false;
     }
@@ -72,5 +80,20 @@ public class VidaPlayer : MonoBehaviour
             CurarJugador();
             collision.gameObject.SetActive(false);
         }
+
+        else if(collision.CompareTag("HachaPickable"))
+        {
+            Debug.Log("Desbloqueando Hacha");
+            weaponManager.DesbloquearHacha();
+            collision.gameObject.SetActive(false);
+        }
+
+        else if(collision.CompareTag("RevolverPickable"))
+        {
+            weaponManager.DesbloquearRevolver();
+            collision.gameObject.SetActive(false);
+        }
+
+
     }
 }

@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-public Item item;
+    public Item item;
+
+    private Weapon_Wheel_Manager desbloquearHacha;
+
+    private void Start()
+    {
+        desbloquearHacha = GetComponent<Weapon_Wheel_Manager>();
+    }
 
     void Pickup()
     {

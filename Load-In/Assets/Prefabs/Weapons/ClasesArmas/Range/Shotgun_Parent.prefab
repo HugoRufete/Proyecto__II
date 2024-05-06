@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1828143341687917811}
   - component: {fileID: 4125757417880851125}
   - component: {fileID: 749933694391936515}
+  - component: {fileID: 8890358296191189874}
   m_Layer: 0
   m_Name: Shotgun
   m_TagString: Untagged
@@ -104,6 +105,20 @@ MonoBehaviour:
   alcance: 10
   maxBullets: 20
   bulletsInMagazine: 20
+--- !u!114 &8890358296191189874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5445882332299154899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 749933694391936515}
 --- !u!1 &8121840920270543568
 GameObject:
   m_ObjectHideFlags: 0

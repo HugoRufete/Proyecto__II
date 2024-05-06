@@ -18,6 +18,9 @@ TagManager:
   - Curacion
   - PopUps
   - "AreaExtracci\xF3n"
+  - UI
+  - HachaPickable
+  - RevolverPickable
   layers:
   - Default
   - TransparentFX

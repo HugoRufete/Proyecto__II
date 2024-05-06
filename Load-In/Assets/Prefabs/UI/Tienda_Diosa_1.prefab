@@ -698,6 +698,81 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1384597718974875348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8930395000291578126}
+  - component: {fileID: 3166875004663727429}
+  - component: {fileID: 3995196129483074551}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8930395000291578126
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384597718974875348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4579504, y: 1.4579504, z: 1.4579504}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2875177982944423660}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 495, y: 12}
+  m_SizeDelta: {x: 159, y: 405}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3166875004663727429
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384597718974875348}
+  m_CullTransparentMesh: 1
+--- !u!114 &3995196129483074551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384597718974875348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1305448676, guid: f7882e998728efd40820dc9c797018b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1483162637956114312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,6 +2611,81 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3190614733291413695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6761975560297365922}
+  - component: {fileID: 400251076282782125}
+  - component: {fileID: 5844119026041604122}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6761975560297365922
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190614733291413695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5923, y: 1.5923, z: 1.5923}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2875177982944423660}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -505, y: 0}
+  m_SizeDelta: {x: 196, y: 373}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &400251076282782125
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190614733291413695}
+  m_CullTransparentMesh: 1
+--- !u!114 &5844119026041604122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190614733291413695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 851474205, guid: f7882e998728efd40820dc9c797018b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3227522338771175810
 GameObject:
   m_ObjectHideFlags: 0
@@ -3988,6 +4138,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2907723201763741553}
+  - {fileID: 6761975560297365922}
+  - {fileID: 8930395000291578126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5199,7 +5351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a626abb5c553f34481a427d46295e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToWrite: Menuda cara alcachofa me llevas
+  textToWrite: Welcome... do you have something to offer me?
   letterDelay: 0.1
 --- !u!1 &6210269954574926470
 GameObject:
@@ -5452,7 +5604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a626abb5c553f34481a427d46295e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToWrite: Veamos que puedes ofrecerme
+  textToWrite: Let's see what you can offer me
   letterDelay: 0.1
 --- !u!1 &6301828280435034409
 GameObject:
@@ -5815,7 +5967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a626abb5c553f34481a427d46295e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToWrite: "Est\xE1 bien... Pero la pr\xF3xima vez no ser\xE9 tan amable"
+  textToWrite: It's OK... But next time I won't be so kind
   letterDelay: 0.1
 --- !u!1 &6751805950199687684
 GameObject:
@@ -6784,7 +6936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a626abb5c553f34481a427d46295e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToWrite: "Si sigues as\xED puede que te de algo a cambio..."
+  textToWrite: If you keep it up, I might give you something in return...
   letterDelay: 0.1
 --- !u!1 &8103442932226492089
 GameObject:

@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 1692898314835126450}
   - component: {fileID: -8547030554242844081}
   - component: {fileID: -3527556651199729970}
-  - component: {fileID: 8355705981626658906}
-  - component: {fileID: -3503720189000046902}
   - component: {fileID: 5142414226256933924}
   m_Layer: 0
   m_Name: Hacha
@@ -100,32 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbc2b7dd765d3344687c53e9431475d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8355705981626658906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885540014745978670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4a43e73747fded46a1dbaa938c62b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: 369fe2791156e0446b6f18d9d1dad395, type: 2}
---- !u!114 &-3503720189000046902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885540014745978670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1127e76ec2307f54291b2362448046e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 369fe2791156e0446b6f18d9d1dad395, type: 2}
 --- !u!61 &5142414226256933924
 BoxCollider2D:
   m_ObjectHideFlags: 0
