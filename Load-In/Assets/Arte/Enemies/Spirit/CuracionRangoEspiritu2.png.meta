@@ -110,27 +110,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CuracionRangoEspiritu2_0
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 88
-        width: 10
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c375692b281891c49bb2d48ea4f6d04e
-      internalID: 1343955081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CuracionRangoEspiritu2_1
       rect:
         serializedVersion: 2

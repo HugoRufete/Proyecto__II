@@ -113,10 +113,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_0"
       rect:
         serializedVersion: 2
-        x: 209
-        y: 24
-        width: 53
-        height: 47
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_1"
       rect:
         serializedVersion: 2
-        x: 311
-        y: 24
-        width: 46
-        height: 47
+        x: 96
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_2"
       rect:
         serializedVersion: 2
-        x: 421
-        y: 24
-        width: 39
-        height: 48
+        x: 192
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_3"
       rect:
         serializedVersion: 2
-        x: 517
-        y: 19
-        width: 45
-        height: 53
+        x: 288
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_4"
       rect:
         serializedVersion: 2
-        x: 615
-        y: 19
-        width: 42
-        height: 53
+        x: 384
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_5"
       rect:
         serializedVersion: 2
-        x: 713
-        y: 21
-        width: 35
-        height: 47
+        x: 480
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_6"
       rect:
         serializedVersion: 2
-        x: 809
-        y: 24
-        width: 36
-        height: 44
+        x: 576
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_7"
       rect:
         serializedVersion: 2
-        x: 904
-        y: 24
-        width: 39
-        height: 44
+        x: 672
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_8"
       rect:
         serializedVersion: 2
-        x: 973
+        x: 768
         y: 0
-        width: 57
-        height: 75
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_13"
       rect:
         serializedVersion: 2
-        x: 1165
-        y: 4
-        width: 59
-        height: 68
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_14"
       rect:
         serializedVersion: 2
-        x: 1351
-        y: 24
-        width: 63
-        height: 47
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_15"
       rect:
         serializedVersion: 2
-        x: 1448
-        y: 24
-        width: 68
-        height: 48
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_16"
       rect:
         serializedVersion: 2
-        x: 1551
-        y: 19
-        width: 67
-        height: 53
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_17"
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 19
-        width: 55
-        height: 53
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_18"
       rect:
         serializedVersion: 2
-        x: 1761
-        y: 21
-        width: 43
-        height: 47
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_19"
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 24
-        width: 40
-        height: 46
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_20"
       rect:
         serializedVersion: 2
-        x: 1960
-        y: 24
-        width: 39
-        height: 44
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: "AnimacionGuada\xF1aAtaque_21"
       rect:
         serializedVersion: 2
-        x: 2029
+        x: 2016
         y: 0
-        width: 56
-        height: 74
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,55 +488,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_28"
+      name: "AnimacionGuada\xF1aAtaque_9"
       rect:
         serializedVersion: 2
-        x: 16
-        y: 24
-        width: 54
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ec7c3bd5a32d934ba198b5c0006c33a
-      internalID: 1130673427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_29"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 24
-        width: 54
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eed09198911f5bc44bb0771476fe20e2
-      internalID: -1430698132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_30"
-      rect:
-        serializedVersion: 2
-        x: 1069
+        x: 864
         y: 0
-        width: 58
-        height: 74
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9219a29ea42a83e45b8216c7fa1aa6e3
-      internalID: -1870419839
+      spriteID: bf3b9bc85dbf03a4ba838ef8fa574ef0
+      internalID: -1204089953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_31"
+      name: "AnimacionGuada\xF1aAtaque_10"
       rect:
         serializedVersion: 2
-        x: 2125
+        x: 960
         y: 0
-        width: 56
-        height: 72
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,20 +523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9b4094b696bdc43942df479a4af767
-      internalID: 1375664821
+      spriteID: 19c77bfc198b7dd4bbcf641409300a89
+      internalID: -2045432877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_35"
+      name: "AnimacionGuada\xF1aAtaque_11"
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 5
-        width: 58
-        height: 49
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,20 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 042fd72e25e3504478f7188de700c147
-      internalID: 2052174455
+      spriteID: c7d8c56cf4a95f14595703f1ca60f939
+      internalID: -1887303706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_37"
+      name: "AnimacionGuada\xF1aAtaque_12"
       rect:
         serializedVersion: 2
-        x: 2221
-        y: 4
-        width: 60
-        height: 70
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e8eee4234704f847a5fd7893aa2e8ff
-      internalID: 1722200319
+      spriteID: 7b31669d2c2d52a4faed4279c18b40da
+      internalID: -918584742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "AnimacionGuada\xF1aAtaque_41"
+      name: "AnimacionGuada\xF1aAtaque_22"
       rect:
         serializedVersion: 2
-        x: 2316
-        y: 5
-        width: 58
-        height: 50
+        x: 2112
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,8 +586,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 276bdf0f9bf211a48a9e551579e5fd8f
-      internalID: 571275236
+      spriteID: 407b5d87f83bc99488decdbacac19fd0
+      internalID: 528846454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aAtaque_23"
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8700f60ea67c16498f4c26c2e3daafc
+      internalID: -1972820244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AnimacionGuada\xF1aAtaque_24"
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a290caf61710bc349b90c84020a59e8c
+      internalID: 1981778026
       vertices: []
       indices: 
       edges: []
@@ -663,26 +663,8 @@ TextureImporter:
       "AnimacionGuada\xF1aAtaque_22": 528846454
       "AnimacionGuada\xF1aAtaque_23": -1972820244
       "AnimacionGuada\xF1aAtaque_24": 1981778026
-      "AnimacionGuada\xF1aAtaque_25": -70747918
-      "AnimacionGuada\xF1aAtaque_26": 564063522
-      "AnimacionGuada\xF1aAtaque_27": -1624004832
-      "AnimacionGuada\xF1aAtaque_28": 1130673427
-      "AnimacionGuada\xF1aAtaque_29": -1430698132
       "AnimacionGuada\xF1aAtaque_3": -695749371
-      "AnimacionGuada\xF1aAtaque_30": -1870419839
-      "AnimacionGuada\xF1aAtaque_31": 1375664821
-      "AnimacionGuada\xF1aAtaque_32": 1952805787
-      "AnimacionGuada\xF1aAtaque_33": -1457862287
-      "AnimacionGuada\xF1aAtaque_34": -1633651661
-      "AnimacionGuada\xF1aAtaque_35": 2052174455
-      "AnimacionGuada\xF1aAtaque_36": 1910797069
-      "AnimacionGuada\xF1aAtaque_37": 1722200319
-      "AnimacionGuada\xF1aAtaque_38": -770921953
-      "AnimacionGuada\xF1aAtaque_39": -1380076936
       "AnimacionGuada\xF1aAtaque_4": -1610102829
-      "AnimacionGuada\xF1aAtaque_40": 1105526237
-      "AnimacionGuada\xF1aAtaque_41": 571275236
-      "AnimacionGuada\xF1aAtaque_42": -912966188
       "AnimacionGuada\xF1aAtaque_5": -1833502077
       "AnimacionGuada\xF1aAtaque_6": 1760453428
       "AnimacionGuada\xF1aAtaque_7": 1384391471

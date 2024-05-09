@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,12 +113,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 20
-        width: 20
-        height: 38
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_1
       rect:
         serializedVersion: 2
-        x: 99
-        y: 20
-        width: 19
-        height: 38
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 72
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_2
       rect:
         serializedVersion: 2
-        x: 171
-        y: 20
-        width: 19
-        height: 38
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 144
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_3
       rect:
         serializedVersion: 2
-        x: 243
-        y: 19
-        width: 19
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 216
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_4
       rect:
         serializedVersion: 2
-        x: 315
-        y: 19
-        width: 19
-        height: 36
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 288
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_5
       rect:
         serializedVersion: 2
-        x: 387
-        y: 19
-        width: 19
-        height: 36
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 360
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_6
       rect:
         serializedVersion: 2
-        x: 459
-        y: 19
-        width: 19
-        height: 36
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 432
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_7
       rect:
         serializedVersion: 2
-        x: 530
-        y: 19
-        width: 20
-        height: 36
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 504
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_8
       rect:
         serializedVersion: 2
-        x: 590
-        y: 21
-        width: 33
-        height: 35
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 576
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_9
       rect:
         serializedVersion: 2
-        x: 654
-        y: 21
-        width: 42
-        height: 20
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 648
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_10
       rect:
         serializedVersion: 2
-        x: 726
-        y: 21
-        width: 42
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 720
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_11
       rect:
         serializedVersion: 2
-        x: 798
-        y: 21
-        width: 41
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 792
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_12
       rect:
         serializedVersion: 2
-        x: 870
-        y: 21
-        width: 42
-        height: 13
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 864
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_13
       rect:
         serializedVersion: 2
-        x: 942
-        y: 21
-        width: 42
-        height: 13
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 936
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_14
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 21
-        width: 42
-        height: 11
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1008
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_15
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 21
-        width: 42
-        height: 10
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1080
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_16
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 21
-        width: 42
-        height: 8
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1152
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +470,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_17
       rect:
         serializedVersion: 2
-        x: 1231
-        y: 21
-        width: 41
-        height: 6
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1224
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: AnimacionMuerteGordito_18
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 21
-        width: 110
-        height: 6
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1296
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,6 +504,27 @@ TextureImporter:
       bones: []
       spriteID: 7cbdc9732032cbe4b95b13c4c29b263c
       internalID: 1373067626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionMuerteGordito_19
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82460e151834aa47b947f75f8fd93ba
+      internalID: -1913200038
       vertices: []
       indices: 
       edges: []
@@ -530,6 +551,7 @@ TextureImporter:
       AnimacionMuerteGordito_16: -933441219
       AnimacionMuerteGordito_17: -1503742648
       AnimacionMuerteGordito_18: 1373067626
+      AnimacionMuerteGordito_19: -1913200038
       AnimacionMuerteGordito_2: -494164255
       AnimacionMuerteGordito_3: -1820483461
       AnimacionMuerteGordito_4: 1925569963
