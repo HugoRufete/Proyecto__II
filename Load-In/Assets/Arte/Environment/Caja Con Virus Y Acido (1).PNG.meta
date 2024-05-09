@@ -108,7 +108,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Caja Con Virus Y Acido (1)_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 91
+        width: 134
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77049f5e4102c394ebe0210276ea9b0e
+      internalID: 1232145326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja Con Virus Y Acido (1)_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 100
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ebe753bd06baa4babc60e32d9dfc85
+      internalID: 2041051511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja Con Virus Y Acido (1)_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 89
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60f65092f5c7a04482d808e5ee19cde
+      internalID: 714869052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Caja Con Virus Y Acido (1)_0: 1232145326
+      Caja Con Virus Y Acido (1)_1: 2041051511
+      Caja Con Virus Y Acido (1)_2: 714869052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

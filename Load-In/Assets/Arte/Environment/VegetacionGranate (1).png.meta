@@ -108,7 +108,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_0
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 277
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925bd4efaafce1342990eb20ffbb1c28
+      internalID: 2143131602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 274
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a431ff5ec4d209848843f553fced039b
+      internalID: 1958044777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 187
+        width: 65
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dbf25bc20bc1f409df43813dd0b318
+      internalID: -1628594198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b53944d3a4f924b91e1ed495a0cfcc
+      internalID: 382192385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 197
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5946393972f25344af7797ff184092d
+      internalID: -145038383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 172
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee49b91e5f36c044da5843ca9e93cbfc
+      internalID: -966918325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 133
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00fe90a54ce6f45afb251a726a1952
+      internalID: 1623506370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 140
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c6281d89b839545950f0c023fee601
+      internalID: -1267094367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 149
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea94aef5f3a45084da44e4cd2951185c
+      internalID: 419267594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_9
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 126
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc54249b539fed4582e050d66fe3762
+      internalID: 1950912944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 113
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7a19d115cb4424590d8d08b8b61988
+      internalID: 1075087247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 128
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04bf2fa632b4ad478ca8390cebfb23f
+      internalID: 241307752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_12
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 113
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777c384ca8bc1484aa59cc9e88824c11
+      internalID: 461918451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 70
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65df53cd5d751e47bbe49eb3f4ffa6f
+      internalID: -813287957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 69
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810c32b6373d342458990d0322a0c292
+      internalID: -215653792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 75
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ba2e55521e31245ad67a39e2469733
+      internalID: 1044815864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_16
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 75
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca485ee56d8c374a978e88ba0ebfa60
+      internalID: -77593976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_17
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 62
+        width: 70
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fbeeccb9fb3e34fb5e9a83d416a66d
+      internalID: -745214396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_18
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 44
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc322176b728164c89fdef804e5b81d
+      internalID: -966268492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 47
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bb999d616501f4e9d8eb96410ed554
+      internalID: -1942136850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 28
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686f06d49e626f548848241846917395
+      internalID: 2143011507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_21
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 20
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab4b98aade915e40b265fd50b233c33
+      internalID: 1616230021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 33
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a965c9fd053cf45a407efbbf9d3d7e
+      internalID: 1729169275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranate (1)_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 20
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc774dc97e1748498068e9394c87a16
+      internalID: -1096278598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +623,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VegetacionGranate (1)_0: 2143131602
+      VegetacionGranate (1)_1: 1958044777
+      VegetacionGranate (1)_10: 1075087247
+      VegetacionGranate (1)_11: 241307752
+      VegetacionGranate (1)_12: 461918451
+      VegetacionGranate (1)_13: -813287957
+      VegetacionGranate (1)_14: -215653792
+      VegetacionGranate (1)_15: 1044815864
+      VegetacionGranate (1)_16: -77593976
+      VegetacionGranate (1)_17: -745214396
+      VegetacionGranate (1)_18: -966268492
+      VegetacionGranate (1)_19: -1942136850
+      VegetacionGranate (1)_2: -1628594198
+      VegetacionGranate (1)_20: 2143011507
+      VegetacionGranate (1)_21: 1616230021
+      VegetacionGranate (1)_22: 1729169275
+      VegetacionGranate (1)_23: -1096278598
+      VegetacionGranate (1)_3: 382192385
+      VegetacionGranate (1)_4: -145038383
+      VegetacionGranate (1)_5: -966918325
+      VegetacionGranate (1)_6: 1623506370
+      VegetacionGranate (1)_7: -1267094367
+      VegetacionGranate (1)_8: 419267594
+      VegetacionGranate (1)_9: 1950912944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

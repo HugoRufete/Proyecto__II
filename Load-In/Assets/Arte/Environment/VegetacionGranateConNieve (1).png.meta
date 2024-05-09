@@ -108,7 +108,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_0
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 277
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dbe630ad4be1b4d84919b2fe040918
+      internalID: -1486797376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 274
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b31a692c0509b14d99ea0e5c835e4f4
+      internalID: 381279497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 187
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab7494218f865049b06f96feef9a5b3
+      internalID: 1950577970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d63e3598495c94baccaa8be5c6849f
+      internalID: 1999079753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 197
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572c9df3312a854ca96f38b0b474337
+      internalID: -957634060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 172
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415f5172da1e5964fa33d4bab4d05722
+      internalID: 931749177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 133
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a0d099610970b438000d7e49c3fcc9
+      internalID: -1679403522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 140
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b858eccf2a66fbd4cac2d93be1626539
+      internalID: 1909445055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 149
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957f70bd1e89d174eb2aef6e20a6f76c
+      internalID: -1647631584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_9
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 126
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b597e1326892544ab48861f3accd296
+      internalID: 1703553472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 113
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ece60ca39bb8c41be8a9408a91b937
+      internalID: -306881677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_11
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 128
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c41f59cccab7484cabc50c0f8239674
+      internalID: 1379651874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_12
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 113
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171c935e2ef699b4aa4408737b8d3473
+      internalID: -1594726638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 70
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2143de32ab4488348a62519213521b7f
+      internalID: -1399934103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 69
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603142c22c95b54aba9b359b60006b8
+      internalID: 1358923996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 73
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c6e201a3366c64da4ce2364a700647
+      internalID: -64560718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_16
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 75
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471ac5deff0a53144a691f299c7d91e5
+      internalID: 50030198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_17
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 62
+        width: 70
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017c99065af6458429b157b127d99cc1
+      internalID: 1102942069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_18
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 44
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd37d2256346fa41af2c9cf361bddf2
+      internalID: -1208241432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 47
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f564de4690fd3214fb28e64e15d3442b
+      internalID: -714202728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 28
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc13f69475c43fe4b865ce17d31bf541
+      internalID: -1231569164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_21
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 20
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b5c392d52449545abe7966abd13e55
+      internalID: 301569022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 32
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1469ddd311c92ca41a77f126b3b4671c
+      internalID: 428629394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionGranateConNieve (1)_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 20
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583e53615382d1540b53e48b812f6299
+      internalID: -471788196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +623,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VegetacionGranateConNieve (1)_0: -1486797376
+      VegetacionGranateConNieve (1)_1: 381279497
+      VegetacionGranateConNieve (1)_10: -306881677
+      VegetacionGranateConNieve (1)_11: 1379651874
+      VegetacionGranateConNieve (1)_12: -1594726638
+      VegetacionGranateConNieve (1)_13: -1399934103
+      VegetacionGranateConNieve (1)_14: 1358923996
+      VegetacionGranateConNieve (1)_15: -64560718
+      VegetacionGranateConNieve (1)_16: 50030198
+      VegetacionGranateConNieve (1)_17: 1102942069
+      VegetacionGranateConNieve (1)_18: -1208241432
+      VegetacionGranateConNieve (1)_19: -714202728
+      VegetacionGranateConNieve (1)_2: 1950577970
+      VegetacionGranateConNieve (1)_20: -1231569164
+      VegetacionGranateConNieve (1)_21: 301569022
+      VegetacionGranateConNieve (1)_22: 428629394
+      VegetacionGranateConNieve (1)_23: -471788196
+      VegetacionGranateConNieve (1)_3: 1999079753
+      VegetacionGranateConNieve (1)_4: -957634060
+      VegetacionGranateConNieve (1)_5: 931749177
+      VegetacionGranateConNieve (1)_6: -1679403522
+      VegetacionGranateConNieve (1)_7: 1909445055
+      VegetacionGranateConNieve (1)_8: -1647631584
+      VegetacionGranateConNieve (1)_9: 1703553472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

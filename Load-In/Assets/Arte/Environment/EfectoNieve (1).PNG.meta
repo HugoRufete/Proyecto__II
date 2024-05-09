@@ -108,7 +108,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: EfectoNieve (1)_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 244
+        width: 126
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b511613a463cc544875dc41d0d1c1e6
+      internalID: 82747512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 234
+        width: 158
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c45ad10411948442acfaf4a8a83cf09
+      internalID: 612058201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 215
+        width: 77
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22997728be400904d87f95e55d7a62c1
+      internalID: 1226203653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 209
+        width: 122
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e1280056468924d964b8a69398d730
+      internalID: 1344777251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 176
+        width: 76
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df27aa21a56fc9244b8066d50eb254ec
+      internalID: 1543046807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 196
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972e8aa63006ce048a89f3d65b814120
+      internalID: -96735813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 190
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd79d03d75ade45bbe7f3f4b19e6be
+      internalID: -718797048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 159
+        width: 96
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc11209d5a1258f4dadd201320370886
+      internalID: -1775771926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 179
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc402697064d8479ce596e6b03182b
+      internalID: 1875400039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 172
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b58269b3683d5499c21dfc49dc42f6
+      internalID: -2075500390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 156
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd435f4f6ae5d248a12758477ed6818
+      internalID: 2112672161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 124
+        width: 117
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2afcba34bee98d4d8586f13c19f789c
+      internalID: -261023694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 143
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb5c70070dbc55408752347e4822ae5
+      internalID: -93138692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 146
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152d15017072bc54fac7604eab7a8c28
+      internalID: -1454273437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 124
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d737ae3ded5e7f34aabb0ebd3bf3efd2
+      internalID: -4745074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 62
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7c6dceaa69eae4bb5b0e97d0ca8a67
+      internalID: 2009964661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoNieve (1)_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 61
+        width: 112
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5309916891e11554995aa4492df696e7
+      internalID: -921015281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +476,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EfectoNieve (1)_0: 82747512
+      EfectoNieve (1)_1: 612058201
+      EfectoNieve (1)_10: 2112672161
+      EfectoNieve (1)_11: -261023694
+      EfectoNieve (1)_12: -93138692
+      EfectoNieve (1)_13: -1454273437
+      EfectoNieve (1)_14: -4745074
+      EfectoNieve (1)_15: 2009964661
+      EfectoNieve (1)_16: -921015281
+      EfectoNieve (1)_2: 1226203653
+      EfectoNieve (1)_3: 1344777251
+      EfectoNieve (1)_4: 1543046807
+      EfectoNieve (1)_5: -96735813
+      EfectoNieve (1)_6: -718797048
+      EfectoNieve (1)_7: -1775771926
+      EfectoNieve (1)_8: 1875400039
+      EfectoNieve (1)_9: -2075500390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -108,7 +108,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 332
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80768a3f452c6fd4fad1eafca79ce996
+      internalID: -2079692099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 330
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d460b58a0b48a41aa459198482a66a
+      internalID: 2106956591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 329
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea356629d4b344a83295ecb3d58cc7
+      internalID: 377625120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 339
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cd0ff3db4e0db4fa3f63cf9a6b026f
+      internalID: -890707238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 316
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0526e9f285148e4c90df1db88506fb3
+      internalID: 2118789988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_5
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 328
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50ff5ed0ef785440830a4443bc25092
+      internalID: 1983028517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 298
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137dbc68a3fed7948badfcf2ac12ebb7
+      internalID: -82502515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 311
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5668b472cdeaa34fa693e1a98ab1216
+      internalID: -1922013545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_8
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 311
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc162848213b6f3449f69aad3752817b
+      internalID: -125546660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 293
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f759d6f4d03770479a18f014baea386
+      internalID: -700527424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 296
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dee13b392a433647958d43b8958fe36
+      internalID: 1936009502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 298
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229cf5c8f388339449d72f6fc0ee37cc
+      internalID: 718288477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 294
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69742b3ff1fc4574695ceb67ee753233
+      internalID: -1130984783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_13
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 286
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88215bc5bf3215d4d9d92906b82bbe6a
+      internalID: 773620073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 284
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb1071902bbcc3408074f63fcab2544
+      internalID: 1275528966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_15
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 267
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ab4854ed570d243903d5fd6713b52c
+      internalID: -126870913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 282
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc00a5b2c9f17b45a159104d225f9e7
+      internalID: -1046674012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 285
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b530b65a0a3bdf4aa91037348b624fe
+      internalID: -1624023373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 276
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21360d25bf32b140bb89c904f0785a2
+      internalID: 983302200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 269
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5662febce24671444b9e838388627a97
+      internalID: 1896360963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 271
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e263e13d5438442aacb608aaae8aa7
+      internalID: -221151214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 259
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f224e11128ca1094187dc4198ff3be4d
+      internalID: -1799097596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 259
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2435cecd90df54b4d8cd23e03e2b2093
+      internalID: -102181103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 244
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da24f66335809ea40b60a30fdda5d55a
+      internalID: -244257625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 243
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ff314b88c7b9d47bd57e0aea8f7b67
+      internalID: -991471419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_25
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 240
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c902eff9bdcac564c91547559ec70d50
+      internalID: -1102578558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 237
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209fdce7538c7aa4180804458f480edd
+      internalID: 2125011714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 230
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d990f0c346d0e744b0c121471b47aad
+      internalID: -1734917634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_28
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 232
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4912e6e8ef701649a49d10faeace218
+      internalID: -804495421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 227
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e021e536f072fcc428d26d895d1b8c49
+      internalID: 650424174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 219
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24308382d57d96a46ab67b5312af04f5
+      internalID: -1639532808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_31
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 231
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2000e710c79c2104b879f74459dca1dd
+      internalID: 950617972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_32
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 215
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f806e67c4ada0744a7b1255cddd8032
+      internalID: 1315070917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirus (1)_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 214
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ba34e6e9188b64592ad20285220ea8
+      internalID: -1296177133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +833,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PiedrasConVirus (1)_0: -2079692099
+      PiedrasConVirus (1)_1: 2106956591
+      PiedrasConVirus (1)_10: 1936009502
+      PiedrasConVirus (1)_11: 718288477
+      PiedrasConVirus (1)_12: -1130984783
+      PiedrasConVirus (1)_13: 773620073
+      PiedrasConVirus (1)_14: 1275528966
+      PiedrasConVirus (1)_15: -126870913
+      PiedrasConVirus (1)_16: -1046674012
+      PiedrasConVirus (1)_17: -1624023373
+      PiedrasConVirus (1)_18: 983302200
+      PiedrasConVirus (1)_19: 1896360963
+      PiedrasConVirus (1)_2: 377625120
+      PiedrasConVirus (1)_20: -221151214
+      PiedrasConVirus (1)_21: -1799097596
+      PiedrasConVirus (1)_22: -102181103
+      PiedrasConVirus (1)_23: -244257625
+      PiedrasConVirus (1)_24: -991471419
+      PiedrasConVirus (1)_25: -1102578558
+      PiedrasConVirus (1)_26: 2125011714
+      PiedrasConVirus (1)_27: -1734917634
+      PiedrasConVirus (1)_28: -804495421
+      PiedrasConVirus (1)_29: 650424174
+      PiedrasConVirus (1)_3: -890707238
+      PiedrasConVirus (1)_30: -1639532808
+      PiedrasConVirus (1)_31: 950617972
+      PiedrasConVirus (1)_32: 1315070917
+      PiedrasConVirus (1)_33: -1296177133
+      PiedrasConVirus (1)_4: 2118789988
+      PiedrasConVirus (1)_5: 1983028517
+      PiedrasConVirus (1)_6: -82502515
+      PiedrasConVirus (1)_7: -1922013545
+      PiedrasConVirus (1)_8: -125546660
+      PiedrasConVirus (1)_9: -700527424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

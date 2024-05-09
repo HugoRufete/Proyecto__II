@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: EfectoVirus (1)_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 252
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366737c030b777e48bf7b1f599d9881d
+      internalID: 1326137349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 220
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4ddbfddbea4ed458d187793f7b67d0
+      internalID: -1480019409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 247
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7980489698080142a18ec3ffbc58d64
+      internalID: -1130680753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 208
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ec7f8954febf647814e0d1456d4a4a
+      internalID: -912469022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 186
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f1f338b4732d94aa38efb50b4cbaa3
+      internalID: -872713765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 162
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3927260d794ccd742947922d3efc5a6e
+      internalID: 665675305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 172
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ecbc4db33498f41831f6ec0983fc4c
+      internalID: -1569212532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 104
+        width: 85
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9a0fdeee5f544a97c101ada255a91
+      internalID: 1543793131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 100
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c5fa0c9c3a68b44bd8dff7fd98d8fe
+      internalID: 217763966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EfectoVirus (1)_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 96
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e4fea49123d9d4ca9dd159f2ed6aba
+      internalID: 1089783395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EfectoVirus (1)_0: 1326137349
+      EfectoVirus (1)_1: -1480019409
+      EfectoVirus (1)_2: -1130680753
+      EfectoVirus (1)_3: -912469022
+      EfectoVirus (1)_4: -872713765
+      EfectoVirus (1)_5: 665675305
+      EfectoVirus (1)_6: -1569212532
+      EfectoVirus (1)_7: 1543793131
+      EfectoVirus (1)_8: 217763966
+      EfectoVirus (1)_9: 1089783395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

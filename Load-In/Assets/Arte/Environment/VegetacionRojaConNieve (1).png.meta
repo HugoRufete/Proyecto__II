@@ -108,7 +108,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_0
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 295
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c9da1713a99a4eaf8099ace918bb9
+      internalID: -390226526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 293
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f782da0e94925440a87de7eba0fd80f
+      internalID: -1051274431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 93
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0d7def43a79b42b5ae31f1bd66d59
+      internalID: -2083795404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 221
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeb74e1cdd28164096bd8a4a1e37383
+      internalID: 948551286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 219
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d2af5b0783c22408f485d34ea1b4de
+      internalID: -615599369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 174
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d3d6024dc5819408f16d7002d00f3f
+      internalID: 1940585357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 157
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4bb0c70c8145d4499f862d79eef6e1
+      internalID: 991770080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 140
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad2303e4490fa14c885a290fc161022
+      internalID: -404775456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 149
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3c7fb1baa32144eae9040fe9ca10c7
+      internalID: 967238312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 131
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46c54ec8f624464c9a16646cebae099
+      internalID: -439564166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_10
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 133
+        width: 61
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e26548fdba65df4cb1031ffceff06c1
+      internalID: 1995057017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 113
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd5797b47b67a74b9c8174ab4adf96b
+      internalID: 980468057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_12
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 128
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466bb1b036ace644daed038fa4fc19d9
+      internalID: -1584711516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_13
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 126
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d234336a10a934fb313b2a3c8a2e28
+      internalID: 85846502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 109
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab54ad94b6a8584398f95126375378f
+      internalID: 1786318608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_15
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 99
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569c2cad200c33644be6ef6eeac07d1d
+      internalID: 1486582265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_16
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 92
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec0f35d78f7e2439093f8e2719de5f
+      internalID: -1103104097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 74
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a43029a8af2a64cbd4497e67392f90
+      internalID: -101401276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_18
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 81
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceba493e6ef83b449dca67eb7eff2d7
+      internalID: -110401239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_19
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 85
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deb8eb79d6c272439a3025a993f519b
+      internalID: 1257049965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_20
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 62
+        width: 70
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0cf858d21cf8244af1e845e1c08e3c
+      internalID: -53846507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 68
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0cb9bf9c2627640b9a967a758bdbb5
+      internalID: -1876210429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 54
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d1a327f1064e1479519c5c9278dfe4
+      internalID: 1108537130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VegetacionRojaConNieve (1)_23
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 52
+        width: 60
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3365e86a870921d4b9a8119446e40f60
+      internalID: 588475964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +623,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VegetacionRojaConNieve (1)_0: -390226526
+      VegetacionRojaConNieve (1)_1: -1051274431
+      VegetacionRojaConNieve (1)_10: 1995057017
+      VegetacionRojaConNieve (1)_11: 980468057
+      VegetacionRojaConNieve (1)_12: -1584711516
+      VegetacionRojaConNieve (1)_13: 85846502
+      VegetacionRojaConNieve (1)_14: 1786318608
+      VegetacionRojaConNieve (1)_15: 1486582265
+      VegetacionRojaConNieve (1)_16: -1103104097
+      VegetacionRojaConNieve (1)_17: -101401276
+      VegetacionRojaConNieve (1)_18: -110401239
+      VegetacionRojaConNieve (1)_19: 1257049965
+      VegetacionRojaConNieve (1)_2: -2083795404
+      VegetacionRojaConNieve (1)_20: -53846507
+      VegetacionRojaConNieve (1)_21: -1876210429
+      VegetacionRojaConNieve (1)_22: 1108537130
+      VegetacionRojaConNieve (1)_23: 588475964
+      VegetacionRojaConNieve (1)_3: 948551286
+      VegetacionRojaConNieve (1)_4: -615599369
+      VegetacionRojaConNieve (1)_5: 1940585357
+      VegetacionRojaConNieve (1)_6: 991770080
+      VegetacionRojaConNieve (1)_7: -404775456
+      VegetacionRojaConNieve (1)_8: 967238312
+      VegetacionRojaConNieve (1)_9: -439564166
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

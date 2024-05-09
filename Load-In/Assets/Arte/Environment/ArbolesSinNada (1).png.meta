@@ -108,7 +108,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 208
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575c6642f96a91a47992aee973a3ae54
+      internalID: -1520326086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 281
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e78c1021c03a43a5fd39cd2e529db
+      internalID: -2105968482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 273
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb98d3afe8955be42aa9fb26e9f2f6c0
+      internalID: 1002729670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 305
+        width: 39
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b923d6cafc68a498df295f2086a7a4
+      internalID: 877444014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 215
+        width: 40
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aef7d7c19b7d0419ed46dc4140009f
+      internalID: 993688534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 238
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce848c2a2cd304bb06b1342b42ace6
+      internalID: 618088152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 170
+        width: 39
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfd44030eed50245a2d23eebb9b1974
+      internalID: -1610526934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 213
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a708b12d5e2c744b00554b1522a738
+      internalID: 1284375536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 213
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cdde96aa2c39b4fb011fe5f10e9605
+      internalID: -188929926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 161
+        width: 47
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8dd94f3908d88479f25a7f1d74e460
+      internalID: 1558918108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 163
+        width: 38
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5439220a4a8a0aa498752548ef943361
+      internalID: 1805645494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 12
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c93d43e5142f0408de4ad663c8553f
+      internalID: -749868270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 118
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614047dc43f994e438b0918bb825573b
+      internalID: -911146970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 113
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d357fcfd5c4745844b3e41c4f83c2c23
+      internalID: -907118409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_14
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503c9c344265e5e40a4a51e5121e10cd
+      internalID: 1409989164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_15
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 95
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c5fd25873a91c4b87200b059ee46f1
+      internalID: 1480634215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_16
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41858af9f68231145b74db1e9281a5a6
+      internalID: -895809861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 42
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4295eeaba53967c4a89b788eddf73d65
+      internalID: -394883503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 21
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8b50cd3840ce148af3bd7c22f7ca8a
+      internalID: -670011938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesSinNada (1)_19
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 17
+        width: 92
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdff96098c7519342ada911c426d08e0
+      internalID: 338112785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +539,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ArbolesSinNada (1)_0: -1520326086
+      ArbolesSinNada (1)_1: -2105968482
+      ArbolesSinNada (1)_10: 1805645494
+      ArbolesSinNada (1)_11: -749868270
+      ArbolesSinNada (1)_12: -911146970
+      ArbolesSinNada (1)_13: -907118409
+      ArbolesSinNada (1)_14: 1409989164
+      ArbolesSinNada (1)_15: 1480634215
+      ArbolesSinNada (1)_16: -895809861
+      ArbolesSinNada (1)_17: -394883503
+      ArbolesSinNada (1)_18: -670011938
+      ArbolesSinNada (1)_19: 338112785
+      ArbolesSinNada (1)_2: 1002729670
+      ArbolesSinNada (1)_3: 877444014
+      ArbolesSinNada (1)_4: 993688534
+      ArbolesSinNada (1)_5: 618088152
+      ArbolesSinNada (1)_6: -1610526934
+      ArbolesSinNada (1)_7: 1284375536
+      ArbolesSinNada (1)_8: -188929926
+      ArbolesSinNada (1)_9: 1558918108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

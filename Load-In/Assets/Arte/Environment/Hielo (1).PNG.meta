@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hielo (1)_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 284
+        width: 97
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a033ee35832ac21428c60b5232657cd9
+      internalID: -1829791213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo (1)_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 316
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c72c8fa9f802084781dc4624c9d4eeb
+      internalID: 1957787922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo (1)_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 250
+        width: 128
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a86678287653974b8cd17a06236828a
+      internalID: 1412072500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo (1)_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 226
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2578ed9141cfb4386877eeefa8f809
+      internalID: -1257497148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo (1)_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 186
+        width: 89
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962d3e6f0fe3f044299e152472d3e266
+      internalID: 651192304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo (1)_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 183
+        width: 94
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1156ef2da707e4479a414d5d2553a4f
+      internalID: 478744084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hielo (1)_0: -1829791213
+      Hielo (1)_1: 1957787922
+      Hielo (1)_2: 1412072500
+      Hielo (1)_3: -1257497148
+      Hielo (1)_4: 651192304
+      Hielo (1)_5: 478744084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

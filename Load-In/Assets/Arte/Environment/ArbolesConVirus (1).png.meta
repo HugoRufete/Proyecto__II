@@ -108,7 +108,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 208
+        width: 41
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f285286aaddfd754186926c1bb2d757b
+      internalID: 1083166255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 281
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b65da0e9296624c8c891246c6ef240
+      internalID: 837819338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 273
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f15c2259b5df4aadfc0b9dd76387d
+      internalID: -854313177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 305
+        width: 39
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e530e4d925c72124cad4dc36db6bae7d
+      internalID: -536611659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 215
+        width: 40
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eea6638f5677942ae5219fe8369084
+      internalID: -558642818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 238
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241cc9920cd98c749ba960c4a9783e90
+      internalID: -2102236043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 170
+        width: 43
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af629ca8289b09439d7544c4807fb82
+      internalID: -349730864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 213
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1ca87edf9ff19469d9915e38dfc0d7
+      internalID: 646402132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 213
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bef22ab419718743a1393255c7189bd
+      internalID: -896247132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 161
+        width: 49
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9193182b8384734daa4a54a8db70fd3
+      internalID: 1992910672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 163
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6376b8b77a0b0d34a9b9c00b705acd93
+      internalID: 2118441812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 12
+        width: 62
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f63345e0f809142bba20de94dbda47
+      internalID: 97353423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 118
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeec333a46579849b6c6762986b5daf
+      internalID: 1035301092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 113
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e514e23e7a6e68740bccb4196789ecf6
+      internalID: 1715570895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 17
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95cdde1d60f60a4db629fa211003e50
+      internalID: -2131786527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 95
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4690a924fcf693748b4fb7a461b44940
+      internalID: 1933282669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_16
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 95
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e177fad1bb552f4c91095e3f542aa7b
+      internalID: -363151204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_17
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 47
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64decb2a721032a469407957f25557c6
+      internalID: -481676280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 92
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc9d30467314b740a5885f00b806c13
+      internalID: -977566999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 42
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbc9ad74b304b64faade05bd9fedf07
+      internalID: 341905954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConVirus (1)_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 21
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2143b84337bf39f418c80935440928a6
+      internalID: -389273424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +560,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ArbolesConVirus (1)_0: 1083166255
+      ArbolesConVirus (1)_1: 837819338
+      ArbolesConVirus (1)_10: 2118441812
+      ArbolesConVirus (1)_11: 97353423
+      ArbolesConVirus (1)_12: 1035301092
+      ArbolesConVirus (1)_13: 1715570895
+      ArbolesConVirus (1)_14: -2131786527
+      ArbolesConVirus (1)_15: 1933282669
+      ArbolesConVirus (1)_16: -363151204
+      ArbolesConVirus (1)_17: -481676280
+      ArbolesConVirus (1)_18: -977566999
+      ArbolesConVirus (1)_19: 341905954
+      ArbolesConVirus (1)_2: -854313177
+      ArbolesConVirus (1)_20: -389273424
+      ArbolesConVirus (1)_3: -536611659
+      ArbolesConVirus (1)_4: -558642818
+      ArbolesConVirus (1)_5: -2102236043
+      ArbolesConVirus (1)_6: -349730864
+      ArbolesConVirus (1)_7: 646402132
+      ArbolesConVirus (1)_8: -896247132
+      ArbolesConVirus (1)_9: 1992910672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

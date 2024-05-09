@@ -58,9 +58,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 2620677419
+    locked: 0
   - name: gordito
     uniqueID: 1075108189
     locked: 0
   - name: ProyectilGordito
     uniqueID: 3996663911
+    locked: 0
+  - name: Tileables
+    uniqueID: 84740833
+    locked: 0
+  - name: Naturaleza
+    uniqueID: 3491985967
+    locked: 0
+  - name: Fragmentos
+    uniqueID: 871220041
+    locked: 0
+  - name: Enemigos
+    uniqueID: 328756813
+    locked: 0
+  - name: Armas
+    uniqueID: 3982163725
+    locked: 0
+  - name: Player
+    uniqueID: 1897196197
     locked: 0

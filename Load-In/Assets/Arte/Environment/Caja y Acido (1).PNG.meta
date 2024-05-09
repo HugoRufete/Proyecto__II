@@ -108,7 +108,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Caja y Acido (1)_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 91
+        width: 134
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8fc3de761c7c4c9618d348c8d5ec6
+      internalID: -595111015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja y Acido (1)_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 101
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a27bcd80e3192247a41a21c4f2a4a35
+      internalID: -1069265339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja y Acido (1)_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 89
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a416b50c090b74e917acad95e0c857
+      internalID: -1923560139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Caja y Acido (1)_0: -595111015
+      Caja y Acido (1)_1: -1069265339
+      Caja y Acido (1)_2: -1923560139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

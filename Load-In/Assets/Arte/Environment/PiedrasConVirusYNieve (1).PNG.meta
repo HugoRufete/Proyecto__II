@@ -108,7 +108,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 332
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395b7072c45930142a7ec2e4ab2b9e75
+      internalID: 544700291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 330
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7739f3ea9d9be6446ae0ce3d58b39955
+      internalID: 1451944857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 348
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89df3fe6d5a3b6141859c354b2c7a096
+      internalID: -1959208949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 328
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2863e717296af044920b1c25f06a4d5
+      internalID: -1293695889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 329
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b381690ff7a3bb84d94aa0c75aef841c
+      internalID: 710905564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 310
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9680a5bc36ab4692e91bcb38fe2fc
+      internalID: -104528243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 316
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52abea09164060489c87209b0113d7a
+      internalID: 1704331422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 298
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93271697ed32f1e4f82d1e1ebe2866d8
+      internalID: 1076919131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 311
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5e5b4a9651c2b458a1de912f4f299e
+      internalID: -643177888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 293
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f880a7e24c6d0bd42832a765daae51c9
+      internalID: 1023127208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 295
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ddb8490db3e1949b823bf047f67b31
+      internalID: -1190229634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 297
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6795d95f6970e994d953170dcc522a76
+      internalID: 696297373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 294
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb3763db89fc574fa235fc0867abe7d
+      internalID: -5245452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_13
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 286
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf49a3f9e196d4b819e9606a4eacb0
+      internalID: -85176457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 284
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f015368e968d749abb26d05476a985
+      internalID: -863169263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_15
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 267
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8666daa456a614faa6aa76d660f6a4
+      internalID: -1963127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 282
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8f7ec2b0a5bdd438eee582fc426995
+      internalID: 1333219055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 284
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab11590f1c002e24faf42c496de44f3a
+      internalID: 1717062926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 276
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a5f149b9bc7434b8440b28701214b5
+      internalID: -2040808081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 269
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6dbfd9f30ea9741ba3f06a3e00302a
+      internalID: 883482331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 271
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c732bf319dece49aa4686177c4cde9
+      internalID: 975658907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 259
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ae1293604160e449f86905681b4963
+      internalID: -1669711362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 259
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a24c240e07d96440a4e7975f575c574
+      internalID: 1892795586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 244
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417150dfcd476944abaca84c757d88a3
+      internalID: -1231594739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 243
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81721ef62b7b5d748960185d7a47c8c1
+      internalID: 142818677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_25
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 240
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5440dd533055cd740abe224751149645
+      internalID: -505301145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 237
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25581f410b9b1b4fb4a842e8ec27e1d
+      internalID: 1235948349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 230
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eaef767f416b845bf85074e5699dd6
+      internalID: 1428635322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_28
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 232
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef19bcb8f8620f409c621c61eff54f6
+      internalID: -106303454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 227
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfde6439f66cbc4491dafb23c875bd5
+      internalID: -1163294535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 219
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec17082201b97ee4fa1bc8d38a68ea24
+      internalID: 1316329125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_31
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 231
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00d8573dba93304b911d59a7dda52a3
+      internalID: -1342203053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_32
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 215
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f10bfed17da0c844af9b1d8277d4806
+      internalID: 2083444809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiedrasConVirusYNieve (1)_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 214
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068c590afc04e21409e599693ceefce2
+      internalID: -1707369836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +833,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PiedrasConVirusYNieve (1)_0: 544700291
+      PiedrasConVirusYNieve (1)_1: 1451944857
+      PiedrasConVirusYNieve (1)_10: -1190229634
+      PiedrasConVirusYNieve (1)_11: 696297373
+      PiedrasConVirusYNieve (1)_12: -5245452
+      PiedrasConVirusYNieve (1)_13: -85176457
+      PiedrasConVirusYNieve (1)_14: -863169263
+      PiedrasConVirusYNieve (1)_15: -1963127
+      PiedrasConVirusYNieve (1)_16: 1333219055
+      PiedrasConVirusYNieve (1)_17: 1717062926
+      PiedrasConVirusYNieve (1)_18: -2040808081
+      PiedrasConVirusYNieve (1)_19: 883482331
+      PiedrasConVirusYNieve (1)_2: -1959208949
+      PiedrasConVirusYNieve (1)_20: 975658907
+      PiedrasConVirusYNieve (1)_21: -1669711362
+      PiedrasConVirusYNieve (1)_22: 1892795586
+      PiedrasConVirusYNieve (1)_23: -1231594739
+      PiedrasConVirusYNieve (1)_24: 142818677
+      PiedrasConVirusYNieve (1)_25: -505301145
+      PiedrasConVirusYNieve (1)_26: 1235948349
+      PiedrasConVirusYNieve (1)_27: 1428635322
+      PiedrasConVirusYNieve (1)_28: -106303454
+      PiedrasConVirusYNieve (1)_29: -1163294535
+      PiedrasConVirusYNieve (1)_3: -1293695889
+      PiedrasConVirusYNieve (1)_30: 1316329125
+      PiedrasConVirusYNieve (1)_31: -1342203053
+      PiedrasConVirusYNieve (1)_32: 2083444809
+      PiedrasConVirusYNieve (1)_33: -1707369836
+      PiedrasConVirusYNieve (1)_4: 710905564
+      PiedrasConVirusYNieve (1)_5: -104528243
+      PiedrasConVirusYNieve (1)_6: 1704331422
+      PiedrasConVirusYNieve (1)_7: 1076919131
+      PiedrasConVirusYNieve (1)_8: -643177888
+      PiedrasConVirusYNieve (1)_9: 1023127208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

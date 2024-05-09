@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Agua (2)_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 255
+        width: 123
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61946dfa78dfd734e86bedd9b697d271
+      internalID: -166140252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua (2)_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 285
+        width: 96
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c824c717286ba874c9a796a75b24a3c7
+      internalID: 1905625191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua (2)_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 228
+        width: 81
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7436b69d2045a44b077cd153e0ee49
+      internalID: -2024253224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua (2)_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 187
+        width: 87
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe91ca6ebdfdf45a8df30b0581cb71
+      internalID: -1737082875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua (2)_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 185
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b648ff40c36e459ca694c7b543083
+      internalID: 1490690279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Agua (2)_0: -166140252
+      Agua (2)_1: 1905625191
+      Agua (2)_2: -2024253224
+      Agua (2)_3: -1737082875
+      Agua (2)_4: 1490690279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

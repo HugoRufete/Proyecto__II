@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Piedras (1)_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 332
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a208fc252e7633438bad249fe31fd0a
+      internalID: 1797146541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 330
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9855dfa1ee738429bb70eec41ea0e3
+      internalID: -1491425381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 329
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0c6af74aaa87a4799e6fbf38c81bf8
+      internalID: 673846314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 339
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f6fb2f2987f454dbb0b050a967c009
+      internalID: -536781207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 328
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb46b6ccba2edc441a41e90ce13db51d
+      internalID: 1025983500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 298
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2778a24097046e24ea542a0a6834737d
+      internalID: -189020445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 311
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bd61f45eab16644b4286dcfcfae22a
+      internalID: 1417847907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 304
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2171e94d679883a41bb98fb3e8937e67
+      internalID: 66325175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 302
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c324fb3ab75ec7e418df5b3e60474e8b
+      internalID: 1327847044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 304
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e505c02f863ea54dbe6bbd96390cda9
+      internalID: -357484941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 296
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2815e0c93276d5c4bb8baa0b07985a6c
+      internalID: 257065398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 278
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5fd39b94ac2145bff8f3f2ba685ac
+      internalID: 1515252346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_12
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 267
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5251ea4df23aaf4a9a6c45323eb5a72
+      internalID: -939527598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_13
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 282
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48cba31af6a45646a3b9f71a8fee7ba
+      internalID: 524181293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 280
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f12baaf9a4466f4a8a7c80dfdd734be
+      internalID: -3469503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 269
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095127c4bb62ca341ac1ebe6e909d9de
+      internalID: -1443000856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 265
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e03317ef25fda64b9209ee2f2f51ff0
+      internalID: 1920816572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_17
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 253
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9934565823cabeb439f07038ea5fd3c8
+      internalID: -1421013610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 237
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630aae876225bb34abd5cfbb927f9aed
+      internalID: -955387085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_19
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 251
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee6ccc42da77d444992db43bd118bb4
+      internalID: -1592413257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 246
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975b820e67af03f45bb81f06a1761217
+      internalID: -1705559936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 243
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac801a6193c8f149b0a8621e3c0fc82
+      internalID: 2047268119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_22
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 231
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6982bcf91b544b242ad2a7d5928e5b3c
+      internalID: -1022246684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 213
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae58fc38d644d04d9c539a1afe7317c
+      internalID: -1554379889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_24
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 218
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d355322d0a30c54fbf364203f48aa36
+      internalID: -68576466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 211
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9a7fdc38722bc46b809c6c2b9c23bc
+      internalID: 1045535185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_26
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 213
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9961afa81984d96439d5d3c0a96affb9
+      internalID: 2014508657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_27
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 182
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7354e4ef4c1e1449054f8a1ef83413
+      internalID: 448113597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_28
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 181
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fc7c957366d674abb8926e312e2623
+      internalID: -1771281299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras (1)_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 178
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b240e368c697df4b89f52e6bff7db57
+      internalID: 947452589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piedras (1)_0: 1797146541
+      Piedras (1)_1: -1491425381
+      Piedras (1)_10: 257065398
+      Piedras (1)_11: 1515252346
+      Piedras (1)_12: -939527598
+      Piedras (1)_13: 524181293
+      Piedras (1)_14: -3469503
+      Piedras (1)_15: -1443000856
+      Piedras (1)_16: 1920816572
+      Piedras (1)_17: -1421013610
+      Piedras (1)_18: -955387085
+      Piedras (1)_19: -1592413257
+      Piedras (1)_2: 673846314
+      Piedras (1)_20: -1705559936
+      Piedras (1)_21: 2047268119
+      Piedras (1)_22: -1022246684
+      Piedras (1)_23: -1554379889
+      Piedras (1)_24: -68576466
+      Piedras (1)_25: 1045535185
+      Piedras (1)_26: 2014508657
+      Piedras (1)_27: 448113597
+      Piedras (1)_28: -1771281299
+      Piedras (1)_29: 947452589
+      Piedras (1)_3: -536781207
+      Piedras (1)_4: 1025983500
+      Piedras (1)_5: -189020445
+      Piedras (1)_6: 1417847907
+      Piedras (1)_7: 66325175
+      Piedras (1)_8: 1327847044
+      Piedras (1)_9: -357484941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
