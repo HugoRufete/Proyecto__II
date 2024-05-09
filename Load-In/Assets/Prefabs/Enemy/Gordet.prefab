@@ -37,6 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8801251812616351298}
+  - {fileID: 5095794746352242149}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7311860795790538667
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1075108189
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 6
   m_Sprite: {fileID: -1838049609, guid: dace0f1c84596534da56f25ab3feb646, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -127,7 +128,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8333333, y: 1.5833334}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 0.8333333, y: 1.5833334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -224,7 +225,7 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animaci\xF3nCuraci\xF3n": "Gordet_Curaci\xF3n"
+  "animacionCuraci\xF3n": {fileID: 1650500337529157214}
   enemyDeadAnimationName: Gordet_Dead
 --- !u!114 &7085363737655506059
 MonoBehaviour:
@@ -319,4 +320,75 @@ ParticleSystem:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
   m_PrefabInstance: {fileID: 2135719167929084099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6385658641760922516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8645533899122810495}
+    m_Modifications:
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_Name
+      value: "Animaci\xF3n_curaci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
+--- !u!1 &1650500337529157214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+  m_PrefabInstance: {fileID: 6385658641760922516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5095794746352242149 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+  m_PrefabInstance: {fileID: 6385658641760922516}
   m_PrefabAsset: {fileID: 0}

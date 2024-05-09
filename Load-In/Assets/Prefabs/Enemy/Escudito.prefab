@@ -39,6 +39,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8859979000310509788}
+  - {fileID: 5146128400771534372}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6985993617649144782
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1075108189
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -975198951, guid: 99325a7885d166346a8e39fa52fc66cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -215,7 +216,7 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animaci\xF3nCuraci\xF3n": "Escudito_Curaci\xF3n"
+  "animacionCuraci\xF3n": {fileID: 1673825715297957279}
   enemyDeadAnimationName: Escudito_Death
 --- !u!61 &-5698912342543824347
 BoxCollider2D:
@@ -367,4 +368,75 @@ ParticleSystem:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
   m_PrefabInstance: {fileID: 2122107287174182493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6432042292340189269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 539657877088089262}
+    m_Modifications:
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_Name
+      value: "Animaci\xF3n_curaci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
+--- !u!1 &1673825715297957279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+  m_PrefabInstance: {fileID: 6432042292340189269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5146128400771534372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+  m_PrefabInstance: {fileID: 6432042292340189269}
   m_PrefabAsset: {fileID: 0}

@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
     private bool isPushed = false;
     private bool hasBeenPushed = false;
 
-    public string animaciónCuración;
+    public GameObject animacionCuración;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -142,13 +142,6 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    public void HealEnemy(float healAmountPerSecond)
-    {
-        animator.Play(animaciónCuración);
-        health += healAmountPerSecond * Time.deltaTime;
-        health = Mathf.Min(health, maxHealth);
-    }
-
     public void PlayAnimationIfHealthBelowZero()
     {
         
@@ -161,6 +154,30 @@ public class EnemyHealth : MonoBehaviour
                 Debug.LogError("Animator reference not set!");
             }
         
+    }
+
+    public void HealEnemy(float healingAmount)
+    {
+        if (health < maxHealth)
+        {
+            health += healingAmount;
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "CurativeArea")
+        {
+            Debug.Log("AAAAA");
+            animacionCuración.SetActive(true);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "CurativeArea")
+        {
+            animacionCuración.SetActive(false);
+        }
     }
 
     // Método para activar la invulnerabilidad temporal

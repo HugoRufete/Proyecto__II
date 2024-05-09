@@ -38,6 +38,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7781445752788702786}
+  - {fileID: 4748887526407786931}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6041569348950154076
@@ -151,18 +152,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.39688927, y: -0.3647589}
+  m_Offset: {x: 0.16189188, y: -0.59975636}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.1666667, y: 1.5416666}
+    oldSize: {x: 4, y: 4}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9228662, y: 0.9403163}
+  m_Size: {x: 0.8847586, y: 0.80058813}
   m_EdgeRadius: 0
 --- !u!114 &1513193872777652615
 MonoBehaviour:
@@ -198,7 +199,7 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animaci\xF3nCuraci\xF3n": 
+  "animacionCuraci\xF3n": {fileID: 1276584771944131080}
   enemyDeadAnimationName: "Guada\xF1a_Muerte"
 --- !u!95 &2064327975705929342
 Animator:
@@ -281,11 +282,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.31146267
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36414906
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalPosition.z
@@ -333,4 +334,75 @@ ParticleSystem:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
   m_PrefabInstance: {fileID: 899300524016537795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6903733362475759554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2803220800033290720}
+    m_Modifications:
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_Name
+      value: "Animaci\xF3n_curaci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
+--- !u!1 &1276584771944131080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
+  m_PrefabInstance: {fileID: 6903733362475759554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4748887526407786931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
+  m_PrefabInstance: {fileID: 6903733362475759554}
   m_PrefabAsset: {fileID: 0}

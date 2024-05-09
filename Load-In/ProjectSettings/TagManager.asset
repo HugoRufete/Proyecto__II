@@ -21,6 +21,7 @@ TagManager:
   - UI
   - HachaPickable
   - RevolverPickable
+  - CurativeArea
   layers:
   - Default
   - TransparentFX
