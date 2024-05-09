@@ -28,14 +28,9 @@ public class Firefly : MonoBehaviour
                 enemyFollow.followSpeed = 3;
                 animator.Play("Exploding_Firefly");
                 exploded = true;
-                // Inflige daño al jugador cuando explota
-                player.GetComponent<VidaPlayer>().PlayerTakeDamage(damage);
+
             }
         }
     }
 
-    public void FireflyDie()
-    {
-        Destroy(gameObject);
-    }
 }

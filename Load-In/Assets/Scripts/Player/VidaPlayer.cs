@@ -11,6 +11,9 @@ public class VidaPlayer : MonoBehaviour
     public Image BarraDeVida;
     private bool reducedDamageActivated = false; 
     private float reducedDamageMultiplier = 0.5f; // Multiplicador de reducción de daño
+    public ParticleSystem bloodPlayer;
+
+    Animator animator;
 
     public GameObject imagenReducedDamageActivado;
 
@@ -20,6 +23,8 @@ public class VidaPlayer : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
+
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
 
         if (weaponWheelObject != null)
@@ -43,17 +48,20 @@ public class VidaPlayer : MonoBehaviour
     // Lógica de vida
     public void PlayerTakeDamage(int damage)
     {
+        
         if (reducedDamageActivated == true) 
         {
             Debug.Log("---");
             damage = Mathf.RoundToInt(damage * reducedDamageMultiplier); 
         }
 
+        bloodPlayer.Play();
         vida -= damage;
+        CameraMovement.Instance.MoverCamara(7, 7, 0.5f);
+
 
         if (vida <= 0)
         {
-            Debug.Log("Game Over");
             SceneManager.LoadScene("Game_Over");
         }
     }
@@ -95,5 +103,10 @@ public class VidaPlayer : MonoBehaviour
         }
 
 
+    }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("Game_Over");
     }
 }

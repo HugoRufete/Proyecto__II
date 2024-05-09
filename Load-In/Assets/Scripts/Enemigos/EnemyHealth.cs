@@ -168,7 +168,6 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.tag == "CurativeArea")
         {
-            Debug.Log("AAAAA");
             animacionCuración.SetActive(true);
         }
     }
