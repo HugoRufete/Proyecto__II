@@ -6,6 +6,7 @@ public class GuadañaEnemy : MonoBehaviour
 {
     private Transform player;
     public GameObject projectilePrefab;
+    private EnemyHealth Health;
     public float desiredDistance = 5f;
     public float minDistanceToPlayer = 2f;
     public float movementSpeed = 5f;
@@ -22,10 +23,13 @@ public class GuadañaEnemy : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         player = GameObject.Find("Player").transform;
+        Health = GetComponent<EnemyHealth>();
     }
 
     void Update()
     {
+        if(Health.health > 0)
+        {
         Vector3 directionToPlayer = player.position - transform.position;
         float distanceToPlayer = directionToPlayer.magnitude;
 
@@ -90,5 +94,7 @@ public class GuadañaEnemy : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
+    }
+
     }
 }

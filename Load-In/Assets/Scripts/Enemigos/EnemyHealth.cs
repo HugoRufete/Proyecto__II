@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
-    public string enemyDeadAnimationName = "NombrePorDefecto";
+    public string enemyDeadAnimationName;
 
     bool experienciaSoltada;
 
@@ -55,24 +55,20 @@ public class EnemyHealth : MonoBehaviour
 
     public void EnemyTakeDamage(float damageAmount)
     {
+        bloodEnemy.Play();
         if (additionalDamageActivated)
         {
             ApplyAdditionalDamage(damageAmount);
         }
         else if (!invulnerable)
         {
-            bloodEnemy.Play();
             health -= damageAmount;
         }
 
         if (health <= 0)
         {
-            experienciaSoltada = true;
-            if (enemyDeadEvent != null)
-                enemyDeadEvent.Invoke(5);
-            DropExperienceItems(transform.position);
             PlayAnimationIfHealthBelowZero();
-            Destroy(gameObject);
+            rb.simulated = false;
         }
     }
 
@@ -155,8 +151,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void PlayAnimationIfHealthBelowZero()
     {
-        if (health <= 0)
-        {
+        
             if (animator != null)
             {
                 animator.Play(enemyDeadAnimationName);
@@ -165,7 +160,7 @@ public class EnemyHealth : MonoBehaviour
             {
                 Debug.LogError("Animator reference not set!");
             }
-        }
+        
     }
 
     // Método para activar la invulnerabilidad temporal
@@ -190,5 +185,14 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= damageAmount * additionalDamageMultiplier;
 
+    }
+
+    public void DestroyObject()
+    {
+        experienciaSoltada = true;
+        if (enemyDeadEvent != null)
+            enemyDeadEvent.Invoke(5);
+        DropExperienceItems(transform.position);
+        Destroy(gameObject);
     }
 }
