@@ -352,6 +352,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 8500781129763485473, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500781129763485473, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 871220041
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

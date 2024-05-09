@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\Scale_Sprite.cs" />
     <Compile Include="Assets\Scripts\UI\DestoyArrow.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\DashSombra.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\ProyectilGordito.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\AmmoBox.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="Assets\Scripts\UI\RadialMenuManager.cs" />
     <Compile Include="Assets\Scripts\HachaParent.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\flamethrower.cs" />
+    <Compile Include="Assets\Scripts\Player\Shadow.cs" />
     <Compile Include="Assets\Scripts\Puntuación\PickUpp.cs" />
     <Compile Include="Assets\Scripts\UI\Indicador_Fragmentos.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Gordito.cs" />

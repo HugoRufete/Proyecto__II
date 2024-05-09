@@ -27,6 +27,7 @@ public class SimplePlayerMovement : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
     private Collider2D playerCollider; // Referencia al Collider2D
+    
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class SimplePlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Obtener la referencia al SpriteRenderer
         playerCollider = GetComponent<Collider2D>();
+        
     }
 
     void Update()
@@ -54,8 +56,15 @@ public class SimplePlayerMovement : MonoBehaviour
         if (Time.time >= nextDashTime && Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
         {
             Dash();
+            
         }
 
+        if (isDashing)
+        {
+            Shadow.me.Sombras_Skill();
+        }
+
+        
     }
 
     // Movimiento simple de personaje + rotacion de este a través del cursor
@@ -131,21 +140,25 @@ public class SimplePlayerMovement : MonoBehaviour
     // Función para el Dash
     void Dash()
     {
+
         isDashing = true;
+       
         dashEndTime = Time.time + dashDuration;
 
         // Desactivar el Collider durante el Dash
-        playerCollider.enabled = false;
+       
 
         Vector2 dashDirection;
 
         if (SpeedX != 0 || SpeedY != 0)
         {
+            
             dashDirection = new Vector2(SpeedX, SpeedY).normalized;
         }
+
         else
         {
-
+            
             if (transform.eulerAngles.y == 0)
             {
                 dashDirection = Vector2.right;
@@ -156,12 +169,14 @@ public class SimplePlayerMovement : MonoBehaviour
             }
         }
 
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("EnemyLayer"), true);
         // Aplicar la fuerza del dash en la dirección determinada
         rb.AddForce(dashDirection * dashSpeed, ForceMode2D.Impulse);
 
         // Establecer la orientación del sprite según la dirección del dash
         if (dashDirection.x > 0)
         {
+
             transform.eulerAngles = new Vector3(0, 0, 0); // Mirando a la derecha
         }
         else if (dashDirection.x < 0)
@@ -186,8 +201,8 @@ public class SimplePlayerMovement : MonoBehaviour
         {
             isDashing = false;
             rb.velocity = Vector2.zero;
-
-            playerCollider.enabled = true;
+            Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("EnemyLayer"), false);
+            
         }
     }
 
