@@ -60,7 +60,7 @@ public class SimplePlayerMovement : MonoBehaviour
         }
 
        
-        if (isDashing)
+        if (isDashing || Time.time >= nextDashTime)
         {
             Shadow.me.Sombras_Skill();
         }

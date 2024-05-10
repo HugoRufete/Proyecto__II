@@ -38,6 +38,7 @@ public class VidaPlayer : MonoBehaviour
     private void Update()
     {
         BarraDeVida.fillAmount = vida / maxVida;
+       
     }
 
     public void ReiniciarVida()
