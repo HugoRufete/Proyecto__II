@@ -35,7 +35,7 @@ public class MartilloGigante : MonoBehaviour
     {
         if (timeBtwAttack <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetButtonDown("Fire1"))
             {
                 timeBtwAttack = attackCooldown;
                 animator.SetBool("MartilloAttackbool", true);

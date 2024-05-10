@@ -31,7 +31,7 @@ public class Hacha : MonoBehaviour
 
         if (timeBtwAttack <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetButtonDown("Fire1"))
             {
                 Debug.Log("Atacando...");
                 Attack();

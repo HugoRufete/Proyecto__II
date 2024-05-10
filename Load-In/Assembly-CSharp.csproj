@@ -92,8 +92,8 @@
     <Compile Include="Assets\Scripts\UI\DestoyArrow.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Player\DashSombra.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\ProyectilGordito.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\AmmoBox.cs" />

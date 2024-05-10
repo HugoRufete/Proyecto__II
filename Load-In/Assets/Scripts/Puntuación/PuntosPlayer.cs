@@ -53,7 +53,7 @@ public class PuntosPlayer : MonoBehaviour
             textAnimator.Play("PopUp_1_Animation");
 
 
-            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa1Desbloqueada)
+            if (Input.GetButtonDown("Fire1") && tiendaDiosa1Desbloqueada)
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {

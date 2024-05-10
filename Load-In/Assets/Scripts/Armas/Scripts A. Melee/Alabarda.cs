@@ -41,7 +41,7 @@ public class Alabarda : MonoBehaviour
     {
         if (timeBtwAttack <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetButtonDown("Fire1"))
             {
                 animator.SetBool("AlabardaAttackbool", true);
                 StartCoroutine(ResetAlabardaAfterDelay());

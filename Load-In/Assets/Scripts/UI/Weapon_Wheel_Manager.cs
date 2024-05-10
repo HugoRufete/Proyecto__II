@@ -414,7 +414,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 }
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 DesbloquearAlabarda();
                 interesDiosa = 1;
@@ -457,7 +457,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando precio base");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                
                 DesbloquearSniper();
@@ -482,7 +482,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Alabarada 10");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 bolsaExporasExtra.SetActive(false);
                 StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
@@ -501,7 +501,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Alabarada 20%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.2f;
@@ -518,7 +518,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Alabarada 30%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearAlabarda();
                 interesDiosa = interesDiosa * 1.3f;
@@ -536,7 +536,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Alabarada");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearAlabarda();
                 dialogosDiosaTienda1[3].SetActive(true);
@@ -626,7 +626,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando precio base");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 dialogosDiosaTienda1[4].SetActive(true);
@@ -649,7 +649,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando 10% Menos");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.1f;
@@ -666,7 +666,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando 20% Menos");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.2f;
@@ -684,7 +684,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando 30% Menos");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.3f;
@@ -700,7 +700,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 dialogosDiosaTienda1[3].SetActive(true);
@@ -748,7 +748,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 DesbloquearSniper();
                 interesDiosa = 1;
@@ -790,7 +790,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando precio base");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 dialogosDiosaTienda3[4].SetActive(true);
@@ -813,7 +813,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando 10% Menos");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.1f;
@@ -830,7 +830,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando 20% Menos");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.2f;
@@ -848,7 +848,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando 30% Menos");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 interesDiosa = interesDiosa * 1.3f;
@@ -865,7 +865,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearSniper();
                 dialogosDiosaTienda3[3].SetActive(true);
@@ -910,7 +910,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 }
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 DesbloquearMartilloGigante();
                 interesDiosa = 1;
@@ -950,7 +950,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando precio base");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
 
                 DesbloquearMartilloGigante();
@@ -973,7 +973,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearMartilloGigante();
                 interesDiosa = interesDiosa * 1.1f;
@@ -989,7 +989,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearMartilloGigante();
                 interesDiosa = interesDiosa * 1.2f;
@@ -1006,7 +1006,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearMartilloGigante();
                 interesDiosa = interesDiosa * 1.3f;
@@ -1022,7 +1022,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearMartilloGigante();
                 dialogosDiosaTienda2[3].SetActive(true);
@@ -1076,7 +1076,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = 1;
@@ -1119,7 +1119,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 }
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = 1;
@@ -1160,7 +1160,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando precio base");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
 
                 DesbloquearShotgun();
@@ -1184,7 +1184,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.1f;
@@ -1199,7 +1199,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun(); 
                 interesDiosa = interesDiosa * 1.2f;
@@ -1215,7 +1215,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.3f;
@@ -1231,7 +1231,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando Extra");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 dialogosDiosaTienda2[3].SetActive(true);
@@ -1282,7 +1282,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Pagando precio base");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
 
                 DesbloquearShotgun();
@@ -1306,7 +1306,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.1f;
@@ -1321,7 +1321,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.2f;
@@ -1337,7 +1337,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.3f;
@@ -1352,7 +1352,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 DesbloquearShotgun();
                 dialogosDiosaTienda3[3].SetActive(true);
@@ -1395,7 +1395,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 for (int i = 0; i < botonesADesactivar.Length; i++)
                 {
@@ -1439,7 +1439,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Aumentado 10");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.1f;
@@ -1456,7 +1456,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Aumentado 20%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.2f;
@@ -1473,7 +1473,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Aumentado 30%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.3f;
@@ -1491,7 +1491,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Aumentado");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 aumentarDaño.ActivateAdditionalDamage();
                 dialogosDiosaTienda1[3].SetActive(true);
@@ -1582,7 +1582,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido 10");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 reducirDaño.ActivateReducedDamage();
                 interesDiosa = interesDiosa * 1.1f;
@@ -1599,7 +1599,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido 20%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 reducirDaño.ActivateReducedDamage(); ;
                 interesDiosa = interesDiosa * 1.2f;
@@ -1616,7 +1616,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido 30%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 reducirDaño.ActivateReducedDamage();
                 interesDiosa = interesDiosa * 1.3f;
@@ -1634,7 +1634,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 reducirDaño.ActivateReducedDamage();
                 dialogosDiosaTienda2[3].SetActive(true);
@@ -1682,7 +1682,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    freezeEnemies[i].ActivarComponentes();
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
                 for (int i = 0; i < botonesADesactivar.Length; i++)
                 {
@@ -1726,7 +1726,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido 10");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = interesDiosa * 1.1f;
@@ -1743,7 +1743,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido 20%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = interesDiosa * 1.2f;
@@ -1760,7 +1760,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido 30%");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = interesDiosa * 1.3f;
@@ -1778,7 +1778,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 Debug.Log("Desbloqueando Daño Reducido");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
-                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i));
+                    StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
                 areaAttack.DesbloquearAtaqueArea();
                 dialogosDiosaTienda3[3].SetActive(true);
@@ -2020,9 +2020,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
     }
 
-    IEnumerator ActivarComponentesEnemigosConRetraso(int i)
+    IEnumerator ActivarComponentesEnemigosConRetraso(int i, float delay)
     {
-        yield return new WaitForSeconds(7f); 
+        yield return new WaitForSeconds(delay); 
         freezeEnemies[i].ActivarComponentes();
     }
 
