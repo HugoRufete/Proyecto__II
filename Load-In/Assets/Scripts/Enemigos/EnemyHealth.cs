@@ -211,4 +211,9 @@ public class EnemyHealth : MonoBehaviour
         DropExperienceItems(transform.position);
         Destroy(gameObject);
     }
+
+    public void DestroyObjectFirefly()
+    {
+        Destroy(gameObject);
+    }
 }
