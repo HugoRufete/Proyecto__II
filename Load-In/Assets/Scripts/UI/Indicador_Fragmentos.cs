@@ -2,21 +2,24 @@ using UnityEngine;
 
 public class RotarPivoteHaciaObjeto : MonoBehaviour
 {
-    public Transform objetoAsignado; 
-    public RectTransform flecha; 
-    public Transform jugador; 
+    public Transform objetoAsignado; public Transform flecha; public Transform jugador; public RectTransform minimapRect;
 
     private bool yScaleModified = false;
 
-    public float radioDestruccion = 7.0f; 
+    public float radioDestruccion = 7.0f;
 
-    void LateUpdate()
+    private Vector3 originalFlechaPosition;
+
+    void Start()
+    {  originalFlechaPosition = flecha.localPosition; }
+
+    void Update()
     {
         if (objetoAsignado != null && jugador != null)
         {
             Vector3 posicionRelativa = objetoAsignado.position - Camera.main.transform.position;
 
-            
+
             float angulo = Mathf.Atan2(posicionRelativa.y, posicionRelativa.x) * Mathf.Rad2Deg;
 
             Quaternion targetRotation = Quaternion.AngleAxis(angulo, Vector3.forward);
@@ -40,18 +43,16 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
                 yScaleModified = false;
             }
 
-           
-            if (flecha != null)
-            {
-                Vector3 viewportPoint = Camera.main.WorldToViewportPoint(objetoAsignado.position);
-                Vector3 posicionCorregida = new Vector3(
-                    Mathf.Clamp(viewportPoint.x, 0.05f, 0.95f) * Screen.width,
-                    Mathf.Clamp(viewportPoint.y, 0.05f, 0.95f) * Screen.height,
-                    0f
-                );
-                flecha.position = posicionCorregida;
-            }
+            // Calculate the position of the flecha within the minimap
+            Vector3 viewportPoint = Camera.main.WorldToViewportPoint(objetoAsignado.position);
+            Vector3 minimapPoint = new Vector3(
+                Mathf.Clamp01(viewportPoint.x) * minimapRect.rect.width,
+                Mathf.Clamp01(viewportPoint.y) * minimapRect.rect.height,
+                0f
+            );
 
+            // Set the arrow position relative to its original position
+            flecha.localPosition = originalFlechaPosition;
 
             float distanciaJugadorObjeto = Vector3.Distance(jugador.position, objetoAsignado.position);
             if (distanciaJugadorObjeto <= radioDestruccion)
@@ -62,10 +63,8 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
                     Destroy(flecha.gameObject);
                 }
             }
-
-
         }
-        else 
+        else
         {
             if (flecha != null)
             {
@@ -73,4 +72,6 @@ public class RotarPivoteHaciaObjeto : MonoBehaviour
             }
         }
     }
+
+
 }

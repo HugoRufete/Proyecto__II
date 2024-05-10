@@ -63,7 +63,7 @@ public class VidaPlayer : MonoBehaviour
 
         if (vida <= 0)
         {
-            SceneManager.LoadScene("Game_Over");
+            Invoke("GameOver", 5f);
         }
     }
 
