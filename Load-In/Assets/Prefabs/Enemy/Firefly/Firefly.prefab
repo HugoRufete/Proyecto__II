@@ -80,8 +80,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 328756813
+  m_SortingLayer: 6
   m_SortingOrder: 6
   m_Sprite: {fileID: 612217840, guid: f2cc4b9961904704ba100dbb5c4678b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 7643346349294536299}
   - component: {fileID: 6775678925919426682}
   - component: {fileID: 1108669764323979593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ExplosionRadious
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,11 +346,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
       propertyPath: m_LocalPosition.z
@@ -420,20 +420,24 @@ PrefabInstance:
       value: Enemy blood
       objectReference: {fileID: 0}
     - target: {fileID: 3225423595798555128, guid: ed735d99440ae534e83650035da89184, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3225423595798555128, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1699996
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.024180159
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 7460154100427343489, guid: ed735d99440ae534e83650035da89184, type: 3}
       propertyPath: m_LocalRotation.w

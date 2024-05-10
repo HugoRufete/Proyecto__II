@@ -23,6 +23,7 @@ public class SimplePlayerMovement : MonoBehaviour
     private Vector3 objective;
     [SerializeField] private new Camera camera;
 
+    private VidaPlayer health;
     private SpriteRenderer spriteRenderer; // Referencia al SpriteRenderer
     private Animator anim;
     private Rigidbody2D rb;
@@ -31,6 +32,7 @@ public class SimplePlayerMovement : MonoBehaviour
 
     void Start()
     {
+        health = GetComponent<VidaPlayer>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Obtener la referencia al SpriteRenderer
@@ -73,6 +75,8 @@ public class SimplePlayerMovement : MonoBehaviour
     // Movimiento simple de personaje + rotacion de este a través del cursor
     void Movement()
     {
+        if (health.vida>0)
+        {
         // Cogemos las inputs y las multiplicamos por la velocidad
         SpeedX = Input.GetAxisRaw("Horizontal") * movSpeed;
         SpeedY = Input.GetAxisRaw("Vertical") * movSpeed;
@@ -95,6 +99,7 @@ public class SimplePlayerMovement : MonoBehaviour
         // Control de la animación de movimiento
         if (!isDashing)
         {
+
             if (SpeedX != 0 || SpeedY != 0)
             {
                 if (SpeedX > 0 && objective.x < transform.position.x)
@@ -123,11 +128,14 @@ public class SimplePlayerMovement : MonoBehaviour
                 anim.Play("Idle");
             }
         }
+
+        }
     }
 
     // Función para actualizar la capa del sprite
     void UpdateLayer()
     {
+        /*
         Vector3 directionToMouse = (objective - transform.position).normalized;
 
         if (directionToMouse.y > 0) // Si el ratón está por encima del jugador
@@ -138,6 +146,7 @@ public class SimplePlayerMovement : MonoBehaviour
         {
             spriteRenderer.sortingOrder = 1; // Cambiar la capa a 1 (detrás)
         }
+        */
     }
 
     // Función para el Dash

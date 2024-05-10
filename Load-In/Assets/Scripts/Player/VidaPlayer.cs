@@ -23,8 +23,8 @@ public class VidaPlayer : MonoBehaviour
 
     private void Start()
     {
+        
         animator = GetComponent<Animator>();
-
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
 
         if (weaponWheelObject != null)
@@ -63,7 +63,8 @@ public class VidaPlayer : MonoBehaviour
 
         if (vida <= 0)
         {
-            Invoke("GameOver", 5f);
+        animator.SetBool("isDead",true);
+            
         }
     }
 
@@ -108,6 +109,7 @@ public class VidaPlayer : MonoBehaviour
 
     public void GameOver()
     {
+        Destroy(gameObject);
         SceneManager.LoadScene("Game_Over");
     }
 }
