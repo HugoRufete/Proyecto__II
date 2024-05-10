@@ -59,10 +59,13 @@ public class SimplePlayerMovement : MonoBehaviour
             
         }
 
+       
         if (isDashing)
         {
             Shadow.me.Sombras_Skill();
         }
+            
+        
 
         
     }
