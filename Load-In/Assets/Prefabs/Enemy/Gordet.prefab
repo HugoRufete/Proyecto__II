@@ -197,13 +197,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23d4d2b7b01f5c943b15e990413753fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 5530069586469005556, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
+  mirarDerecha: 1
+  distanciaDeseada: 4
+  cooldownAttack: 2
+  lastTimeAttack: 0
+  speed: 3
   projectilePrefab: {fileID: 4658382486395905063, guid: 072870ee7cdc5644fab700b8e5d5dee6, type: 3}
-  desiredDistance: 2.5
-  minDistanceToPlayer: 2.5
-  movementSpeed: 5
-  projectileChargeTime: 2
-  projectileSpeed: 10
-  projectileCooldown: 2
 --- !u!114 &2932158514310906835
 MonoBehaviour:
   m_ObjectHideFlags: 0

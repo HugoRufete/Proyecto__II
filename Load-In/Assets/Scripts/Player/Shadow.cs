@@ -31,8 +31,8 @@ public class Shadow : MonoBehaviour
             }
         }
         GameObject obj = Instantiate(sombra, transform.position, transform.rotation) as GameObject;
-        obj.GetComponent<SpriteRenderer>().sprite = GetComponent<SpriteRenderer>().sprite;  
-        obj.GetComponent<DashSombra>().mycolor = _Color;
+        obj.GetComponent<SpriteRenderer>().sprite = GetComponent<SpriteRenderer>().sprite;
+        obj.GetComponent<DashSombra>().mycolor= _Color;
         pool.Add(obj);
         return obj; 
     }

@@ -7,6 +7,7 @@ public class DashSombra : MonoBehaviour
     SpriteRenderer myrenderer;
     private Shader mymaterial;
     public Color mycolor;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +23,9 @@ public class DashSombra : MonoBehaviour
 
     void ColorSprite()
     {
-        myrenderer.material.shader = mymaterial;    
+        myrenderer.material.shader = mymaterial;   
         myrenderer.color = mycolor;
+        
     }
 
     public void Finish()
