@@ -28,7 +28,11 @@ public class SimplePlayerMovement : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
     private Collider2D playerCollider; // Referencia al Collider2D
-    
+
+    [SerializeField] private CameraMovement cameraMovement;
+
+
+
 
     void Start()
     {
@@ -37,7 +41,8 @@ public class SimplePlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Obtener la referencia al SpriteRenderer
         playerCollider = GetComponent<Collider2D>();
-        
+        cameraMovement = FindObjectOfType<CameraMovement>();
+
     }
 
     void Update()
@@ -62,9 +67,15 @@ public class SimplePlayerMovement : MonoBehaviour
         }
 
        
-        if (isDashing || Time.time >= nextDashTime)
+        if (isDashing)
         {
             Shadow.me.Sombras_Skill();
+           
+        }
+
+        if (Time.time >= nextDashTime && !isDashing)
+        {
+            Rastro_Player.me.Sombras_Skill();
         }
             
         
@@ -157,8 +168,8 @@ public class SimplePlayerMovement : MonoBehaviour
        
         dashEndTime = Time.time + dashDuration;
 
-        // Desactivar el Collider durante el Dash
-       
+        CameraMovement.Instance.MoverCamara(1f, 1.5f, 1.5f);
+        CameraMovement.Instance.Zoom(0.85f,0.7f);  
 
         Vector2 dashDirection;
 
@@ -211,9 +222,11 @@ public class SimplePlayerMovement : MonoBehaviour
     {
         if (isDashing && Time.time >= dashEndTime)
         {
+            CameraMovement.Instance.RestaurarCamaraOriginal();
             isDashing = false;
             rb.velocity = Vector2.zero;
             Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("EnemyLayer"), false);
+
             
         }
     }

@@ -53,6 +53,8 @@ public class Gordito : MonoBehaviour
         {
             speed = 5;
         }
+
+
     }
 
     void Move(Vector3 direction)
@@ -69,11 +71,17 @@ public class Gordito : MonoBehaviour
 
     void UpdateDirection()
     {
-        if ((transform.position.x < player.position.x && !mirarDerecha) ||
-            (transform.position.x > player.position.x && mirarDerecha))
+        if (transform.position.x < player.position.x && mirarDerecha)
         {
             Flip();
         }
+
+        else if (transform.position.x > player.position.x && !mirarDerecha)
+        {
+            Flip();
+        }
+
+
     }
 
     void Flip()
@@ -90,6 +98,7 @@ public class Gordito : MonoBehaviour
         myAnimator.SetBool("IsAttacking", true);
         isAttacking = true;
         lastTimeAttack = Time.time;
+
     }
 
     public void LaunchProjectile()

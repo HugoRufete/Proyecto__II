@@ -77,23 +77,29 @@ public class Escudito : MonoBehaviour
             // Voltear al enemigo
             Voltear();
         }
-
-        //Si la vida enemiga es menor de 20 y mayor de 20 y la booleana es falsa se hará la corutina que incluye la animación de proteger
-        if (enemHealth != null && enemHealth.health < 20 && enemHealth.health > 14 && !protegiendo && !accionRealizada)
+        if (enemHealth != null && enemHealth.health < 30 && enemHealth.health > 24 && !protegiendo && !accionRealizada)
         {
             Debug.Log("Empieza la corrutina");
-            enemHealth.ActivateInvulnerability(5f); //Desactivamos la posibilidad de hacer daño al enemigo durante 5 segundos a través de una corutina en el script de la vida enemiga
+            Invoke("WaitToProtection", 1f);
             StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f)); //Llamamos a la corutina que contiene la animación de proteger y los segundos que queremos que dure
             accionRealizada = true; //La activamos a verdadera de forma que la animación solo se realizará una vez
         }
+        //Si la vida enemiga es menor de 20 y mayor de 20 y la booleana es falsa se hará la corutina que incluye la animación de proteger
+        if (enemHealth != null && enemHealth.health < 20 && enemHealth.health > 14 && !protegiendo && accionRealizada)
+        {
+            Debug.Log("Empieza la corrutina");
+            Invoke("WaitToProtection", 1f);
+            StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f)); //Llamamos a la corutina que contiene la animación de proteger y los segundos que queremos que dure
+            accionRealizada = false; //La activamos a verdadera de forma que la animación solo se realizará una vez
+        }
 
-        if (enemHealth != null && enemHealth.health < 9 && enemHealth.health > 4 && !protegiendo && accionRealizada)
+        if (enemHealth != null && enemHealth.health < 9 && enemHealth.health > 4 && !protegiendo && !accionRealizada)
         {
 
-            Debug.Log("Vida menor de 15 y animación activada");
-            enemHealth.ActivateInvulnerability(5f);
+
+            Invoke("WaitToProtection", 1f);
             StartCoroutine(PlayAnimationForDuration("Escudito_Protection", 5f));
-            accionRealizada = false;
+            accionRealizada = true;
         }
 
         if (isAnimating)
@@ -173,5 +179,10 @@ public class Escudito : MonoBehaviour
             isattacking = false;
         }
 
+    }
+
+    public void WaitToProtection()
+    {
+        enemHealth.ActivateInvulnerability(3f); //Desactivamos la posibilidad de hacer daño al enemigo durante 5 segundos a través de una corutina en el script de la vida enemiga
     }
 }
