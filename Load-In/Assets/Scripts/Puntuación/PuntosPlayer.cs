@@ -53,7 +53,7 @@ public class PuntosPlayer : MonoBehaviour
             textAnimator.Play("PopUp_1_Animation");
 
 
-            if (Input.GetButtonDown("Fire1") && tiendaDiosa1Desbloqueada)
+            if (tiendaDiosa1Desbloqueada)
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
@@ -78,7 +78,7 @@ public class PuntosPlayer : MonoBehaviour
             popUpPreesF.SetActive(true);
             textAnimator.Play("PopUp_1_Animation");
 
-            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa2Desbloqueada)
+            if (tiendaDiosa2Desbloqueada)
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
@@ -103,7 +103,7 @@ public class PuntosPlayer : MonoBehaviour
             popUpPreesF.SetActive(true);
             textAnimator.Play("PopUp_1_Animation");
             
-            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa3Desbloqueada)
+            if (tiendaDiosa3Desbloqueada)
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
@@ -127,7 +127,7 @@ public class PuntosPlayer : MonoBehaviour
             popUpPreesF.SetActive(true);
             textAnimator.Play("PopUp_1_Animation");
 
-            if (Input.GetKeyUp(KeyCode.F) && tiendaDiosa4Desbloqueada)
+            if (tiendaDiosa4Desbloqueada)
             {
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {

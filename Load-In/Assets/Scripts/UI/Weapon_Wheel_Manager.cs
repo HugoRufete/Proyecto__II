@@ -328,9 +328,6 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 }
             }
         }
-
-       
-
     }
 
     public void ActivarNegocaciónAlabardar()
