@@ -7,18 +7,15 @@ public class CameraMovement : MonoBehaviour
     public static CameraMovement Instance;
 
     private CinemachineVirtualCamera cinemachinevirtualcamera;
-
     private CinemachineBasicMultiChannelPerlin cinemachinebasicmultichanelperlin;
 
     private float tiempoMovimiento;
-
     private float tiempoMovimientoTotal;
-
     private float intensidadInicial;
-
     private float originalOrthographicSize;
+    private Vector3 originalPosition;
 
-    private Vector3 originalPosition; 
+    private Coroutine zoomCoroutine;
 
     // Start is called before the first frame update
     void Start()
@@ -39,12 +36,17 @@ public class CameraMovement : MonoBehaviour
         originalOrthographicSize = cinemachinevirtualcamera.m_Lens.OrthographicSize;
         originalPosition = transform.position;
 
+        // Si hay una animación de zoom en progreso, la detenemos
+        if (zoomCoroutine != null)
+        {
+            StopCoroutine(zoomCoroutine);
+        }
     }
 
     public void Zoom(float intensidad, float tiempo)
     {
         float targetOrthographicSize = originalOrthographicSize * intensidad;
-        StartCoroutine(DoZoom(targetOrthographicSize, tiempo));
+        zoomCoroutine = StartCoroutine(DoZoom(targetOrthographicSize, tiempo));
     }
 
     private IEnumerator DoZoom(float targetOrthographicSize, float tiempo)
@@ -53,16 +55,18 @@ public class CameraMovement : MonoBehaviour
 
         while (t < tiempo)
         {
-            // Interpolamos suavemente entre el tamaño actual y el tamaño objetivo
             float newSize = Mathf.Lerp(cinemachinevirtualcamera.m_Lens.OrthographicSize, targetOrthographicSize, t / tiempo);
             cinemachinevirtualcamera.m_Lens.OrthographicSize = newSize;
+
+            // También interpolamos la posición de la cámara
+            transform.position = Vector3.Lerp(transform.position, originalPosition, t / tiempo);
 
             t += Time.deltaTime;
             yield return null;
         }
 
-        // Asegúrate de establecer el tamaño de la cámara al tamaño objetivo después del zoom
         cinemachinevirtualcamera.m_Lens.OrthographicSize = targetOrthographicSize;
+        transform.position = originalPosition;
     }
 
     public void RestaurarCamaraOriginal()
@@ -74,29 +78,30 @@ public class CameraMovement : MonoBehaviour
     {
         float t = 0f;
 
-        // Restaurar la posición de la cámara de forma inmediata
-        transform.position = originalPosition;
-
         while (t < tiempoMovimientoTotal)
         {
-            // Interpolamos suavemente entre el tamaño actual y el tamaño original
             float newSize = Mathf.Lerp(cinemachinevirtualcamera.m_Lens.OrthographicSize, originalOrthographicSize, t / tiempoMovimientoTotal);
             cinemachinevirtualcamera.m_Lens.OrthographicSize = newSize;
 
             t += Time.deltaTime;
+
+            // También interpolamos la posición de la cámara
+            transform.position = Vector3.Lerp(transform.position, originalPosition, t / tiempoMovimientoTotal);
+
             yield return null;
         }
 
-        // Asegúrate de que el tamaño de la cámara esté en su valor original al finalizar la transición
         cinemachinevirtualcamera.m_Lens.OrthographicSize = originalOrthographicSize;
+        transform.position = originalPosition;
     }
+
     // Update is called once per frame
     void Update()
     {
         if (tiempoMovimiento > 0)
         {
             tiempoMovimiento -= Time.deltaTime;
-            cinemachinebasicmultichanelperlin.m_AmplitudeGain = Mathf.Lerp(intensidadInicial,0,1-(tiempoMovimiento/tiempoMovimientoTotal));
+            cinemachinebasicmultichanelperlin.m_AmplitudeGain = Mathf.Lerp(intensidadInicial, 0, 1 - (tiempoMovimiento / tiempoMovimientoTotal));
         }
     }
 }
