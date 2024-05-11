@@ -1906,13 +1906,13 @@ public class Weapon_Wheel_Manager : MonoBehaviour
             objetoADestruir.SetActive(false);
         }
     }
-    private IEnumerator ActivateObjectWithDelay(GameObject objetoADestruir, float delayInSeconds)
+    private IEnumerator ActivateObjectWithDelay(GameObject objetoAActivar, float delayInSeconds)
     {
         yield return new WaitForSeconds(delayInSeconds);
 
-        if (objetoADestruir != null)
+        if (objetoAActivar != null)
         {
-            objetoADestruir.SetActive(true);
+            objetoAActivar.SetActive(true);
         }
     }
 
@@ -1933,7 +1933,11 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
         equippedPopUps.Play(animación);
     }
-
+    private IEnumerator ActivarComponentesEnemigosConRetraso(int i, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        freezeEnemies[i].ActivarComponentes();
+    }
     private void ActualizarPrecioAlabarda()
     {
         precioBaseAlabarda = precioBaseAlabarda * interesDiosa;
@@ -2017,11 +2021,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
     }
 
-    IEnumerator ActivarComponentesEnemigosConRetraso(int i, float delay)
-    {
-        yield return new WaitForSeconds(delay); 
-        freezeEnemies[i].ActivarComponentes();
-    }
+   
 
 }
 

@@ -22,6 +22,9 @@ TagManager:
   - HachaPickable
   - RevolverPickable
   - CurativeArea
+  - Lata
+  - Cecina
+  - Seta
   layers:
   - Default
   - TransparentFX

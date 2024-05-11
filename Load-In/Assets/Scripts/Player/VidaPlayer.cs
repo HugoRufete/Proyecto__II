@@ -12,6 +12,7 @@ public class VidaPlayer : MonoBehaviour
     private bool reducedDamageActivated = false; 
     private float reducedDamageMultiplier = 0.5f; // Multiplicador de reducción de daño
     public ParticleSystem bloodPlayer;
+    public int Curación;
     
 
     Animator animator;
@@ -21,6 +22,8 @@ public class VidaPlayer : MonoBehaviour
     public GameObject tiendaUI;
 
     public Weapon_Wheel_Manager weaponManager;
+
+    public GameObject curación_Lata_popUp;
 
     public GameObject [] curacionesHUD;
 
@@ -43,7 +46,21 @@ public class VidaPlayer : MonoBehaviour
     private void Update()
     {
         BarraDeVida.fillAmount = vida / maxVida;
-        
+
+        if (Input.GetKeyDown(KeyCode.F) && cantidadCurasMáxima >= 1 && cantidadCurasMáxima <= 5 && vida < 100)
+        {
+            CurarJugador();
+            animator.SetBool("curación", true);
+        }
+        else if (vida <= 100 && Input.GetKeyDown(KeyCode.F) && cantidadCurasMáxima >= 1)
+        {
+            Debug.Log("Vida al máximo");
+        }
+        else if (cantidadCurasMáxima == 0 && Input.GetKeyDown(KeyCode.F))
+        {
+            Debug.Log("No tienes curas");
+        }
+
         if (cantidadCurasMáxima >= 1)
         {
             Debug.Log("1 curaciones");
@@ -65,23 +82,56 @@ public class VidaPlayer : MonoBehaviour
                             Debug.Log("5 curaciones");
                             curacionesHUD[4].SetActive(true);
                         }
+                        else if(cantidadCurasMáxima < 5)
+                        {
+                            curacionesHUD[4].SetActive(false);
+                        }
                         if (cantidadCurasMáxima > 5)
                         {
                             Debug.Log("Cantidad Máxima de curas alcanzada");
                         }
                     }
+                    else if (cantidadCurasMáxima < 4)
+                    {
+                        curacionesHUD[3].SetActive(false);
+                    }
                 }
-                
+                else if (cantidadCurasMáxima < 3)
+                {
+                    curacionesHUD[2].SetActive(false);
+                }
+
+
+            }
+            else if (cantidadCurasMáxima < 2)
+            {
+                curacionesHUD[1].SetActive(false);
             }
         }
+        else if (cantidadCurasMáxima < 1)
+        {
+            curacionesHUD[0].SetActive(false);
+        }
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Curacion"))
+        if (collision.CompareTag("Lata"))
         {
-            cantidadCurasMáxima += 1;
-            CurarJugador();
+            if (cantidadCurasMáxima < 5)
+            {
+                cantidadCurasMáxima += 1;
+            }
+
             collision.gameObject.SetActive(false);
+        }
+        else if (collision.CompareTag("Cecina"))
+        {
+            vida = vida + 20;
+        }
+        else if (collision.CompareTag("Seta"))
+        {
+            vida = vida + 10;
         }
 
         else if (collision.CompareTag("HachaPickable"))
@@ -102,7 +152,7 @@ public class VidaPlayer : MonoBehaviour
 
     public void ReiniciarVida()
     {
-        vida = maxVida;
+        //vida = maxVida;
     }
 
     // Lógica de vida
@@ -144,9 +194,23 @@ public class VidaPlayer : MonoBehaviour
 
     public void CurarJugador()
     {
-        vida = vida + 20;
-
-        
+        curación_Lata_popUp.SetActive(true);
+        StartCoroutine(DestroyObjectCoroutine(curación_Lata_popUp, 2f));
+        Debug.Log("Curando Jugador");
+        vida = vida + Curación;
+        cantidadCurasMáxima -= 1;
     }
+
+    private IEnumerator DestroyObjectCoroutine(GameObject objetoADestruir, float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+        if (objetoADestruir != null)
+        {
+            objetoADestruir.SetActive(false);
+        }
+    }
+
+   
 
 }
