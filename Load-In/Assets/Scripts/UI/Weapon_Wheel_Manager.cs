@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Weapon_Wheel_Manager : MonoBehaviour
 {
+    public GameObject minimapa; 
+
     private float precioBasePistola = 250;
     private float precioBaseAlabarda = 77;
     private float precioBaseMartilloGigante = 120;
@@ -1075,6 +1077,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 4f));
                 DesbloquearShotgun();
                 interesDiosa = 1;
                 dialogosDiosaTienda2[4].SetActive(true);
@@ -1118,6 +1121,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 4f));
                 DesbloquearShotgun();
                 interesDiosa = 1;
                 dialogosDiosaTienda3[4].SetActive(true);
@@ -1159,7 +1163,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
-
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 dialogosDiosaTienda2[4].SetActive(true);
                 dialogosDiosaTienda2[1].SetActive(false);
@@ -1183,6 +1187,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda2[2].SetActive(true);
@@ -1198,6 +1203,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun(); 
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderShotgun);
@@ -1230,6 +1236,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 dialogosDiosaTienda2[3].SetActive(true);
                 dialogosDiosaTienda2[1].SetActive(false);
@@ -1281,7 +1288,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
-
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 dialogosDiosaTienda3[4].SetActive(true);
                 dialogosDiosaTienda3[1].SetActive(false);
@@ -1305,6 +1312,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda3[2].SetActive(true);
@@ -1320,6 +1328,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderShotgun);
@@ -1336,6 +1345,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderShotgun);
@@ -1351,6 +1361,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 DesbloquearShotgun();
                 dialogosDiosaTienda3[3].SetActive(true);
                 dialogosDiosaTienda3[1].SetActive(false);
@@ -1398,6 +1409,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     botonesADesactivar[i].enabled = false;
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 4f));
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = 1;
                 dialogosDiosaTienda1[4].SetActive(true);
@@ -1438,6 +1450,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda1[2].SetActive(true);
@@ -1455,6 +1468,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderDañoAumentado);
@@ -1472,6 +1486,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 aumentarDaño.ActivateAdditionalDamage();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderDañoAumentado);
@@ -1490,6 +1505,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 aumentarDaño.ActivateAdditionalDamage();
                 dialogosDiosaTienda1[3].SetActive(true);
                 dialogosDiosaTienda1[1].SetActive(false);
@@ -1540,6 +1556,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     botonesADesactivar[i].enabled = false;
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 4f));
                 reducirDaño.ActivateReducedDamage();
                 interesDiosa = 1;
                 dialogosDiosaTienda2[4].SetActive(true);
@@ -1581,6 +1598,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 reducirDaño.ActivateReducedDamage();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda2[2].SetActive(true);
@@ -1598,6 +1616,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 reducirDaño.ActivateReducedDamage(); ;
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderDañoReducido);
@@ -1615,6 +1634,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 reducirDaño.ActivateReducedDamage();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderDañoReducido);
@@ -1633,6 +1653,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 reducirDaño.ActivateReducedDamage();
                 dialogosDiosaTienda2[3].SetActive(true);
                 dialogosDiosaTienda2[1].SetActive(false);
@@ -1685,6 +1706,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     botonesADesactivar[i].enabled = false;
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 4f));
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = 1;
                 dialogosDiosaTienda3[4].SetActive(true);
@@ -1725,6 +1747,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = interesDiosa * 1.1f;
                 dialogosDiosaTienda3[2].SetActive(true);
@@ -1742,6 +1765,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = interesDiosa * 1.2f;
                 playerEsporas.RestarEsporas(valorSliderAtaqueArea);
@@ -1759,6 +1783,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 areaAttack.DesbloquearAtaqueArea();
                 interesDiosa = interesDiosa * 1.3f;
                 playerEsporas.RestarEsporas(valorSliderAtaqueArea);
@@ -1777,6 +1802,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
                 }
+                StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
                 areaAttack.DesbloquearAtaqueArea();
                 dialogosDiosaTienda3[3].SetActive(true);
                 dialogosDiosaTienda3[1].SetActive(false);
@@ -1830,7 +1856,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     public void DesbloquearAlabarda()
     {
-
+        StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
         StartCoroutine(ActivateObjectAnimationwithDelay("HalberdEquippedAnimation", 7f));
         Debug.Log("Alabarda Desbloqueada");
         alabardaDesbloqueda = true;
@@ -1839,18 +1865,21 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     public void DesbloquearMartilloGigante()
     {
         StartCoroutine(ActivateObjectAnimationwithDelay("HammerEquippedAnimation", 7f));
+        StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
         Debug.Log("Desbloqueando Martillo");
         martilloGiganteDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearSniper()
     {
+        StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
         StartCoroutine(ActivateObjectAnimationwithDelay("SniperEquippedAnimation", 7f));
         sniperDesbloqueado = true;
         Time.timeScale = 1.0f;
     }
     public void DesbloquearShotgun()
     {
+        StartCoroutine(ActivateObjectWithDelay(minimapa, 7f));
         StartCoroutine(ActivateObjectAnimationwithDelay("ShotgunEquippedAnimation", 7f));
         Debug.Log("Shotgun Desbloqueada");
         shotgunDesbloqueada = true;
