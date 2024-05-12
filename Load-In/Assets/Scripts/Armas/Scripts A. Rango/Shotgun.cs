@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class Shotgun : MonoBehaviour, IRecargable
 {
+    private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
     public float alcance = 10f; // Alcance máximo de las balas
     public int maxBullets = 10; // Cantidad máxima de balas en el cargador
     [SerializeField] public int bulletsInMagazine; // Balas restantes en el cargador
+    private Rigidbody2D rb;
 
     public static event System.Action shotgunDisparada;
 
+    public float recoil = 10;
 
     public int ObtenerMunicionActual()
     {
@@ -26,6 +29,8 @@ public class Shotgun : MonoBehaviour, IRecargable
     void Start()
     {
         bulletsInMagazine = maxBullets;
+        rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+        player = GameObject.Find("Player").GetComponent<Transform>();
     }
 
     void Update()
@@ -57,7 +62,9 @@ public class Shotgun : MonoBehaviour, IRecargable
             Vector2 direccionBala = Quaternion.Euler(0f, 0f, anguloActual) * puntoDisparo.right;
 
             // Instanciar la bala en la posición del punto de disparo con la rotación correspondiente
-            GameObject bala = Instantiate(prefabBala, puntoDisparo.position, Quaternion.Euler(0f, 0f, anguloActual));
+            GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
+
+            Retroceso();
 
             Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
             rbBala.velocity = direccionBala * velocidadBala;
@@ -85,5 +92,17 @@ public class Shotgun : MonoBehaviour, IRecargable
     public void CargarBalasEscopeta(int cantidad)
     {
         bulletsInMagazine = Mathf.Clamp(cantidad, 0, maxBullets); 
+    }
+    private void Retroceso()
+    {
+        // Obtiene la posición del ratón en el mundo
+        Vector3 posicionRaton = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        posicionRaton.z = 0; // Ajusta la posición Z a 0 para que esté en el mismo plano que el jugador
+
+        Vector3 direction = posicionRaton - player.transform.position;
+        rb.AddForce(-direction * recoil, ForceMode2D.Force);
+
+
+
     }
 }

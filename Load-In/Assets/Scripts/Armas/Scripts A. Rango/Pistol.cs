@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public interface IRecargable
@@ -7,21 +6,27 @@ public interface IRecargable
 }
 public class Pistol : MonoBehaviour, IRecargable
 {
+    private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
+    private Rigidbody2D rb;
 
     [Header("Cargador")]
     public int maxBalas = 20;
     public int currentAmmo;
 
+
     [Header("Alcance")]
     public float alcance = 10f;
 
     [Header("Velocidad de Recarga")]
-    public float velocidadRecarga = 2f;
+    public float velocidadRecarga = 500f;
 
     public static event System.Action pistolaDisparada;
+
+
+    public float recoil = 10;
     public int ObtenerMunicionActual()
     {
         return currentAmmo;
@@ -46,6 +51,8 @@ public class Pistol : MonoBehaviour, IRecargable
     {
         // Cargar el estado de munición almacenado
         currentAmmo = PlayerPrefs.GetInt("BalasPistola", maxBalas);
+        rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+        player = GameObject.Find("Player").GetComponent<Transform>();
     }
 
     void Update()
@@ -59,7 +66,7 @@ public class Pistol : MonoBehaviour, IRecargable
 
     void Disparar()
     {
-        GameObject bala = Instantiate(prefabBala, puntoDisparo.position, Quaternion.Euler(0f, 0f, 90f));
+        GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
         Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
         Vector2 direccionBala = puntoDisparo.right;
         rbBala.velocity = direccionBala * velocidadBala;
@@ -78,8 +85,11 @@ public class Pistol : MonoBehaviour, IRecargable
             Debug.Log("Recargar o recuperar balas");
         }
 
+        
         if (pistolaDisparada != null)
             pistolaDisparada();
+        
+        Retroceso();
     }
     public void RecargarArma()
     {
@@ -91,5 +101,18 @@ public class Pistol : MonoBehaviour, IRecargable
         currentAmmo = maxBalas;
         PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();
+    }
+
+    private void Retroceso()
+    {
+        // Obtiene la posición del ratón en el mundo
+        Vector3 posicionRaton = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        posicionRaton.z = 0; // Ajusta la posición Z a 0 para que esté en el mismo plano que el jugador
+
+        Vector3 direction = posicionRaton - player.transform.position;
+        rb.AddForce(-direction * recoil, ForceMode2D.Force);
+
+
+
     }
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3797108449572799529}
   - component: {fileID: -7855121701733523558}
   - component: {fileID: 6226715561801508073}
+  - component: {fileID: 2241462362130801316}
   m_Layer: 0
   m_Name: "ProyectilGuada\xF1a"
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 328756813
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 8aa5a0aab9815e44abf3917e343b328b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -171,17 +172,31 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.5833334, y: 0.7708334}
-      - {x: 0.5833334, y: 0.8125}
-      - {x: 0.5, y: 1.0208334}
-      - {x: 0.25, y: 1.0208334}
-      - {x: -0.45833334, y: 0.6041667}
-      - {x: -0.45833334, y: -0.6875}
-      - {x: 0.041666668, y: -1.1041667}
-      - {x: 0.16666667, y: -1.1458334}
-      - {x: 0.2916667, y: -1.1458334}
-      - {x: 0.5416667, y: -1.0208334}
-      - {x: 0.5833334, y: -0.8958334}
-      - {x: 0.5833334, y: -0.7708334}
-      - {x: 0.20833334, y: -0.1875}
+    - - {x: 0.07419121, y: 0.4367088}
+      - {x: 0.3340658, y: 0.6852144}
+      - {x: 0.30376816, y: 0.73974454}
+      - {x: 0.17044652, y: 0.7662623}
+      - {x: -0.16133371, y: 0.37080985}
+      - {x: -0.34115237, y: -0.11141321}
+      - {x: -0.21684334, y: -0.566755}
+      - {x: 0.06430642, y: -0.86267674}
+      - {x: 0.1364805, y: -0.874157}
+      - {x: 0.20479244, y: -0.8504637}
+      - {x: 0.20479244, y: -0.8504637}
+      - {x: 0.23243207, y: -0.7909266}
+      - {x: 0.21703112, y: -0.7302331}
+      - {x: 0.1089499, y: -0.59041715}
+      - {x: -0.053743213, y: -0.20970488}
   m_UseDelaunayMesh: 0
+--- !u!114 &2241462362130801316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345251543717728005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142fe9710475b9942b047ef6f02cf070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

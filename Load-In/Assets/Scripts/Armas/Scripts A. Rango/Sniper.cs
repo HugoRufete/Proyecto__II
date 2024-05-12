@@ -3,9 +3,11 @@ using UnityEngine.UI;
 
 public class Sniper : MonoBehaviour, IRecargable
 {
+    private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
+    private Rigidbody2D rb;
 
     [Header("Cargador")]
     public int maxBalas = 10;
@@ -18,6 +20,8 @@ public class Sniper : MonoBehaviour, IRecargable
     public float velocidadRecarga = 2f;
 
     public static event System.Action sniperDisparado;
+
+    public float recoil = 10;
 
     public int ObtenerMunicionActual()
     {
@@ -33,6 +37,8 @@ public class Sniper : MonoBehaviour, IRecargable
     {
         // Cargar el estado de munición almacenado
         balasRestantes = PlayerPrefs.GetInt("BalasSniper", maxBalas);
+        rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+        player = GameObject.Find("Player").GetComponent<Transform>();
     }
 
     void Update()
@@ -51,7 +57,7 @@ public class Sniper : MonoBehaviour, IRecargable
 
     void Disparar()
     {
-        GameObject bala = Instantiate(prefabBala, puntoDisparo.position, Quaternion.Euler(0f, 0f, 90f));
+        GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
 
         Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
 
@@ -75,6 +81,8 @@ public class Sniper : MonoBehaviour, IRecargable
 
         if (sniperDisparado != null)
             sniperDisparado();
+
+        Retroceso();
     }
 
     public void RecargarArma()
@@ -88,5 +96,17 @@ public class Sniper : MonoBehaviour, IRecargable
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasSniper", balasRestantes);
         PlayerPrefs.Save();
+    }
+    private void Retroceso()
+    {
+        // Obtiene la posición del ratón en el mundo
+        Vector3 posicionRaton = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        posicionRaton.z = 0; // Ajusta la posición Z a 0 para que esté en el mismo plano que el jugador
+
+        Vector3 direction = posicionRaton - player.transform.position;
+        rb.AddForce(-direction * recoil, ForceMode2D.Force);
+
+
+
     }
 }

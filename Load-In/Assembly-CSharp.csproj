@@ -115,6 +115,7 @@
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Pistol.cs" />
     <Compile Include="Assets\Scripts\UI\Comprar_O_Negociar.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Tirachinas.cs" />
+    <Compile Include="Assets\Scripts\Enemigos\Scripts\Proyectil_Guadaña.cs" />
     <Compile Include="Assets\Scripts\UI\RadialMenuManager.cs" />
     <Compile Include="Assets\Scripts\HachaParent.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\flamethrower.cs" />

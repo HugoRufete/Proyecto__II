@@ -67,12 +67,16 @@ public class GuadañaEnemy : MonoBehaviour
                         Vector3 directionToPlayerNormalized = directionToPlayer.normalized;
                         Vector3 projectileSpawnOffset = directionToPlayerNormalized.x < 0 ? new Vector3(-0.5f, 0.8f, 0f) : new Vector3(0.5f, 0.8f, 0f);
                         Vector3 projectileSpawnPosition = transform.position + projectileSpawnOffset;
-                        GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPosition, Quaternion.identity);
+                        
+                        float rot = Mathf.Atan2(-directionToPlayerNormalized.y, -directionToPlayerNormalized.x) * Mathf.Rad2Deg;
+                            Quaternion.Euler(0, 0, rot);
+                            GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPosition, Quaternion.Euler(0, 0, rot));
 
                         // Ajustar la escala del proyectil según la dirección del enemigo
-                        Vector3 projectileScale = projectile.transform.localScale;
+                       /* Vector3 projectileScale = projectile.transform.localScale;
                         projectileScale.x = directionToPlayerNormalized.x < 0 ? 1f : -1f;
                         projectile.transform.localScale = projectileScale;
+                       */
 
                         Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
                         projectileRigidbody.velocity = directionToPlayerNormalized * projectileSpeed;

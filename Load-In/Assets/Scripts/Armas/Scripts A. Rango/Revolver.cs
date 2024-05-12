@@ -4,9 +4,11 @@ using UnityEngine.UI;
 
 public class Revolver : MonoBehaviour, IRecargable
 {
+    private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
+    private Rigidbody2D rb;
 
     [Header("Cargador")]
     public int maxBalas = 10;
@@ -24,6 +26,8 @@ public class Revolver : MonoBehaviour, IRecargable
 
     private Revolver revolver;
 
+    public float recoil = 10;
+
     public int ObtenerMunicionActual()
     {
         return balasRestantes;
@@ -40,6 +44,8 @@ public class Revolver : MonoBehaviour, IRecargable
         balasRestantes = PlayerPrefs.GetInt("BalasRevolver", maxBalas);
         weaponParent = GetComponent<WeaponParent>();
         revolver = GetComponent<Revolver>();
+        rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+        player = GameObject.Find("Player").GetComponent<Transform>();
 
         if (weaponParent != null)
         {
@@ -65,7 +71,7 @@ public class Revolver : MonoBehaviour, IRecargable
 
     void Disparar()
     {
-        GameObject bala = Instantiate(prefabBala, puntoDisparo.position, Quaternion.Euler(0f, 0f, 90f));
+        GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
 
         Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
 
@@ -77,6 +83,7 @@ public class Revolver : MonoBehaviour, IRecargable
         Destroy(bala, alcance / velocidadBala);
 
         balasRestantes--;
+        Retroceso();
 
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasRevolver", balasRestantes);
@@ -103,6 +110,19 @@ public class Revolver : MonoBehaviour, IRecargable
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasRevolver", balasRestantes);
         PlayerPrefs.Save();
+    }
+
+    private void Retroceso()
+    {
+        // Obtiene la posición del ratón en el mundo
+        Vector3 posicionRaton = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        posicionRaton.z = 0; // Ajusta la posición Z a 0 para que esté en el mismo plano que el jugador
+
+        Vector3 direction = posicionRaton - player.transform.position;
+        rb.AddForce(-direction * recoil, ForceMode2D.Force);
+
+
+
     }
 
 }

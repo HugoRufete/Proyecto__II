@@ -467,27 +467,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegetacionRoja (1)_17
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 64
-        width: 33
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0ff48c76ced12f4baa1a11d1e442b24
-      internalID: 2016843267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: VegetacionRoja (1)_18
       rect:
         serializedVersion: 2
@@ -567,27 +546,6 @@ TextureImporter:
       bones: []
       spriteID: 82f0b67870f449a4faaa34b83329a8dd
       internalID: -1919583537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegetacionRoja (1)_22
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 54
-        width: 50
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e4fd3b14b699bf4e9afd0f0ae3cdef3
-      internalID: -93447755
       vertices: []
       indices: 
       edges: []
