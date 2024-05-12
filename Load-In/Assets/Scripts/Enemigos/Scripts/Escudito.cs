@@ -18,6 +18,7 @@ public class Escudito : MonoBehaviour
     private bool isAnimating;
     bool accionRealizada; //Booleana que hace que la animación de proteger se haga solo una vez y no solo en bucle
     bool isattacking = false;
+    
 
     public int damageAmount = 10;
     private VidaPlayer vidaPlayer;
@@ -38,6 +39,8 @@ public class Escudito : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Destroy();
+
         Vector3 direction = Player.position - transform.position; //La diferencia de posición entre el jugador y el enemigo
 
         if (direction.magnitude > distanciaDeseada) //Si la longutud entre el enemigo y el jugador es mayor que la distancia deseada:
@@ -107,6 +110,7 @@ public class Escudito : MonoBehaviour
             return;
         }
 
+        
     }
 
     void Voltear()
@@ -184,5 +188,13 @@ public class Escudito : MonoBehaviour
     public void WaitToProtection()
     {
         enemHealth.ActivateInvulnerability(3f); //Desactivamos la posibilidad de hacer daño al enemigo durante 5 segundos a través de una corutina en el script de la vida enemiga
+    }
+
+    public void Destroy()
+    {
+        if (enemHealth != null && enemHealth.health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

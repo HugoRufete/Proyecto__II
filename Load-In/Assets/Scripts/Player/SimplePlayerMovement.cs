@@ -168,8 +168,8 @@ public class SimplePlayerMovement : MonoBehaviour
        
         dashEndTime = Time.time + dashDuration;
 
-        CameraMovement.Instance.MoverCamara(1f, 1.5f, 1.5f);
-        CameraMovement.Instance.Zoom(0.85f,0.7f);  
+        CameraMovement.Instance.MoverCamara(0.5f, 1f, 1.5f);
+        CameraMovement.Instance.Zoom(0.7f,0.9f);  
 
         Vector2 dashDirection;
 

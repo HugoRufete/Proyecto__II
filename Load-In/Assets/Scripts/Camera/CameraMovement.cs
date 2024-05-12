@@ -52,19 +52,22 @@ public class CameraMovement : MonoBehaviour
     private IEnumerator DoZoom(float targetOrthographicSize, float tiempo)
     {
         float t = 0f;
+        float startSize = cinemachinevirtualcamera.m_Lens.OrthographicSize;
+        Vector3 startPosition = transform.position;
 
         while (t < tiempo)
         {
-            float newSize = Mathf.Lerp(cinemachinevirtualcamera.m_Lens.OrthographicSize, targetOrthographicSize, t / tiempo);
+            float newSize = Mathf.Lerp(startSize, targetOrthographicSize, t / tiempo);
             cinemachinevirtualcamera.m_Lens.OrthographicSize = newSize;
 
-            // También interpolamos la posición de la cámara
-            transform.position = Vector3.Lerp(transform.position, originalPosition, t / tiempo);
+            // Interpolación de la posición de la cámara
+            transform.position = Vector3.Lerp(startPosition, originalPosition, t / tiempo);
 
             t += Time.deltaTime;
             yield return null;
         }
 
+        // Asegurarse de que el zoom esté exactamente en el tamaño objetivo y posición original
         cinemachinevirtualcamera.m_Lens.OrthographicSize = targetOrthographicSize;
         transform.position = originalPosition;
     }
@@ -77,20 +80,22 @@ public class CameraMovement : MonoBehaviour
     private IEnumerator RestaurarCamara()
     {
         float t = 0f;
+        float startSize = cinemachinevirtualcamera.m_Lens.OrthographicSize;
+        Vector3 startPosition = transform.position;
 
         while (t < tiempoMovimientoTotal)
         {
-            float newSize = Mathf.Lerp(cinemachinevirtualcamera.m_Lens.OrthographicSize, originalOrthographicSize, t / tiempoMovimientoTotal);
+            float newSize = Mathf.Lerp(startSize, originalOrthographicSize, t / tiempoMovimientoTotal);
             cinemachinevirtualcamera.m_Lens.OrthographicSize = newSize;
 
+            // Interpolación de la posición de la cámara
+            transform.position = Vector3.Lerp(startPosition, originalPosition, t / tiempoMovimientoTotal);
+
             t += Time.deltaTime;
-
-            // También interpolamos la posición de la cámara
-            transform.position = Vector3.Lerp(transform.position, originalPosition, t / tiempoMovimientoTotal);
-
             yield return null;
         }
 
+        // Asegurarse de que la cámara esté en el tamaño y posición original
         cinemachinevirtualcamera.m_Lens.OrthographicSize = originalOrthographicSize;
         transform.position = originalPosition;
     }
