@@ -8,25 +8,22 @@ public class Alabarda : MonoBehaviour
     private Animator animator;
 
     [Header("Velocidad de ataque")]
-    public float attackCooldown; // Tiempo de espera entre ataques
-    public GameObject attackColliderObject; // Referencia al GameObject que contiene el collider de ataque
+    public float attackCooldown; 
+    public GameObject attackColliderObject; 
     public LayerMask whatIsEnemies;
 
     [Header("Daño")]
     public int damage;
 
-    private Collider2D attackCollider; // Collider que determina la zona de ataque
+    private Collider2D attackCollider;
 
     void Start()
     {
-        // Guarda la escala original en el eje X
         escalaOriginalX = transform.localScale.x;
         animator = GetComponent<Animator>();
 
-        // Obtener el collider de ataque del GameObject de ataque
         attackCollider = attackColliderObject.GetComponent<Collider2D>();
 
-        // Desactivar el collider de ataque al inicio si está asignado correctamente
         if (attackCollider != null)
         {
             attackCollider.enabled = false;
@@ -55,11 +52,9 @@ public class Alabarda : MonoBehaviour
         }
         else
         {
-            // Disminuir el tiempo de espera
             timeBtwAttack -= Time.deltaTime;
         }
 
-        // Aquí puedes agregar la lógica para invertir la escala si es necesario
     }
 
     private IEnumerator AttackWithDelay()
@@ -71,7 +66,6 @@ public class Alabarda : MonoBehaviour
         {
             attackCollider.enabled = true;
 
-            // Espera un tiempo para permitir que el collider detecte los enemigos
             yield return new WaitForSeconds(0.1f);
 
             
@@ -92,7 +86,6 @@ public class Alabarda : MonoBehaviour
                 }
             }
 
-            // Desactiva el collider de ataque después de un breve tiempo
             attackCollider.enabled = false;
         }
         else
@@ -100,7 +93,6 @@ public class Alabarda : MonoBehaviour
             Debug.LogWarning("El collider de ataque no está asignado correctamente.");
         }
 
-        // Espera un momento antes de restablecer la animación de ataque
         yield return new WaitForSeconds(0.1f);
        
     }
@@ -119,7 +111,6 @@ public class Alabarda : MonoBehaviour
         // Espera 0.5 segundos
         yield return new WaitForSeconds(0.755f);
 
-        // Establece el valor del parámetro "HachaAttack" en false
         if (animator != null)
         {
             animator.SetBool("AlabardaAttackbool", false);
