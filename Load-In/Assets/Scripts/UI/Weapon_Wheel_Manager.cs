@@ -617,7 +617,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
         if (playerEsporas != null)
         {
-            int valorSliderSniper = (int)sliderNegocaciónSnipe2.slider.value;
+            int valorSliderSniper = (int)sliderNegocaciónSniper.slider.value;
             float cantidadEsporas = playerEsporas.GetEsporas();
 
             if (valorSliderSniper == precioBaseSniper && cantidadEsporas >= precioBaseSniper)
@@ -695,8 +695,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 StartCoroutine(DestroyObjectCoroutine(bolsaExporasExtra, 7f));
                 StartCoroutine(EnableObjectWithDelay(gameManager, 7f));
             }
-            else if (valorSliderSniper > precioBaseSniper)
+            else if (valorSliderSniper > precioBaseSniper && cantidadEsporas > precioBaseSniper)
             {
+                Debug.Log("Pagando extra");
                 for (int i = 0; i < freezeEnemies.Length; i++)
                 {
                     StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 7f));
