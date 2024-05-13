@@ -1,0 +1,1541 @@
+fileFormatVersion: 2
+guid: 0c6f01f5e5b9a5f4189fa5e035356215
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_0
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 361
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79deb21ab5cf3e44ba7a242171b80bf
+      internalID: -2141510349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 364
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b110da899e1884980d4d3907144e42
+      internalID: -1644669496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 364
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf8d919fbc90854786a646bd221d81c
+      internalID: 336588107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 309
+        width: 102
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8e07e88a147e41a1807a4b09e7a68
+      internalID: 1121285016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 335
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7bdda3d1015ab40aff4d29006b0c9c
+      internalID: 19598437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 338
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9261b96b30a06439ff7957e3fa4049
+      internalID: 293196947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 339
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6065152e3335b6e4eaa17e24650f2eb3
+      internalID: 466639837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 310
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecfd32544ee1c346a4b1855af80cd67
+      internalID: -1220303163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 310
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe4b1865052bfe479c95d39f3074605
+      internalID: -436952204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 270
+        width: 98
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba30a8ff9f81ab4aa9795b3341c301f
+      internalID: -505621675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 275
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde59a39e50ed9943b691dc21208e2d0
+      internalID: -891205773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_25
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 270
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5653c01be6e1c40afa733d331cb5b6
+      internalID: -1555436023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_29
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 276
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9424745b39a72ed45b46eea66f04ed05
+      internalID: -623647383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_30
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 239
+        width: 48
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987a9cb3688ffa24d9bbe2de51bf4713
+      internalID: -790007337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_31
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 262
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9810d07cc34bc4992812428443119b
+      internalID: 1212175921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_32
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 259
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f7cdc7089d068429aaccfd529fc9b9
+      internalID: 799207513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 243
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0931a3b032d9cf47a756d0415e9d468
+      internalID: 75906180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_34
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 235
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caef9423e55aaf418e8a485434fa55e
+      internalID: 1916587269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_35
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 235
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06caaffeebe974438288093dc25516e
+      internalID: -90450754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 214
+        width: 116
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cacaa0704f58948827a2619f9761e5
+      internalID: -1344890337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 192
+        width: 72
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b898333ac6cc14fb59ec997c570817
+      internalID: 934497063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_51
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 225
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474beba0ce846845a70570172cc81a2
+      internalID: -639517420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_55
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 201
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e388fe0146e76d49a59a29ecac06948
+      internalID: 1813543448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_56
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 216
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26d8e6319d684d4eb8c7cc249b45272
+      internalID: 1068513946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_60
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 133
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85313cbb0fa57c045b964b412d66c8a5
+      internalID: 2038809835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_62
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 200
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cf960e371727c4aaa670f972a5660e
+      internalID: 1338122943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_63
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 197
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e90742c24fc57746bf19f19c6b22f70
+      internalID: -1479728656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_64
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 196
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026701b3a19efa341b3a78692501e0fb
+      internalID: 1976878901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_65
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 186
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c508116c4d07be14ea94ce0223759bdd
+      internalID: -2048149492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_66
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 146
+        width: 159
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48f2a45874d96e489a94d267fbc8588
+      internalID: 1772879125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_68
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 182
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd4322942c37a49bc7ff8dfa68dc8e
+      internalID: -1627815634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 176
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f2441885b51e4f9a80eea980abb3a
+      internalID: -1445199981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_79
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b402e86d6a7d7824bbad3735b37c529a
+      internalID: -661113811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_80
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970ae7e0a07f43449b4492b202fd0422
+      internalID: -351385038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_83
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 147
+        width: 73
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c96af0fe303d9448e97be2ab7f73c5
+      internalID: -996577255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_86
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 140
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134c6b6b8e315f4a967c51177e6e2b0
+      internalID: 897072899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_87
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6d9d20ccf538241a4f94a7f18a6b4f
+      internalID: 1234963775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_88
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc0e8a2c7e26ec4b9e35d817b5bbb15
+      internalID: 375450950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_89
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 137
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d113a048b38d1409db29318e559d2b
+      internalID: -219489669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_90
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 134
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab042bd18e80924b8e71f85a92b1a98
+      internalID: 18934268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_96
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 121
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c314ea61da8f2e842874cc47be5ae76b
+      internalID: -549291768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 121
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ff75671ac7ec14dac3edc93d7fc759
+      internalID: -1675483318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_98
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 122
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6af46573ffa11f4abe5ce47a7444e06
+      internalID: 643661988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_99
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108643216720a894b87cc26490f710b3
+      internalID: -798756563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_100
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40b1246eea96a48af58cd5dab97d2e
+      internalID: -963024916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_101
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442c924c632c5034a98a48436fc9247b
+      internalID: 2093831222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_103
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 102
+        width: 84
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f6d18e27a7f8c45883a4263a3e3dc0
+      internalID: 736748121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_105
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 107
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01393c001a03a134d831c0f5ab5099b4
+      internalID: -1407301558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_111
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 110
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d06b1b01a6664b47b039191c8405d8b
+      internalID: 1358616445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_112
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df178ef9891b54c42a74f010674beb62
+      internalID: 847294165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_113
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69c18e73a3e08d4ab40d0be8455c04f
+      internalID: 1449901255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_114
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 102
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba074997f102a945bdab382fa76a096
+      internalID: 1771204990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_117
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c63fa3fd93fb544b2b9e68fde0c185
+      internalID: -109074953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_118
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 110
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae4257692bb6ef458771eebde8a5cf7
+      internalID: -1570068454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_121
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 100
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f5c4d85c6fb034f9d6fa7bfc27ed9d
+      internalID: 424715060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_122
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69656e0c94019844ba2278db0b5c169
+      internalID: 1603199824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_123
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 83
+        width: 63
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790a39e44e5b43b4cb2f65a98d10ece0
+      internalID: -137234453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_129
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 84
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c5ada3f802fc842833443d896e09b7
+      internalID: -1796923571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_130
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcf102e967c4544ebfdd374bb5286f8
+      internalID: 684693150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_131
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 60
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbea844c96e3f0449fecd48cd5a8c9e
+      internalID: -382508258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosPiedrasZona0_132
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 57
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1677efca7779b0449bbd04c02f42f97f
+      internalID: 49521053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbustosPiedrasZona0_0: -2141510349
+      ArbustosPiedrasZona0_1: -1644669496
+      ArbustosPiedrasZona0_10: 1447989242
+      ArbustosPiedrasZona0_100: -963024916
+      ArbustosPiedrasZona0_101: 2093831222
+      ArbustosPiedrasZona0_102: -418075763
+      ArbustosPiedrasZona0_103: 736748121
+      ArbustosPiedrasZona0_104: -1196719596
+      ArbustosPiedrasZona0_105: -1407301558
+      ArbustosPiedrasZona0_106: -1502007986
+      ArbustosPiedrasZona0_107: -2039838243
+      ArbustosPiedrasZona0_108: -1195924210
+      ArbustosPiedrasZona0_109: -1749114433
+      ArbustosPiedrasZona0_11: -224836488
+      ArbustosPiedrasZona0_110: 837686448
+      ArbustosPiedrasZona0_111: 1358616445
+      ArbustosPiedrasZona0_112: 847294165
+      ArbustosPiedrasZona0_113: 1449901255
+      ArbustosPiedrasZona0_114: 1771204990
+      ArbustosPiedrasZona0_115: -283483494
+      ArbustosPiedrasZona0_116: -448524770
+      ArbustosPiedrasZona0_117: -109074953
+      ArbustosPiedrasZona0_118: -1570068454
+      ArbustosPiedrasZona0_119: -307541970
+      ArbustosPiedrasZona0_12: -849314620
+      ArbustosPiedrasZona0_120: -286278015
+      ArbustosPiedrasZona0_121: 424715060
+      ArbustosPiedrasZona0_122: 1603199824
+      ArbustosPiedrasZona0_123: -137234453
+      ArbustosPiedrasZona0_124: -110931724
+      ArbustosPiedrasZona0_125: -1735098988
+      ArbustosPiedrasZona0_126: -770837998
+      ArbustosPiedrasZona0_127: 513535583
+      ArbustosPiedrasZona0_128: -2005732509
+      ArbustosPiedrasZona0_129: -1796923571
+      ArbustosPiedrasZona0_13: 1769668673
+      ArbustosPiedrasZona0_130: 684693150
+      ArbustosPiedrasZona0_131: -382508258
+      ArbustosPiedrasZona0_132: 49521053
+      ArbustosPiedrasZona0_14: 1040510523
+      ArbustosPiedrasZona0_15: -1701038607
+      ArbustosPiedrasZona0_16: -1220303163
+      ArbustosPiedrasZona0_17: -436952204
+      ArbustosPiedrasZona0_18: 1206426726
+      ArbustosPiedrasZona0_19: 92146000
+      ArbustosPiedrasZona0_2: 336588107
+      ArbustosPiedrasZona0_20: 1797349136
+      ArbustosPiedrasZona0_21: -1536607235
+      ArbustosPiedrasZona0_22: -1388947594
+      ArbustosPiedrasZona0_23: -505621675
+      ArbustosPiedrasZona0_24: -891205773
+      ArbustosPiedrasZona0_25: -1555436023
+      ArbustosPiedrasZona0_26: -617437242
+      ArbustosPiedrasZona0_27: 1923093293
+      ArbustosPiedrasZona0_28: 1761427715
+      ArbustosPiedrasZona0_29: -623647383
+      ArbustosPiedrasZona0_3: 1121285016
+      ArbustosPiedrasZona0_30: -790007337
+      ArbustosPiedrasZona0_31: 1212175921
+      ArbustosPiedrasZona0_32: 799207513
+      ArbustosPiedrasZona0_33: 75906180
+      ArbustosPiedrasZona0_34: 1916587269
+      ArbustosPiedrasZona0_35: -90450754
+      ArbustosPiedrasZona0_36: -1344890337
+      ArbustosPiedrasZona0_37: -1994600112
+      ArbustosPiedrasZona0_38: 477718487
+      ArbustosPiedrasZona0_39: -802888193
+      ArbustosPiedrasZona0_4: 453618404
+      ArbustosPiedrasZona0_40: 338970713
+      ArbustosPiedrasZona0_41: -1318200537
+      ArbustosPiedrasZona0_42: 2077830091
+      ArbustosPiedrasZona0_43: 1101760976
+      ArbustosPiedrasZona0_44: 89373750
+      ArbustosPiedrasZona0_45: -397272333
+      ArbustosPiedrasZona0_46: -916767138
+      ArbustosPiedrasZona0_47: 1934909904
+      ArbustosPiedrasZona0_48: -1375895538
+      ArbustosPiedrasZona0_49: 934497063
+      ArbustosPiedrasZona0_5: -233765275
+      ArbustosPiedrasZona0_50: -1007998471
+      ArbustosPiedrasZona0_51: -639517420
+      ArbustosPiedrasZona0_52: -1302467486
+      ArbustosPiedrasZona0_53: -454663049
+      ArbustosPiedrasZona0_54: 944578575
+      ArbustosPiedrasZona0_55: 1813543448
+      ArbustosPiedrasZona0_56: 1068513946
+      ArbustosPiedrasZona0_57: 1654042539
+      ArbustosPiedrasZona0_58: 1753924319
+      ArbustosPiedrasZona0_59: 812130448
+      ArbustosPiedrasZona0_6: 894614870
+      ArbustosPiedrasZona0_60: 2038809835
+      ArbustosPiedrasZona0_61: -719711187
+      ArbustosPiedrasZona0_62: 1338122943
+      ArbustosPiedrasZona0_63: -1479728656
+      ArbustosPiedrasZona0_64: 1976878901
+      ArbustosPiedrasZona0_65: -2048149492
+      ArbustosPiedrasZona0_66: 1772879125
+      ArbustosPiedrasZona0_67: 102310419
+      ArbustosPiedrasZona0_68: -1627815634
+      ArbustosPiedrasZona0_69: -1445199981
+      ArbustosPiedrasZona0_7: 19598437
+      ArbustosPiedrasZona0_70: -116638225
+      ArbustosPiedrasZona0_71: 523722099
+      ArbustosPiedrasZona0_72: 41805343
+      ArbustosPiedrasZona0_73: 1327454153
+      ArbustosPiedrasZona0_74: 2091644071
+      ArbustosPiedrasZona0_75: -2048114413
+      ArbustosPiedrasZona0_76: -260478668
+      ArbustosPiedrasZona0_77: -1704165784
+      ArbustosPiedrasZona0_78: 225121859
+      ArbustosPiedrasZona0_79: -661113811
+      ArbustosPiedrasZona0_8: 293196947
+      ArbustosPiedrasZona0_80: -351385038
+      ArbustosPiedrasZona0_81: -1975628487
+      ArbustosPiedrasZona0_82: -772097204
+      ArbustosPiedrasZona0_83: -996577255
+      ArbustosPiedrasZona0_84: -108731800
+      ArbustosPiedrasZona0_85: 1712185431
+      ArbustosPiedrasZona0_86: 897072899
+      ArbustosPiedrasZona0_87: 1234963775
+      ArbustosPiedrasZona0_88: 375450950
+      ArbustosPiedrasZona0_89: -219489669
+      ArbustosPiedrasZona0_9: 466639837
+      ArbustosPiedrasZona0_90: 18934268
+      ArbustosPiedrasZona0_91: 868247546
+      ArbustosPiedrasZona0_92: 1395500214
+      ArbustosPiedrasZona0_93: -387260975
+      ArbustosPiedrasZona0_94: 410340146
+      ArbustosPiedrasZona0_95: -276566945
+      ArbustosPiedrasZona0_96: -549291768
+      ArbustosPiedrasZona0_97: -1675483318
+      ArbustosPiedrasZona0_98: 643661988
+      ArbustosPiedrasZona0_99: -798756563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
