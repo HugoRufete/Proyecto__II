@@ -36,9 +36,14 @@ public class FreezeEnemies : MonoBehaviour
         Debug.Log("Activando Componentes");
         foreach (Component component in components)
         {
-            if (component is Behaviour behaviour)
+            Behaviour behaviour = component as Behaviour;
+            if (behaviour != null && behaviour.gameObject.activeSelf)
             {
                 behaviour.enabled = true;
+            }
+            else
+            {
+                Debug.Log("No hay enemigos que activar");
             }
         }
 

@@ -467,6 +467,7 @@ public class SpawnerManager : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
+        //Lógica spawners zona infectada
         while (jugadorEnZonaInfectada)
         {
             Debug.Log("Instanciando Enemigo");
@@ -504,7 +505,8 @@ public class SpawnerManager : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
-        while(jugadorEnZonaHielo)
+        //Lógica spawners hielo
+        while (jugadorEnZonaHielo)
         {
             if(jugadorEnZonaHielo)
             {
@@ -535,13 +537,15 @@ public class SpawnerManager : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
+        //Lógica spawners laboratorio
         while (jugadorEnLaboratorio)
         {
             enemySpawner.SpawnGuadañaEnemy();
 
             yield return new WaitForSeconds(waitTime);
         }
-        
+
+        //Lógica spawners aldea
         int initialSpawnCountAldea = 10;
         while (jugadorEnAldea)
         {
@@ -596,6 +600,7 @@ public class SpawnerManager : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
+        //Lógica spawners granja
         while (jugadorEnGranja)
         {
             if(jugadorEnGranja)
