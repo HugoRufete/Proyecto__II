@@ -229,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 390618388437544355, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 552778020148682400, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
       propertyPath: m_Enabled
@@ -300,6 +300,97 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
+--- !u!114 &925105740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2543337153823217853, guid: 600017ed33b31784d84e46501e814129, type: 3}
+  m_PrefabInstance: {fileID: 1190637077}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604952e87d259d24193e1bb5fe7efff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &989387854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6611225881177368314, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
+  m_PrefabInstance: {fileID: 853243843}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02278de56c54fc748bc1bf15485d6f34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1190637077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 164668346761163886, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: NombreZona
+      value: CasaAterradora
+      objectReference: {fileID: 0}
+    - target: {fileID: 164668346761163886, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: vidaPlayer
+      value: 
+      objectReference: {fileID: 989387854}
+    - target: {fileID: 164668346761163886, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: enemySpawner
+      value: 
+      objectReference: {fileID: 925105740}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326417736421480421, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804626144247276280, guid: 600017ed33b31784d84e46501e814129, type: 3}
+      propertyPath: m_Name
+      value: CasaAterradoraSpawners
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 600017ed33b31784d84e46501e814129, type: 3}
 --- !u!1 &1385249073
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,3 +482,4 @@ SceneRoots:
   - {fileID: 54453976}
   - {fileID: 853243843}
   - {fileID: 1385249075}
+  - {fileID: 1190637077}

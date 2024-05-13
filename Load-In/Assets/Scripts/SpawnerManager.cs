@@ -50,7 +50,7 @@ public class SpawnerManager : MonoBehaviour
         jugadorEnHierbaRoja = false;
         jugadorEnZonaInfectada = false;
         jugadorEnAldea = false;
-        IniciarJuego();
+        //IniciarJuego();
     }
 
     void Update()

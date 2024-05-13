@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6961328827565169328
 Transform:
   m_ObjectHideFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 0}
-  enemySpawner: {fileID: 0}
+  enemySpawner: {fileID: 6558315930796228596}
   RondaActual: 1
   waveUpdateInterval: 5
   jugadorViendaSpawner: 0
@@ -168,3 +168,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
   m_PrefabInstance: {fileID: 7081215663129666149}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6558315930796228596 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4127084754285780369, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+  m_PrefabInstance: {fileID: 7081215663129666149}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604952e87d259d24193e1bb5fe7efff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
