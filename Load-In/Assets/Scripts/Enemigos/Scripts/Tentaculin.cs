@@ -71,7 +71,7 @@ public class Tentaculin : MonoBehaviour
 
         if (attackCollider.enabled == true && onedamage != null)
         {
-            onedamage.InflictDamage();
+           // onedamage.InflictDamage();
         }
 
     }

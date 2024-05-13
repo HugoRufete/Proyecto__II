@@ -9,8 +9,8 @@ public class Gordito : MonoBehaviour
     public float distanciaDeseada;
     public float cooldownAttack = 2.0f;
     public float speed;
-    bool stopPlayer;
     bool isAttacking;
+    bool finishedAttack;
 
     public GameObject projectilePrefab;
 
@@ -22,7 +22,6 @@ public class Gordito : MonoBehaviour
     {
         player = GameObject.Find("Player").transform;
         myAnimator = GetComponent<Animator>();
-        stopPlayer = false;
         isAttacking = false;
     }
 
@@ -30,43 +29,32 @@ public class Gordito : MonoBehaviour
     {
         Vector3 direction = player.position - transform.position;
 
-        if (!isAttacking && direction.magnitude > distanciaDeseada)
+        if (direction.magnitude > distanciaDeseada && !isAttacking)
         {
-            Move(direction);
+            direction.Normalize();
+
+            transform.Translate(direction * speed * Time.deltaTime);
+
+            myAnimator.SetBool("IsWalking", true);
+
             if (Time.time > lastTimeAttack + cooldownAttack)
             {
                 Attack();
             }
+
+            else
+            {
+                myAnimator.SetBool("IsAttacking", false);
+            }
         }
+
         else
         {
-            StopMoving();
+            myAnimator.SetBool("IsWalking", false);
         }
 
         UpdateDirection();
 
-        if (stopPlayer)
-        {
-            speed = 0;
-        }
-        else if (!stopPlayer)
-        {
-            speed = 5;
-        }
-
-
-    }
-
-    void Move(Vector3 direction)
-    {
-        direction.Normalize();
-        transform.Translate(direction * speed * Time.deltaTime);
-        myAnimator.SetBool("IsWalking", true);
-    }
-
-    void StopMoving()
-    {
-        myAnimator.SetBool("IsWalking", false);
     }
 
     void UpdateDirection()
@@ -80,8 +68,6 @@ public class Gordito : MonoBehaviour
         {
             Flip();
         }
-
-
     }
 
     void Flip()
@@ -94,30 +80,28 @@ public class Gordito : MonoBehaviour
 
     void Attack()
     {
-        stopPlayer = true;
-        myAnimator.SetBool("IsAttacking", true);
         isAttacking = true;
         lastTimeAttack = Time.time;
-
-    }
-
-    public void LaunchProjectile()
-    {
-        if (projectilePrefab != null)
-        {
-            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-            ProyectilGordito projectileScript = projectile.GetComponent<ProyectilGordito>();
-            if (projectileScript != null)
-            {
-                projectileScript.target = player;
-            }
-        }
-    }
-
-    public void FinishAttack()
-    {
-        myAnimator.SetBool("IsAttacking", false);
         isAttacking = false;
-        stopPlayer = false;
+       
     }
+
+    public void Proyectil()
+    {
+        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+    }
+
+    public void IsAttacking()
+    {
+        isAttacking = true;
+    }
+
+    public void IsNotAttacking()
+    {
+        isAttacking = false;
+    }
+
+
+
 }
+
