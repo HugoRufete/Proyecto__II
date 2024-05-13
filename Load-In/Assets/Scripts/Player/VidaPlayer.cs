@@ -13,6 +13,7 @@ public class VidaPlayer : MonoBehaviour
     private float reducedDamageMultiplier = 0.5f; // Multiplicador de reducción de daño
     public ParticleSystem bloodPlayer;
     public int Curación;
+    private Rigidbody2D rb;
     
 
     Animator animator;
@@ -34,6 +35,7 @@ public class VidaPlayer : MonoBehaviour
         
         animator = GetComponent<Animator>();
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
+        rb = GetComponent<Rigidbody2D>();
 
         if (weaponWheelObject != null)
         {
@@ -167,11 +169,12 @@ public class VidaPlayer : MonoBehaviour
 
         bloodPlayer.Play();
         vida -= damage;
-        CameraMovement.Instance.MoverCamara(7, 7, 0.5f);
+        CameraMovement.Instance.MoverCamara(7, 4, 0.3f);
 
 
         if (vida <= 0)
         {
+            rb.velocity = Vector3.zero;
             animator.SetBool("isDead",true);  
         }
     }

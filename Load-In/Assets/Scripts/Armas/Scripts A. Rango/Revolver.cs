@@ -83,6 +83,8 @@ public class Revolver : MonoBehaviour, IRecargable
         Destroy(bala, alcance / velocidadBala);
 
         balasRestantes--;
+
+        CameraMovement.Instance.MoverCamara(3, 3, 0.2f);
         Retroceso();
 
         // Guardar el nuevo estado de munición

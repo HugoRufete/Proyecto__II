@@ -76,6 +76,7 @@ public class Pistol : MonoBehaviour, IRecargable
 
         currentAmmo--;
 
+        CameraMovement.Instance.MoverCamara(4, 4, 0.2f);
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();

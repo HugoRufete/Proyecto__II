@@ -64,6 +64,8 @@ public class Shotgun : MonoBehaviour, IRecargable
             // Instanciar la bala en la posición del punto de disparo con la rotación correspondiente
             GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
 
+            CameraMovement.Instance.MoverCamara(4, 5, 0.3f);
+
             Retroceso();
 
             Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();

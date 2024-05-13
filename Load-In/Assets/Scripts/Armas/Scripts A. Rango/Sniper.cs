@@ -82,6 +82,8 @@ public class Sniper : MonoBehaviour, IRecargable
         if (sniperDisparado != null)
             sniperDisparado();
 
+        CameraMovement.Instance.MoverCamara(4, 5, 0.3f);
+
         Retroceso();
     }
 
