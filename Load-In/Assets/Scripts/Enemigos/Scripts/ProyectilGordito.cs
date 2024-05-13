@@ -6,12 +6,13 @@ public class ProyectilGordito : MonoBehaviour
 {
     public float velocidad = 5f;
     public int damage = 10;
-
+    public AudioClip explosión;
     private Transform target;
 
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        
     }
 
     void Update()
@@ -33,7 +34,10 @@ public class ProyectilGordito : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            
+            ControladorSonido.Instance.EjecutarSonido(explosión);
             Destroy(gameObject);
+
         }
     }
 

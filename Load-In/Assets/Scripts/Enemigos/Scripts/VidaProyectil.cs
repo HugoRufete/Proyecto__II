@@ -5,10 +5,11 @@ using UnityEngine;
 public class VidaProyectil : MonoBehaviour
 {
     public float vida;
+    
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class VidaProyectil : MonoBehaviour
         if (other.CompareTag("Bullet"))
         {
             vida--;
+            
         }
     }
 }

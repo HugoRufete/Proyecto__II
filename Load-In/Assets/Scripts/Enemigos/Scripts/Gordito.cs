@@ -13,6 +13,9 @@ public class Gordito : MonoBehaviour
     bool finishedAttack;
     EnemyHealth enemyH;
     public GameObject projectilePrefab;
+    private AudioSource audioSource;
+    public AudioClip ataque;
+    
 
     Animator myAnimator;
 
@@ -23,6 +26,7 @@ public class Gordito : MonoBehaviour
         player = GameObject.Find("Player").transform;
         myAnimator = GetComponent<Animator>();
         isAttacking = false;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -95,6 +99,7 @@ public class Gordito : MonoBehaviour
     public void Proyectil()
     {
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        audioSource.PlayOneShot(ataque);
     }
 
     public void IsAttacking()

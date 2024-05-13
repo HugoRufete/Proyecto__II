@@ -111,6 +111,7 @@
     <Compile Include="Assets\Scripts\Armas\Scripts A. Melee\Parents\MacheteParent.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Spirit.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Player\ControladorSonido.cs" />
     <Compile Include="Assets\Scripts\AmmoBox.cs" />
     <Compile Include="Assets\Scripts\GuadañaEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemigos\LógicaSpawn\Wave.cs" />

@@ -43,6 +43,11 @@ public class Escudito : MonoBehaviour
     {
         Destroy();
 
+        if (isattacking == true)
+        {
+            audiosource.Play();
+        }
+
         Vector3 direction = Player.position - transform.position; //La diferencia de posición entre el jugador y el enemigo
 
         if (direction.magnitude > distanciaDeseada) //Si la longutud entre el enemigo y el jugador es mayor que la distancia deseada:
@@ -61,14 +66,15 @@ public class Escudito : MonoBehaviour
             if (Time.time >= lastTimeAttack + AttackCooldown) //Si ya ha pasado el cooldwon llamamos al metodo attack
             {
                 Attack();
-                
+
+               
             }
-        }
+        }    
 
         else
         {
             myanimator.SetBool("IsWalking", false); //Si no lo es la desactivamos
-            audiosource.Play();
+            
         }
 
         if (transform.position.x > Player.position.x && mirarDerecha) //Si la posiciíon del enemigo es mayor en el eje x que la del jugador y
@@ -131,8 +137,6 @@ public class Escudito : MonoBehaviour
     {
         myanimator.SetBool("IsAttacking", true); //Se realiza la animación de atacar
         lastTimeAttack = Time.time;
-
-        
     }
 
     public void EnableCollider()
@@ -146,6 +150,8 @@ public class Escudito : MonoBehaviour
         attackCollider.enabled = false; //Desactivamos el collider al final del ataque llamando a este método mediante un evento en la animación
         isattacking = false;
     }
+
+    
 
     IEnumerator PlayAnimationForDuration(string animationName, float duration) //Corutina que controla la animación de proteger
     {
