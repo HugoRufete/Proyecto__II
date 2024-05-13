@@ -18,7 +18,8 @@ public class Escudito : MonoBehaviour
     private bool isAnimating;
     bool accionRealizada; //Booleana que hace que la animación de proteger se haga solo una vez y no solo en bucle
     bool isattacking = false;
-    
+  
+    private AudioSource audiosource;
 
     public int damageAmount = 10;
     private VidaPlayer vidaPlayer;
@@ -33,6 +34,7 @@ public class Escudito : MonoBehaviour
         enemHealth = GetComponent<EnemyHealth>();
         accionRealizada = false;
         isattacking = false;
+        audiosource = GetComponent<AudioSource>();  
 
     }
 
@@ -58,14 +60,15 @@ public class Escudito : MonoBehaviour
 
             if (Time.time >= lastTimeAttack + AttackCooldown) //Si ya ha pasado el cooldwon llamamos al metodo attack
             {
-
                 Attack();
+                
             }
         }
 
         else
         {
             myanimator.SetBool("IsWalking", false); //Si no lo es la desactivamos
+            audiosource.Play();
         }
 
         if (transform.position.x > Player.position.x && mirarDerecha) //Si la posiciíon del enemigo es mayor en el eje x que la del jugador y
@@ -127,9 +130,9 @@ public class Escudito : MonoBehaviour
     void Attack()
     {
         myanimator.SetBool("IsAttacking", true); //Se realiza la animación de atacar
-
-
         lastTimeAttack = Time.time;
+
+        
     }
 
     public void EnableCollider()
