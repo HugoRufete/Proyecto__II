@@ -11,7 +11,7 @@ public class Gordito : MonoBehaviour
     public float speed;
     bool isAttacking;
     bool finishedAttack;
-
+    EnemyHealth enemyH;
     public GameObject projectilePrefab;
 
     Animator myAnimator;
@@ -28,6 +28,13 @@ public class Gordito : MonoBehaviour
     void Update()
     {
         Vector3 direction = player.position - transform.position;
+
+        if (enemyH != null && enemyH.health <= 0)
+        {
+            // Detener al personaje si el enemigo está muerto
+            myAnimator.SetBool("IsWalking", false);
+            return; // Salir de la función Update() para evitar que el personaje siga moviéndose
+        }
 
         if (direction.magnitude > distanciaDeseada && !isAttacking)
         {
@@ -54,7 +61,6 @@ public class Gordito : MonoBehaviour
         }
 
         UpdateDirection();
-
     }
 
     void UpdateDirection()
@@ -100,8 +106,6 @@ public class Gordito : MonoBehaviour
     {
         isAttacking = false;
     }
-
-
 
 }
 

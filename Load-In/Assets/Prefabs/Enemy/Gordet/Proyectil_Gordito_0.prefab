@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5791150775954444892}
   - component: {fileID: 2422407196427064995}
   - component: {fileID: -791034605120381994}
-  - component: {fileID: 7011966308402807770}
+  - component: {fileID: 8830929981081562675}
   m_Layer: 0
   m_Name: Proyectil_Gordito_0
   m_TagString: Untagged
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   damage: 10
---- !u!114 &7011966308402807770
+--- !u!114 &8830929981081562675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,17 +187,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4658382486395905063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ec2573b15fe53f4ab0375de52aadee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 20
-  additionalDamageActivated: 0
-  bloodEnemy: {fileID: 0}
-  experiencePrefab: {fileID: 0}
-  esporaPrefab: {fileID: 0}
-  curaPrefab: {fileID: 0}
-  ammoPrefab: {fileID: 0}
-  maxDistanceFromEnemy: 0.5
-  "animacionCuraci\xF3n": {fileID: 0}
-  enemyDeadAnimationName: 
+  vida: 2
