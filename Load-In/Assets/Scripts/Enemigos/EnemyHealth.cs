@@ -164,7 +164,7 @@ public class EnemyHealth : MonoBehaviour
         }
 
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "CurativeArea")
         {
@@ -177,7 +177,7 @@ public class EnemyHealth : MonoBehaviour
         {
             animacionCuración.SetActive(false);
         }
-    }
+    }*/
 
     // Método para activar la invulnerabilidad temporal
     public void ActivateInvulnerability(float duration)

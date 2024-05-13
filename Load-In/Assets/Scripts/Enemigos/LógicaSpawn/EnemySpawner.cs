@@ -50,6 +50,7 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnGuadañaEnemy()
     {
+        Debug.Log("Instanciando Guadaña");
         if (guadaña_ != null && spawnPoints.Count > 0)
         {
             // Elije un punto de spawn al azar
@@ -72,6 +73,7 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnSpiritEnemy()
     {
+        Debug.Log("Instanciando Spirit");
         if (spirit != null && spawnPoints.Count > 0)
         {
             // Elije un punto de spawn al azar
@@ -116,6 +118,7 @@ public class EnemySpawner : MonoBehaviour
 
     public void SpawnTentaculin()
     {
+        Debug.Log("Instanciando Tentaculin");
         if (tentaculin != null && spawnPoints.Count > 0)
         {
             // Elije un punto de spawn al azar
@@ -137,6 +140,7 @@ public class EnemySpawner : MonoBehaviour
     }
     public void SpawnGordetEnemy()
     {
+        Debug.Log("Instanciando Gordet");
         if (gordet != null && spawnPoints.Count > 0)
         {
             // Elije un punto de spawn al azar

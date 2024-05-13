@@ -37,14 +37,14 @@ public class PuntosPlayer : MonoBehaviour
 
     public Animator textAnimator;
     FreezeEnemies [] freezeEnemies;
-    GameManager gameManager;
+    SpawnerManager gameManager;
 
     public GameObject minimapa;
 
     private void Update()
     {
         freezeEnemies = FindObjectsOfType<FreezeEnemies>();
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<SpawnerManager>();
 
         if (nivel >= 5 && !tiendaDiosa1Activada)
         {

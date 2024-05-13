@@ -137,7 +137,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     private bool negocaciónRealizada = false;
     private bool compraRealizada = false;
 
-    GameManager gameManager;
+    SpawnerManager gameManager;
 
     public AumentarDañoAEnemigos aumentarDaño;
 
@@ -199,7 +199,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         animator = GetComponent<Animator>();
 
         freezeEnemies = FindObjectsOfType<FreezeEnemies>();
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<SpawnerManager>();
     }
     void Update()
     {
@@ -1946,7 +1946,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
         }
     }
 
-    private IEnumerator EnableObjectWithDelay(GameManager objetoADestruir, float delayInSeconds)
+    private IEnumerator EnableObjectWithDelay(SpawnerManager objetoADestruir, float delayInSeconds)
     {
         yield return new WaitForSeconds(delayInSeconds);
 

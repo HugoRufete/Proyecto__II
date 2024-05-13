@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1719865717782010898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961328827565169328}
+  - component: {fileID: 9010349511416501979}
+  - component: {fileID: 8530656433827696242}
+  - component: {fileID: 7175876472705644934}
+  m_Layer: 0
+  m_Name: HiervaAltaSpawners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6961328827565169328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719865717782010898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.6, y: 20.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 779525574473333742}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9010349511416501979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719865717782010898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e979a001c9b06634d84f1df04712d1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaPlayer: {fileID: 0}
+  enemySpawner: {fileID: 0}
+  RondaActual: 1
+  waveUpdateInterval: 5
+  jugadorViendaSpawner: 0
+  NombreZona: HierbaRoja
+  waitTime: 5
+--- !u!114 &8530656433827696242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719865717782010898}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d13ca6e6be967c4bb6c6159642c9c1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 0}
+--- !u!58 &7175876472705644934
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719865717782010898}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 20
+--- !u!1001 &7081215663129666149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6961328827565169328}
+    m_Modifications:
+    - target: {fileID: 4127084754285780369, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: spirit
+      value: 
+      objectReference: {fileID: 7737970027762629862, guid: fd06541356b82614e86d21683c6e2c10, type: 3}
+    - target: {fileID: 6597189802269874065, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_Name
+      value: SpawnersHiervasAltas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -31.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+--- !u!4 &779525574473333742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7535901245711980939, guid: 5e7066ba8a7bef64bb8db65e8361d1b0, type: 3}
+  m_PrefabInstance: {fileID: 7081215663129666149}
+  m_PrefabAsset: {fileID: 0}
