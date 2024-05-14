@@ -206,6 +206,7 @@ MonoBehaviour:
   speed: 3
   projectilePrefab: {fileID: 4658382486395905063, guid: 072870ee7cdc5644fab700b8e5d5dee6, type: 3}
   ataque: {fileID: 8300000, guid: 13732d0a61a05e24c9f1e3d561d76678, type: 3}
+  carga: {fileID: 8300000, guid: 4816a0b7ff7b47948b9cff23c2cba14e, type: 3}
 --- !u!114 &2932158514310906835
 MonoBehaviour:
   m_ObjectHideFlags: 0

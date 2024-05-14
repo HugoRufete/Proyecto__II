@@ -179,6 +179,7 @@ MonoBehaviour:
   velocidad: 5
   damage: 10
   "explosi\xF3n": {fileID: 8300000, guid: 6d342bae206dadc49b38a1b68a552521, type: 3}
+  target: {fileID: 5530069586469005556, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
 --- !u!114 &8830929981081562675
 MonoBehaviour:
   m_ObjectHideFlags: 0

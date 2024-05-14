@@ -175,7 +175,6 @@ MonoBehaviour:
   attackCollider: {fileID: 6024675449123712663}
   attackCooldown: 2
   damageAmount: 10
-  distanciaAgarre: 2
 --- !u!95 &3537603388377771869
 Animator:
   serializedVersion: 5
@@ -204,7 +203,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625661815715672868}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
