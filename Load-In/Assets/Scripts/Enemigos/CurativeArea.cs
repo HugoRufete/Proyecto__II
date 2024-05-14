@@ -6,6 +6,7 @@ public class CurativeArea : MonoBehaviour
 {
     public float healingAmount = 1.5f;
     public float healingInterval = 1f;
+    public AudioSource audisource;
 
     // Almacena referencias a los coroutines activos
     private Dictionary<GameObject, Coroutine> activeCoroutines = new Dictionary<GameObject, Coroutine>();
@@ -17,6 +18,7 @@ public class CurativeArea : MonoBehaviour
             // Comienza la curación para el enemigo
             Coroutine coroutine = StartCoroutine(HealEnemyOverTime(collision.gameObject));
             activeCoroutines.Add(collision.gameObject, coroutine);
+            audisource = GetComponent<AudioSource>();
         }
     }
 
@@ -44,5 +46,10 @@ public class CurativeArea : MonoBehaviour
                 yield return new WaitForSeconds(healingInterval);
             }
         }
+    }
+
+    public void SonidoCurar()
+    {
+        audisource.Play();
     }
 }
