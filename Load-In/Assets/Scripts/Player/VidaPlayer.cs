@@ -17,6 +17,9 @@ public class VidaPlayer : MonoBehaviour
     
 
     Animator animator;
+    public GameObject bloodIndicator15;
+    public GameObject bloodIndicator50;
+    public GameObject bloodIndicator75;
 
     public GameObject imagenReducedDamageActivado;
 
@@ -32,6 +35,7 @@ public class VidaPlayer : MonoBehaviour
 
     private void Start()
     {
+
         
         animator = GetComponent<Animator>();
         GameObject weaponWheelObject = GameObject.Find("UI / HUD");
@@ -49,7 +53,7 @@ public class VidaPlayer : MonoBehaviour
     {
         BarraDeVida.fillAmount = vida / maxVida;
 
-        if (Input.GetKeyDown(KeyCode.F) && cantidadCurasMáxima >= 1 && cantidadCurasMáxima <= 5 && vida < 100)
+        if (Input.GetKeyDown(KeyCode.F) && cantidadCurasMáxima >= 1 && cantidadCurasMáxima <= 5 && vida < maxVida)
         {
             CurarJugador();
             animator.SetBool("curación", true);
@@ -114,7 +118,34 @@ public class VidaPlayer : MonoBehaviour
         {
             curacionesHUD[0].SetActive(false);
         }
-        
+
+        if (vida >= 100)
+        {
+            bloodIndicator75.SetActive(false);
+            bloodIndicator50.SetActive(false);
+            bloodIndicator15.SetActive(false);
+        }
+        if (vida >= 50&& vida < 75)
+        {
+            bloodIndicator75.SetActive(true);
+            bloodIndicator50.SetActive(false);
+            bloodIndicator15.SetActive(false);
+        }
+        else if (vida >= 25 && vida < 50)
+        {
+
+             bloodIndicator75.SetActive(false);
+             bloodIndicator50.SetActive(true);
+             bloodIndicator15.SetActive(false);
+    
+        }
+        else if (vida < 15)
+        {
+            bloodIndicator75.SetActive(false);
+            bloodIndicator50.SetActive(false);
+            bloodIndicator15.SetActive(true);
+        }
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

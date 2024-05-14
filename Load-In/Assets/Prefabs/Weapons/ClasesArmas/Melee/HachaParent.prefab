@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbd94353baf0144883618438af25a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &5843618206813568000
+--- !u!1 &9012672007626032940
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53,29 +53,89 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6723927081196900300}
+  - component: {fileID: 1951633940112416793}
+  - component: {fileID: 1778582180546572941}
+  - component: {fileID: 7762144734638789370}
   m_Layer: 0
-  m_Name: AttackPoss
+  m_Name: Hit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6723927081196900300
+--- !u!4 &1951633940112416793
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5843618206813568000}
+  m_GameObject: {fileID: 9012672007626032940}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.439, y: 0.538, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8854693756380194943}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1778582180546572941
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012672007626032940}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.74844754, y: 0.00000023841858}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5434587, y: 2.849666}
+  m_EdgeRadius: 0
+--- !u!114 &7762144734638789370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012672007626032940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d4ccc590f64a1479866b3040272ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 15
 --- !u!1 &9145783561523735817
 GameObject:
   m_ObjectHideFlags: 0
@@ -87,8 +147,8 @@ GameObject:
   - component: {fileID: 8854693756380194943}
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
-  - component: {fileID: 2515440160327202574}
   - component: {fileID: 144854195140668287}
+  - component: {fileID: 8603107575518032191}
   m_Layer: 0
   m_Name: Hacha
   m_TagString: Untagged
@@ -109,7 +169,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6723927081196900300}
+  - {fileID: 1951633940112416793}
   m_Father: {fileID: 2853044802247410463}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &799637522008023282
@@ -209,25 +269,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64272046, y: 1.4008503}
   m_EdgeRadius: 0
---- !u!114 &2515440160327202574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9145783561523735817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 510bd2dc0db6a67478a42f397baf743f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackCooldown: 0
-  attackPos: {fileID: 6723927081196900300}
-  whatIsEnemies:
-    serializedVersion: 2
-    m_Bits: 64
-  attackRange: 1.5
-  damage: 7
 --- !u!95 &144854195140668287
 Animator:
   serializedVersion: 5
@@ -249,3 +290,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8603107575518032191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9145783561523735817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccaac8d1a912e7944b6ae9ab1781d28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "NombreAnimaci\xF3n": HachaAttack

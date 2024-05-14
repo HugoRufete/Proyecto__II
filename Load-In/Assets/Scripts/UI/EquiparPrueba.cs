@@ -35,7 +35,7 @@ public class EquiparPrueba : MonoBehaviour
 
     private Revolver revolverScript;
 
-    private Hacha hachaScript;
+ 
     private LookAtMouse hachaParent;
 
     private void Start()
@@ -45,7 +45,7 @@ public class EquiparPrueba : MonoBehaviour
         textoMunicionMaxima.gameObject.SetActive(false);
 
 
-        hachaScript = GetComponent<Hacha>();
+
         hachaParent = GetComponent<LookAtMouse>();
 
         revolverScript = GetComponent<Revolver>();
