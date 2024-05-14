@@ -228,7 +228,7 @@ public class SpawnerManager : MonoBehaviour
                 yield return new WaitForSeconds(waitTime);
         }
         
-        //Lógica Spawners HiervaRoja
+        //Lógica Spawners HierbaRoja
         while (jugadorEnHierbaRoja)
         {
             float randomValue = Random.value;

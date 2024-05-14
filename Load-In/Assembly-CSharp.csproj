@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Armas\Scripts A. Rango\Shotgun.cs" />
     <Compile Include="Assets\Scripts\Player\VidaPlayer.cs" />
+    <Compile Include="Assets\Scripts\UI\NumMun.cs" />
     <Compile Include="Assets\Scripts\FollowMouse.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\Items\ItemController.cs" />
@@ -108,6 +109,7 @@
     <Compile Include="Assets\Scripts\SpawnerManager.cs" />
     <Compile Include="Assets\Scripts\Experiencia_Movimiento.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Spirit.cs" />
+    <Compile Include="Assets\Scripts\UI\Reloading.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\ControladorSonido.cs" />
     <Compile Include="Assets\Scripts\AmmoBox.cs" />

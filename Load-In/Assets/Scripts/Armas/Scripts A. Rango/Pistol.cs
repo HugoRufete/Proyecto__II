@@ -1,11 +1,9 @@
 using UnityEngine;
 
-public interface IRecargable
+
+public class Pistol : MonoBehaviour
 {
-    void RecargarArma();
-}
-public class Pistol : MonoBehaviour, IRecargable
-{
+    private NumMun numMun;
     private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -21,7 +19,7 @@ public class Pistol : MonoBehaviour, IRecargable
     public float alcance = 10f;
 
     [Header("Velocidad de Recarga")]
-    public float velocidadRecarga = 500f;
+    public float velocidadRecarga = 2f;
 
     public static event System.Action pistolaDisparada;
 
@@ -49,6 +47,7 @@ public class Pistol : MonoBehaviour, IRecargable
 
     void Start()
     {
+        numMun = GameObject.Find("HUD_Munición").GetComponent<NumMun>();
         // Cargar el estado de munición almacenado
         currentAmmo = PlayerPrefs.GetInt("BalasPistola", maxBalas);
         rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
@@ -62,6 +61,12 @@ public class Pistol : MonoBehaviour, IRecargable
             Disparar();
         }
 
+        if (Input.GetKeyDown(KeyCode.R) && numMun.NumCajas>0)
+        {
+
+            Invoke("RecargarPistola", velocidadRecarga);
+            
+        }
     }
 
     void Disparar()
@@ -76,10 +81,12 @@ public class Pistol : MonoBehaviour, IRecargable
 
         currentAmmo--;
 
+
         CameraMovement.Instance.MoverCamara(4, 4, 0.2f);
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();
+
 
         if (currentAmmo == 0)
         {
@@ -92,15 +99,15 @@ public class Pistol : MonoBehaviour, IRecargable
         
         Retroceso();
     }
-    public void RecargarArma()
-    {
-        RecargarPistola();
-    }
+
     public void RecargarPistola()
     {
         currentAmmo = maxBalas;
+
+        numMun.NumCajas--;
         PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();
+
     }
 
     private void Retroceso()

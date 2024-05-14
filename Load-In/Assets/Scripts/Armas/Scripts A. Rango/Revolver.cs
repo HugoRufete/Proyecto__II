@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEngine.Rendering.VirtualTexturing;
 using UnityEngine.UI;
 
-public class Revolver : MonoBehaviour, IRecargable
+public class Revolver : MonoBehaviour
 {
+    private NumMun numMun;
     private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -41,6 +42,7 @@ public class Revolver : MonoBehaviour, IRecargable
 
     void Start()
     {
+        numMun = GameObject.Find("HUD_Munición").GetComponent<NumMun>();
         balasRestantes = PlayerPrefs.GetInt("BalasRevolver", maxBalas);
         weaponParent = GetComponent<WeaponParent>();
         revolver = GetComponent<Revolver>();
@@ -62,9 +64,8 @@ public class Revolver : MonoBehaviour, IRecargable
             Disparar();
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && numMun.NumCajas > 0)
         {
-            Debug.Log("Recargando...");
             Invoke("RecargarRevolver", velocidadRecarga);
         }
     }
@@ -109,6 +110,7 @@ public class Revolver : MonoBehaviour, IRecargable
     {
         balasRestantes = maxBalas;
 
+        numMun.NumCajas--;
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasRevolver", balasRestantes);
         PlayerPrefs.Save();

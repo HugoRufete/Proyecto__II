@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public class Shotgun : MonoBehaviour, IRecargable
+public class Shotgun : MonoBehaviour
 {
+    private NumMun numMun;
     private Transform player;
     public GameObject prefabBala;
     public Transform puntoDisparo;
@@ -12,6 +13,8 @@ public class Shotgun : MonoBehaviour, IRecargable
     private Rigidbody2D rb;
 
     public static event System.Action shotgunDisparada;
+
+    public float velocidadRecarga = 3f;
 
     public float recoil = 10;
 
@@ -28,6 +31,7 @@ public class Shotgun : MonoBehaviour, IRecargable
 
     void Start()
     {
+        numMun = GameObject.Find("HUD_Munición").GetComponent<NumMun>();
         bulletsInMagazine = maxBullets;
         rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player").GetComponent<Transform>();
@@ -39,6 +43,10 @@ public class Shotgun : MonoBehaviour, IRecargable
         if (Input.GetButtonDown("Fire1") && bulletsInMagazine >= 2)
         {
             DisparoMultiple();
+        }
+        if (Input.GetKeyDown(KeyCode.R) && numMun.NumCajas > 0)
+        {
+            Invoke("RecargarShotgun", velocidadRecarga);
         }
     }
 
@@ -81,20 +89,14 @@ public class Shotgun : MonoBehaviour, IRecargable
             shotgunDisparada();
     }
 
-    public void RecargarArma()
-    {
-        RecargarShotgun();
-    }
+  
     public void RecargarShotgun()
     {
         bulletsInMagazine = Mathf.Min(bulletsInMagazine + maxBullets, maxBullets); 
+
+        numMun.NumCajas--;
     }
 
-    // Método para cargar balas guardadas
-    public void CargarBalasEscopeta(int cantidad)
-    {
-        bulletsInMagazine = Mathf.Clamp(cantidad, 0, maxBullets); 
-    }
     private void Retroceso()
     {
         // Obtiene la posición del ratón en el mundo

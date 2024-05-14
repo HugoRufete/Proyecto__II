@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Sniper : MonoBehaviour, IRecargable
+public class Sniper : MonoBehaviour
 {
+    private NumMun numMun;
     private Transform player;
     public GameObject prefabBala;
+    private GameObject AnimacionRecarga;
     public Transform puntoDisparo;
     public float velocidadBala = 10f;
     private Rigidbody2D rb;
@@ -21,7 +23,7 @@ public class Sniper : MonoBehaviour, IRecargable
 
     public static event System.Action sniperDisparado;
 
-    public float recoil = 10;
+    public float recoil = 20;
 
     public int ObtenerMunicionActual()
     {
@@ -35,10 +37,13 @@ public class Sniper : MonoBehaviour, IRecargable
     }
     void Start()
     {
+
         // Cargar el estado de munición almacenado
+        AnimacionRecarga = GameObject.Find("Reloading_Image");
         balasRestantes = PlayerPrefs.GetInt("BalasSniper", maxBalas);
         rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player").GetComponent<Transform>();
+        numMun = GameObject.Find("HUD_Munición").GetComponent<NumMun>();
     }
 
     void Update()
@@ -48,9 +53,8 @@ public class Sniper : MonoBehaviour, IRecargable
             Disparar();
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && numMun.NumCajas > 0)
         {
-            Debug.Log("Recargando...");
             Invoke("RecargarSniper", velocidadRecarga);
         }
     }
@@ -87,14 +91,11 @@ public class Sniper : MonoBehaviour, IRecargable
         Retroceso();
     }
 
-    public void RecargarArma()
-    {
-        RecargarSniper();
-    }
     public void RecargarSniper()
     {
         balasRestantes = maxBalas;
 
+        numMun.NumCajas--;
         // Guardar el nuevo estado de munición
         PlayerPrefs.SetInt("BalasSniper", balasRestantes);
         PlayerPrefs.Save();
