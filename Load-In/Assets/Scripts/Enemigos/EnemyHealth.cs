@@ -94,7 +94,7 @@ public class EnemyHealth : MonoBehaviour
 
             if (i % 2 == 0)
             {
-                if (Random.value < 0.05) 
+                if (Random.value < 0.10) 
                 {
                     Instantiate(prefab3, spawnPosition, Quaternion.identity);
                 }
@@ -105,7 +105,7 @@ public class EnemyHealth : MonoBehaviour
             }
             else
             {
-                if (Random.value < 0.20) // Probabilidad del 20% de que aparezcan o munición o esporas
+                if (Random.value < 0.25) // Probabilidad del 20% de que aparezcan o munición o esporas
                 {
                     Instantiate(prefab4, spawnPosition, Quaternion.identity);
                 }
@@ -164,7 +164,7 @@ public class EnemyHealth : MonoBehaviour
         }
 
     }
-    /*private void OnTriggerEnter2D(Collider2D collision)
+   private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "CurativeArea")
         {
@@ -177,7 +177,7 @@ public class EnemyHealth : MonoBehaviour
         {
             animacionCuración.SetActive(false);
         }
-    }*/
+    }
 
     // Método para activar la invulnerabilidad temporal
     public void ActivateInvulnerability(float duration)

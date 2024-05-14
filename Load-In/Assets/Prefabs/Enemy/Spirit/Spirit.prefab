@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 14.88
-  maxHealth: 15
+  maxHealth: 60
   additionalDamageActivated: 0
   bloodEnemy: {fileID: 876083902277872402}
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
@@ -456,6 +456,10 @@ PrefabInstance:
     - target: {fileID: 2203362611980846275, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
       propertyPath: m_Name
       value: Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099172815700092873, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
+      propertyPath: healingAmount
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8500781129763485473, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
       propertyPath: m_SortingLayer

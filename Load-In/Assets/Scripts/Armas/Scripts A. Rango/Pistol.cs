@@ -94,7 +94,6 @@ public class Pistol : MonoBehaviour, IRecargable
     }
     public void RecargarArma()
     {
-        Debug.Log("Recargando Pistola");
         RecargarPistola();
     }
     public void RecargarPistola()
