@@ -37,14 +37,12 @@ public class PuntosPlayer : MonoBehaviour
 
     public Animator textAnimator;
     FreezeEnemies [] freezeEnemies;
-    SpawnerManager gameManager;
 
     public GameObject minimapa;
 
     private void Update()
     {
         freezeEnemies = FindObjectsOfType<FreezeEnemies>();
-        gameManager = FindObjectOfType<SpawnerManager>();
 
         if (nivel >= 5 && !tiendaDiosa1Activada)
         {
@@ -65,7 +63,6 @@ public class PuntosPlayer : MonoBehaviour
 
                 }
 
-                gameManager.enabled = false;
                 tiendaDiosa_1.SetActive(true);
                 popUpMensajeTiendaDiosa_1.SetActive(false);
                 popUpPreesF.SetActive(false);
@@ -89,7 +86,6 @@ public class PuntosPlayer : MonoBehaviour
                     freezeEnemies[i].DesactivarComponentes();
                 }
 
-                gameManager.enabled = false;
                 Debug.Log("Abriendo tienda level 10");
                 tiendaDiosa_2.SetActive(true);
                 popUpMensajeTiendaDiosa_2.SetActive(false);
@@ -114,7 +110,6 @@ public class PuntosPlayer : MonoBehaviour
                 {
                     freezeEnemies[i].DesactivarComponentes();
                 }
-                gameManager.enabled = false;
                 popUpMensajeTiendaDiosa_3.SetActive(false);
                 tiendaDiosa_3.SetActive(true);
                 Time.timeScale = 0.0f;
@@ -139,7 +134,6 @@ public class PuntosPlayer : MonoBehaviour
                 {
                     freezeEnemies[i].DesactivarComponentes();
                 }
-                gameManager.enabled = false;
                 popUpMensajeTiendaDiosa_4.SetActive(false);
                 tiendaDiosa_4.SetActive(true);
                 popUpPreesF.SetActive(false);

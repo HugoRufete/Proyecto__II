@@ -278,10 +278,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 8642652848476864738}
-  - {fileID: 8642652848476864738}
   - {fileID: 3839063653746623455}
   - {fileID: 3537603388377771869}
   - {fileID: -3236727358418599062}
+  rigidbodies:
+  - {fileID: 4511483360849584180}
 --- !u!1 &1919992794937346334
 GameObject:
   m_ObjectHideFlags: 0

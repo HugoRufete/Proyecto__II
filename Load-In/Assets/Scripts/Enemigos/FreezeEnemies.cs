@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 public class FreezeEnemies : MonoBehaviour
 {
     public Component[] components;
+    public Rigidbody2D[] rigidbodies;
 
     Recolector recolector;
 
@@ -14,26 +15,42 @@ public class FreezeEnemies : MonoBehaviour
     {
         recolector = GetComponent<Recolector>();
     }
+
     public void DesactivarComponentes()
     {
-        Debug.Log("Desactivando Componentes");
-        foreach (Component component in components)
+        Debug.Log("Desactivating Components");
+        for (int i = 0; i < components.Length; i++)
         {
-            if (component is Behaviour behaviour)
+            Component component = components[i];
+            if (component != null && component.gameObject.activeSelf)
             {
-                behaviour.enabled = false;
+                Behaviour behaviour = component as Behaviour;
+                if (behaviour != null)
+                {
+                    behaviour.enabled = false;
+                }
+            }
+            else
+            {
+                Debug.Log("Component " + i + " has been destroyed or is not active");
             }
         }
-
-        if(recolector != null)
+        foreach (Rigidbody2D rb in rigidbodies)
         {
-            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            if (rb != null && rb.gameObject.activeSelf)
+            {
+                rb.velocity = Vector3.zero;
+            }
+            else
+            {
+                Debug.Log("Rigidbody " + "x"+ " has been destroyed or is not active");
+            }
         }
     }
 
     public void ActivarComponentes()
     {
-        Debug.Log("Activando Componentes");
+        Debug.Log("Activating Components");
         foreach (Component component in components)
         {
             Behaviour behaviour = component as Behaviour;
@@ -43,17 +60,18 @@ public class FreezeEnemies : MonoBehaviour
             }
             else
             {
-                Debug.Log("No hay enemigos que activar");
+                Debug.Log("No active components to activate");
             }
         }
-
-        if (recolector != null)
+        foreach (Rigidbody2D rb in rigidbodies)
         {
-            Debug.Log("Player's health is null, resetting velocity.");
-            Rigidbody rb = GetComponent<Rigidbody>();
-            if (rb != null)
+            if (rb != null && rb.gameObject.activeSelf)
             {
-                rb.velocity = Vector3.zero;
+                rb.velocity = Vector3.one * 1f;
+            }
+            else
+            {
+                Debug.Log("No active rigidbodies to set velocity");
             }
         }
     }

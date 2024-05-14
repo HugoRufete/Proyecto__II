@@ -291,11 +291,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -5106407756192166033}
   - {fileID: 3449264794818362786}
   - {fileID: 5837192927813519969}
   - {fileID: 7981965761562684436}
   - {fileID: 7707390559165717493}
+  rigidbodies:
+  - {fileID: -5106407756192166033}
 --- !u!82 &2586636821240199004
 AudioSource:
   m_ObjectHideFlags: 0

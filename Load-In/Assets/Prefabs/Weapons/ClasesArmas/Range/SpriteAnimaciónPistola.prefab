@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2989964289406924895}
   - component: {fileID: 7253128301928410654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "SpriteAnimaci\xF3nPistola"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

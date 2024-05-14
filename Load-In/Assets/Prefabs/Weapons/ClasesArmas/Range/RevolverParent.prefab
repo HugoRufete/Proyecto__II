@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7579647873521716079}
   - component: {fileID: 5193193547066861025}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RevolverParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 5133328631032154766}
   - component: {fileID: 233136868498628839}
   - component: {fileID: 7308620653282867705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Revolver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,6 +154,7 @@ MonoBehaviour:
   balasRestantes: 0
   alcance: 12
   velocidadRecarga: 1
+  recoil: 10
 --- !u!61 &390974509379253810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -248,7 +249,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4258807638736000681}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

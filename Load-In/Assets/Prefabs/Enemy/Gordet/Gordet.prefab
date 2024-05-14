@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: -2311862792067631408}
   - component: {fileID: 4034177174796223611}
   - component: {fileID: 2932158514310906835}
-  - component: {fileID: 7085363737655506059}
   - component: {fileID: 7565423802114408976}
+  - component: {fileID: 3979744858423514635}
   m_Layer: 6
   m_Name: Gordet
   m_TagString: Enemy
@@ -229,25 +229,6 @@ MonoBehaviour:
   maxDistanceFromEnemy: 0.5
   "animacionCuraci\xF3n": {fileID: 1650500337529157214}
   enemyDeadAnimationName: Gordet_Dead
---- !u!114 &7085363737655506059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4266318263142028208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  components:
-  - {fileID: 2932158514310906835}
-  - {fileID: 4034177174796223611}
-  - {fileID: -2311862792067631408}
-  - {fileID: 5639667920778735013}
-  - {fileID: 9093056392154346935}
-  - {fileID: 0}
 --- !u!82 &7565423802114408976
 AudioSource:
   m_ObjectHideFlags: 0
@@ -344,6 +325,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3979744858423514635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266318263142028208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 4034177174796223611}
+  - {fileID: 2932158514310906835}
+  - {fileID: 9093056392154346935}
+  - {fileID: 5639667920778735013}
+  rigidbodies:
+  - {fileID: -2311862792067631408}
 --- !u!1 &7178702938504806560
 GameObject:
   m_ObjectHideFlags: 0

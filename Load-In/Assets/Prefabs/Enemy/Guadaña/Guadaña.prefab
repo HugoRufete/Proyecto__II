@@ -259,7 +259,7 @@ MonoBehaviour:
   - {fileID: 2064327975705929342}
   - {fileID: -7363709799740320539}
   - {fileID: 1513193872777652615}
-  - {fileID: 0}
+  rigidbodies:
   - {fileID: 3217219232865292501}
 --- !u!1 &8125769143020411125
 GameObject:

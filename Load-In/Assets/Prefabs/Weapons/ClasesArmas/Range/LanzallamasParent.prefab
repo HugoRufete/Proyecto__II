@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2853044802247410463}
   - component: {fileID: 6131146872698941157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LanzallamasParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6723927081196900300}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AttackPoss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 799637522008023282}
   - component: {fileID: 5640396384709837638}
   - component: {fileID: 8669806493555031707}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lanzallamas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ SpriteRenderer:
   m_Size: {x: 0.3181818, y: 0.8181818}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &5640396384709837638
@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8878b17f088b77418d8f8c2ac6021d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammoCount: 10
   attackCooldown: 0.5
   attackPos: {fileID: 6723927081196900300}
   whatIsEnemies:

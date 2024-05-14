@@ -336,10 +336,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 112517534660352476}
-  - {fileID: 1879538370309110726}
   - {fileID: 5871270884001391476}
   - {fileID: 5303394323716094057}
   - {fileID: 5793001869343663313}
+  rigidbodies:
+  - {fileID: 1879538370309110726}
 --- !u!1 &9067942411577736238
 GameObject:
   m_ObjectHideFlags: 0

@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 6783345293831325686}
   - component: {fileID: 1111148336574404396}
   - component: {fileID: 727482295196035164}
+  - component: {fileID: 1722597951640064504}
   m_Layer: 6
   m_Name: Spirit
   m_TagString: Enemy
@@ -306,6 +307,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1722597951640064504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7737970027762629862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b77221d31655db4396410cb63ef2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 727482295196035164}
+  - {fileID: 6783345293831325686}
+  - {fileID: 2207562778590291419}
+  - {fileID: 6454888039058286592}
+  rigidbodies:
+  - {fileID: 1111148336574404396}
 --- !u!1001 &5582130843006494383
 PrefabInstance:
   m_ObjectHideFlags: 0
