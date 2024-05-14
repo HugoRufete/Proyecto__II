@@ -160,7 +160,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -189,7 +189,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &505974698
@@ -493,6 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c17a902e9ce5a4f98c156b5ce831b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  machete: {fileID: 0}
   pistol: {fileID: 4575389964433397831, guid: d648e364d9dbd20428ee955489be9275, type: 3}
   revolver: {fileID: 4575389964433397831, guid: d6b8bca32e322b944a5bcda0369dc2eb, type: 3}
   shotgun: {fileID: 8450455197406179616, guid: 5e53dde27bbb6014ebd41dc469672a60, type: 3}
@@ -504,6 +505,9 @@ MonoBehaviour:
   wheelMenu: {fileID: 1107979354}
   centroMenu: {fileID: 1516699387}
   imagenArmaCentro: {fileID: 1976526350}
+  imagenArmaSeleccionada: {fileID: 0}
+  textoMunicionActual: {fileID: 0}
+  textoMunicionMaxima: {fileID: 0}
 --- !u!114 &1834547429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +520,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6dc34e921603cf4cb73568b65d748f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimapa: {fileID: 0}
+  popUpInicial: {fileID: 0}
   wheelMenu: {fileID: 1107979354}
+  revolver: {fileID: 0}
+  revolverImage: {fileID: 0}
+  revolver___: {fileID: 0}
+  pistola: {fileID: 0}
+  pistolaImage: {fileID: 0}
+  pistola___: {fileID: 0}
+  hacha: {fileID: 0}
+  hachaImage: {fileID: 0}
+  hacha___: {fileID: 0}
+  alabarda: {fileID: 0}
+  alabardaImage: {fileID: 0}
+  alabarda___: {fileID: 0}
+  martilloGigante_1: {fileID: 0}
+  martilloGigante_2: {fileID: 0}
+  martilloGiganteImage_1: {fileID: 0}
+  martilloGiganteImage_2: {fileID: 0}
+  martilloGigante___: {fileID: 0}
+  martilloGigante____: {fileID: 0}
+  sniper: {fileID: 0}
+  sniperImage: {fileID: 0}
+  sniper___: {fileID: 0}
+  shotgun: {fileID: 0}
+  shotgunImage: {fileID: 0}
+  shotgun___: {fileID: 0}
+  Tienda_Diosa_5: {fileID: 0}
+  Tienda_Diosa_10: {fileID: 0}
+  Tienda_Diosa_15: {fileID: 0}
+  Tienda_Diosa_20: {fileID: 0}
+  esporasInsuficientes: {fileID: 0}
+  precioAlabardaText: {fileID: 0}
+  precioMartilloText: {fileID: 0}
+  precioSniperText: {fileID: 0}
+  precioSniper2Text: {fileID: 0}
+  precioShotgunText: {fileID: 0}
+  precioShotgun2Text: {fileID: 0}
+  "precioDa\xF1oAumentadoText": {fileID: 0}
+  "precioDa\xF1oReducidoText": {fileID: 0}
+  precioAtaqueAreaText: {fileID: 0}
+  PrecioNegociado: {fileID: 0}
+  PrecioNegociadoSniper: {fileID: 0}
+  PrecioNegociadoSniper2: {fileID: 0}
+  "PrecioNegociadoDa\xF1oAumentado": {fileID: 0}
+  "PrecioNegociadoDa\xF1oReducido": {fileID: 0}
+  PrecioNegociadoAtaqueEnArea: {fileID: 0}
+  PrecioNegociadoMartilo: {fileID: 0}
+  PrecioNegociadoShotgun: {fileID: 0}
+  PrecioNegociadoShotgun2: {fileID: 0}
+  "sliderNegocaci\xF3nAlabarda": {fileID: 0}
+  "sliderNegocaci\xF3nMartillo": {fileID: 0}
+  "sliderNegocaci\xF3nSniper": {fileID: 0}
+  "sliderNegocaci\xF3nSnipe2": {fileID: 0}
+  "sliderNegocaci\xF3nShotgun": {fileID: 0}
+  "sliderNegocaci\xF3nShotgun2": {fileID: 0}
+  "sliderNegocaci\xF3nDa\xF1oAumentado": {fileID: 0}
+  "sliderNegocaci\xF3nDa\xF1oReducido": {fileID: 0}
+  "sliderNegocaci\xF3nAtaqueArea": {fileID: 0}
+  sliderBolsaEsporasExtra: {fileID: 0}
+  extraSpores: 0
+  extraSporesText: {fileID: 0}
+  "aumentarDa\xF1o": {fileID: 0}
+  areaAttack: {fileID: 0}
+  "reducirDa\xF1o": {fileID: 0}
+  inventory: {fileID: 0}
+  equippedPopUps: {fileID: 0}
+  extraEsporasPopUp: {fileID: 0}
+  dialogosDiosaTienda1: []
+  dialogosDiosaTienda2: []
+  dialogosDiosaTienda3: []
+  bolsaExporasExtra: {fileID: 0}
+  botonesADesactivar: []
 --- !u!1 &1964600932
 GameObject:
   m_ObjectHideFlags: 0

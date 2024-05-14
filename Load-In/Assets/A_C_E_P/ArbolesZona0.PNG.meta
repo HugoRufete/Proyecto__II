@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesZona0_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 279
+        width: 112
+        height: 105
+      alignment: 9
+      pivot: {x: 0.45582268, y: 0.14667708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d06e8339c753ca4dbb4f7fc51ebb9d8
+      internalID: 2143414538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZona0_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 281
+        width: 86
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5091469, y: 0.13423818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f46afef091a614d9e8784b6715546b
+      internalID: 568564206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZona0_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 188
+        width: 60
+        height: 76
+      alignment: 9
+      pivot: {x: 0.44531277, y: 0.16402154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a611cf07ab0a514885efcda1e3c651c
+      internalID: -90379818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZona0_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 124
+        width: 117
+        height: 148
+      alignment: 9
+      pivot: {x: 0.47852567, y: 0.1312862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcd942351c3bf140b13b055eecb365f
+      internalID: 176054394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZona0_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 24
+        width: 67
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5910717, y: 0.14088252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d13c36e130c0244941579e7f2fcef6
+      internalID: 1629360711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ArbolesZona0_0: 2143414538
+      ArbolesZona0_1: 568564206
+      ArbolesZona0_2: -90379818
+      ArbolesZona0_3: 176054394
+      ArbolesZona0_4: 1629360711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

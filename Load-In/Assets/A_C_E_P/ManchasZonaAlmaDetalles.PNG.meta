@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: 072aff20ffc92214f8654921bb779042
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 312
+        width: 202
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8937d12a5435e44bf2b8e30a1a6b26
+      internalID: -546035424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 18
+        width: 113
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999df68aca39234418d6f8fd9a4677b0
+      internalID: 26518381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 44
+        width: 144
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176fc119c2122c742ae0c9e56b0dfa85
+      internalID: 1782789061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 135
+        width: 234
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267577d6e74138e4da11900219b3cc14
+      internalID: -1156719020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_7
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 286
+        width: 119
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b110aec506b1f4049a13cb82f990777b
+      internalID: 899819341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_10
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 342
+        width: 191
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a26cb974481a2448d1b24ec920fd7b
+      internalID: -989532289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_20
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 349
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235bf9080cf1b69459fdbe006ae72b53
+      internalID: 787970125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 341
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22474e7df6c354c8ea4a543364aeee
+      internalID: -1402626128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_53
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 230
+        width: 165
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd93ed77de8bee4e866b944157ba7a3
+      internalID: 1851406942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_61
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 266
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694a715788645df44ae7283fec6212e2
+      internalID: 267216060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_73
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 302
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec7b814b6d9690438bf0be4201a7ffa
+      internalID: 1612555402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_93
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 264
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27abc09aaace9a24ba651fc98ba94a29
+      internalID: 233093879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_139
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 151
+        width: 134
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a69a22d97ee8418590b34f12a7617
+      internalID: 54868803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_148
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 147
+        width: 132
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc1e208cdfdeda41b8b395857a86f80
+      internalID: 460979124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_149
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 171
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98d303b1cf7d3b4284b3831760e6caf
+      internalID: -259149613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_164
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 194
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8690da926f73749b6bb0625ff05f07
+      internalID: 1569977989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_181
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 69
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb3cb552a2e496408f991c26ff99a27
+      internalID: -1456879742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasZonaAlmaDetalles_123
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 205
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0174cb8692898db43b99d281ea0fb4e3
+      internalID: -721628659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ManchasZonaAlmaDetalles_0: -546035424
+      ManchasZonaAlmaDetalles_1: 26518381
+      ManchasZonaAlmaDetalles_10: -989532289
+      ManchasZonaAlmaDetalles_100: 1967838011
+      ManchasZonaAlmaDetalles_101: -1412498375
+      ManchasZonaAlmaDetalles_102: 132517808
+      ManchasZonaAlmaDetalles_103: 407658026
+      ManchasZonaAlmaDetalles_104: 1698877587
+      ManchasZonaAlmaDetalles_105: 1173607643
+      ManchasZonaAlmaDetalles_106: -898175281
+      ManchasZonaAlmaDetalles_107: 1764224338
+      ManchasZonaAlmaDetalles_108: -353930336
+      ManchasZonaAlmaDetalles_109: 1077039775
+      ManchasZonaAlmaDetalles_11: 342398702
+      ManchasZonaAlmaDetalles_110: 21312600
+      ManchasZonaAlmaDetalles_111: -975969461
+      ManchasZonaAlmaDetalles_112: -10981667
+      ManchasZonaAlmaDetalles_113: 515456704
+      ManchasZonaAlmaDetalles_114: -36243616
+      ManchasZonaAlmaDetalles_115: 773285288
+      ManchasZonaAlmaDetalles_116: 1232492854
+      ManchasZonaAlmaDetalles_117: -277426724
+      ManchasZonaAlmaDetalles_118: -970467136
+      ManchasZonaAlmaDetalles_119: -1068935859
+      ManchasZonaAlmaDetalles_12: 1236174454
+      ManchasZonaAlmaDetalles_120: 1005538471
+      ManchasZonaAlmaDetalles_121: 719149742
+      ManchasZonaAlmaDetalles_122: 711176903
+      ManchasZonaAlmaDetalles_123: -721628659
+      ManchasZonaAlmaDetalles_124: -697162909
+      ManchasZonaAlmaDetalles_125: 1231790697
+      ManchasZonaAlmaDetalles_126: 468479314
+      ManchasZonaAlmaDetalles_127: 1907136532
+      ManchasZonaAlmaDetalles_128: -255816234
+      ManchasZonaAlmaDetalles_129: 876023623
+      ManchasZonaAlmaDetalles_13: -459913773
+      ManchasZonaAlmaDetalles_130: 1363745683
+      ManchasZonaAlmaDetalles_131: 1549398873
+      ManchasZonaAlmaDetalles_132: 191997873
+      ManchasZonaAlmaDetalles_133: 203863405
+      ManchasZonaAlmaDetalles_134: 371222851
+      ManchasZonaAlmaDetalles_135: -1041711272
+      ManchasZonaAlmaDetalles_136: -571023490
+      ManchasZonaAlmaDetalles_137: -1400139620
+      ManchasZonaAlmaDetalles_138: 1959209836
+      ManchasZonaAlmaDetalles_139: 54868803
+      ManchasZonaAlmaDetalles_14: 916214439
+      ManchasZonaAlmaDetalles_140: 1609657226
+      ManchasZonaAlmaDetalles_141: -137746810
+      ManchasZonaAlmaDetalles_142: -1500798022
+      ManchasZonaAlmaDetalles_143: -1995381336
+      ManchasZonaAlmaDetalles_144: -1833288495
+      ManchasZonaAlmaDetalles_145: -486643895
+      ManchasZonaAlmaDetalles_146: -1318703199
+      ManchasZonaAlmaDetalles_147: -2117765919
+      ManchasZonaAlmaDetalles_148: 460979124
+      ManchasZonaAlmaDetalles_149: -259149613
+      ManchasZonaAlmaDetalles_15: -622865577
+      ManchasZonaAlmaDetalles_150: -1502210327
+      ManchasZonaAlmaDetalles_151: -814094688
+      ManchasZonaAlmaDetalles_152: 1612729882
+      ManchasZonaAlmaDetalles_153: 509421276
+      ManchasZonaAlmaDetalles_154: 2064402017
+      ManchasZonaAlmaDetalles_155: -1631853088
+      ManchasZonaAlmaDetalles_156: -1811234507
+      ManchasZonaAlmaDetalles_157: 789076795
+      ManchasZonaAlmaDetalles_158: 542076540
+      ManchasZonaAlmaDetalles_159: 222708878
+      ManchasZonaAlmaDetalles_16: 1395111948
+      ManchasZonaAlmaDetalles_160: 1591899397
+      ManchasZonaAlmaDetalles_161: -1380503254
+      ManchasZonaAlmaDetalles_162: -542701390
+      ManchasZonaAlmaDetalles_163: 488982742
+      ManchasZonaAlmaDetalles_164: 1569977989
+      ManchasZonaAlmaDetalles_165: -613608192
+      ManchasZonaAlmaDetalles_166: 417858767
+      ManchasZonaAlmaDetalles_167: 1968863911
+      ManchasZonaAlmaDetalles_168: 1410448079
+      ManchasZonaAlmaDetalles_169: -700759879
+      ManchasZonaAlmaDetalles_17: 1059810209
+      ManchasZonaAlmaDetalles_170: -2133223552
+      ManchasZonaAlmaDetalles_171: 265757761
+      ManchasZonaAlmaDetalles_172: 379478018
+      ManchasZonaAlmaDetalles_173: -685346609
+      ManchasZonaAlmaDetalles_174: 1345185136
+      ManchasZonaAlmaDetalles_175: -439239174
+      ManchasZonaAlmaDetalles_176: -1380369679
+      ManchasZonaAlmaDetalles_177: -1966601825
+      ManchasZonaAlmaDetalles_178: -1363550670
+      ManchasZonaAlmaDetalles_179: -625639573
+      ManchasZonaAlmaDetalles_18: -1820029606
+      ManchasZonaAlmaDetalles_180: 535953585
+      ManchasZonaAlmaDetalles_181: -1456879742
+      ManchasZonaAlmaDetalles_182: 1147115372
+      ManchasZonaAlmaDetalles_183: 1453815808
+      ManchasZonaAlmaDetalles_184: 1575277654
+      ManchasZonaAlmaDetalles_185: -1915793209
+      ManchasZonaAlmaDetalles_186: -344767325
+      ManchasZonaAlmaDetalles_187: 2099574201
+      ManchasZonaAlmaDetalles_188: -1827372802
+      ManchasZonaAlmaDetalles_189: 1432738917
+      ManchasZonaAlmaDetalles_19: 665181443
+      ManchasZonaAlmaDetalles_190: -1062709026
+      ManchasZonaAlmaDetalles_191: -1377968666
+      ManchasZonaAlmaDetalles_192: -595752326
+      ManchasZonaAlmaDetalles_193: 299602582
+      ManchasZonaAlmaDetalles_194: -807455458
+      ManchasZonaAlmaDetalles_195: 765882282
+      ManchasZonaAlmaDetalles_196: -467027188
+      ManchasZonaAlmaDetalles_197: -1760566527
+      ManchasZonaAlmaDetalles_198: -322295795
+      ManchasZonaAlmaDetalles_199: 1102880855
+      ManchasZonaAlmaDetalles_2: 1782789061
+      ManchasZonaAlmaDetalles_20: 787970125
+      ManchasZonaAlmaDetalles_200: -788832998
+      ManchasZonaAlmaDetalles_201: 1449343602
+      ManchasZonaAlmaDetalles_202: 857902604
+      ManchasZonaAlmaDetalles_203: 1950647914
+      ManchasZonaAlmaDetalles_204: -1907936789
+      ManchasZonaAlmaDetalles_205: -1837378757
+      ManchasZonaAlmaDetalles_206: -511584988
+      ManchasZonaAlmaDetalles_207: 231874350
+      ManchasZonaAlmaDetalles_208: 1568730172
+      ManchasZonaAlmaDetalles_21: -720287901
+      ManchasZonaAlmaDetalles_22: 1911222497
+      ManchasZonaAlmaDetalles_23: -431089437
+      ManchasZonaAlmaDetalles_24: 749388682
+      ManchasZonaAlmaDetalles_25: 664106956
+      ManchasZonaAlmaDetalles_26: -1402626128
+      ManchasZonaAlmaDetalles_27: -1934755076
+      ManchasZonaAlmaDetalles_28: 912842226
+      ManchasZonaAlmaDetalles_29: 407676008
+      ManchasZonaAlmaDetalles_3: -1156719020
+      ManchasZonaAlmaDetalles_30: -945793983
+      ManchasZonaAlmaDetalles_31: 71257561
+      ManchasZonaAlmaDetalles_32: -891243143
+      ManchasZonaAlmaDetalles_33: -90092905
+      ManchasZonaAlmaDetalles_34: 395222462
+      ManchasZonaAlmaDetalles_35: -292851964
+      ManchasZonaAlmaDetalles_36: 2021166487
+      ManchasZonaAlmaDetalles_37: -1632758991
+      ManchasZonaAlmaDetalles_38: -1527340547
+      ManchasZonaAlmaDetalles_39: 1428300220
+      ManchasZonaAlmaDetalles_4: -130761486
+      ManchasZonaAlmaDetalles_40: 1450120979
+      ManchasZonaAlmaDetalles_41: 1926673526
+      ManchasZonaAlmaDetalles_42: -1589690538
+      ManchasZonaAlmaDetalles_43: -1206873306
+      ManchasZonaAlmaDetalles_44: 902772763
+      ManchasZonaAlmaDetalles_45: -670869445
+      ManchasZonaAlmaDetalles_46: 67466941
+      ManchasZonaAlmaDetalles_47: 1876478797
+      ManchasZonaAlmaDetalles_48: -1836716635
+      ManchasZonaAlmaDetalles_49: 453301366
+      ManchasZonaAlmaDetalles_5: 39114964
+      ManchasZonaAlmaDetalles_50: -739898942
+      ManchasZonaAlmaDetalles_51: -711201352
+      ManchasZonaAlmaDetalles_52: 801595394
+      ManchasZonaAlmaDetalles_53: 1851406942
+      ManchasZonaAlmaDetalles_54: 1182678683
+      ManchasZonaAlmaDetalles_55: 776785790
+      ManchasZonaAlmaDetalles_56: -2122684748
+      ManchasZonaAlmaDetalles_57: 537492002
+      ManchasZonaAlmaDetalles_58: -890080597
+      ManchasZonaAlmaDetalles_59: -1070193308
+      ManchasZonaAlmaDetalles_6: 1123925859
+      ManchasZonaAlmaDetalles_60: 1851364454
+      ManchasZonaAlmaDetalles_61: 267216060
+      ManchasZonaAlmaDetalles_62: -651855544
+      ManchasZonaAlmaDetalles_63: 1552269369
+      ManchasZonaAlmaDetalles_64: 441757092
+      ManchasZonaAlmaDetalles_65: 362387910
+      ManchasZonaAlmaDetalles_66: 664718461
+      ManchasZonaAlmaDetalles_67: 1118340426
+      ManchasZonaAlmaDetalles_68: 1859293225
+      ManchasZonaAlmaDetalles_69: -1268612504
+      ManchasZonaAlmaDetalles_7: 899819341
+      ManchasZonaAlmaDetalles_70: -2079369045
+      ManchasZonaAlmaDetalles_71: -692221592
+      ManchasZonaAlmaDetalles_72: -956163453
+      ManchasZonaAlmaDetalles_73: 1612555402
+      ManchasZonaAlmaDetalles_74: -83924063
+      ManchasZonaAlmaDetalles_75: -622872665
+      ManchasZonaAlmaDetalles_76: 2050401881
+      ManchasZonaAlmaDetalles_77: 1257755038
+      ManchasZonaAlmaDetalles_78: -1706705656
+      ManchasZonaAlmaDetalles_79: 557087378
+      ManchasZonaAlmaDetalles_8: -1206808509
+      ManchasZonaAlmaDetalles_80: 792615338
+      ManchasZonaAlmaDetalles_81: 1222244804
+      ManchasZonaAlmaDetalles_82: 388450116
+      ManchasZonaAlmaDetalles_83: -1510782225
+      ManchasZonaAlmaDetalles_84: -1583238126
+      ManchasZonaAlmaDetalles_85: -1858278370
+      ManchasZonaAlmaDetalles_86: -751044691
+      ManchasZonaAlmaDetalles_87: -33112338
+      ManchasZonaAlmaDetalles_88: 610865273
+      ManchasZonaAlmaDetalles_89: -528393553
+      ManchasZonaAlmaDetalles_9: 399371425
+      ManchasZonaAlmaDetalles_90: 2068868874
+      ManchasZonaAlmaDetalles_91: 333184446
+      ManchasZonaAlmaDetalles_92: -298189668
+      ManchasZonaAlmaDetalles_93: 233093879
+      ManchasZonaAlmaDetalles_94: -1786795362
+      ManchasZonaAlmaDetalles_95: 1661517574
+      ManchasZonaAlmaDetalles_96: 1042144759
+      ManchasZonaAlmaDetalles_97: 1059891690
+      ManchasZonaAlmaDetalles_98: 894539566
+      ManchasZonaAlmaDetalles_99: -724751090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -201,6 +201,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   maxHealth: 10
+  additionalDamageActivated: 0
+  bloodEnemy: {fileID: 0}
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
-  experienceItemsCount: 5
+  esporaPrefab: {fileID: 0}
+  curaPrefab: {fileID: 0}
+  ammoPrefab: {fileID: 0}
   maxDistanceFromEnemy: 0.5
+  "animacionCuraci\xF3n": {fileID: 0}
+  enemyDeadAnimationName: 

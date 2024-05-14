@@ -616,11 +616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &776458324 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3299216761075094676, guid: d4ca22b955e3e134bbf616dabac062b2, type: 3}
-  m_PrefabInstance: {fileID: 6699832866017251759}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &969147059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -814,7 +809,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -923,14 +918,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 6611225881177368314, guid: 57e53fcacc235e44d9e4921f006a92b1, type: 3}
   enemySpawner: {fileID: 1494681484}
-  totalEnemiesInWave: 10
+  totalEnemiesInWave_1: 1
+  totalEnemiesInWave_2: 1
+  totalEnemiesInWave_3: 1
+  totalEnemiesInWave_4: 1
+  totalEnemiesInWave_5: 1
+  totalEnemiesInWave_6: 1
   timeBetweenWaves: 5
   RondaActual: 1
+  waveUpdateInterval: 5
   roundsPerType1: 1
   roundsPerType2: 3
   roundsPerType3: 5
   roundsPerType4: 7
   roundsPerType5: 10
+  roundsPerType6: 12
 --- !u!1 &1731360493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,10 +1256,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fragmentosRecogidos: 0
-  puerta: {fileID: 776458324}
+  areaExtraccion: {fileID: 0}
   onFragmentosRecogidos:
     m_PersistentCalls:
       m_Calls: []
+  indicardorArea: {fileID: 0}
+  indicadorFragmentos_1: {fileID: 0}
+  indicadorFragmentos_2: {fileID: 0}
+  indicadorFragmentos_3: {fileID: 0}
+  fragmento_1: {fileID: 0}
+  fragmento_2: {fileID: 0}
+  fragmento_3: {fileID: 0}
 --- !u!1001 &1875458126873434587
 PrefabInstance:
   m_ObjectHideFlags: 0

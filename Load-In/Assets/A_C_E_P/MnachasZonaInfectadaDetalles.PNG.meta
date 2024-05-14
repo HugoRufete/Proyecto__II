@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: 4f6ec886f7c4fe74cb12d21302eebf8b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 365
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d025341a8195684aafb2e065948b479
+      internalID: 97289474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 356
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6aa291941298b43899940981a83f54
+      internalID: -986642642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_17
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 350
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98662f666fbe1bb4e85f69e8d6da7169
+      internalID: -2076640648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 341
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ec611720a63de4a9f3ce2d91cfbf35
+      internalID: -2143429995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_78
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 252
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3565f00aab58ce149aeb7edf998b8a5a
+      internalID: 973199129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_82
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 250
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8dc92a381601a438f3e853b47d4048
+      internalID: -213039839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_88
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 247
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ea765a302c6974891c8423325b28dc
+      internalID: 1369765128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_92
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e8f048af672524496013e3abff831b
+      internalID: 726171507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_93
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 237
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89088625bcc8b154ab280c3a6f516f63
+      internalID: -256276609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_105
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 172
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f24248b47ea26e488921c2ba9939aa0
+      internalID: -2134426109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 303
+        width: 199
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26c4b8ffa0920941b09de81bffc5d1f
+      internalID: -2048126081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 235
+        width: 150
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eafcfb88ff1514380b0f4326870720
+      internalID: -1896084396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 226
+        width: 184
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d363dce69bd16ec4f9ca4cd1cd222677
+      internalID: -833459857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 289
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49194a9d50df43749ad247e30387371e
+      internalID: -1349114780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_4
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 210
+        width: 207
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da08128f5eb4dc7498712f9cfed96ff2
+      internalID: 27967966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 90
+        width: 139
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6a341c053f5be4b977d3385b316295
+      internalID: 906110720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 4
+        width: 120
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6c0d133b9c374469207088e32f9720
+      internalID: -2113463564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 112
+        width: 173
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bb37ec5e06ed44dbd092fbaf838986
+      internalID: 48656637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2
+        width: 91
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fd6c61d76ee3e4b9d31f3228fbef78
+      internalID: -855374814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 6
+        width: 108
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee64398bc254b384eb3db5b5a19484f8
+      internalID: 174449862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 10
+        width: 139
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33917a4a33d8e664a95b9b7ab31a6889
+      internalID: 175017165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 66
+        width: 218
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3de3a7c51b9f0c469856f05e7eeb79b
+      internalID: -1262584973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbbebd4316938a47b32ad195a13afd2
+      internalID: 1931240377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnachasZonaInfectadaDetalles_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 181
+        width: 127
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047690d52e24ad48ba99b534c177340
+      internalID: 18856194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MnachasZonaInfectadaDetalles_0: -2048126081
+      MnachasZonaInfectadaDetalles_1: -1896084396
+      MnachasZonaInfectadaDetalles_10: 174449862
+      MnachasZonaInfectadaDetalles_100: 316257953
+      MnachasZonaInfectadaDetalles_101: -1104766036
+      MnachasZonaInfectadaDetalles_102: 1266687020
+      MnachasZonaInfectadaDetalles_103: 594342364
+      MnachasZonaInfectadaDetalles_104: -1265285591
+      MnachasZonaInfectadaDetalles_105: -2134426109
+      MnachasZonaInfectadaDetalles_106: 1571103964
+      MnachasZonaInfectadaDetalles_107: 1133013306
+      MnachasZonaInfectadaDetalles_108: -1204645478
+      MnachasZonaInfectadaDetalles_109: 801257461
+      MnachasZonaInfectadaDetalles_11: -986642642
+      MnachasZonaInfectadaDetalles_110: -520371822
+      MnachasZonaInfectadaDetalles_111: 1780042981
+      MnachasZonaInfectadaDetalles_112: -748610409
+      MnachasZonaInfectadaDetalles_113: -1631815904
+      MnachasZonaInfectadaDetalles_114: -864653443
+      MnachasZonaInfectadaDetalles_115: -1123958313
+      MnachasZonaInfectadaDetalles_116: -54786793
+      MnachasZonaInfectadaDetalles_117: -757463536
+      MnachasZonaInfectadaDetalles_118: -1187976941
+      MnachasZonaInfectadaDetalles_119: -1997306809
+      MnachasZonaInfectadaDetalles_12: 175017165
+      MnachasZonaInfectadaDetalles_120: -316898793
+      MnachasZonaInfectadaDetalles_121: -1727247011
+      MnachasZonaInfectadaDetalles_122: 1420733794
+      MnachasZonaInfectadaDetalles_123: -813602200
+      MnachasZonaInfectadaDetalles_124: 1226662503
+      MnachasZonaInfectadaDetalles_125: 1504996151
+      MnachasZonaInfectadaDetalles_126: -436966986
+      MnachasZonaInfectadaDetalles_127: -214199596
+      MnachasZonaInfectadaDetalles_128: 511645494
+      MnachasZonaInfectadaDetalles_129: -1756020913
+      MnachasZonaInfectadaDetalles_13: -1262584973
+      MnachasZonaInfectadaDetalles_130: -1782572086
+      MnachasZonaInfectadaDetalles_131: 183377348
+      MnachasZonaInfectadaDetalles_132: 2124632927
+      MnachasZonaInfectadaDetalles_133: 1300975370
+      MnachasZonaInfectadaDetalles_134: 1161201761
+      MnachasZonaInfectadaDetalles_135: -246895462
+      MnachasZonaInfectadaDetalles_136: 684381645
+      MnachasZonaInfectadaDetalles_137: -1454099239
+      MnachasZonaInfectadaDetalles_138: 1354154651
+      MnachasZonaInfectadaDetalles_139: -1886750717
+      MnachasZonaInfectadaDetalles_14: 1931240377
+      MnachasZonaInfectadaDetalles_140: -1521088813
+      MnachasZonaInfectadaDetalles_141: -763343275
+      MnachasZonaInfectadaDetalles_142: -1019956341
+      MnachasZonaInfectadaDetalles_143: -1615505869
+      MnachasZonaInfectadaDetalles_144: -1022534810
+      MnachasZonaInfectadaDetalles_145: -2095729242
+      MnachasZonaInfectadaDetalles_146: 227210729
+      MnachasZonaInfectadaDetalles_147: -1856691531
+      MnachasZonaInfectadaDetalles_148: 2111326758
+      MnachasZonaInfectadaDetalles_149: -1318048111
+      MnachasZonaInfectadaDetalles_15: 18856194
+      MnachasZonaInfectadaDetalles_150: -1398221350
+      MnachasZonaInfectadaDetalles_151: 1254907901
+      MnachasZonaInfectadaDetalles_152: -828551967
+      MnachasZonaInfectadaDetalles_153: 1580730241
+      MnachasZonaInfectadaDetalles_154: 218084373
+      MnachasZonaInfectadaDetalles_155: 1241934076
+      MnachasZonaInfectadaDetalles_156: 737164792
+      MnachasZonaInfectadaDetalles_157: -459456154
+      MnachasZonaInfectadaDetalles_158: 1137226702
+      MnachasZonaInfectadaDetalles_159: 1504062006
+      MnachasZonaInfectadaDetalles_16: 48204890
+      MnachasZonaInfectadaDetalles_160: -1023479860
+      MnachasZonaInfectadaDetalles_161: 1556978939
+      MnachasZonaInfectadaDetalles_162: -970238814
+      MnachasZonaInfectadaDetalles_163: 160851242
+      MnachasZonaInfectadaDetalles_164: -1008323538
+      MnachasZonaInfectadaDetalles_165: 1891682113
+      MnachasZonaInfectadaDetalles_166: 2122038071
+      MnachasZonaInfectadaDetalles_167: 330557105
+      MnachasZonaInfectadaDetalles_168: -1311001872
+      MnachasZonaInfectadaDetalles_169: 178801451
+      MnachasZonaInfectadaDetalles_17: -2076640648
+      MnachasZonaInfectadaDetalles_170: 2058758789
+      MnachasZonaInfectadaDetalles_171: 1409887481
+      MnachasZonaInfectadaDetalles_172: -1647060240
+      MnachasZonaInfectadaDetalles_173: -1938614519
+      MnachasZonaInfectadaDetalles_174: 54824532
+      MnachasZonaInfectadaDetalles_175: -1244917280
+      MnachasZonaInfectadaDetalles_176: 1485786678
+      MnachasZonaInfectadaDetalles_177: -1344926509
+      MnachasZonaInfectadaDetalles_178: 2064861822
+      MnachasZonaInfectadaDetalles_179: -1569905828
+      MnachasZonaInfectadaDetalles_18: -707081440
+      MnachasZonaInfectadaDetalles_180: -1582396403
+      MnachasZonaInfectadaDetalles_181: 1496384660
+      MnachasZonaInfectadaDetalles_182: -1211614524
+      MnachasZonaInfectadaDetalles_183: -1160931861
+      MnachasZonaInfectadaDetalles_184: 1616539933
+      MnachasZonaInfectadaDetalles_185: -1833213062
+      MnachasZonaInfectadaDetalles_186: 883869360
+      MnachasZonaInfectadaDetalles_187: 1765007826
+      MnachasZonaInfectadaDetalles_188: 1248703882
+      MnachasZonaInfectadaDetalles_189: 475891912
+      MnachasZonaInfectadaDetalles_19: 1014848714
+      MnachasZonaInfectadaDetalles_190: 751494975
+      MnachasZonaInfectadaDetalles_191: -244604131
+      MnachasZonaInfectadaDetalles_2: -833459857
+      MnachasZonaInfectadaDetalles_20: -2143429995
+      MnachasZonaInfectadaDetalles_21: 399375100
+      MnachasZonaInfectadaDetalles_22: 1454232885
+      MnachasZonaInfectadaDetalles_23: -512018707
+      MnachasZonaInfectadaDetalles_24: 1821306574
+      MnachasZonaInfectadaDetalles_25: -255860017
+      MnachasZonaInfectadaDetalles_26: 382624219
+      MnachasZonaInfectadaDetalles_27: -465538020
+      MnachasZonaInfectadaDetalles_28: 394668912
+      MnachasZonaInfectadaDetalles_29: -1103129049
+      MnachasZonaInfectadaDetalles_3: -1349114780
+      MnachasZonaInfectadaDetalles_30: -1979447791
+      MnachasZonaInfectadaDetalles_31: -1226290048
+      MnachasZonaInfectadaDetalles_32: -1687927193
+      MnachasZonaInfectadaDetalles_33: -1726254572
+      MnachasZonaInfectadaDetalles_34: 2024631140
+      MnachasZonaInfectadaDetalles_35: -402354630
+      MnachasZonaInfectadaDetalles_36: 773494750
+      MnachasZonaInfectadaDetalles_37: -1281921171
+      MnachasZonaInfectadaDetalles_38: 1519013328
+      MnachasZonaInfectadaDetalles_39: -314793130
+      MnachasZonaInfectadaDetalles_4: 27967966
+      MnachasZonaInfectadaDetalles_40: 843695345
+      MnachasZonaInfectadaDetalles_41: 623944043
+      MnachasZonaInfectadaDetalles_42: 84216365
+      MnachasZonaInfectadaDetalles_43: 1098897384
+      MnachasZonaInfectadaDetalles_44: 226326884
+      MnachasZonaInfectadaDetalles_45: 152132924
+      MnachasZonaInfectadaDetalles_46: 541419781
+      MnachasZonaInfectadaDetalles_47: -1264524644
+      MnachasZonaInfectadaDetalles_48: 971986976
+      MnachasZonaInfectadaDetalles_49: 1794413853
+      MnachasZonaInfectadaDetalles_5: 906110720
+      MnachasZonaInfectadaDetalles_50: 2094928419
+      MnachasZonaInfectadaDetalles_51: -788293293
+      MnachasZonaInfectadaDetalles_52: 1363325874
+      MnachasZonaInfectadaDetalles_53: -993936422
+      MnachasZonaInfectadaDetalles_54: 1457036951
+      MnachasZonaInfectadaDetalles_55: 1238665503
+      MnachasZonaInfectadaDetalles_56: 1734867639
+      MnachasZonaInfectadaDetalles_57: 551965063
+      MnachasZonaInfectadaDetalles_58: -269962761
+      MnachasZonaInfectadaDetalles_59: -1040168138
+      MnachasZonaInfectadaDetalles_6: -2113463564
+      MnachasZonaInfectadaDetalles_60: -1453313864
+      MnachasZonaInfectadaDetalles_61: -2023385476
+      MnachasZonaInfectadaDetalles_62: 539080289
+      MnachasZonaInfectadaDetalles_63: 1120413462
+      MnachasZonaInfectadaDetalles_64: -810456710
+      MnachasZonaInfectadaDetalles_65: 238909336
+      MnachasZonaInfectadaDetalles_66: 1753887560
+      MnachasZonaInfectadaDetalles_67: 1832385439
+      MnachasZonaInfectadaDetalles_68: 96811634
+      MnachasZonaInfectadaDetalles_69: -262000956
+      MnachasZonaInfectadaDetalles_7: 97289474
+      MnachasZonaInfectadaDetalles_70: 463186418
+      MnachasZonaInfectadaDetalles_71: -842097426
+      MnachasZonaInfectadaDetalles_72: 1344369157
+      MnachasZonaInfectadaDetalles_73: -1606697994
+      MnachasZonaInfectadaDetalles_74: -2022609481
+      MnachasZonaInfectadaDetalles_75: -444440586
+      MnachasZonaInfectadaDetalles_76: -770707740
+      MnachasZonaInfectadaDetalles_77: 1995167437
+      MnachasZonaInfectadaDetalles_78: 973199129
+      MnachasZonaInfectadaDetalles_79: 1420403314
+      MnachasZonaInfectadaDetalles_8: 48656637
+      MnachasZonaInfectadaDetalles_80: -2081951429
+      MnachasZonaInfectadaDetalles_81: -2051355126
+      MnachasZonaInfectadaDetalles_82: -213039839
+      MnachasZonaInfectadaDetalles_83: -1825523288
+      MnachasZonaInfectadaDetalles_84: -1706355689
+      MnachasZonaInfectadaDetalles_85: -1557727493
+      MnachasZonaInfectadaDetalles_86: -1939202243
+      MnachasZonaInfectadaDetalles_87: -1256573582
+      MnachasZonaInfectadaDetalles_88: 1369765128
+      MnachasZonaInfectadaDetalles_89: -379739891
+      MnachasZonaInfectadaDetalles_9: -855374814
+      MnachasZonaInfectadaDetalles_90: 1787658805
+      MnachasZonaInfectadaDetalles_91: -150593971
+      MnachasZonaInfectadaDetalles_92: 726171507
+      MnachasZonaInfectadaDetalles_93: -256276609
+      MnachasZonaInfectadaDetalles_94: 1037010167
+      MnachasZonaInfectadaDetalles_95: -1621398923
+      MnachasZonaInfectadaDetalles_96: 1276008345
+      MnachasZonaInfectadaDetalles_97: 1665923906
+      MnachasZonaInfectadaDetalles_98: 160077267
+      MnachasZonaInfectadaDetalles_99: 416190193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
