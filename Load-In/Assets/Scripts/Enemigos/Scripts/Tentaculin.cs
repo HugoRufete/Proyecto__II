@@ -15,9 +15,12 @@ public class Tentaculin : MonoBehaviour
     bool mirarDerecha = true;
     private EnemyDamage onedamage;
     bool isattacking = false;
+    EnemyHealth enemHealth;
 
     public int damageAmount = 10;
     private VidaPlayer vidaPlayer;
+
+    public float distanciaAgarre;
 
     // Start is called before the first frame update
     void Start()
@@ -27,19 +30,20 @@ public class Tentaculin : MonoBehaviour
         onedamage = GetComponent<EnemyDamage>();
         player = GameObject.Find("Player").transform;
         isattacking = false;
+        enemHealth = GetComponent<EnemyHealth>();
     }
 
 
     // Update is called once per frame
     void Update()
     {
+        Destroy();
+
         Vector3 direction = player.position - transform.position;
 
-        if (direction.magnitude > distanciaDeseada)
+        if (direction.magnitude > distanciaDeseada && !isattacking)
         {
             direction.Normalize();
-
-            Vector3 desplazamiento = direction * (direction.magnitude - distanciaDeseada);
 
             transform.Translate(direction * enemySpeed * Time.deltaTime);
 
@@ -51,13 +55,22 @@ public class Tentaculin : MonoBehaviour
             {
                 Attack();
             }
-
         }
 
         else
         {
             myanimator.SetBool("Canwalk", false);
         }
+
+
+        if (direction.magnitude > distanciaAgarre)
+        {
+            Debug.Log("Desaparecer");
+            myanimator.SetBool("CanWalk", false);
+            myanimator.Play("tentaculin_catch");
+
+        }
+
 
         if (transform.position.x < player.position.x && mirarDerecha)
         {
@@ -71,11 +84,30 @@ public class Tentaculin : MonoBehaviour
 
         if (attackCollider.enabled == true && onedamage != null)
         {
-           // onedamage.InflictDamage();
+            // onedamage.InflictDamage();
         }
 
     }
 
+    public void isAttacking()
+    {
+        isattacking = true;
+    }
+
+    public void isNotAttacking()
+    {
+        isattacking = false;
+    }
+
+    public void SetFalse()
+    {
+        player.gameObject.SetActive(false);
+    }
+
+    public void SetTrue()
+    {
+        player.gameObject.SetActive(true);
+    }
     void Voltear()
     {
         // Invertir la escala en el eje X para voltear al enemigo
@@ -104,6 +136,14 @@ public class Tentaculin : MonoBehaviour
     {
         attackCollider.enabled = false;
         isattacking = false;
+    }
+
+    public void Destroy()
+    {
+        if (enemHealth != null && enemHealth.health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

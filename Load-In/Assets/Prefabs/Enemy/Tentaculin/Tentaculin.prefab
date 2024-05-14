@@ -169,12 +169,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7517921533948250698, guid: 8df26a417e5323744af572afccd99df4, type: 3}
-  distanciaDeseada: 2
+  distanciaDeseada: 2.5
   enemySpeed: 4
   standarCollider: {fileID: 8642652848476864738}
   attackCollider: {fileID: 6024675449123712663}
   attackCooldown: 2
   damageAmount: 10
+  distanciaAgarre: 2
 --- !u!95 &3537603388377771869
 Animator:
   serializedVersion: 5
