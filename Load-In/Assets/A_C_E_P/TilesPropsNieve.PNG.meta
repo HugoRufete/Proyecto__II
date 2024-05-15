@@ -1,0 +1,1623 @@
+fileFormatVersion: 2
+guid: 43c28978f7615cd41bbc3e49c4405d04
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilesPropsNieve_0
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c56402f85aabe469404074fc4934e5
+      internalID: -1813102493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 360
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478d7701c1f47d142bee1963584c7813
+      internalID: 217790375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 360
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df34b2748bc928544adf54e8cec87de9
+      internalID: 1122200537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 360
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfecae2544019249b771243c3d98a3a
+      internalID: -1807479468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_4
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 360
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4486bf8a98b1af48aa11a0b99b5ea0c
+      internalID: -928949828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f7a05b350448a4c9040d2ac6fbfdd4
+      internalID: -495540727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38758505ad82a984d8e2f35170d28fee
+      internalID: 863585731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806d02c72bedcc4f8d7c531d0c016aa
+      internalID: 1919711950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c883b6175f74e094b9fe4ea33442faf6
+      internalID: -1370979531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf5458bd921b704ba07750a3feffcc0
+      internalID: 1344847513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134db32562a2cb041b87b4aee6a4cfa0
+      internalID: -2014189256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a5e1c4859fe3c4eb24070819e6d0af
+      internalID: 1354557131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_12
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33506b4087b4a949a584b845171f3ce
+      internalID: -2145931257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9022db5788cdc44b8548c788d95075
+      internalID: 1649573961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003f0dc2e931f074c9cc969ffaaef7ad
+      internalID: -2075417219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50dacba98ecbb1498f85bef784d41fe
+      internalID: 1832001871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f977d34fc82ab6747bbe84d33e9fb771
+      internalID: 1381110711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3c0ddbf85c2344d9192aad3a02ca71
+      internalID: -1721367169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 336
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f27c167aded419468f28e71ceaf8a82
+      internalID: 1178232396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773a5cfb851d80345b9620f6efae75a4
+      internalID: -2036316316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641d9df7655edfe4185619df97084796
+      internalID: -994205988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb82469133a2e1143a268f1300e04351
+      internalID: -479116208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca10a8e2730c564c930b09cbf0c80aa
+      internalID: -1061412399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75068c8526d46345939f5b056eaf820
+      internalID: 1953391791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bf92bb9a706974298170e267e02f28
+      internalID: 544728604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_25
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706f7512931d2a146a85acdab7cfd5d9
+      internalID: -429250473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_26
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd185eb3cad17f04cb69985cc476e463
+      internalID: -1336906545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b87e32ce32d024c9acfc6f72d46e52
+      internalID: 1459920448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e20a51e672df04ab9a84564fa2950e
+      internalID: -1678417456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d85c5137942e074c9f95ff6fb3a7554
+      internalID: -931676502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02baea1b92eec34cb4fa10c171af166
+      internalID: 709402025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee574a53e00ed5f49adc08c962aeed93
+      internalID: -187645701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_32
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0bc31b858413c4181b4a31142c023a
+      internalID: 425178518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 312
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eb5f014af385846b3c43ac760e30c2
+      internalID: 1024596026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08244438b24a72a46935ba0e4178ae9e
+      internalID: 437695473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09301a4aa0dadf4aa2d4745ef2f1d7c
+      internalID: 668030385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb8958e07191204e978e80a3668a6f2
+      internalID: 100502059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d1e758b1cc7864f8ab2898d96d7e8d
+      internalID: 2025032357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc28639e3b74f8b4fbe6e7fc4d9eb821
+      internalID: -890106537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c3ae595bbc813469b39bf354217e29
+      internalID: 1209493696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_40
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2e90b5f848712419d9f7f8fbec468d
+      internalID: -1963315325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_41
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db35ae519f56c214f949b6c0655d108f
+      internalID: 393452069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac84698db8f6c224dbf9c60f38e4634b
+      internalID: -1769989909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_43
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa179ca08107a5a41b6cb37af00b30b5
+      internalID: 683803065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_44
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996429019e8866444a16fd5383769301
+      internalID: -2073902592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359b3556ca4bd694c8a7e3c87e0ffe60
+      internalID: -824607664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_46
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e816059e0a7a8d14f92a9b30e40350c9
+      internalID: 1950522819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_47
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 288
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10436e10efe0cf4e992a31bb7f15b32
+      internalID: -1998257439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24025866d5a1134489888dc1e9553195
+      internalID: -1831856007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_49
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac7245b7efee504ba946a57893c216b
+      internalID: 1462850452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_50
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51deef14a54c04e4fbd36e60598b7894
+      internalID: -168121563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_51
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5408b27e3372642b7e9b7726eeaf84
+      internalID: -1687968018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_52
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818f8db3552a784bbfe3c6c6fcdca40
+      internalID: 1233757046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9487328461a8b5c479b55620ed7a3bb3
+      internalID: -1038370994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_54
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79178bdcfab25dd44adb69fa49c80646
+      internalID: 868017476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_55
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 240
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daed80500d6ef1478e6d26c2c845ae7
+      internalID: -1387233378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 216
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e7d8fdf0c122b44bf932ff217e651f
+      internalID: -710772874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_57
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 216
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacb1c62caea90146a56d967d4760acd
+      internalID: 2007219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 216
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0de7d7cd8e1d54cbcbc6fc292f5969
+      internalID: -1470228509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_59
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 216
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba5964423fa8094db7b41f14a8a2c08
+      internalID: 1759773652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6bf866a21f45541ba0985162d89c01
+      internalID: -821042552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_61
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c941b8d1bc4912c4f914918bea8d1e52
+      internalID: 189329722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_62
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5f0813f98b4c248be31ce2b4a5cf9f
+      internalID: 1813801480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_63
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1433f939b2be8449c0d0a5f41d9d32
+      internalID: 1968628805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_64
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6ef9177396f9049a830f304d806fe0
+      internalID: -1416013521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_65
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8333bcd56474f41b8195a3762756c3
+      internalID: -350363053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_66
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefaf542da872154a902860e269158ff
+      internalID: 2044621497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesPropsNieve_67
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 192
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6362c6e0609beb448bb6a9aa12feaa76
+      internalID: -1291891135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TilesPropsNieve_0: -1813102493
+      TilesPropsNieve_1: 217790375
+      TilesPropsNieve_10: -2014189256
+      TilesPropsNieve_11: 1354557131
+      TilesPropsNieve_12: -2145931257
+      TilesPropsNieve_13: 1649573961
+      TilesPropsNieve_14: -2075417219
+      TilesPropsNieve_15: 1832001871
+      TilesPropsNieve_16: 1381110711
+      TilesPropsNieve_17: -1721367169
+      TilesPropsNieve_18: 1178232396
+      TilesPropsNieve_19: -2036316316
+      TilesPropsNieve_2: 1122200537
+      TilesPropsNieve_20: -994205988
+      TilesPropsNieve_21: -479116208
+      TilesPropsNieve_22: -1061412399
+      TilesPropsNieve_23: 1953391791
+      TilesPropsNieve_24: 544728604
+      TilesPropsNieve_25: -429250473
+      TilesPropsNieve_26: -1336906545
+      TilesPropsNieve_27: 1459920448
+      TilesPropsNieve_28: -1678417456
+      TilesPropsNieve_29: -931676502
+      TilesPropsNieve_3: -1807479468
+      TilesPropsNieve_30: 709402025
+      TilesPropsNieve_31: -187645701
+      TilesPropsNieve_32: 425178518
+      TilesPropsNieve_33: 1024596026
+      TilesPropsNieve_34: 437695473
+      TilesPropsNieve_35: 668030385
+      TilesPropsNieve_36: 100502059
+      TilesPropsNieve_37: 2025032357
+      TilesPropsNieve_38: -890106537
+      TilesPropsNieve_39: 1209493696
+      TilesPropsNieve_4: -928949828
+      TilesPropsNieve_40: -1963315325
+      TilesPropsNieve_41: 393452069
+      TilesPropsNieve_42: -1769989909
+      TilesPropsNieve_43: 683803065
+      TilesPropsNieve_44: -2073902592
+      TilesPropsNieve_45: -824607664
+      TilesPropsNieve_46: 1950522819
+      TilesPropsNieve_47: -1998257439
+      TilesPropsNieve_48: -1831856007
+      TilesPropsNieve_49: 1462850452
+      TilesPropsNieve_5: -495540727
+      TilesPropsNieve_50: -168121563
+      TilesPropsNieve_51: -1687968018
+      TilesPropsNieve_52: 1233757046
+      TilesPropsNieve_53: -1038370994
+      TilesPropsNieve_54: 868017476
+      TilesPropsNieve_55: -1387233378
+      TilesPropsNieve_56: -710772874
+      TilesPropsNieve_57: 2007219
+      TilesPropsNieve_58: -1470228509
+      TilesPropsNieve_59: 1759773652
+      TilesPropsNieve_6: 863585731
+      TilesPropsNieve_60: -821042552
+      TilesPropsNieve_61: 189329722
+      TilesPropsNieve_62: 1813801480
+      TilesPropsNieve_63: 1968628805
+      TilesPropsNieve_64: -1416013521
+      TilesPropsNieve_65: -350363053
+      TilesPropsNieve_66: 2044621497
+      TilesPropsNieve_67: -1291891135
+      TilesPropsNieve_7: 1919711950
+      TilesPropsNieve_8: -1370979531
+      TilesPropsNieve_9: 1344847513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

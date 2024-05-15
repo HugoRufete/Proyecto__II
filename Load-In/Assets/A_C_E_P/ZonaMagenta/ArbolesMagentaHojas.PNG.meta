@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: af0c266c778e8b34c919a296b68c041a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 282
+        width: 126
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8510b8b72898b4281a17710644aced
+      internalID: -419647093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 282
+        width: 102
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b4d192c89f5f04d868d683655b2924
+      internalID: -1159021572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 277
+        width: 125
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4579939, y: 0.12302921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d746e4328e72b1340a02a1cf93529d3a
+      internalID: 393831424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 274
+        width: 88
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5464075, y: 0.12344061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcdf3b24218a814c9def9c619710da2
+      internalID: 1877709587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 188
+        width: 61
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32718560d1fe59f4790001d5473b369d
+      internalID: -369924171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 124
+        width: 128
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4b22ead5eabb64e994115cb48cd7c6
+      internalID: -940415133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_6
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 183
+        width: 71
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5205422, y: 0.12778127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c286501ab3d7c6747bb069a620838374
+      internalID: 1919826814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 119
+        width: 125
+        height: 155
+      alignment: 9
+      pivot: {x: 0.504667, y: 0.1376395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae2947f8aa267a46ab2555600cc6e7d
+      internalID: 1444057433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 24
+        width: 75
+        height: 98
+      alignment: 9
+      pivot: {x: 0.57843137, y: 0.14401793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0934fcc0b2cb24ca66903a560c14a3
+      internalID: 1186551414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesMagentaHojas_10
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 19
+        width: 81
+        height: 96
+      alignment: 9
+      pivot: {x: 0.64524335, y: 0.14084975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad320313ef2db0e448c135f247fbb71f
+      internalID: -1970707092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbolesMagentaHojas_0: -419647093
+      ArbolesMagentaHojas_1: -1159021572
+      ArbolesMagentaHojas_10: -1970707092
+      ArbolesMagentaHojas_2: 393831424
+      ArbolesMagentaHojas_3: 1877709587
+      ArbolesMagentaHojas_4: -369924171
+      ArbolesMagentaHojas_5: -940415133
+      ArbolesMagentaHojas_6: 1919826814
+      ArbolesMagentaHojas_7: 1444057433
+      ArbolesMagentaHojas_8: 1186551414
+      ArbolesMagentaHojas_9: 1519114540
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: b9235310365380b44968c1951249fd1b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_0
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 186
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23f3aab930c9b24d920446b6ce6b844
+      internalID: 623126671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd56c0b08cd3994eaeec536664c4c78
+      internalID: 883325669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f795b75b354cc9e4597aa590e88e8db2
+      internalID: 688131647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_4
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65f680d252ba024d8eff6f0f56f502f
+      internalID: -1593538368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 140
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafb4fec48885ff4ebe292803712d552
+      internalID: -551218595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8927814e12293bb4a897fff151758fae
+      internalID: 1718864150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 137
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d834c17f2661cc4aa5cfd9d7ee99ac9
+      internalID: -1435634526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 122
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bef7e65f1dea54ba1a6cf9e2180ca3
+      internalID: -107236594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0974f4baf9180459e5ef68e61010c2
+      internalID: -530219680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcb06f4d4b1eb34ebd1fad31e83fe6b
+      internalID: 361513754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ada86d71f2c764f8dcc1b8a31fca86
+      internalID: 2085814656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 99
+        width: 6
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0350f652f6a87e449cd70c6f7a2b7e3
+      internalID: 244263967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875f714584ccc2b4fa1b2f66f0fd675e
+      internalID: 1065298236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 110
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343f15a6b2457eb42bea1775614c3b67
+      internalID: -697228032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddbc214182dd744baf75e119af6043e
+      internalID: 1114135709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbf995340466348b491ccda9d3242f
+      internalID: 432712955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 102
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a2d53dabb847e4eb850557af2ed0c3
+      internalID: 1093377155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_19
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 107
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887ef0e2b5586a74593131aa47e39ce2
+      internalID: -176937106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 100
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bff1d7ee7487f84a899c72edf579a87
+      internalID: 1396182129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a4a67b936c2564480c1b5bdb3c1cdf
+      internalID: 1012455795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_22
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 84
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324a8a20112c7074eb839efaf2bc2e5c
+      internalID: 1296508751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_23
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a61ec9c92f913744b289b89076a2ae2
+      internalID: -1961319145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_24
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 60
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af1f96f512b06b4781d18f82369e017
+      internalID: -1407536400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_25
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 57
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bd03e0d0c33a6479cf3c29393f80ae
+      internalID: 744237286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 120
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06eca62de4554f4da00ab93a4a020cd
+      internalID: -899597279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 133
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.51051635, y: 0.21965027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b8d62079f769241b24ee6422128763
+      internalID: 401824083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_26
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 132
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5000038, y: 0.4080124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1611e24f112168f49ba7486edf6d7fa1
+      internalID: -497668084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaCementerio_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 120
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61038bf4172590b48b3537b3ff7d9795
+      internalID: -1023576928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbustosZonaCementerio_0: 623126671
+      ArbustosZonaCementerio_1: 883325669
+      ArbustosZonaCementerio_10: -530219680
+      ArbustosZonaCementerio_11: 361513754
+      ArbustosZonaCementerio_12: 2085814656
+      ArbustosZonaCementerio_13: 244263967
+      ArbustosZonaCementerio_14: 1065298236
+      ArbustosZonaCementerio_15: -697228032
+      ArbustosZonaCementerio_16: 1114135709
+      ArbustosZonaCementerio_17: 432712955
+      ArbustosZonaCementerio_18: 1093377155
+      ArbustosZonaCementerio_19: -176937106
+      ArbustosZonaCementerio_2: 688131647
+      ArbustosZonaCementerio_20: 1396182129
+      ArbustosZonaCementerio_21: 1012455795
+      ArbustosZonaCementerio_22: 1296508751
+      ArbustosZonaCementerio_23: -1961319145
+      ArbustosZonaCementerio_24: -1407536400
+      ArbustosZonaCementerio_25: 744237286
+      ArbustosZonaCementerio_26: -497668084
+      ArbustosZonaCementerio_27: -1023576928
+      ArbustosZonaCementerio_3: -899597279
+      ArbustosZonaCementerio_4: -1593538368
+      ArbustosZonaCementerio_5: -551218595
+      ArbustosZonaCementerio_6: 1718864150
+      ArbustosZonaCementerio_7: -1435634526
+      ArbustosZonaCementerio_8: 401824083
+      ArbustosZonaCementerio_9: -107236594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

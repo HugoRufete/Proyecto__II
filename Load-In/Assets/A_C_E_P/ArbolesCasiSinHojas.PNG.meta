@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 3e3c82a41f583c047a12bfe1833ffcdf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 262
+        width: 115
+        height: 109
+      alignment: 9
+      pivot: {x: 0.4732881, y: 0.13424094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e1f782ee6eca8408f6eea53b137e2d
+      internalID: -1741189330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 229
+        width: 125
+        height: 151
+      alignment: 9
+      pivot: {x: 0.48946777, y: 0.13121952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386474abad2cd4643b90a151b39f7c9a
+      internalID: -92440103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 226
+        width: 78
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5754121, y: 0.13028619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d904b1bb6a6662346aea6b2699328495
+      internalID: 5589736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 240
+        width: 72
+        height: 93
+      alignment: 9
+      pivot: {x: 0.6108678, y: 0.18068704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e213e949a2af4db5fdfaec82cde56
+      internalID: -25402659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 131
+        width: 116
+        height: 109
+      alignment: 9
+      pivot: {x: 0.46405035, y: 0.1494443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81557abc53bde464e8ea38e727dd8267
+      internalID: 844727433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 27
+        width: 125
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5043313, y: 0.14946747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e665d966d6131408b45f93452e7336
+      internalID: -1025148337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 45
+        width: 76
+        height: 106
+      alignment: 9
+      pivot: {x: 0.6012236, y: 0.1395205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e63664d019906d4ba85952bcd7294dc
+      internalID: 1462382031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 53
+        width: 67
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5943476, y: 0.18213294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bbbfcada3f5474b9d75deb9fcfa601
+      internalID: -156424309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 21
+        width: 72
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5197758, y: 0.16964892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090a49627712bcf4d9d7e201182e7c80
+      internalID: -1720568529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesCasiSinHojas_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 19
+        width: 61
+        height: 77
+      alignment: 9
+      pivot: {x: 0.438816, y: 0.15525813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec88373c38261f41ac8a182d82b5b7e
+      internalID: 1937407325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbolesCasiSinHojas_0: -1741189330
+      ArbolesCasiSinHojas_1: -92440103
+      ArbolesCasiSinHojas_2: 5589736
+      ArbolesCasiSinHojas_3: -25402659
+      ArbolesCasiSinHojas_4: 844727433
+      ArbolesCasiSinHojas_5: -1025148337
+      ArbolesCasiSinHojas_6: 1462382031
+      ArbolesCasiSinHojas_7: -156424309
+      ArbolesCasiSinHojas_8: -1720568529
+      ArbolesCasiSinHojas_9: 1937407325
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

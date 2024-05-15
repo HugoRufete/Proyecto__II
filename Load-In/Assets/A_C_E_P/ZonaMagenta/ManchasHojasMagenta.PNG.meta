@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: c03f3847ef99cc5438fc64c4270a525d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_0
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 341
+        width: 248
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c90f8374223b944a23155bb32e3878
+      internalID: 742963875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 316
+        width: 172
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cabef42af15bf46bb404288f5f32d6
+      internalID: -313382129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 176
+        width: 79
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf997cfa14acd234096fb462eb0fe76b
+      internalID: -1700477477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 267
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed8fc5ca73964c47a95885d5841e78d
+      internalID: 1643097982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 274
+        width: 99
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499af066c7bf9f042aad5cc39ec22eff
+      internalID: -1326847973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 278
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecc5b4cd17811f4b8515b2601707f6d
+      internalID: 25050329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 271
+        width: 97
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ff4296f67b9fe4d85485865bbc1880
+      internalID: -777169162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 167
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f97a7db58bdcd448f8becd7653a4ff
+      internalID: 1365460267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 139
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3990a8e168ae2ef47805cb2c0041706f
+      internalID: -2106531470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 178
+        width: 121
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b1fe8fe6b489499f18ecbfe6b475a
+      internalID: 1787792460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 92
+        width: 318
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab13e5d3df4bb75458ac7edff1f3127b
+      internalID: 810384273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2
+        width: 393
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2cb5a39ac66a54982e0ee34f00683c
+      internalID: 369430997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 9
+        width: 132
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100227ebd433c142b9fc30d16266c98
+      internalID: 464817709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManchasHojasMagenta_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 78
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475a72fd9c2de184fbaee2e1e8565ab3
+      internalID: 2114289264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ManchasHojasMagenta_0: 742963875
+      ManchasHojasMagenta_1: -313382129
+      ManchasHojasMagenta_10: 810384273
+      ManchasHojasMagenta_100: 355311211
+      ManchasHojasMagenta_101: 83204689
+      ManchasHojasMagenta_102: -2194624
+      ManchasHojasMagenta_103: -901685027
+      ManchasHojasMagenta_104: 1527439302
+      ManchasHojasMagenta_105: -491902820
+      ManchasHojasMagenta_106: -1502882524
+      ManchasHojasMagenta_107: -693567405
+      ManchasHojasMagenta_108: 281702799
+      ManchasHojasMagenta_109: 1291117545
+      ManchasHojasMagenta_11: 369430997
+      ManchasHojasMagenta_110: -1738382516
+      ManchasHojasMagenta_111: -555415369
+      ManchasHojasMagenta_112: 363056142
+      ManchasHojasMagenta_113: 1402366924
+      ManchasHojasMagenta_114: -1249620892
+      ManchasHojasMagenta_115: 776126986
+      ManchasHojasMagenta_116: 1933368404
+      ManchasHojasMagenta_117: -1002916718
+      ManchasHojasMagenta_118: -1962655956
+      ManchasHojasMagenta_119: -1732688632
+      ManchasHojasMagenta_12: 464817709
+      ManchasHojasMagenta_120: 1732469726
+      ManchasHojasMagenta_121: 869783231
+      ManchasHojasMagenta_122: -1017362755
+      ManchasHojasMagenta_123: 1733885450
+      ManchasHojasMagenta_124: -1472284193
+      ManchasHojasMagenta_125: 456035164
+      ManchasHojasMagenta_126: -1684407538
+      ManchasHojasMagenta_127: 1177841157
+      ManchasHojasMagenta_128: 1808662320
+      ManchasHojasMagenta_129: 2062154359
+      ManchasHojasMagenta_13: 2114289264
+      ManchasHojasMagenta_130: -757368695
+      ManchasHojasMagenta_131: -1238781462
+      ManchasHojasMagenta_132: -1342297611
+      ManchasHojasMagenta_133: 306291379
+      ManchasHojasMagenta_14: -934767819
+      ManchasHojasMagenta_15: 2042526488
+      ManchasHojasMagenta_16: 1818284728
+      ManchasHojasMagenta_17: 647879756
+      ManchasHojasMagenta_18: -1078972800
+      ManchasHojasMagenta_19: 397236143
+      ManchasHojasMagenta_2: -1700477477
+      ManchasHojasMagenta_20: -102026300
+      ManchasHojasMagenta_21: -1967537454
+      ManchasHojasMagenta_22: 1994192322
+      ManchasHojasMagenta_23: 802822955
+      ManchasHojasMagenta_24: -1797898249
+      ManchasHojasMagenta_25: 891311329
+      ManchasHojasMagenta_26: 1694995111
+      ManchasHojasMagenta_27: 1289336294
+      ManchasHojasMagenta_28: 422332991
+      ManchasHojasMagenta_29: -437287385
+      ManchasHojasMagenta_3: 1643097982
+      ManchasHojasMagenta_30: -1193657990
+      ManchasHojasMagenta_31: -934144705
+      ManchasHojasMagenta_32: -1742243143
+      ManchasHojasMagenta_33: -1465822768
+      ManchasHojasMagenta_34: -584823862
+      ManchasHojasMagenta_35: 1809481273
+      ManchasHojasMagenta_36: 1540500853
+      ManchasHojasMagenta_37: 573754400
+      ManchasHojasMagenta_38: 1532461694
+      ManchasHojasMagenta_39: -1281283124
+      ManchasHojasMagenta_4: -1326847973
+      ManchasHojasMagenta_40: -1365885815
+      ManchasHojasMagenta_41: -2141357695
+      ManchasHojasMagenta_42: 938748955
+      ManchasHojasMagenta_43: -527392692
+      ManchasHojasMagenta_44: -658464408
+      ManchasHojasMagenta_45: -1159050133
+      ManchasHojasMagenta_46: -306271431
+      ManchasHojasMagenta_47: -1568102197
+      ManchasHojasMagenta_48: -259834528
+      ManchasHojasMagenta_49: 990778201
+      ManchasHojasMagenta_5: 25050329
+      ManchasHojasMagenta_50: 1492387704
+      ManchasHojasMagenta_51: 560577275
+      ManchasHojasMagenta_52: -1348399019
+      ManchasHojasMagenta_53: 1857973753
+      ManchasHojasMagenta_54: 440571089
+      ManchasHojasMagenta_55: -1861338211
+      ManchasHojasMagenta_56: -929125574
+      ManchasHojasMagenta_57: -143824528
+      ManchasHojasMagenta_58: 1047870177
+      ManchasHojasMagenta_59: -1775925501
+      ManchasHojasMagenta_6: -777169162
+      ManchasHojasMagenta_60: 1279292576
+      ManchasHojasMagenta_61: -1193730179
+      ManchasHojasMagenta_62: 1830374453
+      ManchasHojasMagenta_63: -1280959424
+      ManchasHojasMagenta_64: 1859059312
+      ManchasHojasMagenta_65: 1590157691
+      ManchasHojasMagenta_66: 1526931833
+      ManchasHojasMagenta_67: 1768068546
+      ManchasHojasMagenta_68: -1736623212
+      ManchasHojasMagenta_69: -284146021
+      ManchasHojasMagenta_7: 1365460267
+      ManchasHojasMagenta_70: -1424992004
+      ManchasHojasMagenta_71: 1266308804
+      ManchasHojasMagenta_72: -1277984281
+      ManchasHojasMagenta_73: 70298373
+      ManchasHojasMagenta_74: -1579193697
+      ManchasHojasMagenta_75: -1759228260
+      ManchasHojasMagenta_76: 1201630377
+      ManchasHojasMagenta_77: -1061056684
+      ManchasHojasMagenta_78: 1612345025
+      ManchasHojasMagenta_79: -2087864683
+      ManchasHojasMagenta_8: -2106531470
+      ManchasHojasMagenta_80: 1933033008
+      ManchasHojasMagenta_81: -552317376
+      ManchasHojasMagenta_82: -48924600
+      ManchasHojasMagenta_83: 921270377
+      ManchasHojasMagenta_84: 1112061222
+      ManchasHojasMagenta_85: -1267122489
+      ManchasHojasMagenta_86: -538020355
+      ManchasHojasMagenta_87: 555658211
+      ManchasHojasMagenta_88: 1349389482
+      ManchasHojasMagenta_89: 718307006
+      ManchasHojasMagenta_9: 1787792460
+      ManchasHojasMagenta_90: -428012772
+      ManchasHojasMagenta_91: -642264133
+      ManchasHojasMagenta_92: 1772821618
+      ManchasHojasMagenta_93: -174977363
+      ManchasHojasMagenta_94: 160732508
+      ManchasHojasMagenta_95: 417146411
+      ManchasHojasMagenta_96: -175775022
+      ManchasHojasMagenta_97: -1603442935
+      ManchasHojasMagenta_98: 1224233743
+      ManchasHojasMagenta_99: 120969033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

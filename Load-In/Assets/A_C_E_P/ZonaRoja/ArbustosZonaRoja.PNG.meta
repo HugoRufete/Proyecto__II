@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: 6c1c24db4f5f3d24088a8deef4fd724e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_0
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 186
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9592404c8bad6e04ca3fa35d70430bf0
+      internalID: -1908220490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ba0aad7b560748951b915d50b73bb
+      internalID: -1093829509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538bac1beebaad44d95adc6529df3e54
+      internalID: -159538588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_4
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31366646db809044bb40e6fbb57192b
+      internalID: 1909259050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 140
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b264830fc0933bc489274ca711ba2316
+      internalID: 578908482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8da290e70e78a47bc12c4d633b5b0d
+      internalID: 59746260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 137
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcf9ebe399b0074ebb5d8661ec54781
+      internalID: -282918488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 122
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d588f50f070e7ae4695331da9fbbd6c5
+      internalID: 2053362494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7207422fa92bf4642afa733a034e3c68
+      internalID: 180537267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3baec03aced0f43a6f755ec3abdedd
+      internalID: 1870000557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d84470cf01ac44487334d590bb74ec
+      internalID: -1440113350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03fd77b45102e40b403b2574bd9af8
+      internalID: -1940080989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 110
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d7621e4e5712e47a67f99a7b945946
+      internalID: 253009672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a13d3ea1f6cba48ac34811fa334f9a
+      internalID: -1719992866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c68c40ff2c8df3478f00b17f8d1eaf9
+      internalID: -307728110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 102
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e847f324117294e8897add3626d20b
+      internalID: -867151595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_19
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 107
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f261c159d7324934588cc01e1343738b
+      internalID: 2095760662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 100
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8718cc9548a498743be00207e4297d25
+      internalID: -3308259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e6f62b92a168d4d972b28388ee440e
+      internalID: 1709630965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_22
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 71
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc55627588d1f45b4b15b0df47c789
+      internalID: 816150141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_23
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 71
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce2eb0e26552cc40801dcb4d1506430
+      internalID: 1944941467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_24
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 84
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50cbda475e73a34db24795093d96784
+      internalID: -1398972363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_25
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a85ebd0a0951344a879b91c4c832808
+      internalID: -505364095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_26
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 68
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f494c7eb825d0f14a847884c20330649
+      internalID: -826363421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_27
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 60
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be40cd40164322e4dbcb29c02654aa0b
+      internalID: 73611117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_28
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 57
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c83649ad7d10749b14ab060b2067db
+      internalID: 1206487317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 42
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b88b16b2dd5a8e4c82d3e0a11bc3e79
+      internalID: 1425539879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_30
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 45
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f45c36ce1edd74ab8960348eece2f0
+      internalID: 1805090435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_31
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 46
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e4608c49d2bb147b3dc15138dddfdd
+      internalID: -363726694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 17
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f60e6c6dd01cd4998f4ded939cd013
+      internalID: 180052408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_33
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 17
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7883eacde8f255a4b88f9f6f2cad68bf
+      internalID: -39163696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 121
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5394355, y: 0.099046074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fc2890deb500442b4b8493f5d146ea
+      internalID: -755150529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 109
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.49342346, y: 0.19764328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc157c73da39b814cabb6f07ff927796
+      internalID: 439717837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 98
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.46055773, y: 0.25022635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42a03c12e348844ca4df60df44c7580
+      internalID: -304895801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_34
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 133
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.3343567, y: 0.30773926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0098ad600be92842bc46a8738a0aff8
+      internalID: 661082015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_35
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 133
+        width: 5
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5078796, y: 0.24646868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e82100475fd07848af5dc2b35225db8
+      internalID: 968999001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaRoja_36
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 121
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5121319, y: 0.19012888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72d4c20fb3f4b34fb9910be00b2b021
+      internalID: 528730333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbustosZonaRoja_0: -1908220490
+      ArbustosZonaRoja_1: -1093829509
+      ArbustosZonaRoja_10: 180537267
+      ArbustosZonaRoja_11: 1870000557
+      ArbustosZonaRoja_12: -1440113350
+      ArbustosZonaRoja_13: -304895801
+      ArbustosZonaRoja_14: -1940080989
+      ArbustosZonaRoja_15: 253009672
+      ArbustosZonaRoja_16: -1719992866
+      ArbustosZonaRoja_17: -307728110
+      ArbustosZonaRoja_18: -867151595
+      ArbustosZonaRoja_19: 2095760662
+      ArbustosZonaRoja_2: -159538588
+      ArbustosZonaRoja_20: -3308259
+      ArbustosZonaRoja_21: 1709630965
+      ArbustosZonaRoja_22: 816150141
+      ArbustosZonaRoja_23: 1944941467
+      ArbustosZonaRoja_24: -1398972363
+      ArbustosZonaRoja_25: -505364095
+      ArbustosZonaRoja_26: -826363421
+      ArbustosZonaRoja_27: 73611117
+      ArbustosZonaRoja_28: 1206487317
+      ArbustosZonaRoja_29: 1425539879
+      ArbustosZonaRoja_3: -755150529
+      ArbustosZonaRoja_30: 1805090435
+      ArbustosZonaRoja_31: -363726694
+      ArbustosZonaRoja_32: 180052408
+      ArbustosZonaRoja_33: -39163696
+      ArbustosZonaRoja_34: 661082015
+      ArbustosZonaRoja_35: 968999001
+      ArbustosZonaRoja_36: 528730333
+      ArbustosZonaRoja_4: 1909259050
+      ArbustosZonaRoja_5: 578908482
+      ArbustosZonaRoja_6: 59746260
+      ArbustosZonaRoja_7: -282918488
+      ArbustosZonaRoja_8: 439717837
+      ArbustosZonaRoja_9: 2053362494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 75d76e9682f20b8488ba949327611c9c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_0"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 256
+        width: 130
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c744cb0272d7409ae71c939e4f6d4
+      internalID: -1976674512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_1"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 322
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd3bafc553f75341b09f7b6f871787b
+      internalID: -1815050847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_2"
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 259
+        width: 229
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f3331e2b8f9b941913b034a501f322
+      internalID: 1649613324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_3"
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 249
+        width: 151
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6575b93b724d841a80ee0f030dcb6e
+      internalID: 350974259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_4"
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 102
+        width: 347
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700e1f7e2203d324aa6919ff5d0f9f42
+      internalID: 1195673366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_5"
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 233
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe2121364220ce4a8eaaa3078ae1cce
+      internalID: -348629393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_6"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 111
+        width: 167
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5034a8c4e6744ea874a2d32963ae8
+      internalID: 604093778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_7"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 204
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ed99fd6c9a9f34995e9c56e9af3c86
+      internalID: 1675245319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_8"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 133
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a26d8502ae8fca4bb0f54a36435ad9e
+      internalID: 2092369771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_9"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 111
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781eab845719e5c44ab57887c9e1af74
+      internalID: -878204202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_10"
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3
+        width: 99
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f535fb8cd1e475447a26777f14254b8e
+      internalID: 1573233116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_11"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 157
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1c4bda01c0eb74da97b2b5f9aac56b
+      internalID: 761136036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_12"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 75
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9bee7bf526e64428ea1f5392cd5a94
+      internalID: -1922280402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_13"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 70
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e03281fc792d4da906025dc6029ac
+      internalID: 1145777051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_14"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1
+        width: 305
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9ee68e04db91743973d7e36a4a431c
+      internalID: -1066950515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_15"
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 51
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c462333a5eb596d4e85858b883e7473f
+      internalID: -844799145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_16"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 8
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1e28ec5b4b7d04ebfbf84621681635
+      internalID: 2093504862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasRojasPeque\xF1as_17"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3
+        width: 5
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229384c1905dc3d4b95085aed68a1c1b
+      internalID: 1380835057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "ManchasRojasPeque\xF1as_0": -1976674512
+      "ManchasRojasPeque\xF1as_1": -1815050847
+      "ManchasRojasPeque\xF1as_10": 1573233116
+      "ManchasRojasPeque\xF1as_11": 761136036
+      "ManchasRojasPeque\xF1as_12": -1922280402
+      "ManchasRojasPeque\xF1as_13": 1145777051
+      "ManchasRojasPeque\xF1as_14": -1066950515
+      "ManchasRojasPeque\xF1as_15": -844799145
+      "ManchasRojasPeque\xF1as_16": 2093504862
+      "ManchasRojasPeque\xF1as_17": 1380835057
+      "ManchasRojasPeque\xF1as_2": 1649613324
+      "ManchasRojasPeque\xF1as_3": 350974259
+      "ManchasRojasPeque\xF1as_4": 1195673366
+      "ManchasRojasPeque\xF1as_5": -348629393
+      "ManchasRojasPeque\xF1as_6": 604093778
+      "ManchasRojasPeque\xF1as_7": 1675245319
+      "ManchasRojasPeque\xF1as_8": 2092369771
+      "ManchasRojasPeque\xF1as_9": -878204202
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

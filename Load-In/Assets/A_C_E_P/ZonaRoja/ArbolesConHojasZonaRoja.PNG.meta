@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 07f9da7525b687e4d96529534b569fb1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 282
+        width: 128
+        height: 116
+      alignment: 9
+      pivot: {x: 0.4756335, y: 0.11396132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374c8f89522e55748a0930dd81544c12
+      internalID: 833879778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 271
+        width: 94
+        height: 135
+      alignment: 9
+      pivot: {x: 0.51659006, y: 0.17458677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539b0aed261f7cf4fb52e48040c9d9ca
+      internalID: -1730697364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 188
+        width: 74
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.12376014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626e4e13501d294d9f37677e195e1b9
+      internalID: -1778031618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 133
+        width: 105
+        height: 119
+      alignment: 9
+      pivot: {x: 0.51782256, y: 0.07681646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce17bccdfb9544c9e418b6f6e2f7d7
+      internalID: 1505173955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 222
+        width: 80
+        height: 123
+      alignment: 9
+      pivot: {x: 0.58966863, y: 0.17971443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e409f9158a26e2d4ebec09fdcff60c2e
+      internalID: -358777628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 168
+        width: 135
+        height: 159
+      alignment: 9
+      pivot: {x: 0.52079284, y: 0.1293833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ed140c70cebf4e8613f5756c81e4f
+      internalID: 941917795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 34
+        width: 71
+        height: 100
+      alignment: 9
+      pivot: {x: 0.64057064, y: 0.14385964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eadede5c76ac144be81f0598ec92c2
+      internalID: 59574027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 87
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9946c454873fe42a6b6b429d8a7d78
+      internalID: -515653919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 24
+        width: 67
+        height: 90
+      alignment: 9
+      pivot: {x: 0.57913643, y: 0.16534555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69cc93d186b1944480ce0f56bb8e3bf
+      internalID: 1568743184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 80
+        width: 66
+        height: 85
+      alignment: 9
+      pivot: {x: 0.51417726, y: 0.13762216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b91f03c009a64390a52a81366252d
+      internalID: 1865076989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 27
+        width: 130
+        height: 116
+      alignment: 9
+      pivot: {x: 0.48800424, y: 0.13815965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb80d5c6d257e54a969914e15f6299d
+      internalID: 1518488877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesConHojasZonaRoja_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 353
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2db36ce879e844eafb0d2dcab2e15f
+      internalID: -1832948717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbolesConHojasZonaRoja_0: 833879778
+      ArbolesConHojasZonaRoja_1: -1730697364
+      ArbolesConHojasZonaRoja_10: 1865076989
+      ArbolesConHojasZonaRoja_11: 1518488877
+      ArbolesConHojasZonaRoja_2: -1832948717
+      ArbolesConHojasZonaRoja_3: -1778031618
+      ArbolesConHojasZonaRoja_4: 1505173955
+      ArbolesConHojasZonaRoja_5: -358777628
+      ArbolesConHojasZonaRoja_6: 941917795
+      ArbolesConHojasZonaRoja_7: 59574027
+      ArbolesConHojasZonaRoja_8: -515653919
+      ArbolesConHojasZonaRoja_9: 1568743184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

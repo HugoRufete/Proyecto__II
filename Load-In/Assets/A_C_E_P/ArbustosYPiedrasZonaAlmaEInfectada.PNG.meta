@@ -1,0 +1,1425 @@
+fileFormatVersion: 2
+guid: 6bd847de84bbd6048a0a03704a6eee67
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 378
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330a3b6d0544e2d40bd55cca343cdc1a
+      internalID: -1118270868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_1
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 347
+        width: 48
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbb5ccdd27c697498265e8761113c34
+      internalID: 1273439065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 343
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebc7589cc35b6b4d9f668ce05643218
+      internalID: 1805242329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 328
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6335c6be855216d4cb851996a1da1a71
+      internalID: 210404336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 303
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512a4d186314ca04eb87055098fbf4f6
+      internalID: -203092088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 304
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ea410f65f1ba143956ff9f1b330fbf
+      internalID: 955839922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 276
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746143d60e260b044ab622edb858b48f
+      internalID: -1076582956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 275
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e43d76ae89f4d43a8f5132dd1177d8
+      internalID: 1605253295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 270
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451e23327fec7254a995f3f4aa3b2a6d
+      internalID: 378781827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 239
+        width: 48
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f6f5513189584ab38ffcd1e5967b0
+      internalID: 2073577384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 262
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64b00ba028e4e148ba59371af53d612
+      internalID: -647151744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 259
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea4769304874b64eb7d860d9f9ac1b8
+      internalID: 1880865270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 243
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa9e4dc619ab9246b8c2843c09c6563
+      internalID: -824120218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 235
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c07e6808f98cc4fa4993d03eb2514f
+      internalID: -336973635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_14
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 235
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9262421cadfdcd4bb3f628bde030ade
+      internalID: 251162664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 225
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df96b6fb9038ec46920b7a0667cd6d7
+      internalID: 443259427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 216
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211955958c5b1d24e8dfc4ddf56b8681
+      internalID: 387745531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_17
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 200
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2837a5d4a507d44b832dc31d5035d1f
+      internalID: 1555184912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 197
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116cd851c830c7048ac511ccdf50a612
+      internalID: 1756397132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 196
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4105a58e5ecfe36468c3c00d104d338b
+      internalID: -2130191122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_20
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 186
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada9458b05a351b43a035f364d480835
+      internalID: 1017916145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_21
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 181
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba5b73a777583b418740ec671f1ebd9
+      internalID: -274395397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 176
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73869c48ae1c92e4587da386d0f57ea4
+      internalID: 65951493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_23
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3f4d0954753704ab50dcf6ac38011b
+      internalID: 566222188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_24
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b56f29e82b9324780dc3750cb41c67
+      internalID: 1367990517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_25
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b791ca0e1bd034ea153a4f1084efda
+      internalID: -1226141528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_26
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 140
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7015a8cecfc86e348b7304f7f5b967ec
+      internalID: 679985464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_27
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a063b2d470cd2940856e83033e7af86
+      internalID: -1443623442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_28
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 137
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c327551866a69c42ad6b13f58be3ad5
+      internalID: 1392155482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_29
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 133
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab11671492a394c4babdaafeb5d809b6
+      internalID: -202906753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_30
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 121
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588d023ca3a848045bfbd05a0e186f91
+      internalID: -831000222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 122
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbe1cfd3310e4f4185813d6dc352d24
+      internalID: 815160177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_32
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfc9c90e89346a42bb15ba88376cdf2
+      internalID: -1846915192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_33
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc9261f1ab33544a07cccf314bfb2a
+      internalID: -1749540512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf100ef53858f64f89832275b7598cf
+      internalID: 872245421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 108
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f522d86e452f5e47a90415c87e4ae09
+      internalID: 751987734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_36
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c534d16189ca854792286ae829d4ba9
+      internalID: -1527504563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_37
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 110
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cb81d506c520244a627268f482f066
+      internalID: 1212995935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_38
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775f15f8aaeee42479eb9772f12b9d68
+      internalID: -707992979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_39
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5515de79d42d81e45a3cb51d656dcc3c
+      internalID: 954064739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_40
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 102
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1fe1c599015fc46a7817952157bc84
+      internalID: -1914422480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_41
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 107
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b411de4548f5624e9f7beaa6b6b2235
+      internalID: 363176717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_42
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 100
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3955807f4603484418f028437e65c933
+      internalID: -947177447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_43
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa652a3700c9f246bb6ca08bd40b2c7
+      internalID: 104389170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_44
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 71
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd94a0346534d41b48f3fb78cb41d1
+      internalID: -2096575653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_45
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 71
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e738df807175e9b42a87655639239e94
+      internalID: -474491904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_46
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 84
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f011a4263463e449bedcef0d61bc24a
+      internalID: -789270245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_47
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1714951e785fc44a15e45f7ceccee6
+      internalID: 776942651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_48
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 68
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77b0199f37d108479966042538b8e74
+      internalID: -2078398369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_49
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 60
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a451917d9b2f3e54086c36a7d4a26b4d
+      internalID: -1696640770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_50
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 57
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe8aeb0da3ce6b438c3c4c8092b3dac
+      internalID: 272680389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_51
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 42
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c66b8ea00e736742b94ed22b92fe00d
+      internalID: -1453969554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_52
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 45
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9c810873e792d42bdb2d54bc5499e4
+      internalID: 1439845969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_53
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 46
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e161de7e3c66124bab74d961d1c6416
+      internalID: 48607411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 17
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ba44c1aa4ba2d4da54423ad8abb308
+      internalID: -367293064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_55
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 17
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e173b9f7882401c4697cef3b30e5609e
+      internalID: -1055148381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_56
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 98
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8033590ecdb887e43ad7d3c16249ebc2
+      internalID: -253632643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_57
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 134
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d01082933906c24f8e46d144ac7d312
+      internalID: -737425174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasZonaAlmaEInfectada_58
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 121
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce4dcd1ae08c704c84697146b415ab2
+      internalID: -1038824385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbustosYPiedrasZonaAlmaEInfectada_0: -1118270868
+      ArbustosYPiedrasZonaAlmaEInfectada_1: 1273439065
+      ArbustosYPiedrasZonaAlmaEInfectada_10: -647151744
+      ArbustosYPiedrasZonaAlmaEInfectada_11: 1880865270
+      ArbustosYPiedrasZonaAlmaEInfectada_12: -824120218
+      ArbustosYPiedrasZonaAlmaEInfectada_13: -336973635
+      ArbustosYPiedrasZonaAlmaEInfectada_14: 251162664
+      ArbustosYPiedrasZonaAlmaEInfectada_15: 443259427
+      ArbustosYPiedrasZonaAlmaEInfectada_16: 387745531
+      ArbustosYPiedrasZonaAlmaEInfectada_17: 1555184912
+      ArbustosYPiedrasZonaAlmaEInfectada_18: 1756397132
+      ArbustosYPiedrasZonaAlmaEInfectada_19: -2130191122
+      ArbustosYPiedrasZonaAlmaEInfectada_2: 1805242329
+      ArbustosYPiedrasZonaAlmaEInfectada_20: 1017916145
+      ArbustosYPiedrasZonaAlmaEInfectada_21: -274395397
+      ArbustosYPiedrasZonaAlmaEInfectada_22: 65951493
+      ArbustosYPiedrasZonaAlmaEInfectada_23: 566222188
+      ArbustosYPiedrasZonaAlmaEInfectada_24: 1367990517
+      ArbustosYPiedrasZonaAlmaEInfectada_25: -1226141528
+      ArbustosYPiedrasZonaAlmaEInfectada_26: 679985464
+      ArbustosYPiedrasZonaAlmaEInfectada_27: -1443623442
+      ArbustosYPiedrasZonaAlmaEInfectada_28: 1392155482
+      ArbustosYPiedrasZonaAlmaEInfectada_29: -202906753
+      ArbustosYPiedrasZonaAlmaEInfectada_3: 210404336
+      ArbustosYPiedrasZonaAlmaEInfectada_30: -831000222
+      ArbustosYPiedrasZonaAlmaEInfectada_31: 815160177
+      ArbustosYPiedrasZonaAlmaEInfectada_32: -1846915192
+      ArbustosYPiedrasZonaAlmaEInfectada_33: -1749540512
+      ArbustosYPiedrasZonaAlmaEInfectada_34: 872245421
+      ArbustosYPiedrasZonaAlmaEInfectada_35: 751987734
+      ArbustosYPiedrasZonaAlmaEInfectada_36: -1527504563
+      ArbustosYPiedrasZonaAlmaEInfectada_37: 1212995935
+      ArbustosYPiedrasZonaAlmaEInfectada_38: -707992979
+      ArbustosYPiedrasZonaAlmaEInfectada_39: 954064739
+      ArbustosYPiedrasZonaAlmaEInfectada_4: -203092088
+      ArbustosYPiedrasZonaAlmaEInfectada_40: -1914422480
+      ArbustosYPiedrasZonaAlmaEInfectada_41: 363176717
+      ArbustosYPiedrasZonaAlmaEInfectada_42: -947177447
+      ArbustosYPiedrasZonaAlmaEInfectada_43: 104389170
+      ArbustosYPiedrasZonaAlmaEInfectada_44: -2096575653
+      ArbustosYPiedrasZonaAlmaEInfectada_45: -474491904
+      ArbustosYPiedrasZonaAlmaEInfectada_46: -789270245
+      ArbustosYPiedrasZonaAlmaEInfectada_47: 776942651
+      ArbustosYPiedrasZonaAlmaEInfectada_48: -2078398369
+      ArbustosYPiedrasZonaAlmaEInfectada_49: -1696640770
+      ArbustosYPiedrasZonaAlmaEInfectada_5: 955839922
+      ArbustosYPiedrasZonaAlmaEInfectada_50: 272680389
+      ArbustosYPiedrasZonaAlmaEInfectada_51: -1453969554
+      ArbustosYPiedrasZonaAlmaEInfectada_52: 1439845969
+      ArbustosYPiedrasZonaAlmaEInfectada_53: 48607411
+      ArbustosYPiedrasZonaAlmaEInfectada_54: -367293064
+      ArbustosYPiedrasZonaAlmaEInfectada_55: -1055148381
+      ArbustosYPiedrasZonaAlmaEInfectada_56: -253632643
+      ArbustosYPiedrasZonaAlmaEInfectada_57: -737425174
+      ArbustosYPiedrasZonaAlmaEInfectada_58: -1038824385
+      ArbustosYPiedrasZonaAlmaEInfectada_6: -1076582956
+      ArbustosYPiedrasZonaAlmaEInfectada_7: 1605253295
+      ArbustosYPiedrasZonaAlmaEInfectada_8: 378781827
+      ArbustosYPiedrasZonaAlmaEInfectada_9: 2073577384
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

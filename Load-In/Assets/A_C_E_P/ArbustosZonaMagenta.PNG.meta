@@ -1,0 +1,941 @@
+fileFormatVersion: 2
+guid: 617ea08c6f7dd49439f0a34bb3be8cbb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_0
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 186
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04099185c6fc6845884db71b99f33a4
+      internalID: 377006363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0c21ab7fb30584282b1f1f6003dc44
+      internalID: 1028208734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db65b8b0d4a92cb4d8254b676f450089
+      internalID: -1240490941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_4
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3418f6a23a4f40ae68b86760bd423
+      internalID: -1434966286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 140
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d63e2ad9f5baef45bc53de98c0733f2
+      internalID: 1764764148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0004fff598b92438aadef1a5024ac6
+      internalID: -789950661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 137
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d058c7a3603928479250a1330b724ca
+      internalID: 56299828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 122
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c53feace06f024b8ba64fd296d0a46
+      internalID: 1929275363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb1e857e4397c8459f3114373de9c28
+      internalID: 350673502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0e883c2cb6ea14f9c456da70799df8
+      internalID: -1812849633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146ffbf6c6379ab4bb0856689244e8f5
+      internalID: -1117600713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c351c27acca7e34f9ef5c0c2bf9b0e0
+      internalID: -774601679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 110
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aac52ab3b04d204c9321bb468ed5c0f
+      internalID: 1200667777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88fae0f4b591034dae9b2c1600ab26f
+      internalID: -1029858132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03eced617ed02e45a54c086ff02d06d
+      internalID: -1095970788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 102
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fc35bfae457ee439ed42fb6b48dfdf
+      internalID: 1158226746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_19
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 107
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9070b885a9dc89c46828943da42571c2
+      internalID: -1341943637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 100
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94adfc2156b849349bef1bb1beca6be1
+      internalID: 642249982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77434ef24279b5d4faf6f4a5fdf99f0b
+      internalID: 739255939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_22
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 71
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe95d57982d21e47ad914dd91e37ea9
+      internalID: 1712407068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_23
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 71
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d86fc1838a9694c98e3b3c97659c3f
+      internalID: 1979356691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_24
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 84
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d02555a7d632b459922de4a9eab568
+      internalID: 537501459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_25
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb900f4467033f48a91077c40427934
+      internalID: -1433899059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_26
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 68
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d29d6534d01f544597c8a405b01fb84
+      internalID: -630821708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_27
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 60
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6020b786683914188e5dcbb4db0ef0
+      internalID: -447952743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_28
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 57
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56d5e4c000bd954da2c7841729ea546
+      internalID: 1477835964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 42
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deefffd897be4824faaf561efbe148a4
+      internalID: -1584707540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_30
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 45
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214fb2d3c0a461940b2012295b3cdf47
+      internalID: 1436064307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_31
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 46
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014d73ae9d6cbfa4fa598e5445a63435
+      internalID: 296921030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 17
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070cce77a4d0f74d8d1b46182c54da2
+      internalID: 661788517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_33
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 17
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96c2f4c3eface549ab6ff7baadde564
+      internalID: 146512712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 118
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5393b2b6172e17742b715b54f26a2557
+      internalID: 735058021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 108
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c84f140cfb16854999442fbca0bdf88
+      internalID: -561892446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_13
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 133
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bab739f97b389d489dc3a21c9574eb1
+      internalID: 516358390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_34
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 133
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af29c92cea1702f4d87f514cef7a68c3
+      internalID: -1319494893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_35
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 120
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577c4c374ddaeb4f94428c0f18ccf59
+      internalID: 180500568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosZonaMagenta_36
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 97
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25db602c3ed05844788b7ee87f26ca15
+      internalID: -936566915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbustosZonaMagenta_0: 377006363
+      ArbustosZonaMagenta_1: 1028208734
+      ArbustosZonaMagenta_10: 350673502
+      ArbustosZonaMagenta_11: -1812849633
+      ArbustosZonaMagenta_12: -1117600713
+      ArbustosZonaMagenta_13: 516358390
+      ArbustosZonaMagenta_14: -774601679
+      ArbustosZonaMagenta_15: 1200667777
+      ArbustosZonaMagenta_16: -1029858132
+      ArbustosZonaMagenta_17: -1095970788
+      ArbustosZonaMagenta_18: 1158226746
+      ArbustosZonaMagenta_19: -1341943637
+      ArbustosZonaMagenta_2: -1240490941
+      ArbustosZonaMagenta_20: 642249982
+      ArbustosZonaMagenta_21: 739255939
+      ArbustosZonaMagenta_22: 1712407068
+      ArbustosZonaMagenta_23: 1979356691
+      ArbustosZonaMagenta_24: 537501459
+      ArbustosZonaMagenta_25: -1433899059
+      ArbustosZonaMagenta_26: -630821708
+      ArbustosZonaMagenta_27: -447952743
+      ArbustosZonaMagenta_28: 1477835964
+      ArbustosZonaMagenta_29: -1584707540
+      ArbustosZonaMagenta_3: 735058021
+      ArbustosZonaMagenta_30: 1436064307
+      ArbustosZonaMagenta_31: 296921030
+      ArbustosZonaMagenta_32: 661788517
+      ArbustosZonaMagenta_33: 146512712
+      ArbustosZonaMagenta_34: -1319494893
+      ArbustosZonaMagenta_35: 180500568
+      ArbustosZonaMagenta_36: -936566915
+      ArbustosZonaMagenta_4: -1434966286
+      ArbustosZonaMagenta_5: 1764764148
+      ArbustosZonaMagenta_6: -789950661
+      ArbustosZonaMagenta_7: 56299828
+      ArbustosZonaMagenta_8: -561892446
+      ArbustosZonaMagenta_9: 1929275363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

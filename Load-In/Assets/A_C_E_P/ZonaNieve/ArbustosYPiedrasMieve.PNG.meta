@@ -1,0 +1,1073 @@
+fileFormatVersion: 2
+guid: 633f71f9d5c3dc646a69603a7665a3eb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_0
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 225
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4999986, y: 0.25475082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ee67a7f7f79e94493e3a253333ee18
+      internalID: -100819178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 194
+        width: 48
+        height: 39
+      alignment: 9
+      pivot: {x: 0.49999937, y: 0.29349226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cdbb6b7ee2db540ab15adaf4792c38
+      internalID: -492856754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 190
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: 0.47946393, y: 0.38082233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8155a9278331e4eaa79e4b67f5289b
+      internalID: -484054744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 186
+        width: 29
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cde7fbf0b7cc14f88ce421d80924ac
+      internalID: -2003158634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 175
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6781ed58afa7fde4297c8311a4617a21
+      internalID: -1529709532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_5
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 165
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe311aee57c30644910f0e04c963b2c
+      internalID: 1621979069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 151
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.46383932, y: 0.2759078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f5f3107382e9b4b8ab0e605fcdb9e0
+      internalID: 188417339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfc413fc407b2641a27c67fd3fc320e
+      internalID: -1289258469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 151
+        width: 14
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160527248d9c3d249b97d90bf3941fec
+      internalID: 1012674391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_9
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 146
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d774969e261462a48a98520dc5f4903d
+      internalID: 1325707959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_10
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 140
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf297b57b607f7a47ab2e9519e7a270f
+      internalID: 923869678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ef5e82a4cea84458c24192e4f305a9
+      internalID: 247369269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 137
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d13ccd2503e14ca48ef2730a21c26
+      internalID: 1222384130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_13
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 134
+        width: 8
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5e9c1177175844d8dad2c65bc90a2e
+      internalID: -1125842977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_14
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 121
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065fd6f45fdbe564fa53a23f34e39b12
+      internalID: -106399899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_15
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 122
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcdfb3005ff75d4092ee4aae941c0e6
+      internalID: -248841232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_16
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 122
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cda94ae081f3748891fa033b22f831
+      internalID: -1612214017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_17
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 123
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d6f45c268baa46845cd8c50d84d77
+      internalID: -1494772522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a65e5a7f6776b42933631a2d199ce0
+      internalID: -1270123220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 110
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f820fa696ec4cd49b90c93bcdca3172
+      internalID: -602106287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_20
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 110
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4435ddd295154744d8f9a977e3ed5047
+      internalID: 1743109194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 110
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a8c72d63ea334e8ac950ad3668859
+      internalID: -1905867012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 7
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832ce55a3e53e7f4ca8d72510f4c9f0a
+      internalID: 1614217159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_23
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c857fb072300930439a76203ef33fa89
+      internalID: -1849967745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_24
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 102
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d061549b283944498aa35e476d7286
+      internalID: -366983332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_25
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 107
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc443420f82adb94185e4ab0af0a71c9
+      internalID: 2020966084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_26
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 100
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e370fdaa4da1b641a8d919fbc899a6c
+      internalID: 1679292477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_27
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 101
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea055b76d5ca2f4589d4f2e99af25e8
+      internalID: -1579521629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_28
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 71
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906604eec947cd4c9a52631356ea085
+      internalID: -1793633462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_29
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 71
+        width: 11
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ed900858aedbb4bbaf75eb1e163818
+      internalID: 1821262555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_30
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 84
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09073ea9fc8e604bb023b4d4b32e099
+      internalID: 662677301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_31
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eadf79ec4478044a7e99f3163ef7e3
+      internalID: 1903527514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_32
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 68
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bd2b7c441f4b142a3096a1128c3172
+      internalID: -1515426287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_33
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 60
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee48cc1c78d73e4183ce11c52176876
+      internalID: -1051443544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_34
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 57
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc077942c051c84e8776f7deb430bc4
+      internalID: 1699835497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_35
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 42
+        width: 16
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea43a7680b6d7442b47fce9e4d7a3a1
+      internalID: -1588107384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_36
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 45
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bd0a000c4f3c64f836ac2b2b87dad5
+      internalID: 416213745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_37
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 46
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c36f2d1dd054b4390cf58f87b683a3
+      internalID: -2128094653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 17
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdf8ecb21eefab43bd526ec572f9bd2
+      internalID: 747999277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_39
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 17
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51b61eb6aaee5043b59ead4bcc0fe04
+      internalID: 641439100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_40
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 98
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e79b59611f96084ab669b39b746928d
+      internalID: -278876989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_41
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 133
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdfe967e64a63f4ea466fd386f23819
+      internalID: 421609218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbustosYPiedrasMieve_42
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 121
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bea7e5a554a0749acaf5cb7c158ef4
+      internalID: -198252449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbustosYPiedrasMieve_0: -100819178
+      ArbustosYPiedrasMieve_1: -492856754
+      ArbustosYPiedrasMieve_10: 923869678
+      ArbustosYPiedrasMieve_11: 247369269
+      ArbustosYPiedrasMieve_12: 1222384130
+      ArbustosYPiedrasMieve_13: -1125842977
+      ArbustosYPiedrasMieve_14: -106399899
+      ArbustosYPiedrasMieve_15: -248841232
+      ArbustosYPiedrasMieve_16: -1612214017
+      ArbustosYPiedrasMieve_17: -1494772522
+      ArbustosYPiedrasMieve_18: -1270123220
+      ArbustosYPiedrasMieve_19: -602106287
+      ArbustosYPiedrasMieve_2: -484054744
+      ArbustosYPiedrasMieve_20: 1743109194
+      ArbustosYPiedrasMieve_21: -1905867012
+      ArbustosYPiedrasMieve_22: 1614217159
+      ArbustosYPiedrasMieve_23: -1849967745
+      ArbustosYPiedrasMieve_24: -366983332
+      ArbustosYPiedrasMieve_25: 2020966084
+      ArbustosYPiedrasMieve_26: 1679292477
+      ArbustosYPiedrasMieve_27: -1579521629
+      ArbustosYPiedrasMieve_28: -1793633462
+      ArbustosYPiedrasMieve_29: 1821262555
+      ArbustosYPiedrasMieve_3: -2003158634
+      ArbustosYPiedrasMieve_30: 662677301
+      ArbustosYPiedrasMieve_31: 1903527514
+      ArbustosYPiedrasMieve_32: -1515426287
+      ArbustosYPiedrasMieve_33: -1051443544
+      ArbustosYPiedrasMieve_34: 1699835497
+      ArbustosYPiedrasMieve_35: -1588107384
+      ArbustosYPiedrasMieve_36: 416213745
+      ArbustosYPiedrasMieve_37: -2128094653
+      ArbustosYPiedrasMieve_38: 747999277
+      ArbustosYPiedrasMieve_39: 641439100
+      ArbustosYPiedrasMieve_4: -1529709532
+      ArbustosYPiedrasMieve_40: -278876989
+      ArbustosYPiedrasMieve_41: 421609218
+      ArbustosYPiedrasMieve_42: -198252449
+      ArbustosYPiedrasMieve_5: 1621979069
+      ArbustosYPiedrasMieve_6: 188417339
+      ArbustosYPiedrasMieve_7: -1289258469
+      ArbustosYPiedrasMieve_8: 1012674391
+      ArbustosYPiedrasMieve_9: 1325707959
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

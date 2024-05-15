@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: a47f284996982264b8707fe846107809
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_0"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 232
+        width: 170
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a8bce7cd1aeca48b7a645407ddc7eb
+      internalID: 1523401087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_1"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 287
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d431b8215f7d143af08427cb0dddc0
+      internalID: 1449029452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_2"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 174
+        width: 174
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a8abc61313ec4e81441746dc47bbe
+      internalID: 2131297630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_3"
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 208
+        width: 171
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31427ff2a1b30a6478daa5ef4ea3c7a5
+      internalID: 146690258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_4"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 254
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8a25fafd23c944eb8c6c66f262835e
+      internalID: -136368257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_5"
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 244
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef03f57498c5864eb75bd95b43cc3c5
+      internalID: -1343708477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_6"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 239
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742ebee3ca1f44141a08dc091744057a
+      internalID: 862109715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_7"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 219
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddd79cd1fcbad141ba48302536b6e35
+      internalID: -1367442866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_8"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 39
+        width: 210
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c210ef0776e15484495e7267b49aff78
+      internalID: -1784815164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_9"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 168
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd6f3a751696843a878e3da2614c54
+      internalID: -661644523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_10"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 175
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daac266754796c4fb3f45600e30f5fe
+      internalID: 323928372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_11"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 177
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd49a3e9e24a84cb386cb106287c16
+      internalID: 1629320138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_12"
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 22
+        width: 354
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28356b1eb939c9478d6ec724914afe2
+      internalID: 292095597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asCementerio_13"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 80
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fde083c496c2a43a5da3e9e4fac174
+      internalID: 1605280737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "ManchasPeque\xF1asCementerio_0": 1523401087
+      "ManchasPeque\xF1asCementerio_1": 1449029452
+      "ManchasPeque\xF1asCementerio_10": 323928372
+      "ManchasPeque\xF1asCementerio_11": 1629320138
+      "ManchasPeque\xF1asCementerio_12": 292095597
+      "ManchasPeque\xF1asCementerio_13": 1605280737
+      "ManchasPeque\xF1asCementerio_2": 2131297630
+      "ManchasPeque\xF1asCementerio_3": 146690258
+      "ManchasPeque\xF1asCementerio_4": -136368257
+      "ManchasPeque\xF1asCementerio_5": -1343708477
+      "ManchasPeque\xF1asCementerio_6": 862109715
+      "ManchasPeque\xF1asCementerio_7": -1367442866
+      "ManchasPeque\xF1asCementerio_8": -1784815164
+      "ManchasPeque\xF1asCementerio_9": -661644523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

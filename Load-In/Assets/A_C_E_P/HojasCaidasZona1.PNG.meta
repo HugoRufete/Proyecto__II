@@ -1,0 +1,4571 @@
+fileFormatVersion: 2
+guid: 26ecd017ffc64e14c8e3d12653e91608
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HojasCaidasZona1_0
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 367
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05103a383d5bfc04093c2a4af756ee16
+      internalID: 363020660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 382
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237d2cccfcb5f294f91ee683792b2c70
+      internalID: -644850031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 350
+        width: 46
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193567a68d4fe4241a0f327e8991ba27
+      internalID: 1205855096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_3
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 379
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10381841e2898044a5f73677eb136db
+      internalID: -851112460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 374
+        width: 36
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05227e5590c427a43a22018d19ab1213
+      internalID: 1484352191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 351
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf676916ea878c4081d08e00c508fdf
+      internalID: 1321157968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 359
+        width: 30
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf8048eb4129c408cc4071221b3d5d
+      internalID: -1991660754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_7
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 368
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b1030af8c08c24f92e0b1713432efd
+      internalID: 2104358915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 362
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4951d533f6f79f249ab691a660ecd2f6
+      internalID: -1556186360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 365
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ebf96fc3b07d1478088ba7cd74fb32
+      internalID: 770175231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_10
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 355
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd05c34e9ec041145a7aa0121d6fbe85
+      internalID: -45149691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 363
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb09051afa7846942ab7b344ddf69617
+      internalID: -254652713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_12
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 364
+        width: 14
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62da8b15e19067448eda28856d5b141
+      internalID: 1132643627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 369
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b985dab19f7a9b4c9945a0738a6fbd8
+      internalID: -1113663158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 358
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9102b0f7d2a699f4bbcf210d6d315b10
+      internalID: 2100598401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 361
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786e0bb8b8bd30e408b4e1762eee4dcd
+      internalID: -2081865934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 351
+        width: 22
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea9a7de7f42b9245be928068d01c196
+      internalID: -1950428450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 336
+        width: 47
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3384c81e7dca6342b345e1ceabf74c1
+      internalID: 146065115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 354
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca06b13a46969b419703d7a416e05c8
+      internalID: -1546320376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_19
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 355
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d1269e7b66bfa4fb01b0ce818b2596
+      internalID: -20123273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_20
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 350
+        width: 18
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cddb4baa0b4454dbaeeb9c65ab3bcf
+      internalID: 847394450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 350
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335afb17b7944ae4cb25425f8a9908af
+      internalID: -216648088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 347
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17e98452f93b6f47a2e2f1748857485
+      internalID: 1878773266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 348
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adda787321564b54eaf328c00087e9ab
+      internalID: -1979520298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_24
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 345
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a83d60bb40162a4f9b024240bc186e3
+      internalID: -1093159338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 345
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b57679531c03d4f85525f71709d67d
+      internalID: -862668147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 341
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2d4e6e7ea93c34c9a8d6b9ed9f99e1
+      internalID: 1593914128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_27
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 345
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c18e019f92facd4a8dcb4bad00ffb67
+      internalID: -1986903065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_28
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 346
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f221d5df815896a429635d4bf2b1111e
+      internalID: -2055593626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_29
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 345
+        width: 15
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45b677c7b7e5cf4b8a3a5af66d9e6da
+      internalID: 731340402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_30
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 339
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd130921187584593ad34d27ba08a8
+      internalID: -1568130481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 335
+        width: 13
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e0326065bc4544a1a73fff197a50b
+      internalID: 1850421301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_32
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 334
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653301761f075d34992414a48b37aa2a
+      internalID: -183973110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 335
+        width: 17
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0540ed6c77b9f41bec51eb51b0f749
+      internalID: -1696142451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_34
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 314
+        width: 14
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b88eadff66584fbc0e02d03dd2487
+      internalID: -759395202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_35
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 318
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4040d30870045304d853b3bbad91d0fe
+      internalID: -1574892792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_36
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 309
+        width: 13
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c1d56ff7d7bb248acd8f115a411ff0
+      internalID: 10579442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_37
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 310
+        width: 13
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb734f1c68639de4cb1332c5585b3b0c
+      internalID: 1021651875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_38
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 303
+        width: 27
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c5c6de9c5ff3f478ad25b00966eda7
+      internalID: 2131562098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_39
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 310
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b33fb3cc3a9d46b5a298c9b336453
+      internalID: 1731668217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 289
+        width: 12
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b3054acb1b6a94ab75e6d12ff170a6
+      internalID: 1710153633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 300
+        width: 21
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f90853446c1648b73c5517fdabf65
+      internalID: -364862326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_42
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 300
+        width: 20
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273baa8b34e7e914d9103dc72565be11
+      internalID: -130586214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_43
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 306
+        width: 5
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022ceba6b1c10de418f48d8c4c2609f0
+      internalID: 114460834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_44
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 301
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7f98c06b3af748bc0291476976cc8
+      internalID: 468696101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_45
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 302
+        width: 18
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfc5361debed0c4ca1552ed0c1ccb38
+      internalID: -1004567756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 291
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f72a878d405bcd459b46a782ac2d5f2
+      internalID: 1496028502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_47
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 289
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a447871a5897cd4aaed2d01e17ec928
+      internalID: 1675009743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 289
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fb0d2c625c1354099e339a2c227480
+      internalID: -55767427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_49
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 297
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6614ccc247d4404c84e592299206a90
+      internalID: 1815650353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_50
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 294
+        width: 20
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca8aaf87e82f544853356e4d7dc826
+      internalID: -105240766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 291
+        width: 18
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93abc62f958e845be96c895ad339aa
+      internalID: 1376245431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 289
+        width: 22
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea24be66c02e61459abf0456fe56cef
+      internalID: -729785399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_53
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 284
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251faa04d993e4b45b50db2ff18a4256
+      internalID: 953475193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_54
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 284
+        width: 26
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592650c2295f192439686d2a29ced68a
+      internalID: 1730322614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_55
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 281
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3a114383d9f234ea2ad347f85a9fc0
+      internalID: -1374848509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_56
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 269
+        width: 21
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f5f2481010b284bb496ab600452ee6
+      internalID: -967829265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_57
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 271
+        width: 25
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e994ea5a021b744bf15605baf726a3
+      internalID: 971236331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 263
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af91b035a88b8e4e8b5910dfafbd078
+      internalID: -1571093918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_59
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 260
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3199389bb9e08c549b27cec94d6fbc76
+      internalID: -553435947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_60
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039a513f2edb5443862ca29153e4214
+      internalID: 600861368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 261
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5ad125e370824498c6fe263f1c1789
+      internalID: -152514727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_62
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 244
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463478bcbaf6a784098e87df083ebc49
+      internalID: 1134551623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 259
+        width: 17
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f048b9052581424e99d795cd22fb025
+      internalID: -746254359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_64
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 253
+        width: 22
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cfb3404788e284b9bb8aae1586d338
+      internalID: 76666863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_65
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 268
+        width: 13
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8c2d35a72c125408b92061104d82f1
+      internalID: 832539916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_66
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 266
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16667b03c5cfeda46884f21fd3ef2800
+      internalID: -1286777982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_67
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 262
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d775015dc975d49bed282774507341
+      internalID: -1099081687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_68
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 266
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b19379b8c0aade4aacc67caebea9fb1
+      internalID: 951253501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_69
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 257
+        width: 14
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e987c5bea6ab54a9b6b2fc1fdbaef8
+      internalID: 1819571476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_70
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 251
+        width: 26
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137542cfd27368a49832f59b5a899f96
+      internalID: 1039907424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_71
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 245
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039c5861e41f5024d85ba66fe1ec4168
+      internalID: -14016975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_72
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 250
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66890fd8280f2049846295b41f69514
+      internalID: 520772443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 231
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a16e0ab73327847bc2df48fc56d850
+      internalID: 1966913350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_74
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 241
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d400d402198e5a54c8a0e152df6116a6
+      internalID: -1500908807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_75
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 237
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55646f6b8ef7dac4cb0d10cecb1c012d
+      internalID: 248952633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_76
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 238
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33907cdd0d9f5e3418325ef0f555e986
+      internalID: -1468273907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_77
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 235
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e014212f64611444918aab9cd093e14
+      internalID: 962370380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_78
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 232
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a706e20fa71f3b4ea575b0fe6961e89
+      internalID: -1431530393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_79
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 233
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4da511a41ccc04cbf0cbb6523d09fe
+      internalID: -1358618575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_80
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 213
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb1e74b6bceb34a879e8d1bcb631ab
+      internalID: -1597813273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_81
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 231
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c78ae1322a9f14e91de4cf315efedc
+      internalID: 1499405512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_82
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 226
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58e1b6ab82a5554ba8e438c23384438
+      internalID: -2147482671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_83
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 225
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f708aea3e7c0b4987722890f02c4aa
+      internalID: -1346539757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 222
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7d6537b8b363742b059b7115e19ff0
+      internalID: 183080047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_85
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 223
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87290102d26b0ed4d89143045d329f28
+      internalID: 1823680345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 222
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45be1728ed60dd4f8ab37d9df19f9aa
+      internalID: 2121413202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_87
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 224
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c745da5982b747b815ac71491ae73
+      internalID: -1836047433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_88
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 211
+        width: 11
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b289321dd680293439e0ec229d6dd6d0
+      internalID: 1500864492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_89
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 207
+        width: 22
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667bb932f7d6539439e38ab7db44dee4
+      internalID: -1211327477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_90
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 224
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b86a6354a4089f4d93e245a1faa75af
+      internalID: 2100422508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_91
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 207
+        width: 27
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2c1a4a15a49f4478cd7a86abcf66e4
+      internalID: -1572379369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_92
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 212
+        width: 18
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033a9e7672a23d4a9247698c58aba25
+      internalID: 509007346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_93
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 217
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde1ff4db4e2453459c9f83fa6f8a747
+      internalID: 1896091639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_94
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 196
+        width: 16
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abde5178a2294354dbb86c4dd6eda696
+      internalID: 843289580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_95
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 216
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b3ceab2ca7b740a25ded9e6d7b186
+      internalID: 778387740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_96
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 210
+        width: 10
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2725982714248e74c94aebbd08408a97
+      internalID: -1084700425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_97
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 217
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285490116c2b3f94ca8fe3c8eb08cbb7
+      internalID: -1276623170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_98
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 214
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad4ff9baab17941acff62fe8082654
+      internalID: 876128830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_99
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 211
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe1f5d2c984fd7428c94cabaaff69a5
+      internalID: -1260700882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_100
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 218
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab6117360061e4a841b5e97c8dbea1
+      internalID: 1633251190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_101
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 220
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1059425fc9f60074b8b7b7cd7b8df77d
+      internalID: -508761239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_102
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 209
+        width: 28
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9983fc1a8e4addb4fa13fe5c313d163d
+      internalID: 1795940285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_103
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 211
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557bf278832f85c4db250a5656d2fdc4
+      internalID: 1927827373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_104
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 215
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6554241a0f4d2cb4b8d2dc2e6933d062
+      internalID: 1942737327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_105
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 211
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b88e48ed66ed48bbd27c5efff78f8
+      internalID: -1741281283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 203
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb9eccf208f58b4ea244526f76d09e1
+      internalID: -705411881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_107
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 158
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab54326e8a4cf4429410db0481fc6bc
+      internalID: -329375662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_108
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 202
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6315303c1c9e4d945ad89e0524f1da54
+      internalID: 570533404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_109
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 181
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80afc61452e176d4b85ff668819535b8
+      internalID: 1061093730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_110
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 180
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4062f5f10d2dc040b75a3809c13a188
+      internalID: -1158593732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 159
+        width: 59
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb30506e903ebe544b104f909190ac1b
+      internalID: -943654505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_112
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 177
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efa060a2d3a99b4bb4741e3a48a9f35
+      internalID: 916813343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_113
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 179
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd507d9f66be9d46a36c43044a0d194
+      internalID: 531810867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_114
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 176
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133fcad880fbdf6498abdcc0e8dcb5f9
+      internalID: -1043497578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_115
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 177
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb73deb430bea418e0dbfe8daab84b
+      internalID: -559439857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_116
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 157
+        width: 50
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23544230609c38d4da80d85b3d158419
+      internalID: 1474121646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_117
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 166
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8167ce13db568458e87c216a914e6a
+      internalID: 1347027616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_118
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 155
+        width: 10
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6686827cb2f124da4c3236d606a42c
+      internalID: 228906146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_119
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 158
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af0c704fba8b704893b11617442d219
+      internalID: -1234082629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_120
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 154
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a6a5d9d49dca54c953463e3f1e33b0
+      internalID: 1036867715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_121
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 157
+        width: 14
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017da1e5ea4579e4fa5c8b9e98c4360b
+      internalID: 2118183484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_122
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 159
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c008ce969a57c7045a330a904544ab3b
+      internalID: -1436954672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_123
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 150
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e02b40ee585d045b11e607dbe6a09d
+      internalID: -825512767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_124
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 143
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234ac52ae48407d44b7943ebc5938130
+      internalID: 1474159388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_125
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 147
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87af227d5f0ae84ca44791daa413727
+      internalID: -783847452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_126
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 144
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b11518ca81819f4595f0027cb6719ce
+      internalID: -1514360531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_127
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 119
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f055fabfaaa5b4eb5ebf013bf2765f
+      internalID: -265648747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_128
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8828f04d052da1949aedad46138c3828
+      internalID: 722839180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_129
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 134
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e8332d123080e46abe53d9e4be1d3d
+      internalID: -1501950446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_130
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 124
+        width: 33
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647ceb68e74629f49ab59df21294516f
+      internalID: -1996340124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_131
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 118
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404b01b0c8f605841a93105a5e561a6e
+      internalID: -1101358912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_132
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 104
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53acdc0a00985b40b176c23bd650f67
+      internalID: 1881368243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_133
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 139
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b842565b41fe458c2c3d6005b2846
+      internalID: 189068268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_134
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 118
+        width: 40
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0461cb215658f42a4c945a1bf860c6
+      internalID: -1254747575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_135
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 125
+        width: 25
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b134fe7a63e9c048bb27d9b030e14c4
+      internalID: 739315275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_136
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 125
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df288eaf2f4479148bb0c0b002a95c74
+      internalID: -134910965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_137
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 125
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f28db43ec38cc04eb9e9f46905fdc82
+      internalID: 1373292320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 135
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482733c58e6671c43b0ae697aafd164f
+      internalID: 1721919929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_139
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 123
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4d9e9d14d6140478ad3d56109ae9cf
+      internalID: -2146791331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_140
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 122
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d9d18f79115c45919051964071273
+      internalID: -674741305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_141
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 124
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d08586944224314ba3baf6825dd265c
+      internalID: -1946790287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_142
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 125
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b019fae06881a814fa174b004d11a063
+      internalID: 1670940870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_143
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 126
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14749aeffb2c9424ba4c299d4b75378c
+      internalID: -109647655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_144
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 127
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a509f8d9898fb34f8c3f8a629276e1e
+      internalID: -1543242058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_145
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 123
+        width: 7
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b757b2f3cdc7c4d8a3d41b38ee683f
+      internalID: -1935940490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_146
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 125
+        width: 24
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a3879a8407bf04bbe25b4a696f5b7c
+      internalID: 150668685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_147
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 109
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6875f00ad57f341a14d05d55021743
+      internalID: 489891516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_148
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 113
+        width: 30
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a18c85b7a645ff48abad01a3a602254
+      internalID: 1314663148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_149
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 113
+        width: 9
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a317e51cf500d45be8d34ca391b5b8
+      internalID: 927154235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_150
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 117
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7a771b04d08e141867f95f0616fbc5
+      internalID: 191134489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_151
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 106
+        width: 25
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735b5a5689ed81442ba411195cf5d4c5
+      internalID: -317169532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_152
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 119
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c3312f0ee7b224ba61aca9f596d76f
+      internalID: 524590062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_153
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 106
+        width: 16
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861449c1994502248a5f9ffae3364ad9
+      internalID: -148890481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_154
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 111
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cfa5ac607d0d44ba7d3e61ddffbbfc
+      internalID: 1712008571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_155
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 108
+        width: 13
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b8e8a1c1dd48745b4fe24e3c18f4ec
+      internalID: 1441938740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_156
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 110
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39ca4956deffde40bdd141e8e10ff33
+      internalID: -1791036462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_157
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 114
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64655b71b9bd7c443a688a40f4cbaa64
+      internalID: -976080699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_158
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 99
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e94a2f51e474c40aae8197dd0846df
+      internalID: -882806650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_159
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 113
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba60c7939a0503459b58c8ab15a5683
+      internalID: -1287652694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_160
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 115
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a443bfc2fa96941be78f9035e77029
+      internalID: 1059113280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_161
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 104
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d940240c89a96c645a698bbd9c0fc880
+      internalID: -1456896415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_162
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 108
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a3dfaa6d6b22a459ef37616bba6cac
+      internalID: 806264247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_163
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 75
+        width: 22
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87806d07d8c049448543068c72e5150
+      internalID: -88433744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_164
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 91
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe09d5c63749549829b27f917d1307
+      internalID: 546026644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_165
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 93
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69da7d671edcf754d94d57c2d6385659
+      internalID: 2020646395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_166
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 96
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe7de8030909b64f8bcb9909142dd3a
+      internalID: 1510225861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_167
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 82
+        width: 12
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9460071ce1df92640b4d2200a0693900
+      internalID: -731886055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_168
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 96
+        width: 13
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b91aef2e5cebbc4cbb05238667cce75
+      internalID: 1378820094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_169
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 89
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae26b5334a9413849828a6774b05c548
+      internalID: -1000045201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_170
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 53
+        width: 37
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72876a80431ae34e8be66c6a48e6c6b
+      internalID: -613201787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_171
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 83
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4f9e33bf306e74bbabc7f0436c5abc
+      internalID: -169313164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_172
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 55
+        width: 16
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea77df2a4d6c754fa6d47e370301d10
+      internalID: -1992839776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_173
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 64
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e14d4da8b10247b70f9033436b8ce
+      internalID: 155831563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_174
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 271
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafee6c7563f6f54795ade2f1d8aff0b
+      internalID: -862497203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_175
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 44
+        width: 15
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb268b7a943e0845886e4a124ca689c
+      internalID: -353586200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_176
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 35
+        width: 47
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b708c4902ac860044af59a818542b490
+      internalID: 1392787809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_177
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 34
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5051138c7ab68a6429d24f6a530f3188
+      internalID: -86217799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_178
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 22
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580922bf562b7d14382de442ec423b51
+      internalID: 310351653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_179
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 8
+        width: 53
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e3199842133e6409a023a6083bacf2
+      internalID: 780070251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_180
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 23
+        width: 29
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e96146fea3a44049804815a2241edab
+      internalID: -206529199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_181
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 5
+        width: 64
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299f5e31f5425a46a1b9e6285e42359
+      internalID: -1122045564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_182
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 7
+        width: 31
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd9f56701e9cd4caddb61a39a61c20
+      internalID: 948864832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_183
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 12
+        width: 21
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb708493cb2c41a438df6c3021202908
+      internalID: 601738322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_184
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 6
+        width: 20
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1542dda78f4d1c4eb373638f90a63fd
+      internalID: 1988912529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_185
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 20
+        width: 17
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a03b6675737a5542b62641c46344fdd
+      internalID: -1820551858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_186
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 10
+        width: 22
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a272f9b44b189a4b98d32837f053589
+      internalID: 1675064449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_187
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 20
+        width: 20
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c45ba6e215a96418a0e7734b689d53
+      internalID: -942641272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_188
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 16
+        width: 15
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16712b162729b94999c6de0bd06607b
+      internalID: 381678654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_189
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 21
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909fb8f4eeb90914fb558c7f280450c5
+      internalID: -650067102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_190
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 5
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93d339ee22c33148aae3db8749d61cd
+      internalID: -911895725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_191
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 9
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb6009107c25574a87eb7d2a33a8574
+      internalID: -1396402988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_192
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 5
+        width: 18
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ddb6de2b35bc64a8aa3335952d115e
+      internalID: 402003516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_193
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 3
+        width: 18
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283375713ecb9544297f9f94f89ca788
+      internalID: 418933956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_194
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 6
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70f647b16497d4da2e7265847935cf
+      internalID: -1714210449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_195
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 13
+        width: 10
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465d5a42b66ea06498203ac99653d39d
+      internalID: -364051365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_196
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 8
+        width: 11
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1e0c7cad7f28c45aaf689aab690756
+      internalID: -1229754382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_197
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 7
+        width: 12
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de88367a021b034b99a59687c1f6f8b
+      internalID: 906838463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_198
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 4
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27339fd5d25ff4459a2cd0bbaf812e2
+      internalID: -1509613973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_199
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721caa1d7f37e4541af629a3d567f226
+      internalID: -1779904700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_200
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 0
+        width: 24
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b3d9a6f678fbe4486c9a1be534f443
+      internalID: -897278725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HojasCaidasZona1_201
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2
+        width: 10
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c7c789b6db267468f315be36a5dbc6
+      internalID: 510170632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HojasCaidasZona1_0: 363020660
+      HojasCaidasZona1_1: -644850031
+      HojasCaidasZona1_10: -45149691
+      HojasCaidasZona1_100: 1633251190
+      HojasCaidasZona1_101: -508761239
+      HojasCaidasZona1_102: 1795940285
+      HojasCaidasZona1_103: 1927827373
+      HojasCaidasZona1_104: 1942737327
+      HojasCaidasZona1_105: -1741281283
+      HojasCaidasZona1_106: -705411881
+      HojasCaidasZona1_107: -329375662
+      HojasCaidasZona1_108: 570533404
+      HojasCaidasZona1_109: 1061093730
+      HojasCaidasZona1_11: -254652713
+      HojasCaidasZona1_110: -1158593732
+      HojasCaidasZona1_111: -943654505
+      HojasCaidasZona1_112: 916813343
+      HojasCaidasZona1_113: 531810867
+      HojasCaidasZona1_114: -1043497578
+      HojasCaidasZona1_115: -559439857
+      HojasCaidasZona1_116: 1474121646
+      HojasCaidasZona1_117: 1347027616
+      HojasCaidasZona1_118: 228906146
+      HojasCaidasZona1_119: -1234082629
+      HojasCaidasZona1_12: 1132643627
+      HojasCaidasZona1_120: 1036867715
+      HojasCaidasZona1_121: 2118183484
+      HojasCaidasZona1_122: -1436954672
+      HojasCaidasZona1_123: -825512767
+      HojasCaidasZona1_124: 1474159388
+      HojasCaidasZona1_125: -783847452
+      HojasCaidasZona1_126: -1514360531
+      HojasCaidasZona1_127: -265648747
+      HojasCaidasZona1_128: 722839180
+      HojasCaidasZona1_129: -1501950446
+      HojasCaidasZona1_13: -1113663158
+      HojasCaidasZona1_130: -1996340124
+      HojasCaidasZona1_131: -1101358912
+      HojasCaidasZona1_132: 1881368243
+      HojasCaidasZona1_133: 189068268
+      HojasCaidasZona1_134: -1254747575
+      HojasCaidasZona1_135: 739315275
+      HojasCaidasZona1_136: -134910965
+      HojasCaidasZona1_137: 1373292320
+      HojasCaidasZona1_138: 1721919929
+      HojasCaidasZona1_139: -2146791331
+      HojasCaidasZona1_14: 2100598401
+      HojasCaidasZona1_140: -674741305
+      HojasCaidasZona1_141: -1946790287
+      HojasCaidasZona1_142: 1670940870
+      HojasCaidasZona1_143: -109647655
+      HojasCaidasZona1_144: -1543242058
+      HojasCaidasZona1_145: -1935940490
+      HojasCaidasZona1_146: 150668685
+      HojasCaidasZona1_147: 489891516
+      HojasCaidasZona1_148: 1314663148
+      HojasCaidasZona1_149: 927154235
+      HojasCaidasZona1_15: -2081865934
+      HojasCaidasZona1_150: 191134489
+      HojasCaidasZona1_151: -317169532
+      HojasCaidasZona1_152: 524590062
+      HojasCaidasZona1_153: -148890481
+      HojasCaidasZona1_154: 1712008571
+      HojasCaidasZona1_155: 1441938740
+      HojasCaidasZona1_156: -1791036462
+      HojasCaidasZona1_157: -976080699
+      HojasCaidasZona1_158: -882806650
+      HojasCaidasZona1_159: -1287652694
+      HojasCaidasZona1_16: -1950428450
+      HojasCaidasZona1_160: 1059113280
+      HojasCaidasZona1_161: -1456896415
+      HojasCaidasZona1_162: 806264247
+      HojasCaidasZona1_163: -88433744
+      HojasCaidasZona1_164: 546026644
+      HojasCaidasZona1_165: 2020646395
+      HojasCaidasZona1_166: 1510225861
+      HojasCaidasZona1_167: -731886055
+      HojasCaidasZona1_168: 1378820094
+      HojasCaidasZona1_169: -1000045201
+      HojasCaidasZona1_17: 146065115
+      HojasCaidasZona1_170: -613201787
+      HojasCaidasZona1_171: -169313164
+      HojasCaidasZona1_172: -1992839776
+      HojasCaidasZona1_173: 155831563
+      HojasCaidasZona1_174: -862497203
+      HojasCaidasZona1_175: -353586200
+      HojasCaidasZona1_176: 1392787809
+      HojasCaidasZona1_177: -86217799
+      HojasCaidasZona1_178: 310351653
+      HojasCaidasZona1_179: 780070251
+      HojasCaidasZona1_18: -1546320376
+      HojasCaidasZona1_180: -206529199
+      HojasCaidasZona1_181: -1122045564
+      HojasCaidasZona1_182: 948864832
+      HojasCaidasZona1_183: 601738322
+      HojasCaidasZona1_184: 1988912529
+      HojasCaidasZona1_185: -1820551858
+      HojasCaidasZona1_186: 1675064449
+      HojasCaidasZona1_187: -942641272
+      HojasCaidasZona1_188: 381678654
+      HojasCaidasZona1_189: -650067102
+      HojasCaidasZona1_19: -20123273
+      HojasCaidasZona1_190: -911895725
+      HojasCaidasZona1_191: -1396402988
+      HojasCaidasZona1_192: 402003516
+      HojasCaidasZona1_193: 418933956
+      HojasCaidasZona1_194: -1714210449
+      HojasCaidasZona1_195: -364051365
+      HojasCaidasZona1_196: -1229754382
+      HojasCaidasZona1_197: 906838463
+      HojasCaidasZona1_198: -1509613973
+      HojasCaidasZona1_199: -1779904700
+      HojasCaidasZona1_2: 1205855096
+      HojasCaidasZona1_20: 847394450
+      HojasCaidasZona1_200: -897278725
+      HojasCaidasZona1_201: 510170632
+      HojasCaidasZona1_21: -216648088
+      HojasCaidasZona1_22: 1878773266
+      HojasCaidasZona1_23: -1979520298
+      HojasCaidasZona1_24: -1093159338
+      HojasCaidasZona1_25: -862668147
+      HojasCaidasZona1_26: 1593914128
+      HojasCaidasZona1_27: -1986903065
+      HojasCaidasZona1_28: -2055593626
+      HojasCaidasZona1_29: 731340402
+      HojasCaidasZona1_3: -851112460
+      HojasCaidasZona1_30: -1568130481
+      HojasCaidasZona1_31: 1850421301
+      HojasCaidasZona1_32: -183973110
+      HojasCaidasZona1_33: -1696142451
+      HojasCaidasZona1_34: -759395202
+      HojasCaidasZona1_35: -1574892792
+      HojasCaidasZona1_36: 10579442
+      HojasCaidasZona1_37: 1021651875
+      HojasCaidasZona1_38: 2131562098
+      HojasCaidasZona1_39: 1731668217
+      HojasCaidasZona1_4: 1484352191
+      HojasCaidasZona1_40: 1710153633
+      HojasCaidasZona1_41: -364862326
+      HojasCaidasZona1_42: -130586214
+      HojasCaidasZona1_43: 114460834
+      HojasCaidasZona1_44: 468696101
+      HojasCaidasZona1_45: -1004567756
+      HojasCaidasZona1_46: 1496028502
+      HojasCaidasZona1_47: 1675009743
+      HojasCaidasZona1_48: -55767427
+      HojasCaidasZona1_49: 1815650353
+      HojasCaidasZona1_5: 1321157968
+      HojasCaidasZona1_50: -105240766
+      HojasCaidasZona1_51: 1376245431
+      HojasCaidasZona1_52: -729785399
+      HojasCaidasZona1_53: 953475193
+      HojasCaidasZona1_54: 1730322614
+      HojasCaidasZona1_55: -1374848509
+      HojasCaidasZona1_56: -967829265
+      HojasCaidasZona1_57: 971236331
+      HojasCaidasZona1_58: -1571093918
+      HojasCaidasZona1_59: -553435947
+      HojasCaidasZona1_6: -1991660754
+      HojasCaidasZona1_60: 600861368
+      HojasCaidasZona1_61: -152514727
+      HojasCaidasZona1_62: 1134551623
+      HojasCaidasZona1_63: -746254359
+      HojasCaidasZona1_64: 76666863
+      HojasCaidasZona1_65: 832539916
+      HojasCaidasZona1_66: -1286777982
+      HojasCaidasZona1_67: -1099081687
+      HojasCaidasZona1_68: 951253501
+      HojasCaidasZona1_69: 1819571476
+      HojasCaidasZona1_7: 2104358915
+      HojasCaidasZona1_70: 1039907424
+      HojasCaidasZona1_71: -14016975
+      HojasCaidasZona1_72: 520772443
+      HojasCaidasZona1_73: 1966913350
+      HojasCaidasZona1_74: -1500908807
+      HojasCaidasZona1_75: 248952633
+      HojasCaidasZona1_76: -1468273907
+      HojasCaidasZona1_77: 962370380
+      HojasCaidasZona1_78: -1431530393
+      HojasCaidasZona1_79: -1358618575
+      HojasCaidasZona1_8: -1556186360
+      HojasCaidasZona1_80: -1597813273
+      HojasCaidasZona1_81: 1499405512
+      HojasCaidasZona1_82: -2147482671
+      HojasCaidasZona1_83: -1346539757
+      HojasCaidasZona1_84: 183080047
+      HojasCaidasZona1_85: 1823680345
+      HojasCaidasZona1_86: 2121413202
+      HojasCaidasZona1_87: -1836047433
+      HojasCaidasZona1_88: 1500864492
+      HojasCaidasZona1_89: -1211327477
+      HojasCaidasZona1_9: 770175231
+      HojasCaidasZona1_90: 2100422508
+      HojasCaidasZona1_91: -1572379369
+      HojasCaidasZona1_92: 509007346
+      HojasCaidasZona1_93: 1896091639
+      HojasCaidasZona1_94: 843289580
+      HojasCaidasZona1_95: 778387740
+      HojasCaidasZona1_96: -1084700425
+      HojasCaidasZona1_97: -1276623170
+      HojasCaidasZona1_98: 876128830
+      HojasCaidasZona1_99: -1260700882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

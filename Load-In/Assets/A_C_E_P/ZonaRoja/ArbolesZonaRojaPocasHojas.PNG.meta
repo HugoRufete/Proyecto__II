@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: a3648853f34d74a41a8afe43f22e84d4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 282
+        width: 116
+        height: 108
+      alignment: 9
+      pivot: {x: 0.48117906, y: 0.15379418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487ca58d349010443a5d0269c353d5c7
+      internalID: -324931148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 282
+        width: 78
+        height: 105
+      alignment: 9
+      pivot: {x: 0.59596664, y: 0.13762178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b890d27919e0a4ca84ca963ad9600d
+      internalID: -1702718381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 284
+        width: 121
+        height: 107
+      alignment: 9
+      pivot: {x: 0.4639136, y: 0.14170282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4724ff12453764c8038365dffabea7
+      internalID: -360115570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 284
+        width: 76
+        height: 105
+      alignment: 9
+      pivot: {x: 0.58207625, y: 0.1465332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea3f70badb279f45ad0dd378ed05d65
+      internalID: 1117591616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 188
+        width: 60
+        height: 76
+      alignment: 9
+      pivot: {x: 0.46881077, y: 0.16306546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd2f54f16d79c843a9034abe71b4aab
+      internalID: 1488552228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 124
+        width: 120
+        height: 152
+      alignment: 9
+      pivot: {x: 0.47400907, y: 0.117923334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baec781fe4758104886cf423ddd9b14e
+      internalID: -374323460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 190
+        width: 60
+        height: 78
+      alignment: 9
+      pivot: {x: 0.4740092, y: 0.18000695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be754a0ce3694a64b8fec79f3327f80c
+      internalID: -1016860371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 126
+        width: 117
+        height: 153
+      alignment: 9
+      pivot: {x: 0.46801132, y: 0.14903758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da7e97651862ec4cb9ca9affe996139
+      internalID: -1276328266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArbolesZonaRojaPocasHojas_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 24
+        width: 67
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5325859, y: 0.18899222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa98f2c0636a8b4fa48ba271c6a2368
+      internalID: 155460403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArbolesZonaRojaPocasHojas_0: -324931148
+      ArbolesZonaRojaPocasHojas_1: -1702718381
+      ArbolesZonaRojaPocasHojas_2: -360115570
+      ArbolesZonaRojaPocasHojas_3: 1117591616
+      ArbolesZonaRojaPocasHojas_4: 1488552228
+      ArbolesZonaRojaPocasHojas_5: -374323460
+      ArbolesZonaRojaPocasHojas_6: -1016860371
+      ArbolesZonaRojaPocasHojas_7: -1276328266
+      ArbolesZonaRojaPocasHojas_8: 155460403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

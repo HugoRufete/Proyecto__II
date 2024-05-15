@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: e622baead715e9844a7797af5c8695d8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_0"
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 282
+        width: 122
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf34bc8db17e164e828f5ac242bd006
+      internalID: -755715449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_1"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 257
+        width: 273
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d1ae5bb8183bf4e865ee15fde4df32
+      internalID: 726313042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_2"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 378
+        width: 9
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac279b83535f8a468cd101eeaa1ec63
+      internalID: -501851696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_3"
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 334
+        width: 5
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e06f057467ed4499b3170b51bcda51
+      internalID: 2131140918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_4"
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 150
+        width: 177
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0225fbd9fc38343895e234a9e58070
+      internalID: 1946424799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_5"
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 286
+        width: 10
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efde140edbda964b84df7fdeb509201
+      internalID: -1863154769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_6"
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 286
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f631ea0d0d03e6340b6e09227b129b46
+      internalID: -698895092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_7"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 112
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a4316ecbbf22c4298be0124378b0a4
+      internalID: 1833947172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_8"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 140
+        width: 82
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715e1fe57a223f409821d00fa5d97a9
+      internalID: 2088994707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_9"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 219
+        width: 10
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3470022bce8b0e46935b0ae23f917e2
+      internalID: 1366341403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_10"
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 144
+        width: 95
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43c0978e6a462d4db90362c51aba274
+      internalID: 414008020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_11"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 136
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e37788fe3b74043af04ee80dc98753
+      internalID: 963818987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_12"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 136
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f60588ad00e724e88f09ba8b875bfe
+      internalID: -504579225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_13"
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 141
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a93bb2a9e68c459f1f5f9326d12d8
+      internalID: 1697660228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_14"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 8
+        width: 449
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb947dad8fd6c454799733e405e7ff4b
+      internalID: 1754351053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_15"
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 116
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202b6d9d2950a44295a6c286ae7e1c4
+      internalID: -1324985884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_16"
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 94
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7593caab57761446a572e7494caff1f
+      internalID: 1490263109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_17"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 66
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84882bfd194f89f4c9a8a2f3306df082
+      internalID: -1918679770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ManchasPeque\xF1asMagenta_18"
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 58
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffaf6aafb91d8b4d8b8176b83ad8961
+      internalID: 1717586539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "ManchasPeque\xF1asMagenta_0": -755715449
+      "ManchasPeque\xF1asMagenta_1": 726313042
+      "ManchasPeque\xF1asMagenta_10": 414008020
+      "ManchasPeque\xF1asMagenta_11": 963818987
+      "ManchasPeque\xF1asMagenta_12": -504579225
+      "ManchasPeque\xF1asMagenta_13": 1697660228
+      "ManchasPeque\xF1asMagenta_14": 1754351053
+      "ManchasPeque\xF1asMagenta_15": -1324985884
+      "ManchasPeque\xF1asMagenta_16": 1490263109
+      "ManchasPeque\xF1asMagenta_17": -1918679770
+      "ManchasPeque\xF1asMagenta_18": 1717586539
+      "ManchasPeque\xF1asMagenta_2": -501851696
+      "ManchasPeque\xF1asMagenta_3": 2131140918
+      "ManchasPeque\xF1asMagenta_4": 1946424799
+      "ManchasPeque\xF1asMagenta_5": -1863154769
+      "ManchasPeque\xF1asMagenta_6": -698895092
+      "ManchasPeque\xF1asMagenta_7": 1833947172
+      "ManchasPeque\xF1asMagenta_8": 2088994707
+      "ManchasPeque\xF1asMagenta_9": 1366341403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
