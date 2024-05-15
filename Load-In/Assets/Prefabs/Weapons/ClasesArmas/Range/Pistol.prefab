@@ -99,7 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc24fdb9826596b40b4b8dbe2969638d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimacionRecarga: {fileID: 8157278185408267092, guid: c89affefb40296149bb73b8510ccfb72, type: 3}
   prefabBala: {fileID: 5700418254993555023, guid: 51177f21f01839d40886ceddeb005622, type: 3}
   puntoDisparo: {fileID: 7729848137377631550}
   velocidadBala: 10
@@ -107,6 +106,7 @@ MonoBehaviour:
   currentAmmo: 0
   alcance: 10
   velocidadRecarga: 2
+  pistol: {fileID: 8300000, guid: d8c7ae869fa0bc24bb378c11c6e92a31, type: 3}
   recoil: 50
 --- !u!114 &5398909059405906847
 MonoBehaviour:

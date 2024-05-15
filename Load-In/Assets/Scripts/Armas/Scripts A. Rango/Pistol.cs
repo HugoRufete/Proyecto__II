@@ -23,6 +23,7 @@ public class Pistol : MonoBehaviour
 
     public static event System.Action pistolaDisparada;
 
+    public AudioClip pistol;
 
     public float recoil = 10;
     public int ObtenerMunicionActual()
@@ -72,6 +73,7 @@ public class Pistol : MonoBehaviour
     void Disparar()
     {
         GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
+        ControladorSonido.Instance.EjecutarSonido(pistol);
         Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
         Vector2 direccionBala = puntoDisparo.right;
         rbBala.velocity = direccionBala * velocidadBala;
