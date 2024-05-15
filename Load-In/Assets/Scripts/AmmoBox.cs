@@ -10,7 +10,7 @@ public class AmmoBox : MonoBehaviour
     private void Start()
     {
         numMun = GameObject.Find("HUD_Munición").GetComponent<NumMun>();
-        GameObject targetObject = GameObject.FindWithTag("PopUps");
+        GameObject targetObject = GameObject.FindWithTag("UI");
         anim = targetObject.GetComponent<Animator>();
 
        
