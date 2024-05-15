@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 30
+  maxHealth: 90
   additionalDamageActivated: 0
   bloodEnemy: {fileID: 6641950261170043872}
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}
@@ -218,7 +218,6 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animacionCuraci\xF3n": {fileID: 1673825715297957279}
   enemyDeadAnimationName: Escudito_Death
 --- !u!61 &-5698912342543824347
 BoxCollider2D:
@@ -613,11 +612,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
---- !u!1 &1673825715297957279 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
-  m_PrefabInstance: {fileID: 6432042292340189269}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5146128400771534372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}

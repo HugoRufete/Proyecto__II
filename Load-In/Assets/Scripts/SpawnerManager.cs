@@ -223,7 +223,7 @@ public class SpawnerManager : MonoBehaviour
         while (jugadorEnBosque)
         {
 
-            numDeEnemigos = Random.Range(1, 3);
+            numDeEnemigos = Random.Range(1, 2);
             tipDeEnemigos = Random.Range(1, 4);
 
             if (numDeEnemigos == 1)
@@ -234,7 +234,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 2)
                 {
-                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnGordetEnemy();
                 }
                 if (tipDeEnemigos == 3)
                 {
@@ -251,7 +251,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 2)
                 {
-                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnGordetEnemy();
                     enemySpawner.SpawnGuadañaEnemy();
                 }
                 if (tipDeEnemigos == 3)
@@ -269,7 +269,7 @@ public class SpawnerManager : MonoBehaviour
         while (jugadorEnHierbaRoja)
         {
 
-            numDeEnemigos = Random.Range(1, 3);
+            numDeEnemigos = Random.Range(1, 2);
             tipDeEnemigos = Random.Range(1, 4);
 
             if (numDeEnemigos == 1)
@@ -292,7 +292,7 @@ public class SpawnerManager : MonoBehaviour
             {
                 if (tipDeEnemigos == 1)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
                     enemySpawner.SpawnFirefly();
                 }
                 if (tipDeEnemigos == 2)
@@ -302,7 +302,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
                     enemySpawner.SpawnEscudito();
                 }
                 maxEnemies = maxEnemies + 2;
@@ -312,7 +312,7 @@ public class SpawnerManager : MonoBehaviour
         //Lógica Spawners Cementerio
         while (jugadorEnCementerio)
         {
-            numDeEnemigos = Random.Range(1, 3);
+            numDeEnemigos = Random.Range(1, 2);
             tipDeEnemigos = Random.Range(1, 4);
 
             if (numDeEnemigos == 1)
@@ -356,7 +356,7 @@ public class SpawnerManager : MonoBehaviour
         while (jugadorEnCasaAterradora)
         {
 
-            numDeEnemigos = Random.Range(1, 3);
+            numDeEnemigos = Random.Range(1, 2);
             tipDeEnemigos = Random.Range(1, 4);
 
             if (numDeEnemigos == 1)
@@ -371,7 +371,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
                 }
                 maxEnemies++;
             }
@@ -379,7 +379,7 @@ public class SpawnerManager : MonoBehaviour
             {
                 if (tipDeEnemigos == 1)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
                     enemySpawner.SpawnGordetEnemy();
                 }
                 if (tipDeEnemigos == 2)
@@ -389,7 +389,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnGordetEnemy();
                     enemySpawner.SpawnSpiritEnemy();
                 }
                 maxEnemies = maxEnemies + 2;
@@ -400,7 +400,7 @@ public class SpawnerManager : MonoBehaviour
         while (jugadorEnLago)
         {
 
-            enemySpawner.SpawnTentaculin();
+            enemySpawner.SpawnGordetEnemy();
             Debug.Log("Instanciando Firefly");
             cantidadDeLlamadas++;
 
@@ -498,7 +498,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 else
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnGordetEnemy();
                     initialSpawnCountMonasterio--;
                 }
 
@@ -509,7 +509,7 @@ public class SpawnerManager : MonoBehaviour
                 Debug.Log("Cogiendo Valor aleatorio");
                 if (randomValue >= 0.4f)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
                     Debug.Log("Instanciando Guadaña");
                 }
                 else if (randomValue < 0.4 && randomValue > 0.1)
@@ -539,53 +539,7 @@ public class SpawnerManager : MonoBehaviour
         while (jugadorEnZonaInfectada)
         {
 
-            numDeEnemigos = Random.Range(1, 3);
-            tipDeEnemigos = Random.Range(1, 4);
-
-            if (numDeEnemigos == 1)
-            {
-                if (tipDeEnemigos == 1)
-                {
-                    enemySpawner.SpawnGordetEnemy();
-                }
-                if (tipDeEnemigos == 2)
-                {
-                    enemySpawner.SpawnGuadañaEnemy();
-                }
-                if (tipDeEnemigos == 3)
-                {
-                    enemySpawner.SpawnTentaculin();
-                }
-                maxEnemies++;
-            }
-            if (numDeEnemigos == 2)
-            {
-                if (tipDeEnemigos == 1)
-                {
-                    enemySpawner.SpawnTentaculin();
-                    enemySpawner.SpawnGordetEnemy();
-                }
-                if (tipDeEnemigos == 2)
-                {
-                    enemySpawner.SpawnGordetEnemy();
-                    enemySpawner.SpawnGuadañaEnemy();
-                }
-                if (tipDeEnemigos == 3)
-                {
-                    enemySpawner.SpawnTentaculin();
-                    enemySpawner.SpawnSpiritEnemy();
-                }
-                maxEnemies = maxEnemies + 2;
-            }
-
-            yield return new WaitForSeconds(waitTime);
-        }
-
-        //Lógica spawners hielo
-        while (jugadorEnZonaHielo)
-        {
-
-            numDeEnemigos = Random.Range(1, 3);
+            numDeEnemigos = Random.Range(1, 2);
             tipDeEnemigos = Random.Range(1, 4);
 
             if (numDeEnemigos == 1)
@@ -608,7 +562,53 @@ public class SpawnerManager : MonoBehaviour
             {
                 if (tipDeEnemigos == 1)
                 {
-                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGordetEnemy();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnSpiritEnemy();
+                }
+                maxEnemies = maxEnemies + 2;
+            }
+
+            yield return new WaitForSeconds(waitTime);
+        }
+
+        //Lógica spawners hielo
+        while (jugadorEnZonaHielo)
+        {
+
+            numDeEnemigos = Random.Range(1, 2);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
+            {
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnFirefly();
+                }
+                maxEnemies++;
+            }
+            if (numDeEnemigos == 2)
+            {
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnFirefly();
                     enemySpawner.SpawnGuadañaEnemy();
                 }
                 if (tipDeEnemigos == 2)
@@ -638,7 +638,7 @@ public class SpawnerManager : MonoBehaviour
         while (jugadorEnAldea)
         {
 
-            numDeEnemigos = Random.Range(1, 3);
+            numDeEnemigos = Random.Range(1, 2);
             tipDeEnemigos = Random.Range(1, 4);
 
             if (numDeEnemigos == 1)

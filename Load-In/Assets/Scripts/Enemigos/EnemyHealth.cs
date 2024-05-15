@@ -94,7 +94,7 @@ public class EnemyHealth : MonoBehaviour
 
             if (i % 2 == 0)
             {
-                if (Random.value < 0.2) 
+                if (Random.value < 0.15) 
                 {
                     Instantiate(prefab3, spawnPosition, Quaternion.identity);
                 }
@@ -105,7 +105,7 @@ public class EnemyHealth : MonoBehaviour
             }
             else
             {
-                if (Random.value < 0.15) // Probabilidad del 20% de que aparezcan o munición o esporas
+                if (Random.value < 0.20) // Probabilidad del 10% de que aparezcan o munición o esporas
                 {
                     Instantiate(prefab4, spawnPosition, Quaternion.identity);
                 }
