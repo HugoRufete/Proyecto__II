@@ -174,6 +174,7 @@ MonoBehaviour:
   standarCollider: {fileID: 8642652848476864738}
   attackCollider: {fileID: 6024675449123712663}
   attackCooldown: 2
+  attackSound: {fileID: 8300000, guid: 166d0ed2efc2e994fb60bc06b8ceea0f, type: 3}
   damageAmount: 10
 --- !u!95 &3537603388377771869
 Animator:
@@ -203,7 +204,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625661815715672868}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -228,7 +229,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.199082, y: -0.55815566}
+  m_Offset: {x: -1.5234337, y: -0.55815566}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -239,7 +240,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5505102, y: 1.3517146}
+  m_Size: {x: 3.1992135, y: 1.3517146}
   m_EdgeRadius: 0
 --- !u!114 &-3236727358418599062
 MonoBehaviour:

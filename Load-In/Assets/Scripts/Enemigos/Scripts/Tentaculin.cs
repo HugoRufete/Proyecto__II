@@ -16,6 +16,8 @@ public class Tentaculin : MonoBehaviour
     private EnemyDamage onedamage;
     bool isattacking = false;
 
+    public AudioClip attackSound;   
+
     public int damageAmount = 10;
     private VidaPlayer vidaPlayer;
 
@@ -27,6 +29,7 @@ public class Tentaculin : MonoBehaviour
         onedamage = GetComponent<EnemyDamage>();
         player = GameObject.Find("Player").transform;
         isattacking = false;
+        
     }
 
 
@@ -79,6 +82,11 @@ public class Tentaculin : MonoBehaviour
     public void Attaack()
     {
         isattacking = true;
+    }
+
+    public void Sound()
+    {
+        ControladorSonido.Instance.EjecutarSonido(attackSound);
     }
 
     public void NotAttaack()
