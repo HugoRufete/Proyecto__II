@@ -19,6 +19,8 @@ public class GuadañaEnemy : MonoBehaviour
     private float lastShotTime = 0f;
     private Animator animator;
 
+    public AudioClip sonidoG;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -71,6 +73,8 @@ public class GuadañaEnemy : MonoBehaviour
                         float rot = Mathf.Atan2(-directionToPlayerNormalized.y, -directionToPlayerNormalized.x) * Mathf.Rad2Deg;
                             Quaternion.Euler(0, 0, rot);
                             GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPosition, Quaternion.Euler(0, 0, rot));
+                            ControladorSonido.Instance.EjecutarSonido(sonidoG);
+
 
                         // Ajustar la escala del proyectil según la dirección del enemigo
                        /* Vector3 projectileScale = projectile.transform.localScale;

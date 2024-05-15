@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Proyectil_Guadaña : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    public AudioClip soniditoPro;
+    private void OnTriggerEnter2D(Collider2D other)
     {
         //Si el tag de la colision es Player se llama al metodo de arriba
-        if (collision.tag == ("Player"))
+        if (other.tag == ("Player"))
         {
+            ControladorSonido.Instance.EjecutarSonido(soniditoPro);
             Destroy(gameObject);
         }
     }

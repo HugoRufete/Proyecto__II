@@ -200,3 +200,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142fe9710475b9942b047ef6f02cf070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soniditoPro: {fileID: 8300000, guid: f43cf8c318a179b449087dc199d21718, type: 3}

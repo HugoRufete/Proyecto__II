@@ -242,6 +242,7 @@ MonoBehaviour:
   projectileChargeTime: 2
   projectileSpeed: 10
   projectileCooldown: 2
+  sonidoG: {fileID: 8300000, guid: 6277a9d3494744346ba669a12b5d2ce2, type: 3}
 --- !u!114 &-6147388580583160500
 MonoBehaviour:
   m_ObjectHideFlags: 0
