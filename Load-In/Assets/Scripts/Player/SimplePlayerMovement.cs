@@ -31,7 +31,7 @@ public class SimplePlayerMovement : MonoBehaviour
 
     [SerializeField] private CameraMovement cameraMovement;
 
-
+    public AudioSource audioSource;
 
 
     void Start()
@@ -42,6 +42,7 @@ public class SimplePlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>(); // Obtener la referencia al SpriteRenderer
         playerCollider = GetComponent<Collider2D>();
         cameraMovement = FindObjectOfType<CameraMovement>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -143,6 +144,11 @@ public class SimplePlayerMovement : MonoBehaviour
         }
     }
 
+    public void SonidoDash()
+    {
+        audioSource.Play();
+    }
+
     // Función para actualizar la capa del sprite
     void UpdateLayer()
     {
@@ -216,6 +222,8 @@ public class SimplePlayerMovement : MonoBehaviour
         // Actualizar la barra de energía
         UpdateEnergyBar();
     }
+
+    
 
     // Método para controlar el final del Dash
     void LateUpdate()
