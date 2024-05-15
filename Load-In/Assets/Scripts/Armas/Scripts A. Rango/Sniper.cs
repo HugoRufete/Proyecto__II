@@ -25,6 +25,8 @@ public class Sniper : MonoBehaviour
 
     public float recoil = 20;
 
+    public AudioClip sniper;
+
     public int ObtenerMunicionActual()
     {
         return balasRestantes;
@@ -62,6 +64,7 @@ public class Sniper : MonoBehaviour
     void Disparar()
     {
         GameObject bala = Instantiate(prefabBala, puntoDisparo.position, transform.rotation);
+        ControladorSonido.Instance.EjecutarSonido(sniper);
 
         Rigidbody2D rbBala = bala.GetComponent<Rigidbody2D>();
 

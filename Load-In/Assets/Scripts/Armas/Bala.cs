@@ -3,9 +3,11 @@ using UnityEngine;
 public class Bala : MonoBehaviour
 {
     public int damageAmount = 10;
+    public AudioClip SniperBullet;
 
     void Start()
     {
+        ControladorSonido.Instance.EjecutarSonido(SniperBullet);
         Invoke("ActivarCollider", 0.05f);
         Destroy(gameObject, 3f);
     }

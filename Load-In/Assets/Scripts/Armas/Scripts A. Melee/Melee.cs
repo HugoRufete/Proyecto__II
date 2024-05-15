@@ -12,6 +12,8 @@ public class Melee : MonoBehaviour
 
     private GameObject alabarda;
 
+    public AudioClip hachazoo;
+
     private float escalaOriginalX;
     public string NombreAnimación;
     void Start()
@@ -29,7 +31,8 @@ public class Melee : MonoBehaviour
             if (isAttacking == false)
             {
              isAttacking = true;
-            anim.Play(NombreAnimación);
+             anim.Play(NombreAnimación);
+                ControladorSonido.Instance.EjecutarSonido(hachazoo);
             }
         }
 

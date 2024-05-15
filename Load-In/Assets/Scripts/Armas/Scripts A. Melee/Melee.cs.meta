@@ -3,7 +3,8 @@ guid: ccaac8d1a912e7944b6ae9ab1781d28f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hachazoo: {fileID: 8300000, guid: 84f4d618a36e91141bcc6508e6d1e23c, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

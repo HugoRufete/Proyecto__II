@@ -152,6 +152,7 @@ MonoBehaviour:
   alcance: 30
   velocidadRecarga: 2
   recoil: 10
+  sniper: {fileID: 0}
 --- !u!114 &2461531097934250059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 4045171494743821991}
+  rigidbodies: []
 --- !u!1 &8018309964416171682
 GameObject:
   m_ObjectHideFlags: 0

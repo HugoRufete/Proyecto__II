@@ -3,7 +3,10 @@ guid: 113e83d0f2c5f7446b3f94e93599f461
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - prefabBala: {instanceID: 0}
+  - puntoDisparo: {instanceID: 0}
+  - sniper: {fileID: 8300000, guid: a2108b40485abee4db1bf9e1f0e0be04, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

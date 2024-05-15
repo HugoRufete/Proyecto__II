@@ -127,6 +127,7 @@
     <Compile Include="Assets\Scripts\UI\BolsaEsporas.cs" />
     <Compile Include="Assets\Scripts\Armas\Bala.cs" />
     <Compile Include="Assets\Scripts\UI_Manager.cs" />
+    <Compile Include="Assets\Scripts\Armas\BalaRevolver.cs" />
     <Compile Include="Assets\Scripts\Player\HabilidadMolotovScript.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Firefly.cs" />
     <Compile Include="Assets\Scripts\Player\Recolector.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Assets\CameraObserver.cs" />
     <Compile Include="Assets\Scripts\Puntuación\Puntuación.cs" />
     <Compile Include="Assets\Scripts\UI\MenuPausa.cs" />
+    <Compile Include="Assets\Scripts\Armas\BalaShotgun.cs" />
     <Compile Include="Assets\Scripts\UI\Weapon_Wheel_Manager.cs" />
   </ItemGroup>
   <ItemGroup>
