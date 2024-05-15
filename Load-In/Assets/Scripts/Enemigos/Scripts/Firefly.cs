@@ -8,6 +8,8 @@ public class Firefly : MonoBehaviour
     private EnemyFollow enemyFollow;
     private Animator animator;
     private bool exploded = false;
+    public AudioClip explosionF;
+    public AudioSource alarmSource;
 
     public int damage = 10;
     public float radiousToExplode;
@@ -17,6 +19,7 @@ public class Firefly : MonoBehaviour
         player = GameObject.FindWithTag("Player").transform;
         enemyFollow = GetComponent<EnemyFollow>();
         animator = GetComponent<Animator>();
+        alarmSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -31,6 +34,16 @@ public class Firefly : MonoBehaviour
 
             }
         }
+    }
+
+    public void ExplosiomFY()
+    {
+        ControladorSonido.Instance.EjecutarSonido(explosionF);
+    }
+
+    public void alarmm()
+    {
+        alarmSource.Play();
     }
 
 }
