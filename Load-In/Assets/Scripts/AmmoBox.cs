@@ -4,6 +4,7 @@ using System.Collections;
 
 public class AmmoBox : MonoBehaviour
 {
+    
     private NumMun numMun;
     private Animator anim;
 
@@ -24,4 +25,5 @@ public class AmmoBox : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
 }

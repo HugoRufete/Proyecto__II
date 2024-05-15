@@ -128,6 +128,7 @@
     <Compile Include="Assets\Scripts\UI_Manager.cs" />
     <Compile Include="Assets\Scripts\Armas\BalaRevolver.cs" />
     <Compile Include="Assets\Scripts\Player\HabilidadMolotovScript.cs" />
+    <Compile Include="Assets\Scripts\Player\ControladorMusica.cs" />
     <Compile Include="Assets\Scripts\Enemigos\Scripts\Firefly.cs" />
     <Compile Include="Assets\Scripts\Player\Recolector.cs" />
     <Compile Include="Assets\Scripts\UI\DestoyArrow.cs" />

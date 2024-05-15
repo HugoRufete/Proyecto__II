@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
     private bool isPushed = false;
     private bool hasBeenPushed = false;
 
-    public GameObject animacionCuración;
+    
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -94,7 +94,7 @@ public class EnemyHealth : MonoBehaviour
 
             if (i % 2 == 0)
             {
-                if (Random.value < 0.05) 
+                if (Random.value < 0.2) 
                 {
                     Instantiate(prefab3, spawnPosition, Quaternion.identity);
                 }
@@ -164,6 +164,7 @@ public class EnemyHealth : MonoBehaviour
         }
 
     }
+    /*
    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "CurativeArea")
@@ -171,6 +172,8 @@ public class EnemyHealth : MonoBehaviour
             animacionCuración.SetActive(true);
         }
     }
+
+    
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "CurativeArea")
@@ -178,6 +181,8 @@ public class EnemyHealth : MonoBehaviour
             animacionCuración.SetActive(false);
         }
     }
+
+    */
 
     // Método para activar la invulnerabilidad temporal
     public void ActivateInvulnerability(float duration)

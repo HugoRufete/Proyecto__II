@@ -12,13 +12,19 @@ public class SpawnerManager : MonoBehaviour
     public VidaPlayer vidaPlayer;
     [Header("Enemy Config")]
     public EnemySpawner enemySpawner;  // Referencia al script de spawn de enemigos
-   
+
     [Header("Ronda Actual")]
     public int RondaActual = 1;  // Número de la ronda actual
     public float waveUpdateInterval = 5f;
     private float waveUpdateTimer = 0f;
 
     public bool jugadorViendaSpawner = false;
+
+    public int maxEnemies;
+
+
+    private int numDeEnemigos;
+    private int tipDeEnemigos;
 
     private bool jugadorEnBosque = false;
     private bool jugadorEnHierbaRoja = false;
@@ -41,7 +47,7 @@ public class SpawnerManager : MonoBehaviour
 
     private float countdown = 2f;
 
-   
+
     private void Start()
     {
         jugadorViendaSpawner = false;
@@ -211,121 +217,183 @@ public class SpawnerManager : MonoBehaviour
     }
     private IEnumerator SpawnEnemieslyOverTime()
     {
-        //Lógica Spawners Bosque
+
+
+
         while (jugadorEnBosque)
         {
-           
-            enemySpawner.SpawnFirefly();
-            Debug.Log("Instanciando Firefly");
-            cantidadDeLlamadas++;
 
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
             {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnFirefly();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnEscudito();
+                }
+                maxEnemies++;
+            }
+            if (numDeEnemigos == 2)
+            {
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnSpiritEnemy();
+                }
+                maxEnemies = maxEnemies + 2;
             }
 
-                yield return new WaitForSeconds(waitTime);
+            yield return new WaitForSeconds(waitTime);
         }
-        
+
         //Lógica Spawners HierbaRoja
         while (jugadorEnHierbaRoja)
         {
-            float randomValue = Random.value;
-            Debug.Log("Cogiendo Valor aleatorio");
-            if (randomValue > 0.35f)
-            {
-                enemySpawner.SpawnFirefly();
-                Debug.Log("Instanciando Firefly");
-            }
-            else
-            {
-                enemySpawner.SpawnSpiritEnemy();
-                Debug.Log("Instanciando Spirit");
-            }
 
-            cantidadDeLlamadas++;
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
 
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
+            if (numDeEnemigos == 1)
             {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnEscudito();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnFirefly();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnTentaculin();
+                }
+                maxEnemies++;
             }
-
-            yield return new WaitForSeconds(waitTime);
+            if (numDeEnemigos == 2)
+            {
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnFirefly();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnEscudito();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnEscudito();
+                }
+                maxEnemies = maxEnemies + 2;
+            }
         }
 
         //Lógica Spawners Cementerio
-        int initialSpawnCountCementerio = 3;
         while (jugadorEnCementerio)
         {
-            if (initialSpawnCountCementerio > 0)
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
             {
-                enemySpawner.SpawnSpiritEnemy();
-                Debug.Log("Instanciando Spirit");
-                initialSpawnCountCementerio--;
-            }
-            else
-            {
-                float randomValue = Random.value;
-                Debug.Log("Cogiendo Valor aleatorio");
-                if (randomValue > 0.7f)
-                {
-                    enemySpawner.SpawnGuadañaEnemy();
-                    Debug.Log("Instanciando Guadaña");
-                }
-                else
+                if (tipDeEnemigos == 1)
                 {
                     enemySpawner.SpawnSpiritEnemy();
-                    Debug.Log("Instanciando Spirit");
                 }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnEscudito();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                maxEnemies++;
             }
-
-            cantidadDeLlamadas++;
-
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
+            if (numDeEnemigos == 2)
             {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnSpiritEnemy();
+                    enemySpawner.SpawnEscudito();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnEscudito();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnSpiritEnemy();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                maxEnemies = maxEnemies + 2;
             }
-
-            yield return new WaitForSeconds(waitTime);
         }
 
         //Lógica Spawners Casa Aterradora
         while (jugadorEnCasaAterradora)
         {
-            if (initialSpawnCountCementerio > 0)
+
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
             {
-                enemySpawner.SpawnSpiritEnemy();
-                Debug.Log("Instanciando Spirit");
-                initialSpawnCountCementerio--;
-            }
-            else
-            {
-                float randomValue = Random.value;
-                Debug.Log("Cogiendo Valor aleatorio");
-                if (randomValue > 0.7f)
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                if (tipDeEnemigos == 2)
                 {
                     enemySpawner.SpawnGuadañaEnemy();
-                    Debug.Log("Instanciando Guadaña");
                 }
-                else
+                if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnSpiritEnemy();
-                    Debug.Log("Instanciando Spirit");
+                    enemySpawner.SpawnTentaculin();
                 }
+                maxEnemies++;
             }
-
-            cantidadDeLlamadas++;
-
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
+            if (numDeEnemigos == 2)
             {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGordetEnemy();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnSpiritEnemy();
+                }
+                maxEnemies = maxEnemies + 2;
             }
-
-            yield return new WaitForSeconds(waitTime);
         }
 
         //Lógica Spawners Lago
@@ -414,7 +482,7 @@ public class SpawnerManager : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
         }
-       
+
         //Lógica spawners Monasterio
         int initialSpawnCountMonasterio = 10;
         while (jugadorEnMonasterio)
@@ -433,7 +501,7 @@ public class SpawnerManager : MonoBehaviour
                     enemySpawner.SpawnTentaculin();
                     initialSpawnCountMonasterio--;
                 }
-               
+
             }
             else
             {
@@ -444,7 +512,7 @@ public class SpawnerManager : MonoBehaviour
                     enemySpawner.SpawnTentaculin();
                     Debug.Log("Instanciando Guadaña");
                 }
-                else if (randomValue < 0.4 && randomValue > 0.1 )
+                else if (randomValue < 0.4 && randomValue > 0.1)
                 {
                     enemySpawner.SpawnSpiritEnemy();
                     Debug.Log("Instanciando Spirit");
@@ -470,36 +538,44 @@ public class SpawnerManager : MonoBehaviour
         //Lógica spawners zona infectada
         while (jugadorEnZonaInfectada)
         {
-            Debug.Log("Instanciando Enemigo");
-            if (Random.value < 0.16f)
+
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
             {
-                // Define an array of the 6 methods you want to choose from
-                System.Action[] methods = new System.Action[6]
+                if (tipDeEnemigos == 1)
                 {
-            enemySpawner.SpawnFirefly,
-            enemySpawner.SpawnSpiritEnemy,
-            enemySpawner.SpawnEscudito,
-            enemySpawner.SpawnGordetEnemy,
-            enemySpawner.SpawnTentaculin,
-            enemySpawner.SpawnGordetEnemy
-                };
-
-                int randomIndex = Random.Range(0, methods.Length);
-                methods[randomIndex]();
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnTentaculin();
+                }
+                maxEnemies++;
             }
-
-            // Wait for 5 seconds before checking the condition again
-            if (waitTime <= 5f)
+            if (numDeEnemigos == 2)
             {
-                waitTime += 5f;
-            }
-
-            cantidadDeLlamadas++;
-
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
-            {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGordetEnemy();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnSpiritEnemy();
+                }
+                maxEnemies = maxEnemies + 2;
             }
 
             yield return new WaitForSeconds(waitTime);
@@ -508,33 +584,45 @@ public class SpawnerManager : MonoBehaviour
         //Lógica spawners hielo
         while (jugadorEnZonaHielo)
         {
-            if(jugadorEnZonaHielo)
+
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
             {
-                float randomValue = Random.value;
-                Debug.Log(randomValue);
-                if (randomValue >= 0.5f && randomValue <= 1)
-                {
-                    enemySpawner.SpawnTentaculin();
-                }
-                else if (randomValue < 50 && randomValue >= 20)
+                if (tipDeEnemigos == 1)
                 {
                     enemySpawner.SpawnGordetEnemy();
-                    Debug.Log("Instanciando Spirit");
                 }
-                else if(randomValue < 20)
+                if (tipDeEnemigos == 2)
                 {
                     enemySpawner.SpawnGuadañaEnemy();
                 }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnFirefly();
+                }
+                maxEnemies++;
             }
-            cantidadDeLlamadas++;
-
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
+            if (numDeEnemigos == 2)
             {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
+                if (tipDeEnemigos == 1)
+                {
+                    enemySpawner.SpawnTentaculin();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 2)
+                {
+                    enemySpawner.SpawnGordetEnemy();
+                    enemySpawner.SpawnGuadañaEnemy();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnGordetEnemy();
+                }
+                maxEnemies = maxEnemies + 2;
             }
-
-            yield return new WaitForSeconds(waitTime);
         }
 
         //Lógica spawners laboratorio
@@ -546,67 +634,57 @@ public class SpawnerManager : MonoBehaviour
         }
 
         //Lógica spawners aldea
-        int initialSpawnCountAldea = 10;
+
         while (jugadorEnAldea)
         {
-            Debug.Log(initialSpawnCountAldea);
-            if (initialSpawnCountAldea > 5)
+
+            numDeEnemigos = Random.Range(1, 3);
+            tipDeEnemigos = Random.Range(1, 4);
+
+            if (numDeEnemigos == 1)
             {
-                enemySpawner.SpawnFirefly();
-            }
-            else if (initialSpawnCountAldea <= 5)
-            {
-                float randomValue = Random.value;
-                Debug.Log("Cogiendo Valor aleatorio");
-                if (randomValue >= 0.5f)
+                if (tipDeEnemigos == 1)
                 {
-                    enemySpawner.SpawnFirefly();
-                    Debug.Log("Instanciando Guadaña");
+                    enemySpawner.SpawnGordetEnemy();
                 }
-                else
+                if (tipDeEnemigos == 2)
                 {
                     enemySpawner.SpawnSpiritEnemy();
-                    Debug.Log("Instanciando Spirit");
                 }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnEscudito();
+                }
+                maxEnemies++;
             }
-            else if (initialSpawnCountAldea <= 0)
+            if (numDeEnemigos == 2)
             {
-                float randomValue = Random.value;
-                Debug.Log("Cogiendo Valor aleatorio");
-                if (randomValue > 0 && randomValue <= 0.33f)
+                if (tipDeEnemigos == 1)
                 {
-                    enemySpawner.SpawnFirefly();
-                    Debug.Log("Instanciando Guadaña");
+                    enemySpawner.SpawnEscudito();
+                    enemySpawner.SpawnGordetEnemy();
                 }
-                else if (randomValue > 0.33f && randomValue <= 0.66f)
+                if (tipDeEnemigos == 2)
                 {
+                    enemySpawner.SpawnEscudito();
+                    enemySpawner.SpawnEscudito();
+                }
+                if (tipDeEnemigos == 3)
+                {
+                    enemySpawner.SpawnGordetEnemy();
                     enemySpawner.SpawnSpiritEnemy();
-                    Debug.Log("Instanciando Spirit");
                 }
-                else if(randomValue > 0.66f)
-                {
-                    enemySpawner.SpawnTentaculin();
-                }
-            }
 
-            cantidadDeLlamadas++;
-
-            if (cantidadDeLlamadas == 7 && waitTime > 2)
-            {
-                waitTime -= 1f;
-                cantidadDeLlamadas = 0;
             }
-            initialSpawnCountAldea--;
-            yield return new WaitForSeconds(waitTime);
         }
 
         //Lógica spawners granja
         while (jugadorEnGranja)
         {
-            if(jugadorEnGranja)
+            if (jugadorEnGranja)
             {
                 float randomValue = Random.value;
-                if(randomValue <= 0.55f)
+                if (randomValue <= 0.55f)
                 {
                     enemySpawner.SpawnEscudito();
                 }
@@ -620,7 +698,7 @@ public class SpawnerManager : MonoBehaviour
                 }
 
             }
-            
+
             cantidadDeLlamadas++;
 
             if (cantidadDeLlamadas == 7 && waitTime > 2)
@@ -636,6 +714,8 @@ public class SpawnerManager : MonoBehaviour
         }
     }
 
+    //Lógica Spawners Bosque
+
     public void IniciarJuego()
     {
         jugadorEnBosque = false;
@@ -647,3 +727,4 @@ public class SpawnerManager : MonoBehaviour
         jugadorViendaSpawner = true;
     }
 }
+

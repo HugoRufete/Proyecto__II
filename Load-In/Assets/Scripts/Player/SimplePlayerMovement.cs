@@ -33,6 +33,8 @@ public class SimplePlayerMovement : MonoBehaviour
 
     public AudioSource audioSource;
 
+    public AudioClip pasosSound;
+
 
     void Start()
     {
@@ -144,6 +146,10 @@ public class SimplePlayerMovement : MonoBehaviour
         }
     }
 
+    public void pasosS()
+    {
+        ControladorSonido.Instance.EjecutarSonido(pasosSound);
+    }
     public void SonidoDash()
     {
         audioSource.Play();

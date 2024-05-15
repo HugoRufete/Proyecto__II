@@ -172,7 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCollider: {fileID: -5698912342543824347}
   standarCollider: {fileID: 5837192927813519969}
-  velocidadMovimiento: 5
+  velocidadMovimiento: 3.5
   distanciaDeseada: 1
   AttackCooldown: 1
   damageAmount: 10

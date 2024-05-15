@@ -36,15 +36,6 @@ public class Recolector : MonoBehaviour
                 if (onFragmentosRecogidos != null)
                 {
                     onFragmentosRecogidos.Invoke(fragmentosRecogidos);
-                    indicardorArea.SetActive(true);
-
-                    indicadorFragmentos_1.SetActive(false);
-                    indicadorFragmentos_2.SetActive(false);
-                    indicadorFragmentos_3.SetActive(false);
-
-                    fragmento_3.SetActive(true);
-
-
                 }
             }
             else if (fragmentosRecogidos == 1)
