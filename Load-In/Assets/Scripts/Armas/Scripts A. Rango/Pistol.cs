@@ -10,6 +10,8 @@ public class Pistol : MonoBehaviour
     public float velocidadBala = 10f;
     private Rigidbody2D rb;
 
+    public bool recargando;
+
     [Header("Cargador")]
     public int maxBalas = 20;
     public int currentAmmo;
@@ -50,6 +52,7 @@ public class Pistol : MonoBehaviour
     {
         numMun = GameObject.Find("HUD_Munición").GetComponent<NumMun>();
         // Cargar el estado de munición almacenado
+        
         currentAmmo = PlayerPrefs.GetInt("BalasPistola", maxBalas);
         rb = GameObject.Find("Player").GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player").GetComponent<Transform>();
@@ -64,9 +67,8 @@ public class Pistol : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && numMun.NumCajas>0)
         {
-
             Invoke("RecargarPistola", velocidadRecarga);
-            
+            recargando = true;
         }
     }
 
@@ -106,6 +108,7 @@ public class Pistol : MonoBehaviour
     {
         currentAmmo = maxBalas;
 
+        recargando = false;
         numMun.NumCajas--;
         PlayerPrefs.SetInt("BalasPistola", currentAmmo);
         PlayerPrefs.Save();

@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd5c0f12cdb1a74bb3d591f260d7034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followSpeed: 2
+  followSpeed: 4
 --- !u!114 &575385555884954527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,7 +276,7 @@ MonoBehaviour:
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
   "animacionCuraci\xF3n": {fileID: 5901989079454932653}
-  enemyDeadAnimationName: Exploding_Firefly
+  enemyDeadAnimationName: Death_firefly
 --- !u!50 &1879538370309110726
 Rigidbody2D:
   serializedVersion: 4
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b5166b8c9199e488dcb3220468799f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 50
 --- !u!1001 &2274801805011649383
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -457,6 +457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 3335817280683252151, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5099172815700092873, guid: 998c8cb8bb548e844befe7682cee0cc1, type: 3}
       propertyPath: healingAmount
       value: 5

@@ -146,8 +146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabBala: {fileID: 5700418254993555023, guid: ae19d91019f5e6e47ba9c0980e75a45e, type: 3}
   puntoDisparo: {fileID: 4258807638736000681}
-  velocidadBala: 10
-  maxBalas: 15
+  velocidadBala: 20
+  maxBalas: 3
   balasRestantes: 0
   alcance: 30
   velocidadRecarga: 2

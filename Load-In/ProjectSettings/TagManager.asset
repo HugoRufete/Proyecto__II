@@ -25,6 +25,7 @@ TagManager:
   - Lata
   - Cecina
   - Seta
+  - ReloadingAnimacion
   layers:
   - Default
   - TransparentFX

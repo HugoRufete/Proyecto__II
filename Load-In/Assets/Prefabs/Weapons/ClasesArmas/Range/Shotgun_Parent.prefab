@@ -103,10 +103,10 @@ MonoBehaviour:
   puntoDisparo: {fileID: 4557626324859003719}
   velocidadBala: 10
   alcance: 10
-  maxBullets: 20
-  bulletsInMagazine: 20
+  maxBullets: 6
+  bulletsInMagazine: 6
   velocidadRecarga: 3
-  recoil: 10
+  recoil: 20
 --- !u!114 &8890358296191189874
 MonoBehaviour:
   m_ObjectHideFlags: 0
