@@ -197,8 +197,8 @@ TextureImporter:
       name: Ataque_Escudito_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 97
+        y: 95
         width: 96
         height: 96
       alignment: 9

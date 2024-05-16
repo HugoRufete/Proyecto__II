@@ -23,8 +23,8 @@ public class EnemyHealth : MonoBehaviour
     private bool isPushed = false;
     private bool hasBeenPushed = false;
 
-    
 
+    private MaxEnemigos maxEnemigos;
     private Rigidbody2D rb;
     private Animator animator;
     public string enemyDeadAnimationName;
@@ -47,6 +47,7 @@ public class EnemyHealth : MonoBehaviour
     }
     private void Start()
     {
+        maxEnemigos= GameObject.Find("Spawns").GetComponent<MaxEnemigos>();
         health = maxHealth;
         initialPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
@@ -210,6 +211,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void DestroyObject()
     {
+        maxEnemigos.numEnemies--;
         experienciaSoltada = true;
         if (enemyDeadEvent != null)
             enemyDeadEvent.Invoke(5);
@@ -219,6 +221,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void DestroyObjectFirefly()
     {
+        maxEnemigos.numEnemies--;
         Destroy(gameObject);
     }
 }

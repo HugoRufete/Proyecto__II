@@ -22,6 +22,7 @@ public class SpawnerManager : MonoBehaviour
 
     public int maxEnemies;
 
+    private MaxEnemigos maxEnemigos;
 
     private int numDeEnemigos;
     private int tipDeEnemigos;
@@ -50,6 +51,7 @@ public class SpawnerManager : MonoBehaviour
 
     private void Start()
     {
+        maxEnemigos = GameObject.Find("Spawns").GetComponent<MaxEnemigos>();
         jugadorViendaSpawner = false;
 
         jugadorEnBosque = false;
@@ -61,6 +63,7 @@ public class SpawnerManager : MonoBehaviour
 
     void Update()
     {
+        
         waveUpdateTimer += Time.deltaTime;
         if (waveUpdateTimer >= waveUpdateInterval && jugadorEnBosque)
         {
@@ -217,6 +220,8 @@ public class SpawnerManager : MonoBehaviour
     }
     private IEnumerator SpawnEnemieslyOverTime()
     {
+        if (maxEnemigos.MaxSuperated == false)
+        {
         while (jugadorEnBosque)
         {
 
@@ -237,7 +242,7 @@ public class SpawnerManager : MonoBehaviour
                 {
                     enemySpawner.SpawnEscudito();
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -284,7 +289,7 @@ public class SpawnerManager : MonoBehaviour
                     enemySpawner.SpawnTentaculin();
                     
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -327,7 +332,7 @@ public class SpawnerManager : MonoBehaviour
                 {
                     enemySpawner.SpawnGuadañaEnemy();
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -371,7 +376,7 @@ public class SpawnerManager : MonoBehaviour
                 {
                     enemySpawner.SpawnFirefly();
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -552,9 +557,9 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnSpiritEnemy();
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -600,7 +605,7 @@ public class SpawnerManager : MonoBehaviour
                 {
                     enemySpawner.SpawnFirefly();
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -651,9 +656,9 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnEscudito();
+                    enemySpawner.SpawnTentaculin();
                 }
-                maxEnemies++;
+                maxEnemigos.numEnemies++;
             }
             if (numDeEnemigos == 2)
             {
@@ -709,6 +714,8 @@ public class SpawnerManager : MonoBehaviour
                 waitTime = 3;
             }
             yield return new WaitForSeconds(waitTime);
+        }
+
         }
     }
 

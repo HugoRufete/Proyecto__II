@@ -253,7 +253,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Escudito_Deatch
+  m_Name: Escudito_Death
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -292,7 +292,7 @@ AnimatorStateMachine:
     m_Position: {x: 290, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2367202707517045454}
-    m_Position: {x: 290, y: 230, z: 0}
+    m_Position: {x: 550, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7896468931819572662}
     m_Position: {x: 290, y: 160, z: 0}
