@@ -251,8 +251,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionF: {fileID: 8300000, guid: cea374b54eca21b49bcc0d676afcd2ff, type: 3}
-  alarmSource: {fileID: 3694474531061071696}
-  damage: 10
+  alarmSource: {fileID: 0}
+  damage: 5
   radiousToExplode: 2
 --- !u!114 &5871270884001391476
 MonoBehaviour:
@@ -275,7 +275,6 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animacionCuraci\xF3n": {fileID: 5901989079454932653}
   enemyDeadAnimationName: Death_firefly
 --- !u!50 &1879538370309110726
 Rigidbody2D:
@@ -585,11 +584,6 @@ PrefabInstance:
 --- !u!4 &123907064112325910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
-  m_PrefabInstance: {fileID: 2274801805011649383}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5901989079454932653 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
   m_PrefabInstance: {fileID: 2274801805011649383}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5100775400693111346

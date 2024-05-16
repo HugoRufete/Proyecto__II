@@ -20,6 +20,7 @@ public class Escudito : MonoBehaviour
     bool isattacking = false;
   
     private AudioSource audiosource;
+    public AudioClip escudoSonido;
 
     public int damageAmount = 10;
     private VidaPlayer vidaPlayer;
@@ -89,7 +90,7 @@ public class Escudito : MonoBehaviour
             // Voltear al enemigo
             Voltear();
         }
-        if (enemHealth != null && enemHealth.health < 30 && enemHealth.health > 24 && !protegiendo && !accionRealizada)
+        if (enemHealth != null && enemHealth.health <= 70 && enemHealth.health > 60 && !protegiendo && !accionRealizada)
         {
             Debug.Log("Empieza la corrutina");
             Invoke("WaitToProtection", 1f);
@@ -97,7 +98,7 @@ public class Escudito : MonoBehaviour
             accionRealizada = true; //La activamos a verdadera de forma que la animación solo se realizará una vez
         }
         //Si la vida enemiga es menor de 20 y mayor de 20 y la booleana es falsa se hará la corutina que incluye la animación de proteger
-        if (enemHealth != null && enemHealth.health < 20 && enemHealth.health > 14 && !protegiendo && accionRealizada)
+        if (enemHealth != null && enemHealth.health <= 30 && enemHealth.health > 20 && !protegiendo && accionRealizada)
         {
             Debug.Log("Empieza la corrutina");
             Invoke("WaitToProtection", 1f);
@@ -105,7 +106,7 @@ public class Escudito : MonoBehaviour
             accionRealizada = false; //La activamos a verdadera de forma que la animación solo se realizará una vez
         }
 
-        if (enemHealth != null && enemHealth.health < 9 && enemHealth.health > 4 && !protegiendo && !accionRealizada)
+        if (enemHealth != null && enemHealth.health <= 10 && enemHealth.health > 0 && !protegiendo && !accionRealizada)
         {
 
 
@@ -151,7 +152,10 @@ public class Escudito : MonoBehaviour
         isattacking = false;
     }
 
-    
+    public void EscudoSound()
+    {
+        ControladorSonido.Instance.EjecutarSonido(escudoSonido);
+    }
 
     IEnumerator PlayAnimationForDuration(string animationName, float duration) //Corutina que controla la animación de proteger
     {

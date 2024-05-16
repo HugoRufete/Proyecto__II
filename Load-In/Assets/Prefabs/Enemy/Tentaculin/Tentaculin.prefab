@@ -109,7 +109,7 @@ CapsuleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -229,7 +229,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.5234337, y: -0.55815566}
+  m_Offset: {x: -1.5234337, y: -0.589955}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -240,7 +240,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.1992135, y: 1.3517146}
+  m_Size: {x: 3.1992135, y: 3.196067}
   m_EdgeRadius: 0
 --- !u!114 &-3236727358418599062
 MonoBehaviour:
@@ -263,7 +263,6 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animacionCuraci\xF3n": {fileID: 3711588718536019091}
   enemyDeadAnimationName: NombrePorDefecto
 --- !u!114 &6679326366511888483
 MonoBehaviour:
@@ -504,11 +503,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
---- !u!1 &3711588718536019091 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
-  m_PrefabInstance: {fileID: 9078022896481833305}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7192830637808105256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}

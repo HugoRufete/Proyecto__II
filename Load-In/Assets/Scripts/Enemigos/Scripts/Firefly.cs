@@ -31,6 +31,7 @@ public class Firefly : MonoBehaviour
                 enemyFollow.followSpeed = 3;
                 animator.Play("Exploding_Firefly");
                 exploded = true;
+                
 
             }
         }

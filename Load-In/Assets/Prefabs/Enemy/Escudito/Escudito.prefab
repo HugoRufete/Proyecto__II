@@ -175,6 +175,7 @@ MonoBehaviour:
   velocidadMovimiento: 3.5
   distanciaDeseada: 1
   AttackCooldown: 1
+  escudoSonido: {fileID: 8300000, guid: dca34e0829f3d644585e125efd28113f, type: 3}
   damageAmount: 10
 --- !u!95 &3449264794818362786
 Animator:

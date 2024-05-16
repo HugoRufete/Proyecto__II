@@ -217,9 +217,6 @@ public class SpawnerManager : MonoBehaviour
     }
     private IEnumerator SpawnEnemieslyOverTime()
     {
-
-
-
         while (jugadorEnBosque)
         {
 
@@ -285,6 +282,7 @@ public class SpawnerManager : MonoBehaviour
                 if (tipDeEnemigos == 3)
                 {
                     enemySpawner.SpawnTentaculin();
+                    
                 }
                 maxEnemies++;
             }
