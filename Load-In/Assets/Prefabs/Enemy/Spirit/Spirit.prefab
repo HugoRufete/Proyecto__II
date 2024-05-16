@@ -164,8 +164,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 328756813
-  m_SortingLayer: 6
+  m_SortingLayerID: 1897196197
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 1034910862, guid: ca0a226783e255a41bead1efeceb6dd1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -177,7 +177,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!61 &6454888039058286592
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -258,7 +258,6 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animacionCuraci\xF3n": {fileID: 2057071643347841844}
   enemyDeadAnimationName: Spirit_Dead
 --- !u!50 &1111148336574404396
 Rigidbody2D:
@@ -467,11 +466,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
---- !u!1 &2057071643347841844 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
-  m_PrefabInstance: {fileID: 5977829484445871870}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5538311397977360527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
