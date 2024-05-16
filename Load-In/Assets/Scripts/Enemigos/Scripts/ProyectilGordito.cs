@@ -8,6 +8,7 @@ public class ProyectilGordito : MonoBehaviour
     public int damage = 10;
     public AudioClip explosión;
     private Transform target;
+    public AudioClip explosión2;
 
     void Start()
     {
@@ -47,6 +48,7 @@ public class ProyectilGordito : MonoBehaviour
 
     public void DestroyProjectile()
     {
-        Destroy(this.gameObject);   
+        Destroy(this.gameObject);
+        ControladorSonido.Instance.EjecutarSonido(explosión2);
     }
 }

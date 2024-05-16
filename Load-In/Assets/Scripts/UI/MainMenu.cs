@@ -5,7 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void Jugar()
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.loop = true;
+        audioSource.Play();
+    }
+    public void Jugar()
     {
         SceneManager.LoadScene("Escena Principal");
     }
@@ -19,4 +27,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Controles");
     }
+
+    
 }
