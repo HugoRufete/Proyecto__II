@@ -219,8 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12704913a66cb141a5b238b3eabc36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
-  maxHealth: 40
+  health: 80
+  maxHealth: 80
   additionalDamageActivated: 1
   bloodEnemy: {fileID: 6700325468273730942}
   experiencePrefab: {fileID: 5704683092391557781, guid: 942a72dfae8740747902e1b51cf26cd1, type: 3}

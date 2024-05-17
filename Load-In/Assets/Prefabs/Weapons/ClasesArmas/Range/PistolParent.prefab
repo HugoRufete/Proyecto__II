@@ -24,7 +24,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4575389964433397831}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,6 +31,7 @@ Transform:
   m_Children:
   - {fileID: 8744551761038375897}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5193193547066861025
 MonoBehaviour:
@@ -96,6 +96,22 @@ PrefabInstance:
     - target: {fileID: 2955872532973674574, guid: 383f6727e12fbb94babdb4c292df78ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648860174836956147, guid: 383f6727e12fbb94babdb4c292df78ec, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648860174836956147, guid: 383f6727e12fbb94babdb4c292df78ec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648860174836956147, guid: 383f6727e12fbb94babdb4c292df78ec, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1897196197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648860174836956147, guid: 383f6727e12fbb94babdb4c292df78ec, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
