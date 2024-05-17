@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2955872532973674574}
   - component: {fileID: 8648860174836956147}
   - component: {fileID: 3613676358862495242}
-  - component: {fileID: 5398909059405906847}
+  - component: {fileID: 5737088576576565723}
+  - component: {fileID: 8432116149838546464}
   m_Layer: 9
   m_Name: Pistol
   m_TagString: Untagged
@@ -102,13 +103,14 @@ MonoBehaviour:
   prefabBala: {fileID: 5700418254993555023, guid: 51177f21f01839d40886ceddeb005622, type: 3}
   puntoDisparo: {fileID: 7729848137377631550}
   velocidadBala: 10
+  recargando: 0
   maxBalas: 20
   currentAmmo: 0
   alcance: 10
   velocidadRecarga: 2
   pistol: {fileID: 8300000, guid: d8c7ae869fa0bc24bb378c11c6e92a31, type: 3}
   recoil: 50
---- !u!114 &5398909059405906847
+--- !u!114 &5737088576576565723
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +124,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 3613676358862495242}
-  rigidbodies: []
+  rigidbodies:
+  - {fileID: 8432116149838546464}
+--- !u!50 &8432116149838546464
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571079259289796844}
+  m_BodyType: 0
+  m_Simulated: 0
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4546805454823466293
 GameObject:
   m_ObjectHideFlags: 0

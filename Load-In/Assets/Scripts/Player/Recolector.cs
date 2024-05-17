@@ -12,12 +12,6 @@ public class Recolector : MonoBehaviour
     public class FragmentosRecogidosEvent : UnityEvent<int> { }
     public FragmentosRecogidosEvent onFragmentosRecogidos;
 
-    public GameObject indicardorArea;
-
-    public GameObject indicadorFragmentos_1;
-    public GameObject indicadorFragmentos_2;
-    public GameObject indicadorFragmentos_3;
-
     public GameObject fragmento_1;
     public GameObject fragmento_2;
     public GameObject fragmento_3;
@@ -32,6 +26,7 @@ public class Recolector : MonoBehaviour
 
             if (fragmentosRecogidos >= 3)
             {
+                fragmento_3.SetActive(true);
                 areaExtraccion.SetActive(true);
                 if (onFragmentosRecogidos != null)
                 {

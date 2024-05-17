@@ -10,17 +10,32 @@ public class AreaExtracción : MonoBehaviour
     public float extractionTimer = 0f;
     private float extractionDuration = 15f;
 
+    public AudioSource audioSource;
+    public AudioClip audioClip1, audioClip2;
+
     public GameObject timerExtraction;
 
     public Animator animator;
 
+    public Animator animatorExplosión;
+
+    public GameObject explosionObject;
+
+    FreezeEnemies[] freezeEnemies;
     // Update is called once per frame
 
     public TMP_Text extractionTimerText;
+
+    public GameObject panelEndGame;
+
+    public GameObject UI;
+
+    private void Start()
+    {
+        freezeEnemies = FindObjectsOfType<FreezeEnemies>();
+    }
     void Update()
     {
-        
-           
         
         if (playerInside)
         {
@@ -28,9 +43,20 @@ public class AreaExtracción : MonoBehaviour
 
             if (extractionTimer >= extractionDuration)
             {
-                SceneManager.LoadScene("WinScene");
+                audioSource.clip = audioClip1;
+                audioSource.Play();
+                StartCoroutine(ActivateObjectWithDelay(panelEndGame, 4f));
+                StartCoroutine(ActivateSceneWithDelay("CreditosEscena", 7f));
+
+
+                UI.SetActive(false);
+                explosionObject.SetActive(true);
+                for (int i = 0; i < freezeEnemies.Length; i++)
+                {
+                    freezeEnemies[i].DesactivarComponentes();
+                }
                 Debug.Log("¡Extracción completada!");
-                extractionTimer = 0f; // Reiniciar el temporizador
+                extractionTimer = 0f; 
             }
             extractionTimerText.text = "You will scape in 15 seconds! " + extractionTimer.ToString("F2") + " seconds";
         }
@@ -56,5 +82,36 @@ public class AreaExtracción : MonoBehaviour
             playerInside = false;
             extractionTimer = 0f; 
         }
+    }
+    private IEnumerator ActivateSoundWithDelay(AudioClip audioClip, float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+        if (audioSource != null)
+        {
+            audioSource.clip = audioClip;
+            audioSource.Play();
+        }
+    }
+    private IEnumerator ActivateObjectWithDelay(GameObject objetoAActivar, float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+        if (objetoAActivar != null)
+        {
+            objetoAActivar.SetActive(true);
+        }
+    }
+
+    private IEnumerator ActivateSceneWithDelay(string nombreEscena, float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+        if (nombreEscena != null)
+        {
+            SceneManager.LoadScene(nombreEscena);
+        }
+
+        
     }
 }

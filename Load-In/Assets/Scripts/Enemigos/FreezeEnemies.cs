@@ -11,11 +11,21 @@ public class FreezeEnemies : MonoBehaviour
 
     Recolector recolector;
 
+    CircleExplosion circleExplosion;
+
     private void Start()
     {
         recolector = GetComponent<Recolector>();
+        circleExplosion = FindAnyObjectByType<CircleExplosion>();
     }
 
+    private void Update()
+    {
+        if (circleExplosion != null)
+        {
+            DesactivarComponentes();
+        }
+    }
     public void DesactivarComponentes()
     {
         Debug.Log("Desactivating Components");
@@ -50,17 +60,20 @@ public class FreezeEnemies : MonoBehaviour
 
     public void ActivarComponentes()
     {
-        Debug.Log("Activating Components");
-        foreach (Component component in components)
+        for (int i = 0; i < components.Length; i++)
         {
-            Behaviour behaviour = component as Behaviour;
-            if (behaviour != null && behaviour.gameObject.activeSelf)
+            Component component = components[i];
+            if (component != null && component.gameObject.activeSelf)
             {
-                behaviour.enabled = true;
+                Behaviour behaviour = component as Behaviour;
+                if (behaviour != null)
+                {
+                    behaviour.enabled = true;
+                }
             }
             else
             {
-                Debug.Log("No active components to activate");
+                Debug.Log("Component " + i + " has been destroyed or is not active");
             }
         }
         foreach (Rigidbody2D rb in rigidbodies)

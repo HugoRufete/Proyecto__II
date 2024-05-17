@@ -34,6 +34,8 @@ public class EnemyHealth : MonoBehaviour
     // Coroutine handle
     private Coroutine invulnerabilityCoroutine;
 
+    CircleExplosion circleExplosión;
+
     // Declaración del evento estático
     public static event System.Action<int> enemyDeadEvent;
 
@@ -52,8 +54,16 @@ public class EnemyHealth : MonoBehaviour
         initialPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        circleExplosión = FindAnyObjectByType<CircleExplosion>();
     }
 
+    private void Update()
+    {
+        if(circleExplosión != null)
+        {
+            health = 0;
+        }
+    }
     public void EnemyTakeDamage(float damageAmount)
     {
         bloodEnemy.Play();

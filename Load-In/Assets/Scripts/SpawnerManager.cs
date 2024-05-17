@@ -258,7 +258,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnEscuditoCommander();
                     enemySpawner.SpawnSpiritEnemy();
                 }
                 maxEnemies = maxEnemies + 2;
@@ -566,16 +566,16 @@ public class SpawnerManager : MonoBehaviour
                 if (tipDeEnemigos == 1)
                 {
                     enemySpawner.SpawnFirefly();
-                    enemySpawner.SpawnGordetEnemy();
+                    enemySpawner.SpawnGuadañaCommander();
                 }
                 if (tipDeEnemigos == 2)
                 {
                     enemySpawner.SpawnGordetEnemy();
-                    enemySpawner.SpawnGuadañaEnemy();
+                    enemySpawner.SpawnGuadañaCommander();
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnFirefly();
+                    enemySpawner.SpawnTentaculinCommander();
                     enemySpawner.SpawnSpiritEnemy();
                 }
                 maxEnemies = maxEnemies + 2;

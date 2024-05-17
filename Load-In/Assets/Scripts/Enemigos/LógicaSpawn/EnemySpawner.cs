@@ -13,6 +13,10 @@ public class EnemySpawner : MonoBehaviour
     public GameObject spirit;
     public GameObject tentaculin;
 
+    [Header("Commanders")]
+    public GameObject tentaculinCommander;
+    public GameObject escuditoCommander;
+    public GameObject guadañaCommander;
     public List<Transform> spawnPoints;  // Lista de puntos de spawn
 
     private MaxEnemigos maxEnemigos;
@@ -185,6 +189,80 @@ public class EnemySpawner : MonoBehaviour
     }
 
 
+    public void SpawnTentaculinCommander()
+    {
+        if (maxEnemigos.MaxSuperated == false)
+        {
+            Debug.Log("Instanciando Gordet");
+            if (tentaculinCommander != null && spawnPoints.Count > 0)
+            {
+                // Elije un punto de spawn al azar
+                int randomIndex = Random.Range(0, spawnPoints.Count);
 
+                // Asegúrate de que el índice esté dentro del rango
+                randomIndex = Mathf.Clamp(randomIndex, 0, spawnPoints.Count - 1);
 
+                // Obtén el punto de spawn correspondiente al índice
+                Transform spawnPoint = spawnPoints[randomIndex];
+
+                // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
+                Instantiate(tentaculinCommander, spawnPoint.position, Quaternion.identity);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Falta asignar el prefab de BasicEnemy o los puntos de spawn.");
+        }
+    }
+    public void SpawnGuadañaCommander()
+    {
+        if (maxEnemigos.MaxSuperated == false)
+        {
+            Debug.Log("Instanciando Gordet");
+            if (guadañaCommander != null && spawnPoints.Count > 0)
+            {
+                // Elije un punto de spawn al azar
+                int randomIndex = Random.Range(0, spawnPoints.Count);
+
+                // Asegúrate de que el índice esté dentro del rango
+                randomIndex = Mathf.Clamp(randomIndex, 0, spawnPoints.Count - 1);
+
+                // Obtén el punto de spawn correspondiente al índice
+                Transform spawnPoint = spawnPoints[randomIndex];
+
+                // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
+                Instantiate(guadañaCommander, spawnPoint.position, Quaternion.identity);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Falta asignar el prefab de BasicEnemy o los puntos de spawn.");
+        }
+    }
+
+    public void SpawnEscuditoCommander()
+    {
+        if (maxEnemigos.MaxSuperated == false)
+        {
+            Debug.Log("Instanciando Gordet");
+            if (escuditoCommander != null && spawnPoints.Count > 0)
+            {
+                // Elije un punto de spawn al azar
+                int randomIndex = Random.Range(0, spawnPoints.Count);
+
+                // Asegúrate de que el índice esté dentro del rango
+                randomIndex = Mathf.Clamp(randomIndex, 0, spawnPoints.Count - 1);
+
+                // Obtén el punto de spawn correspondiente al índice
+                Transform spawnPoint = spawnPoints[randomIndex];
+
+                // Instancia el enemigo en el punto de spawn y con la rotación predeterminada
+                Instantiate(escuditoCommander, spawnPoint.position, Quaternion.identity);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Falta asignar el prefab de BasicEnemy o los puntos de spawn.");
+        }
+    }
 }
