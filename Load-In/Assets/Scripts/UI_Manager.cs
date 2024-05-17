@@ -11,6 +11,7 @@ public class UI_Manager : MonoBehaviour
     public GameObject textoInicial;
 
     public SimplePlayerMovement playerController;
+    public VidaPlayer playerVida;
 
     [Header("Objetos a activar después del texto")]
 
@@ -19,16 +20,19 @@ public class UI_Manager : MonoBehaviour
     public GameObject UI3;
     public GameObject UI4;
     public GameObject UI5;
+
+    private bool animaciónHelicopteroTerminada = false;
     void Start()
     {
         playerController.enabled = false;
+        playerVida.enabled = false;
 
         audioSource.clip = audioClip1;
         audioSource.Play();
-        StartCoroutine(ActivateSoundWithDelay(audioClip2, 10f));
-
-        StartCoroutine(ActivateObjectWithDelay(textoInicial, 10f));
+        StartCoroutine(ActivateSoundWithDelay(audioClip2, 6f));
+        StartCoroutine(ActivateObjectWithDelay(textoInicial, 6f));
         StartCoroutine(EnableObjectWithDelay(playerController, 70f));
+        StartCoroutine(EnableObjectWithDelayVida(playerVida, 70f));
 
         StartCoroutine(DestroyObjectCoroutine(textoInicial, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI1, 70f));
@@ -36,17 +40,20 @@ public class UI_Manager : MonoBehaviour
         StartCoroutine(ActivateObjectWithDelay(UI3, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI4, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI5, 70f));
-        
+
+        Invoke("OnHelicoteroIdo", 5f);
 
     }
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && animaciónHelicopteroTerminada)
         {
-            StartCoroutine(ActivateSoundWithDelay(audioClip2, 0.1f));
+            audioSource.clip = audioClip2;
+            audioSource.Stop();
             StartCoroutine(ActivateObjectWithDelay(textoInicial, 0.1f));
             StartCoroutine(EnableObjectWithDelay(playerController, 0.1f));
+            StartCoroutine(EnableObjectWithDelayVida(playerVida, 0.1f));
 
             StartCoroutine(DestroyObjectCoroutine(textoInicial, 0.1f));
             StartCoroutine(ActivateObjectWithDelay(UI1, 0.1f));
@@ -84,7 +91,15 @@ public class UI_Manager : MonoBehaviour
             objetoADestruir.enabled = true;
         }
     }
+    private IEnumerator EnableObjectWithDelayVida(VidaPlayer objetoADestruir, float delayInSeconds)
+    {
+        yield return new WaitForSeconds(delayInSeconds);
 
+        if (objetoADestruir != null)
+        {
+            objetoADestruir.enabled = true;
+        }
+    }
     private IEnumerator ActivateSoundWithDelay(AudioClip audioClip, float delayInSeconds)
     {
         yield return new WaitForSeconds(delayInSeconds);
@@ -94,5 +109,10 @@ public class UI_Manager : MonoBehaviour
             audioSource.clip = audioClip;
             audioSource.Play();
         }
+    }
+
+    void OnHelicoteroIdo()
+    {
+        animaciónHelicopteroTerminada = true;
     }
 }

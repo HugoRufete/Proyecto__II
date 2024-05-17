@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0d4ccc590f64a1479866b3040272ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 50
+  damageAmount: 30
 --- !u!1 &9145783561523735817
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,5 +302,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccaac8d1a912e7944b6ae9ab1781d28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hachazoo: {fileID: 0}
+  hachazoo: {fileID: 8300000, guid: 166d0ed2efc2e994fb60bc06b8ceea0f, type: 3}
   "NombreAnimaci\xF3n": HachaAttack

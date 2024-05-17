@@ -207,8 +207,9 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     }
     void Update()
     {
+        freezeEnemies = FindObjectsOfType<FreezeEnemies>();
 
-        if(extraSpores >= 20)
+        if (extraSpores >= 20)
         {
             StartCoroutine(ActivateObjectWithDelay(extraEsporasPopUp, 7f));
             StartCoroutine(ActivateObjectAnimationwithDelay("PopUpRecomensaExtraAnimation", 7f));

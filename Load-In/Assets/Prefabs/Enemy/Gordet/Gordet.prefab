@@ -31,7 +31,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4266318263142028208}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.329998, y: -3.8300004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,6 +40,7 @@ Transform:
   - {fileID: 8801251812616351298}
   - {fileID: 5095794746352242149}
   m_Father: {fileID: 0}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7311860795790538667
 SpriteRenderer:
@@ -228,7 +228,6 @@ MonoBehaviour:
   curaPrefab: {fileID: 6840345394571977922, guid: eb01950b8cf97614289d2680a2412444, type: 3}
   ammoPrefab: {fileID: 1172712516811187899, guid: f42220af541decf40872ebdeec3c0129, type: 3}
   maxDistanceFromEnemy: 0.5
-  "animacionCuraci\xF3n": {fileID: 1650500337529157214}
   enemyDeadAnimationName: Gordet_Dead
 --- !u!82 &7565423802114408976
 AudioSource:
@@ -369,13 +368,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7178702938504806560}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07, y: -0, z: 0}
   m_LocalScale: {x: 1.7757598, y: 1.7757598, z: 1.7757598}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8645533899122810495}
+  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5752675528439686768
 SpriteRenderer:
@@ -565,11 +564,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac95822eb62b1448870da42f1191788, type: 3}
---- !u!1 &1650500337529157214 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5654739907152076234, guid: bac95822eb62b1448870da42f1191788, type: 3}
-  m_PrefabInstance: {fileID: 6385658641760922516}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5095794746352242149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2173423193441740401, guid: bac95822eb62b1448870da42f1191788, type: 3}
