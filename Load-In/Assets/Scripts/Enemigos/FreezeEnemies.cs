@@ -1,8 +1,5 @@
-using JetBrains.Annotations;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class FreezeEnemies : MonoBehaviour
 {
@@ -10,42 +7,38 @@ public class FreezeEnemies : MonoBehaviour
     public Rigidbody2D[] rigidbodies;
 
     Recolector recolector;
-
     CircleExplosion circleExplosion;
+
+    private bool componentsDisabled = false;
 
     private void Start()
     {
         recolector = GetComponent<Recolector>();
-        circleExplosion = FindAnyObjectByType<CircleExplosion>();
     }
 
     private void Update()
     {
-        if (circleExplosion != null)
-        {
-            DesactivarComponentes();
-        }
+        
     }
+
     public void DesactivarComponentes()
     {
-        Debug.Log("Desactivating Components");
-        for (int i = 0; i < components.Length; i++)
+        Debug.Log("Desactivando Componentes");
+        foreach (var component in components)
         {
-            Component component = components[i];
             if (component != null && component.gameObject.activeSelf)
             {
-                Behaviour behaviour = component as Behaviour;
-                if (behaviour != null)
+                if (component is Behaviour behaviour)
                 {
                     behaviour.enabled = false;
                 }
             }
             else
             {
-                Debug.Log("Component " + i + " has been destroyed or is not active");
+                Debug.Log("Component ha sido destruido o no está activo");
             }
         }
-        foreach (Rigidbody2D rb in rigidbodies)
+        foreach (var rb in rigidbodies)
         {
             if (rb != null && rb.gameObject.activeSelf)
             {
@@ -53,39 +46,45 @@ public class FreezeEnemies : MonoBehaviour
             }
             else
             {
-                Debug.Log("Rigidbody " + "x"+ " has been destroyed or is not active");
+                Debug.Log("Rigidbody ha sido destruido o no está activo");
             }
         }
+        componentsDisabled = true;
     }
 
     public void ActivarComponentes()
     {
-        for (int i = 0; i < components.Length; i++)
+        Debug.Log("Activando Componentes");
+        foreach (var component in components)
         {
-            Component component = components[i];
             if (component != null && component.gameObject.activeSelf)
             {
-                Behaviour behaviour = component as Behaviour;
-                if (behaviour != null)
+                if (component is Behaviour behaviour)
                 {
                     behaviour.enabled = true;
                 }
             }
             else
             {
-                Debug.Log("Component " + i + " has been destroyed or is not active");
+                Debug.Log("Component ha sido destruido o no está activo");
             }
         }
-        foreach (Rigidbody2D rb in rigidbodies)
+        foreach (var rb in rigidbodies)
         {
             if (rb != null && rb.gameObject.activeSelf)
             {
-                rb.velocity = Vector3.one * 1f;
+                rb.velocity = Vector3.one; // o cualquier otra lógica para reactivar el Rigidbody2D
             }
             else
             {
-                Debug.Log("No active rigidbodies to set velocity");
+                Debug.Log("No hay rigidbodies activos para establecer la velocidad");
             }
         }
+    }
+
+    public IEnumerator ActivarComponentesConRetraso(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        ActivarComponentes();
     }
 }

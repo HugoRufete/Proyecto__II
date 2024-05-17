@@ -419,9 +419,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
                 {
                     if (freezeEnemies[i] != null)
                     {
-                        StartCoroutine(ActivarComponentesEnemigosConRetraso(i, 4f));
+                        StartCoroutine(freezeEnemies[i].ActivarComponentesConRetraso(4f));
                     }
                 }
+
                 DesbloquearAlabarda();
                 interesDiosa = 1;
                 dialogosDiosaTienda1[4].SetActive(true);
@@ -2084,10 +2085,10 @@ public class Weapon_Wheel_Manager : MonoBehaviour
 
         equippedPopUps.Play(animación);
     }
-    private IEnumerator ActivarComponentesEnemigosConRetraso(int i, float delay)
+    private IEnumerator ActivarComponentesEnemigosConRetraso(int index, float delay)
     {
         yield return new WaitForSeconds(delay);
-        freezeEnemies[i].ActivarComponentes();
+        freezeEnemies[index].ActivarComponentes();
     }
     private void ActualizarPrecioAlabarda()
     {
