@@ -11,7 +11,7 @@ public class UI_Manager : MonoBehaviour
     public GameObject textoInicial;
 
     public SimplePlayerMovement playerController;
-    public VidaPlayer playerVida;
+    public Weapon_Wheel_Manager playerVida;
 
     [Header("Objetos a activar después del texto")]
 
@@ -20,6 +20,7 @@ public class UI_Manager : MonoBehaviour
     public GameObject UI3;
     public GameObject UI4;
     public GameObject UI5;
+    public GameObject UI6;
 
     private bool animaciónHelicopteroTerminada = false;
     void Start()
@@ -40,6 +41,7 @@ public class UI_Manager : MonoBehaviour
         StartCoroutine(ActivateObjectWithDelay(UI3, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI4, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI5, 70f));
+        StartCoroutine(ActivateObjectWithDelay(UI6, 70f));
 
         Invoke("OnHelicoteroIdo", 5f);
 
@@ -61,6 +63,7 @@ public class UI_Manager : MonoBehaviour
             StartCoroutine(ActivateObjectWithDelay(UI3, 0.1f));
             StartCoroutine(ActivateObjectWithDelay(UI4, 0.1f));
             StartCoroutine(ActivateObjectWithDelay(UI5, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(UI6, 0.1f));
         }
     }
     private IEnumerator ActivateObjectWithDelay(GameObject objetoAActivar, float delayInSeconds)
@@ -91,7 +94,7 @@ public class UI_Manager : MonoBehaviour
             objetoADestruir.enabled = true;
         }
     }
-    private IEnumerator EnableObjectWithDelayVida(VidaPlayer objetoADestruir, float delayInSeconds)
+    private IEnumerator EnableObjectWithDelayVida(Weapon_Wheel_Manager objetoADestruir, float delayInSeconds)
     {
         yield return new WaitForSeconds(delayInSeconds);
 

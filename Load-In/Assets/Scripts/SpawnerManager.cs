@@ -1,5 +1,4 @@
 using System.Collections;
-//using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class SpawnerManager : MonoBehaviour
@@ -27,6 +26,7 @@ public class SpawnerManager : MonoBehaviour
 
     private int numDeEnemigos;
     private int tipDeEnemigos;
+    private int posibilidadComnander;
 
     private bool jugadorEnBosque = false;
     private bool jugadorEnHierbaRoja = false;
@@ -45,7 +45,7 @@ public class SpawnerManager : MonoBehaviour
     public string NombreZona = "";
 
     private int cantidadDeLlamadas = 0;
-    [SerializeField] private float waitTime = 5f;
+    [SerializeField] private float waitTime = 7f;
 
     private float countdown = 2f;
 
@@ -226,43 +226,52 @@ public class SpawnerManager : MonoBehaviour
             while (jugadorEnBosque)
             {
 
-                numDeEnemigos = Random.Range(1, 2);
-                tipDeEnemigos = Random.Range(1, 4);
+                numDeEnemigos = Random.Range(1, 3);
+                tipDeEnemigos = Random.Range(1, 5);
+                posibilidadComnander = Random.Range(1, 7);
+ 
 
                 if (numDeEnemigos == 1)
                 {
+                    Debug.Log("Oleada tipo 1");
                     if (tipDeEnemigos == 1)
                     {
+                        Debug.Log("Enemigo Tipo 1");
                         enemySpawner.SpawnEscudito();
                     }
-                    if (tipDeEnemigos == 2)
+                    else if (tipDeEnemigos == 2)
                     {
-                        enemySpawner.SpawnGordetEnemy();
+                        Debug.Log("Enemigo Tipo 2");
+                        enemySpawner.SpawnFirefly();
                     }
-                    if (tipDeEnemigos == 3)
+                    else if (tipDeEnemigos == 3)
                     {
+                        Debug.Log("Enemigo Tipo 3");
                         enemySpawner.SpawnTentaculin();
+                    }
+                    else if(tipDeEnemigos == 4)
+                    {
+                        Debug.Log("Enemigo Tipo 4");
+                        enemySpawner.SpawnGordetEnemy();
                     }
                     maxEnemigos.numEnemies++;
                 }
-                if (numDeEnemigos == 2)
+                else if (numDeEnemigos == 2)
                 {
+                    Debug.Log("Oleada tipo 2");
                     if (tipDeEnemigos == 1)
                     {
-                        enemySpawner.SpawnFirefly();
                         enemySpawner.SpawnTentaculin();
                     }
-                    if (tipDeEnemigos == 2)
+                    else if (tipDeEnemigos == 2)
                     {
-                        enemySpawner.SpawnEscuditoCommander();
                         enemySpawner.SpawnGuadañaEnemy();
                     }
-                    if (tipDeEnemigos == 3)
+                    else if (tipDeEnemigos == 3)
                     {
-                        enemySpawner.SpawnFirefly();
                         enemySpawner.SpawnSpiritEnemy();
                     }
-                    else if (tipDeEnemigos == 4)
+                    else if (tipDeEnemigos == 4 && posibilidadComnander == 3)
                     {
                         enemySpawner.SpawnEscuditoCommander();
                     }
@@ -548,46 +557,61 @@ public class SpawnerManager : MonoBehaviour
             while (jugadorEnZonaInfectada)
             {
 
-                numDeEnemigos = Random.Range(1, 2);
-                tipDeEnemigos = Random.Range(1, 4);
+                numDeEnemigos = Random.Range(1, 3);
+                tipDeEnemigos = Random.Range(1, 5);
+                posibilidadComnander = Random.Range(1, 6);
+
 
                 if (numDeEnemigos == 1)
                 {
+                    Debug.Log("Oleada tipo 1");
                     if (tipDeEnemigos == 1)
                     {
+                        Debug.Log("Enemigo Tipo 1");
+                        enemySpawner.SpawnEscudito();
+                    }
+                    else if (tipDeEnemigos == 2)
+                    {
+                        Debug.Log("Enemigo Tipo 2");
+                        enemySpawner.SpawnFirefly();
+                    }
+                    else if (tipDeEnemigos == 3)
+                    {
+                        Debug.Log("Enemigo Tipo 3");
+                        enemySpawner.SpawnTentaculin();
+                    }
+                    else if (tipDeEnemigos == 4)
+                    {
+                        Debug.Log("Enemigo Tipo 4");
                         enemySpawner.SpawnGordetEnemy();
-                    }
-                    if (tipDeEnemigos == 2)
-                    {
-                        enemySpawner.SpawnGuadañaEnemy();
-                    }
-                    if (tipDeEnemigos == 3)
-                    {
-                        enemySpawner.SpawnSpiritEnemy();
                     }
                     maxEnemigos.numEnemies++;
                 }
-                if (numDeEnemigos == 2)
+                else if (numDeEnemigos == 2)
                 {
+                    Debug.Log("Oleada tipo 2");
                     if (tipDeEnemigos == 1)
                     {
-                        enemySpawner.SpawnFirefly();
                         enemySpawner.SpawnTentaculin();
                     }
                     else if (tipDeEnemigos == 2)
                     {
-                        enemySpawner.SpawnGordetEnemy();
-                        enemySpawner.SpawnTentaculin();
+                        enemySpawner.SpawnGuadañaEnemy();
                     }
                     else if (tipDeEnemigos == 3)
                     {
-                        enemySpawner.SpawnEscudito();
-                        enemySpawner.SpawnSpiritEnemy();
+                        enemySpawner.SpawnGordetEnemy();
                     }
-                    else if (tipDeEnemigos == 4)
+                    else if (tipDeEnemigos == 4 && posibilidadComnander == 3)
                     {
                         enemySpawner.SpawnTentaculinCommander();
+                        
                     }
+                    else if (tipDeEnemigos == 4 && posibilidadComnander == 5)
+                    {
+                        enemySpawner.SpawnGuadañaCommander();
+                    }
+
                     maxEnemies = maxEnemies + 2;
                 }
 

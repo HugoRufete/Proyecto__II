@@ -175,7 +175,7 @@ MonoBehaviour:
   attackCollider: {fileID: 6024675449123712663}
   attackCooldown: 4
   attackSound: {fileID: 8300000, guid: 166d0ed2efc2e994fb60bc06b8ceea0f, type: 3}
-  damageAmount: 10
+  damageAmount: 20
 --- !u!95 &3537603388377771869
 Animator:
   serializedVersion: 5
