@@ -20,6 +20,7 @@ public class Tentaculin : MonoBehaviour
 
     public int damageAmount = 10;
     private VidaPlayer vidaPlayer;
+    EnemyHealth healthE;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class Tentaculin : MonoBehaviour
         onedamage = GetComponent<EnemyDamage>();
         player = GameObject.Find("Player").transform;
         isattacking = false;
+        healthE = GetComponent<EnemyHealth>();
         
     }
 
@@ -36,6 +38,10 @@ public class Tentaculin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (healthE.health <= 0)
+        {
+            healthE.DestroyObject();
+        }
         Vector3 direction = player.position - transform.position;
 
         if (direction.magnitude > distanciaDeseada && !isattacking)

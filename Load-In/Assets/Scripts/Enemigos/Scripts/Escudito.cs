@@ -42,7 +42,10 @@ public class Escudito : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Destroy();
+        if (enemHealth.health <= 0)
+        {
+            enemHealth.DestroyObject();
+        }
 
         if (isattacking == true)
         {
