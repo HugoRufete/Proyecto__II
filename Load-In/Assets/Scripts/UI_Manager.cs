@@ -39,6 +39,23 @@ public class UI_Manager : MonoBehaviour
         
 
     }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            StartCoroutine(ActivateSoundWithDelay(audioClip2, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(textoInicial, 0.1f));
+            StartCoroutine(EnableObjectWithDelay(playerController, 0.1f));
+
+            StartCoroutine(DestroyObjectCoroutine(textoInicial, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(UI1, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(UI2, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(UI3, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(UI4, 0.1f));
+            StartCoroutine(ActivateObjectWithDelay(UI5, 0.1f));
+        }
+    }
     private IEnumerator ActivateObjectWithDelay(GameObject objetoAActivar, float delayInSeconds)
     {
         yield return new WaitForSeconds(delayInSeconds);

@@ -93,7 +93,7 @@ public class Escudito : MonoBehaviour
             // Voltear al enemigo
             Voltear();
         }
-        if (enemHealth != null && enemHealth.health < 50 && enemHealth.health > 29 && !protegiendo && !accionRealizada)
+        if (enemHealth != null && enemHealth.health < 50 && enemHealth.health > 31 && !protegiendo && !accionRealizada)
         {
             Debug.Log("Empieza la corrutina");
             Invoke("WaitToProtection", 1f);
@@ -101,7 +101,7 @@ public class Escudito : MonoBehaviour
             accionRealizada = true; //La activamos a verdadera de forma que la animación solo se realizará una vez
         }
         //Si la vida enemiga es menor de 20 y mayor de 20 y la booleana es falsa se hará la corutina que incluye la animación de proteger
-        if (enemHealth != null && enemHealth.health < 28 && enemHealth.health > 8 && !protegiendo && accionRealizada)
+        if (enemHealth != null && enemHealth.health < 28 && enemHealth.health > 10 && !protegiendo && accionRealizada)
         {
             Debug.Log("Empieza la corrutina");
             Invoke("WaitToProtection", 1f);

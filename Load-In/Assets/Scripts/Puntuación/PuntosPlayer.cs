@@ -28,6 +28,7 @@ public class PuntosPlayer : MonoBehaviour
     bool tiendaDiosa4Activada = false;
 
     [Header("Pop Up's Tienda Diosa")]
+    private EnemyHealth enemy;
     public GameObject popUpParent;
     public GameObject popUpMensajeTiendaDiosa_1;
     public GameObject popUpMensajeTiendaDiosa_2;
