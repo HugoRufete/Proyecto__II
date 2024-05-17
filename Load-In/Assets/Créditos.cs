@@ -9,9 +9,9 @@ public class Créditos : MonoBehaviour
     public GameObject lastText;
     void Start()
     {
-        StartCoroutine(ActivateObjectWithDelay(créditosObject, 20f));
-        StartCoroutine(ActivateSceneWithDelay("MainMenu", 35f));
-        StartCoroutine(DestroyObjectCoroutine(lastText, 20f));
+        StartCoroutine(ActivateObjectWithDelay(créditosObject, 29f));
+        StartCoroutine(ActivateSceneWithDelay("MainMenu", 42f));
+        StartCoroutine(DestroyObjectCoroutine(lastText, 29f));
     }
 
     private void ActivarCréditos()

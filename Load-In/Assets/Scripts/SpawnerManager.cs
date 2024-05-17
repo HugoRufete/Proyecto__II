@@ -326,7 +326,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 2)
                 {
-                    enemySpawner.SpawnEscudito();
+                    enemySpawner.SpawnFirefly();
                 }
                 if (tipDeEnemigos == 3)
                 {
@@ -344,7 +344,7 @@ public class SpawnerManager : MonoBehaviour
                 if (tipDeEnemigos == 2)
                 {
                     enemySpawner.SpawnGuadañaEnemy();
-                    enemySpawner.SpawnEscudito();
+                    enemySpawner.SpawnFirefly();
                 }
                 if (tipDeEnemigos == 3)
                 {
