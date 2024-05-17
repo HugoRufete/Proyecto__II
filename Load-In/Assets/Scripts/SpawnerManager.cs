@@ -575,7 +575,7 @@ public class SpawnerManager : MonoBehaviour
                 }
                 if (tipDeEnemigos == 3)
                 {
-                    enemySpawner.SpawnTentaculinCommander();
+                    enemySpawner.SpawnGuadañaCommander();
                     enemySpawner.SpawnSpiritEnemy();
                 }
                 maxEnemies = maxEnemies + 2;

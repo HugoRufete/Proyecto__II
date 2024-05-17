@@ -14,6 +14,7 @@ public class UI_Manager : MonoBehaviour
 
     [Header("Objetos a activar después del texto")]
 
+    public GameObject UI1;
     public GameObject UI2;
     public GameObject UI3;
     public GameObject UI4;
@@ -30,6 +31,7 @@ public class UI_Manager : MonoBehaviour
         StartCoroutine(EnableObjectWithDelay(playerController, 70f));
 
         StartCoroutine(DestroyObjectCoroutine(textoInicial, 70f));
+        StartCoroutine(ActivateObjectWithDelay(UI1, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI2, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI3, 70f));
         StartCoroutine(ActivateObjectWithDelay(UI4, 70f));

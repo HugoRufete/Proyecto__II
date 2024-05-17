@@ -208,7 +208,7 @@ public class Weapon_Wheel_Manager : MonoBehaviour
     void Update()
     {
 
-        if(extraSpores >= 40)
+        if(extraSpores >= 20)
         {
             StartCoroutine(ActivateObjectWithDelay(extraEsporasPopUp, 7f));
             StartCoroutine(ActivateObjectAnimationwithDelay("PopUpRecomensaExtraAnimation", 7f));
