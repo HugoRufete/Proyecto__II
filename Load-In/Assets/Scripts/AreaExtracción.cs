@@ -8,7 +8,7 @@ public class AreaExtracción : MonoBehaviour
 {
     private bool playerInside = false;
     public float extractionTimer = 0f;
-    private float extractionDuration = 30f;
+    private float extractionDuration = 15f;
 
     public AudioSource audioSource;
     public AudioClip audioClip1, audioClip2;
